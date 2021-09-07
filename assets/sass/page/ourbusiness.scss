@@ -1,0 +1,72 @@
+#realestate{
+    .skew{
+        padding: 0;
+    }
+ .list-ind{
+     & > li{
+         margin-bottom: 20px;
+         padding-left: 1em;
+         &:first-child{
+             &::before{
+                 content: "①";
+             }
+         }
+         &:nth-child(2){
+            &::before{
+                content: "②";
+            }
+        }
+         &:nth-child(3){
+            &::before{
+                content: "③";
+            }
+        }
+     }
+ 
+    }
+ .portforio{
+     .clm-3{
+         li{
+             &:first-child{
+                 .ratio-1by1{
+                     background-image: url(/assets/img/sample_1.jpg);
+                     background-size: cover;
+                    }
+                }
+             &:nth-child(2){
+                 .ratio-1by1{
+                     background-image: url(/assets/img/sample_1.jpg);
+                     background-size: cover;
+                    }
+                }
+             &:nth-child(3){
+                 .ratio-1by1{
+                     background-image: url(/assets/img/sample_1.jpg);
+                     background-size: cover;
+                    }
+                }
+             &:nth-child(4){
+                 .ratio-1by1{
+                     background-image: url(/assets/img/sample_1.jpg);
+                     background-size: cover;
+                    }
+                }
+             &:nth-child(5){
+                 .ratio-1by1{
+                     background-image: url(/assets/img/sample_1.jpg);
+                     background-size: cover;
+                    }
+                }
+             &:nth-child(6){
+                 .ratio-1by1{
+                     background-image: url(/assets/img/sample_1.jpg);
+                     background-size: cover;
+                    }
+                }
+                .default-img{
+                 margin-bottom: 25px;
+             }
+         }
+     }
+ }
+}   

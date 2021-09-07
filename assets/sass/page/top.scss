@@ -1,0 +1,578 @@
+section.pickup{
+    .project_wrap{
+      background-color: $clr-gray;
+      @include breakpoint(small){
+        background-color: inherit;
+      }
+    }
+    .txtarea{
+      .dec{
+        font-family: $font-dec;
+        font-size: 14px;
+        margin-bottom: 20px;
+        @include breakpoint(small){
+          font-size: 12px;
+          font-weight: bold;
+        }
+      }
+      .skew_box{
+        margin-left: 80px;
+        @include breakpoint(small){
+          margin-left: 0;
+          margin-bottom: 15px;
+          width: 100%;
+        }
+        .skew{
+          @include breakpoint(small){
+            font-size: 14px;
+            width: 100%;
+            white-space: nowrap;
+            padding: 15px 0;
+          }
+        }
+      }
+      .arr_next{
+        margin-left: 80px;
+        opacity: 0;
+        transition: 0.3s;
+      }
+    }
+    .project_bg{
+      width: 100%;
+      height: 150px;
+      overflow: hidden;
+      position: relative;
+      text-align: right;
+      transition: 0.3s;
+      @include breakpoint(small){
+        height: 145px;
+        margin-bottom: 5px;
+      }
+      .project_pic{
+        width: 70%;
+      margin: 0 0 0 auto;
+      img{
+        width: 100%;
+        object-fit: cover;
+        height: 600px;
+      }
+      @include breakpoint(small){
+        width: 65%;
+        margin: 0 auto 0 0;
+        img{
+          width: 100%;
+        height: 240px;
+        object-fit: cover;
+        }
+      }
+      &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 70%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        transition: 0.3s;
+        @include breakpoint(small){
+          display: none;
+        }
+      }
+      }
+      .txtarea{
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translateY(-50%);
+        text-align: left;
+        color: $clr-text;
+        margin-left: 10%;
+        @include breakpoint(small){
+          left: inherit;
+          right: 5%;
+          display: flex;
+          align-items: flex-end;
+          flex-direction: column;
+        }
+        .arr_next{
+          @include breakpoint(small){
+            opacity: 1;
+            order: 2;
+          }
+        }
+      }
+    }
+    .project_item:hover{
+      .txtarea{
+        .skew_box{
+          margin-bottom: 20px;
+          @include breakpoint(small){
+            margin-bottom: 15px;
+          }
+          .skew{
+            padding: 40px 0;
+            transition: 0.3s;
+            @include breakpoint(small){
+              padding: 15px 0;
+            }
+          }
+        }
+        .arr_next{
+          opacity: 1;
+        }
+      }
+      .project_bg{
+        height: 600px;
+        @include breakpoint(small){
+          height: 145px;
+        }
+        .project_pic{
+          height: 600px;
+          object-fit: cover;
+          @include breakpoint(small){
+            height: 145px;
+          }
+          &::before{
+            background-color: rgba(0, 0, 0, 0);
+          }
+        }
+    }
+  }
+  }
+  
+  section.interview{
+    .swiper-container{
+      position: relative;
+      .swiper-button-prev, .swiper-button-next{
+        color: #000;
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          border: 1px solid #000;
+          outline: none;
+          @include breakpoint(small){
+            width: 30px;
+            height: 30px;
+          }
+          &::after{
+            font-size: 20px;
+            @include breakpoint(small){
+            font-size: 12px;
+            }
+          }
+      }
+    }
+    .swiper-wrapper{
+      margin: auto;
+    }
+    .swiper-slide{
+      position: relative;
+      margin: 0!important;
+      .swiper-item{
+        position: relative;
+        margin: 0 20%;
+        &::before{
+          position: absolute;
+          top: 55px;
+          left: 0;
+          font-family: $font-dec;
+          font-size: 50px;
+          font-weight: bold;
+          z-index: 3;
+          @include breakpoint(small){
+            font-size: 40px;
+          }
+        }
+        &._01{
+          &::before{
+            content: "01";
+          }
+        }
+        &._02{
+          &::before{
+            content: "02";
+          }
+        }
+        &._03{
+          &::before{
+            content: "03";
+          }
+        }
+      }
+      .interview_pic{
+        position: relative;
+        margin: 0 auto;
+        img{
+          width: 100%;
+        }
+        .name_en{
+          position: absolute;
+          right: 0;
+          bottom: -45px;
+          writing-mode: vertical-rl;
+          font-size: 16px;
+          font-family: $font-eng;
+          @include breakpoint(small){
+            font-size: 14px;
+          }
+        }
+      }
+      .name_box{
+        .name{
+          font-size: 24px;
+          margin: 15px auto 40px;
+          letter-spacing: 0.2em;
+          @include breakpoint(small){
+            font-size: 18px;
+            margin: 15px auto 20px;
+          }
+        }
+        .job{
+          font-size: 26px;
+          font-weight: bold;
+          padding-bottom: 10px;
+          border-bottom: 1px solid $clr-text;
+          display: inline-block;
+          margin-bottom: 30px;
+          letter-spacing: 0.2em;
+          @include breakpoint(small){
+            font-size: 20px;
+            margin-bottom: 15px;
+          }
+        }
+        .job_info{
+          font-size: 18px;
+          letter-spacing: 0.1em;
+          font-size: 14px;
+        }
+      }
+      }    
+  }
+  
+  section.cross_talk{
+    .talk_group_bg{
+      background-color: $clr-gray;
+      position: relative;
+      margin: 0 0 130px auto;
+    width: 90%;
+    @include breakpoint(small){
+      width: 100%;
+      background-color: inherit;
+      margin-top: 35px;
+    }
+      &::before {
+        position: absolute;
+        content: '';
+        left: 0px;
+        top: 0px;
+        border: none;
+        border-left: solid 70px #fff;
+        border-bottom: solid 650px transparent;
+        /*@include breakpoint(small){
+          display: none;
+        }*/
+      }
+    }
+    a{
+      .talk_group{
+        position: relative;
+        top: -30px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        @include breakpoint(small){
+          background-color: $clr-gray;
+          margin-bottom: 55px;
+        }
+        &:last-child{
+          left: -3%;
+          @include breakpoint(small){
+            left: 0;
+          }
+        }
+        @include breakpoint(small){
+          display: flex;
+          flex-direction: column;
+          &::before {
+            position: absolute;
+            content: '';
+            left: 0px;
+            top: 0px;
+            border: none;
+            border-left: solid 70px #fff;
+            border-bottom: solid 650px transparent;
+          }
+        }
+        &._01{
+          &:first-child{
+            margin-left: 10%;
+            @include breakpoint(small){
+              margin-left: 0;
+            }
+          }
+        }
+        .talk_pic_box{
+          display: flex;
+          @include breakpoint(small){
+            width: 60%;
+            margin: -35px auto -10px;
+          }
+          .talk_pic{
+            margin-left: -25px;
+            @include breakpoint(small){
+              margin-left: 0;
+            }
+          }
+        }
+        .btn_area{
+          @include breakpoint(small){
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+          }
+        }
+        .skew_box{
+          margin-left: 15px;
+          margin-bottom: 15px;
+          @include breakpoint(small){
+            width: 175px;
+            margin-left: 10%;
+          }
+          .skew_w{
+            @include breakpoint(small){
+              font-size: 14px;
+              padding: 15px 0;
+              width: 175px;
+            }
+          }
+        }
+        .arr_next{
+          justify-content: flex-end;
+          @include breakpoint(small){
+            margin-right: 5%;
+          }
+        }
+      }
+    }
+    
+  
+    //under
+    .talk_box_bg{
+      background-color: $clr-gray;
+      position: absolute;
+      height: 310px;
+    width: 90%;
+    margin-top: 100px;
+    @include breakpoint(small){
+      height: inherit;
+      background-color: inherit;
+    }
+      &::before {
+        position: absolute;
+        content: '';
+        right: 0px;
+        top: 0px;
+        border: none;
+        border-right: solid 70px#fff;
+        border-top: solid 310px transparent;
+        @include breakpoint(small){
+          display: none;
+        }
+      }
+    }
+    .talk_box{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      max-width: 1250px;
+      margin: auto;
+      @include breakpoint(small){
+        flex-direction: column;
+      }
+      .talk_item{
+        @include breakpoint(small){
+          position: relative;
+          background-color: $clr-gray;
+          width: 95%;
+          margin: 60px auto 70px 0;
+          &::before {
+            position: absolute;
+            content: '';
+            right: 0px;
+            top: 0px;
+            border: none;
+            border-right: solid 70px#fff;
+            border-top: solid 310px transparent;
+          }
+        }
+        .box_cnt{
+          margin: -80px auto 0 5%;
+        }
+        .ttl_ja{
+          font-size: 14px;
+          margin-bottom: 20px;
+          letter-spacing: 0.2em;
+        }
+        .skew_box{
+          width: auto;
+          display: inline-block;
+          .skew{
+            font-size: 16px;
+            width: auto;
+            white-space: nowrap;
+            padding: 0.5em 1em;
+          }
+        }
+        .talk_img{
+          margin: -15px 0 10px 15px;
+        }
+        .arr_next{
+          justify-content: flex-end;
+          @include breakpoint(small){
+            top: 30px;
+          }
+        }
+      }
+    } 
+  }
+  
+  
+  section.numbers{
+    @include breakpoint(small){
+      padding-bottom: 60px;
+    }
+    .num_cnt{
+      position: relative;
+      text-align: center;
+      padding: 0 13%;
+      @include breakpoint(small){
+        padding: 0 5%;
+      }
+      img.is-pc{
+        max-width: 1100px;
+        margin: 0 auto;
+        width: 100%;
+      }
+      .is-pc{
+        @include breakpoint(small){
+          display: none;
+        }
+      }
+      .is-sp{
+        display: none;
+        @include breakpoint(small){
+          display: block;
+        }
+      }
+      .arr_next{
+        justify-content: flex-end;
+        max-width: 1100px;
+        margin: 0 auto;
+        @include breakpoint(small){
+          margin-top: 10px;
+        }
+      }
+      .bg_wrap{
+        position: absolute;
+        right: 0;
+        bottom: -60px;
+        width: 76%;
+        z-index: -1;
+      .num_bg{
+        background-color: $clr-gray;
+      position: relative;
+      height: 310px;
+      width: 100%;
+      &::before {
+        position: absolute;
+        content: '';
+        left: 0px;
+        top: 0px;
+        border: none;
+        border-left: solid 70px#fff;
+        border-bottom: solid 310px transparent;
+      }
+      }
+    }
+  }
+  }
+  
+  
+  .link_area{
+    background-image: url(/assets/img/top/link_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 440px;
+  width: 100%;
+  position: relative;
+  margin: 120px auto;
+  @include breakpoint(small){
+    height: auto;
+  }
+    .btn_box{
+      max-width: 1250px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+  position: absolute;
+  bottom: -110px;
+  width: 100%;
+      @include breakpoint(small){
+        flex-direction: column;
+        position: relative;
+        bottom: -50px;
+        padding-top: 120px;
+      }
+      .link_btn{
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      padding: 110px 0;
+      box-shadow: 0 0px 20px rgba(0,0,0,0.2);
+      width: 26%;
+      margin-left: 5%;
+      &:last-child{
+        @include breakpoint(small){
+          margin-bottom: 0;
+        }
+      }
+      @include breakpoint(small){
+        width: 70%;
+        margin: 0 auto 40px;
+        padding: 45px 0;
+      }
+        .skew_box{
+          position: absolute;
+          top: -15px;
+          left: -25px;
+          width: auto;
+          padding: 0 10px;
+          .skew{
+            font-size: 16px;
+            width: auto;
+          }
+        }
+        .wh_box{
+          .btn{
+            text-align: center;
+            font-size: 20px;
+            @include breakpoint(small){
+              font-size: 16px;
+            }
+          }
+          .arr_next{
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
+            justify-content: flex-end;
+            @include breakpoint(small){
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }

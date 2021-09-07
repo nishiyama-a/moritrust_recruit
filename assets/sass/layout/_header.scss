@@ -1,0 +1,73 @@
+.header {
+  width: 100%;
+  height: $header-h;
+  padding-left:$win-pd;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  z-index: 301;
+  &.fadedown{
+    animation: anm_fadedown 0.5s ease 0s 1 alternate none running;
+    animation-fill-mode: forwards;
+    @keyframes anm_fadedown {
+      0% {
+        opacity: 0;
+        top: -70px;
+      }
+    
+      90% {
+        opacity: 1;
+      }
+    
+      100% {
+        top:0;
+        opacity: 1;
+      }
+    }
+  }
+  .header-logo {
+    width: 130px;
+    line-height: 0;
+    position: relative;
+    z-index: 303;
+    a {
+      display: block;
+      img {
+        height: 100%;
+      }
+    }
+  }
+  .header-main {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .entry{
+      font-size: 14px;
+      font-family: $font-eng;
+      width: 130px;
+      text-align: center;
+      background-color: $clr-main;
+      height: $header-h;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      a{
+        color: #fff;
+      }
+    }
+  }
+}
+
+
+
+// SP
+@include breakpoint(small){
+  .header {
+    height: $hambmenu-h;
+  }
+}

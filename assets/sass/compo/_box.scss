@@ -1,0 +1,50 @@
+%box-cmn {
+  width: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.box{
+  &-1{
+    @extend %box-cmn;
+    background: $clr-main;
+    border: 1px solid $clr-main;
+  }
+  &-2{
+    @extend %box-cmn;
+    background: #FFF;
+    border: 1px solid $clr-sub;
+  }
+  &-3{
+    @extend %box-cmn;
+    background: $clr-gray;
+  }
+  &-4{
+    @extend %box-cmn;
+    background: lighten($clr-red, 30%);
+    border: 1px solid $clr-red;
+    .box-head{
+      color: $clr-red;
+    }
+  }
+  &-head{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: rem(18);
+  }
+}
+
+
+
+// SP
+@include breakpoint(small){
+
+  %box-cmn {
+    padding: 25px $win-pd;
+  }
+  .box{
+    &-head{
+      font-size: rem(16);
+    }
+  }
+
+}

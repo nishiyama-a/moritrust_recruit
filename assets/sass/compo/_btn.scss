@@ -1,0 +1,211 @@
+// ボタン高道祖
+$btn-h: 100px;
+$btnsp-h: 55px;
+
+%btn-arr{
+  &:before{
+    border-color: #FFF;
+    @include transition;
+  }
+}
+%btn {
+  width: 100%;
+  height: $btn-h;
+  cursor: pointer;
+  display: flex;
+  color: #FFF;
+  position: relative;
+  &::before {
+    content: '';/*ななめ*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: $clr-main;
+    transform: skew(-7deg);
+    border: 1px solid $clr-main;
+  }
+  span{
+    width: 100%;
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    z-index: 2;
+    font-size: 20px;
+    margin: auto;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+  }
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+
+.btn-wrap{
+  width: calc(100% + (#{$clm-pd} * 2));
+  margin: 30px -#{$clm-pd};
+  margin-bottom: $line-pd;
+  margin-top: $line-pd;
+  display: flex;
+  align-items: stretch;
+  text-align: center;
+  position: relative;
+  &.en{
+    font-family: $font-dec;
+  }
+  &.clm-1{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    &.btn-left{
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  >.clm-li{
+    margin-bottom: 0!important;
+  }
+}
+
+.btn{
+  &-1{
+    @extend %btn;
+    &:hover{
+      &::before{
+        background-color: #fff;
+        @include transition;
+      }
+      span{
+        @include transition;
+        color: $clr-main;
+      }
+    }
+  }
+  &-2{
+    @extend %btn;
+    &::before{
+      border: 1px solid #000;
+      background-color: #fff;
+    }
+    span{
+      color: #000;
+    }
+    &:hover{
+      &::before{
+        background-color: #000;
+        @include transition;
+      }
+      span{
+        @include transition;
+        color: #fff;
+      }
+    }
+  }
+  &-3{
+    border: 1px solid #000;
+    padding: 110px 0;
+    position: relative;
+    text-align: center;
+    .btn-txt{
+        color: $clr-text;
+        font-weight: normal;
+        letter-spacing: 0.2em;
+        font-size: 20px;
+    }
+    .arr-next{
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+    }
+    &.h-link{
+      &:hover{
+          &.btn-3{
+              background-color: #000;
+              @include transition;
+              .btn-txt{
+                  color: #fff;
+                  @include transition;
+              }
+              .arr-next{
+                  color: #fff;
+              }
+          }
+          .arr-next{
+            &::after{
+              background-image: url(/assets/img/cmn/arr_next_w.svg);
+            }
+          }
+      }
+    }  
+  }
+}
+
+.btn-style{
+  &.is-disable{
+    @extend %btn;
+    background: $clr-gray;
+    pointer-events: none;
+    &:hover{
+      color: $clr-gray;
+      span{
+        &:before{
+          border-color: $clr-gray;
+        }
+      }
+    }
+  }
+
+  .arr{
+    &-prev{
+      @extend %btn-arr;
+      &:hover{
+        &:before{
+          left: 5px;
+        }
+      }
+    }
+    &-next{
+      position: relative;
+      display: flex;
+      align-items: center;
+      font-family: $font-eng;
+      font-size: 14px;
+    }
+  }
+}
+ 
+
+
+
+
+// SP
+@include breakpoint(small){
+
+  %btn {
+    height: $btnsp-h;
+    span{
+      padding: 0 15px;
+      line-height: 1.2;
+    }
+  }
+
+  .btn-style{
+    .arr{
+      &-prev{
+        &:before{
+          left: 5px;
+        }
+      }
+      &-next{
+        &:before{
+          right: 5px;
+        }
+      }
+    }
+  }
+
+}

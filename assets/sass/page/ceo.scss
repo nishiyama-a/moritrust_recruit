@@ -1,0 +1,48 @@
+#ceo{
+    .read-area{
+        padding-bottom: 110px;
+        picture{
+            padding: 0 3%;
+        }
+        .txtbox{
+            bottom: -110px;
+            .skew-box{
+                margin-left: 0;
+                padding: 20px 3%;
+                .skew{
+                    font-size: 24px;
+                    text-align: left;
+                }
+            }
+            .rb-txt{
+                font-size: 14px;
+                letter-spacing: 0.2em;
+                margin-right: 3%;
+                span{
+                    font-size: 30px;
+                    letter-spacing: 0.2em;
+                }
+            }
+        }
+    }
+
+    .interview-video{
+        .clm-copy{
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            .side-num{
+                font-family: $font-eng;
+                font-size: 14px;
+                letter-spacing: 0.05em;
+                span{
+                    font-size: 30px;
+                    font-family: $font-dec;
+                }
+            }
+        }
+        .clm-img{
+            margin-bottom: 30px;
+        }
+    }
+}
