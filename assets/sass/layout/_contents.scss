@@ -17,9 +17,12 @@ body{
   }
   &-contents{
     width: 100%;
-    padding: 100px 0;
+    padding: 110px 0;
     >.l-section{
       margin-bottom: 150px;
+      @include breakpoint(small){
+        margin-bottom: 45px;
+      }
       &:last-of-type{
         margin-bottom: 0;
       }
@@ -78,7 +81,7 @@ body{
 
   .l{
     &-contents{
-      padding: 60px 0;
+      padding: 35px 0 50px;
     }
   }
 

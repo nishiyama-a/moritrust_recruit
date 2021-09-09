@@ -2,12 +2,18 @@
 .corporate{
     .tbl-1{
         margin-bottom: 100px;
+        @include breakpoint(small){
+            margin-bottom: 50px;
+        }
         .slogan{
             font-family: $font-eng;
             font-size: 36px;
             letter-spacing: 0.05em;
             line-height: 2;
             font-weight: normal;
+            @include breakpoint(small){
+                font-size: 20px;
+            }
         }
     }
 }

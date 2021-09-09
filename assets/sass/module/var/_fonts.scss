@@ -113,3 +113,47 @@ $font-mincho: 'Noto Serif Japanese', 'ヒラギノ明朝 Pro W3', 'Hiragino Minc
 $font-eng: 'Marcellus','Lato', serif;
 
 $font-dec:'Cinzel','Lato', serif;
+
+//icomoon
+@font-face {
+	font-family: 'icomoon';
+	src:  url('fonts/icomoon.eot?4jb4u4');
+	src:  url('fonts/icomoon.eot?4jb4u4#iefix') format('embedded-opentype'),
+	  url('fonts/icomoon.ttf?4jb4u4') format('truetype'),
+	  url('fonts/icomoon.woff?4jb4u4') format('woff'),
+	  url('fonts/icomoon.svg?4jb4u4#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+  
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-video{
+	  position: relative;
+  }
+  .icon-video:before {
+	  //obj-center
+	text-align: center;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+	content: "\e900";
+	color: #fff;
+	font-size: 70px;
+  }  

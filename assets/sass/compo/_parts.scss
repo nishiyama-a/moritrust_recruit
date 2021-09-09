@@ -86,6 +86,9 @@
   text-align: center;
   margin: 0 auto;
   letter-spacing: 0.2em;
+  @include breakpoint(small){
+    text-align: left;
+  }
 }
 
 
@@ -146,6 +149,10 @@ p.point-txt{
   padding-left: 20px;
   position: relative;
   margin-bottom: 25px;
+  @include breakpoint(small){
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
   &::before{
     content: "";
     position: absolute;
@@ -248,6 +255,17 @@ p.point-txt{
 
 
 .between-box{
+  picture{
+    img{
+      @include breakpoint(small){
+        height: 150px;
+        overflow: hidden;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    }
+  }
   .txtbox{
     position: absolute;
     bottom: -50px;
@@ -255,6 +273,10 @@ p.point-txt{
     justify-content: space-between;
     align-items: flex-end;
     width: 100%;
+    @include breakpoint(small){
+      flex-direction: column;
+      justify-content: center;
+    }
     .skew-box{
       padding: 27px 3%;
       margin-left: 3%;
@@ -276,41 +298,6 @@ p.point-txt{
 .note{
   font-size: 14px;
 }
-
-//top未修正
-// .skew_box{
-//   position: relative;
-//   width: 300px;
-//   text-align: center;
-//   &::before {
-//     content: '';/*ボックス作成*/
-//     position: absolute;
-//     top: 0;
-//     bottom: 0;
-//     right: 0;
-//     left: 0;
-//     background-color: $clr-main;
-//     transform: skew(-7deg);
-//   }
-//   .skew,.skew_w{
-//     color: #fff;
-//     font-size: 20px;
-//     width: 300px;
-//     margin: auto;
-//     position: relative;
-//     font-weight: normal;
-//     letter-spacing: 0.2em;
-//     &.en{
-//       font-family: $font-dec;
-//     }
-//   }
-//   .skew{
-//     padding: 10px 0px;
-//   }
-//   .skew_w{
-//     padding: 40px 0px;
-//   }
-// }
 
 .sliderArea {
   max-width: 100%;

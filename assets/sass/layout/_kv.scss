@@ -243,6 +243,9 @@ transform: rotate(90deg);
         width: 100%;
         height: 200px;
         object-fit: cover;
+        @include breakpoint(small){
+          height: 100px;
+        }
       }
     }
     .kv-ttl{
@@ -250,6 +253,9 @@ transform: rotate(90deg);
       left: 50%;
       bottom: -40px;
       transform: translateX(-50%);
+      @include breakpoint(small){
+        bottom: -20px;
+      }
       .kv-head-en{
         color: #fff;
         font-size: 14px;
@@ -257,11 +263,18 @@ transform: rotate(90deg);
         text-align: center;
         font-family: $font-dec;
         letter-spacing: 0.05em;
+        @include breakpoint(small){
+          font-size: 14px;
+          margin-bottom: 5px;
+        }
       }
       .kv-box{
         padding: 20px 40px;
         width: auto;
         margin-bottom: 0;
+        @include breakpoint(small){
+          padding: 0 10px;
+        }
         &::before{
           background-color: #fff;
           border: none;
@@ -270,6 +283,9 @@ transform: rotate(90deg);
           font-size: 26px;
           color: #000;
           width: auto;
+          @include breakpoint(small){
+            font-size: 14px;
+          }
         }
       }
     }

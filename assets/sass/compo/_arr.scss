@@ -4,6 +4,9 @@ $arr-width: 2px;
   position: relative;
   font-family: $font-eng;
   font-weight: normal;
+  @include breakpoint(small){
+    font-size: 12px;
+  }
 }
 %icon-arr {
    &::after{
@@ -17,6 +20,9 @@ $arr-width: 2px;
       vertical-align: middle;
       margin-left: 20px;
       margin-top: 5px;
+      @include breakpoint(small){
+        margin-left: 10px;
+      }
     }
 }
 

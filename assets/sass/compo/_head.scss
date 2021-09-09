@@ -2,6 +2,9 @@
   margin-bottom: 50px;
   font-weight: bold;
   position: relative;
+  @include breakpoint(small){
+    margin-bottom: 25px
+  }
 }
 .head{
   &-1{
@@ -25,6 +28,9 @@
     text-align: center;
     font-family: $font-dec;
     padding-bottom: 40px;
+    @include breakpoint(small){
+      padding-bottom: 20px;
+    }
     &::after{
       content: "";
       width: 70px;
