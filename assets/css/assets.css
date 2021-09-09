@@ -1747,8 +1747,13 @@ body {
   }
 }
 .sc-kv.-page2 .kv-img {
-  height: 550px;
   overflow: hidden;
+}
+.sc-kv.-page2 .kv-img img {
+  width: 100%;
+  height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .sc-kv.-page2 .kv-ttl {
   position: relative;
@@ -4587,27 +4592,6 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   }
 }
 
-.corporate .tbl-1 {
-  margin-bottom: 100px;
-}
-@media (max-width: 767px) {
-  .corporate .tbl-1 {
-    margin-bottom: 50px;
-  }
-}
-.corporate .tbl-1 .slogan {
-  font-family: "Marcellus", "Lato", serif;
-  font-size: 36px;
-  letter-spacing: 0.05em;
-  line-height: 2;
-  font-weight: normal;
-}
-@media (max-width: 767px) {
-  .corporate .tbl-1 .slogan {
-    font-size: 20px;
-  }
-}
-
 #ceo .read-area {
   padding-bottom: 110px;
 }
@@ -4713,8 +4697,114 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   }
 }
 
-#ct-top .sc-inr, #ct-top .sc-inr-s, #ct-top .sc-inr-w {
-  padding-bottom: 50px;
+.corporate .tbl-1 {
+  margin-bottom: 100px;
+}
+@media (max-width: 767px) {
+  .corporate .tbl-1 {
+    margin-bottom: 50px;
+  }
+}
+.corporate .tbl-1 .slogan {
+  font-family: "Marcellus", "Lato", serif;
+  font-size: 36px;
+  letter-spacing: 0.05em;
+  line-height: 2;
+  font-weight: normal;
+}
+@media (max-width: 767px) {
+  .corporate .tbl-1 .slogan {
+    font-size: 20px;
+  }
+}
+
+.ourbusiness .skew {
+  padding: 0;
+}
+.ourbusiness .list-ind > li, .ourbusiness .list-ind-s > li {
+  margin-bottom: 20px;
+  padding-left: 1em;
+}
+.ourbusiness .list-ind > li:first-child::before, .ourbusiness .list-ind-s > li:first-child::before {
+  content: "①";
+}
+.ourbusiness .list-ind > li:nth-child(2)::before, .ourbusiness .list-ind-s > li:nth-child(2)::before {
+  content: "②";
+}
+.ourbusiness .list-ind > li:nth-child(3)::before, .ourbusiness .list-ind-s > li:nth-child(3)::before {
+  content: "③";
+}
+.ourbusiness .portforio .clm-3 li .default-img {
+  margin-bottom: 25px;
+}
+
+#realestate .portforio .clm-3 li:first-child .ratio-1by1 {
+  background-image: url(/assets/img/ourbusiness/portforio1-1.png);
+  background-size: cover;
+}
+#realestate .portforio .clm-3 li:nth-child(2) .ratio-1by1 {
+  background-image: url(/assets/img/ourbusiness/portforio1-2.png);
+  background-size: cover;
+}
+#realestate .portforio .clm-3 li:nth-child(3) .ratio-1by1 {
+  background-image: url(/assets/img/ourbusiness/portforio1-3.png);
+  background-size: cover;
+}
+#realestate .portforio .clm-3 li:nth-child(4) .ratio-1by1 {
+  background-image: url(/assets/img/ourbusiness/portforio1-4.png);
+  background-size: cover;
+}
+#realestate .portforio .clm-3 li:nth-child(5) .ratio-1by1 {
+  background-image: url(/assets/img/ourbusiness/portforio1-5.png);
+  background-size: cover;
+}
+#realestate .portforio .clm-3 li:nth-child(6) .ratio-1by1 {
+  background-image: url(/assets/img/ourbusiness/portforio1-6.png);
+  background-size: cover;
+}
+#realestate .portforio .clm-3 li .default-img {
+  margin-bottom: 25px;
+}
+
+#hotel .portforio .clm-3 li:first-child .ratio-1by1 {
+  background-image: url(/assets/img/ourbusiness/portforio2-1.png);
+  background-size: cover;
+}
+#hotel .portforio .clm-3 li:nth-child(2) .ratio-1by1 {
+  background-image: url(/assets/img/ourbusiness/portforio2-2.png);
+  background-size: cover;
+}
+#hotel .portforio .clm-3 li:nth-child(3) .ratio-1by1 {
+  background-image: url(/assets/img/ourbusiness/portforio2-3.png);
+  background-size: cover;
+}
+#hotel .portforio .clm-3 li:nth-child(4) .ratio-1by1 {
+  background-image: url(/assets/img/ourbusiness/portforio2-4.png);
+  background-size: cover;
+}
+#hotel .portforio .clm-3 li:nth-child(5) .ratio-1by1 {
+  background-image: url(/assets/img/ourbusiness/portforio2-5.png);
+  background-size: cover;
+}
+#hotel .portforio .clm-3 li:nth-child(6) .ratio-1by1 {
+  background-image: url(/assets/img/ourbusiness/portforio2-6.png);
+  background-size: cover;
+}
+#hotel .cut-bg-back {
+  width: 60%;
+}
+
+#investment .portforio .clm-3 li:first-child .ratio-1by1 {
+  background-image: url(/assets/img/ourbusiness/portforio3-1.png);
+  background-size: cover;
+}
+#investment .portforio .clm-3 li:nth-child(2) .ratio-1by1 {
+  background-image: url(/assets/img/ourbusiness/portforio3-2.png);
+  background-size: cover;
+}
+#investment .portforio .clm-3 li:nth-child(3) .ratio-1by1 {
+  background-image: url(/assets/img/ourbusiness/portforio3-3.png);
+  background-size: cover;
 }
 
 #hr-top .head-txt {
@@ -4728,46 +4818,18 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   padding-top: 0;
 }
 
-#realestate .skew {
-  padding: 0;
+#academy .mediabox {
+  padding-top: 90px;
 }
-#realestate .list-ind > li, #realestate .list-ind-s > li {
-  margin-bottom: 20px;
-  padding-left: 1em;
+#academy .mediabox-copy {
+  padding-top: 100px;
+  overflow: inherit;
 }
-#realestate .list-ind > li:first-child::before, #realestate .list-ind-s > li:first-child::before {
-  content: "①";
+#academy .mediabox-copy .txt-t-img {
+  position: absolute;
+  top: -250px;
 }
-#realestate .list-ind > li:nth-child(2)::before, #realestate .list-ind-s > li:nth-child(2)::before {
-  content: "②";
-}
-#realestate .list-ind > li:nth-child(3)::before, #realestate .list-ind-s > li:nth-child(3)::before {
-  content: "③";
-}
-#realestate .portforio .clm-3 li:first-child .ratio-1by1 {
-  background-image: url(/assets/img/sample_1.jpg);
-  background-size: cover;
-}
-#realestate .portforio .clm-3 li:nth-child(2) .ratio-1by1 {
-  background-image: url(/assets/img/sample_1.jpg);
-  background-size: cover;
-}
-#realestate .portforio .clm-3 li:nth-child(3) .ratio-1by1 {
-  background-image: url(/assets/img/sample_1.jpg);
-  background-size: cover;
-}
-#realestate .portforio .clm-3 li:nth-child(4) .ratio-1by1 {
-  background-image: url(/assets/img/sample_1.jpg);
-  background-size: cover;
-}
-#realestate .portforio .clm-3 li:nth-child(5) .ratio-1by1 {
-  background-image: url(/assets/img/sample_1.jpg);
-  background-size: cover;
-}
-#realestate .portforio .clm-3 li:nth-child(6) .ratio-1by1 {
-  background-image: url(/assets/img/sample_1.jpg);
-  background-size: cover;
-}
-#realestate .portforio .clm-3 li .default-img {
-  margin-bottom: 25px;
+
+#ct-top .sc-inr, #ct-top .sc-inr-s, #ct-top .sc-inr-w {
+  padding-bottom: 50px;
 }

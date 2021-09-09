@@ -9,8 +9,8 @@
     <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
       <div class="sc-kv -page">
         <picture class="kv-img">
-          <source media="(max-width:767px)" srcset="/assets/img/ceo/kv_img.png">
-            <img src="/assets/img/ceo/kv_img.png">
+          <source media="(max-width:767px)" srcset="/assets/img/ceo/kv_index.png">
+            <img src="/assets/img/ceo/kv_index.png">
           </picture>
           <div class="kv-ttl">
             <p class="kv-head-en">CEO TALKS</p>

@@ -9,8 +9,8 @@
     <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
       <div class="sc-kv -page2">
         <picture class="kv-img">
-          <source media="(max-width:767px)" srcset="/assets/img/sample_4.jpg">
-            <img src="/assets/img/sample_1.jpg">
+          <source media="(max-width:767px)" srcset="/assets/img/ourbusiness/kv_investment.png">
+            <img src="/assets/img/ourbusiness/kv_investment.png">
           </picture>
           <div class="kv-ttl">
             <div class="kv-box skew-box">
@@ -20,7 +20,7 @@
           </div>
       </div>
 
-      <main class="l-contents" role="main" id="realestate">
+      <main class="l-contents ourbusiness" role="main" id="investment">
       <section class="l-section">
          <div class="sc-box">
             <div class="sc-inr">
@@ -31,7 +31,7 @@
          <div class="sc-box">
               <div class="mediabox mediabox-l">
                 <div class="mediabox-img">
-                  <img src="/assets/img/sample_1.jpg" alt="">
+                  <img src="/assets/img/ourbusiness/investment01.png" alt="">
                 </div>
                 <div class="mediabox-copy copy-r cut-bg-l">
                 <div class="skew-box">
@@ -43,7 +43,7 @@
               </div>
               <div class="mediabox mediabox-r">
                 <div class="mediabox-img">
-                  <img src="/assets/img/sample_1.jpg" alt="">
+                  <img src="/assets/img/ourbusiness/investment02.png" alt="">
                 </div>
                 <div class="mediabox-copy copy-l cut-bg-r">
                 <div class="skew-box">
@@ -102,13 +102,13 @@
                       <div class="skew-box">
                             <h4 class="skew">イノベーション事業</h4>
                     </div>
-                        <img src="/assets/img/ourbusiness/link01.png" alt="">
+                        <img src="/assets/img/ourbusiness/link3-1.png" alt="">
                       </div>
                       <div class="clm-copy">
                         <p>森トラストのイノベーション事業について知りたい</p>
                         <p class="btn-style arr-next">view more</p>
                       </div>
-                      <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                      <a class="clm-alink" href="http://www.mori-trust.co.jp/investment/innovation.html" target="_blank"></a>
                     </div>
                   </li>
                   <li>
@@ -117,13 +117,13 @@
                       <div class="skew-box">
                             <h4 class="skew">ウェルネス事業</h4>
                     </div>
-                        <img src="/assets/img/ourbusiness/link02.png" alt="">
+                        <img src="/assets/img/ourbusiness/link3-2.png" alt="">
                       </div>
                       <div class="clm-copy">
                       <p>森トラストのウェルネス事業について知りたい</p>
                         <p class="btn-style arr-next">view more</p>
                       </div>
-                      <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                      <a class="clm-alink" href="https://www.mori-trust.co.jp/pure_wellness_room/" target="_blank"></a>
                     </div>
                   </li>
                   <li>
@@ -132,13 +132,13 @@
                         <div class="skew-box">
                           <h4 class="skew">レストラン・食事業</h4>
                         </div>
-                        <img src="/assets/img/ourbusiness/link02.png" alt="">
+                        <img src="/assets/img/ourbusiness/link3-3.png" alt="">
                       </div>
                       <div class="clm-copy">
                         <p>森トラストのレストラン・食事業について知りたい</p>
                         <p class="btn-style arr-next">view more</p>
                       </div>
-                      <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                      <a class="clm-alink" href="https://www.mt-hr.com/business/restaurant.html" target="_blank"></a>
                     </div>
                   </li>
                   <li>
@@ -147,13 +147,13 @@
                       <div class="skew-box">
                             <h4 class="skew">ワーケーション事業</h4>
                     </div>
-                        <img src="/assets/img/ourbusiness/link02.png" alt="">
+                        <img src="/assets/img/ourbusiness/link3-4.png" alt="">
                       </div>
                       <div class="clm-copy">
                       <p>森トラストのワーケーション事業について知りたい</p>
                         <p class="btn-style arr-next">view more</p>
                       </div>
-                      <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                      <a class="clm-alink" href="https://www.mori-trust.co.jp/pressrelease/2021/20210324.pdf" target="_blank"></a>
                     </div>
                   </li>
                 </ul>

@@ -9,8 +9,8 @@
     <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
       <div class="sc-kv -page2">
         <picture class="kv-img">
-          <source media="(max-width:767px)" srcset="/assets/img/sample_4.jpg">
-            <img src="/assets/img/sample_1.jpg">
+          <source media="(max-width:767px)" srcset="/assets/img/hr/kv_mktalk.png">
+            <img src="/assets/img/hr/kv_mktalk.png">
           </picture>
           <div class="kv-ttl">
             <div class="kv-box skew-box">
@@ -31,7 +31,7 @@
               <div class="sc-box">
                 <div class="mediabox mediabox-l">
                   <div class="mediabox-img">
-                    <img src="/assets/img/sample_1.jpg" alt="">
+                    <img src="/assets/img/hr/mttalk01.png" alt="">
                   </div>
                   <div class="mediabox-copy copy-r cut-bg-l">
                     <p class="mb20">全社プレゼンテーション大会『MT TALK』は、2017年から毎年1回開催しており、2019年5月に第3回目を迎え、取り組みが対外的にも評価されて日本最大のHR※1ネットワークである「日本の人事部」が主催する「HR アワード 2019」※2で、約300件のエントリーの中から、企業人事部門に入賞しました。</p>
@@ -43,7 +43,7 @@
                 </div>
                 <div class="mediabox mediabox-r">
                   <div class="mediabox-img">
-                    <img src="/assets/img/sample_1.jpg" alt="">
+                    <img src="/assets/img/hr/mttalk02.png" alt="">
                   </div>
                   <div class="mediabox-copy copy-l cut-bg-r">
                     <p class="mb50">『MT TALK』は、年次に関わらず森トラストの目指すべき未来像について、表現・議論する場です。第3回 MT TALK で目指したものは、“究極のボトムアップ型イベント”。全世代・グループ全社によるプレゼンテーションと、グループ全体の組織活性を目的としたアフターパーティーにより、全員参加型の大会を実現させました。</p>
@@ -51,7 +51,7 @@
                   </div>
                 </div>
                 <div class="btn-wrap clm-1">
-                  <a class="btn-style btn-2" href="#">
+                  <a class="btn-style btn-2" href="/hr/index.php">
                     <span>一覧に戻る</span>
                   </a>
                 </div>

@@ -9,8 +9,8 @@
       <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
       <div class="sc-kv -page">
         <picture class="kv-img">
-          <source media="(max-width:767px)" srcset="/assets/img/corporate/kv-index.png">
-            <img src="/assets/img/corporate/kv-index.png">
+          <source media="(max-width:767px)" srcset="/assets/img/corporate/kv_index.png">
+            <img src="/assets/img/corporate/kv_index.png">
         </picture>
         <div class="kv-ttl">
             <p class="kv-head-en">CORPORATE</p>
@@ -29,7 +29,7 @@
                   <div class="clm-box h-link  btn-3">
                       <h3 class="btn-txt">会社概要</h3>
                       <p class="btn-style arr-next">view more</p>
-                    <a class="clm-alink" href="/corporate/corporate.php"></a>
+                    <a class="clm-alink" href="/corporate/about.php"></a>
                   </div>
                 </li>
                 <li>

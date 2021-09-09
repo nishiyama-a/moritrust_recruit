@@ -10,3 +10,17 @@
 #mt-talk{
     padding-top: 0;
 }
+
+#academy{
+    .mediabox{
+        padding-top: 90px;
+    }
+   .mediabox-copy{
+       padding-top: 100px;
+       overflow: inherit;
+       .txt-t-img{
+           position: absolute;
+           top: -250px;
+       }
+   }
+}

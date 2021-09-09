@@ -9,8 +9,8 @@
     <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
       <div class="sc-kv -page"> 
         <picture class="kv-img">
-          <source media="(max-width:767px)" srcset="/assets/img/sample_4.jpg">
-            <img src="/assets/img/sample_1.jpg">
+          <source media="(max-width:767px)" srcset="/assets/img/hr/kv_index.png">
+            <img src="/assets/img/hr/kv_index.png">
           </picture>
           <div class="kv-ttl">
             <p class="kv-head-en">HUMAN RESOURCES</p>
@@ -32,46 +32,46 @@
           <div class="sc-box">
             <div class="between-box clm-box h-link">
               <picture class="mt20 h-img">
-                    <source media="(max-width:767px)" srcset="/assets/img/sample_4.jpg">
-                    <img src="/assets/img/sample_1.jpg" alt="">
+                    <source media="(max-width:767px)" srcset="/assets/img/hr/hr01.png">
+                    <img src="/assets/img/hr/hr01.png" alt="">
                   </picture>
                   <div class="txtbox">
                     <div class="skew-box">
-                            <h4 class="skew">女性社員座談会</h4>
+                            <h4 class="skew">MT TALK</h4>
                     </div>
-                    <p class="rb-txt">CROSS TALK 01</p>
+                    <p class="rb-txt">HUMAN RESOURCES 01</p>
                   </div>
-                  <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                  <a class="clm-alink" href="/hr/mttalk.php"></a>
             </div>
           </div>
           <div class="sc-box">
             <div class="between-box clm-box h-link">
               <picture class="mt20 h-img">
-                    <source media="(max-width:767px)" srcset="/assets/img/sample_4.jpg">
-                    <img src="/assets/img/sample_1.jpg" alt="">
+                    <source media="(max-width:767px)" srcset="/assets/img/hr/hr02.png">
+                    <img src="/assets/img/hr/hr02.png" alt="">
                   </picture>
                   <div class="txtbox">
                     <div class="skew-box">
-                            <h4 class="skew">OJT×新入社員対談</h4>
+                            <h4 class="skew">MT ACADEMY</h4>
                     </div>
-                    <p class="rb-txt">CROSS TALK 02</p>
+                    <p class="rb-txt">HUMAN RESOURCES 02</p>
                   </div>
-                  <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                  <a class="clm-alink" href="/hr/academy.php"></a>
             </div>
           </div>
           <div class="sc-box">
             <div class="between-box clm-box h-link">
               <picture class="mt20 h-img">
-                    <source media="(max-width:767px)" srcset="/assets/img/sample_4.jpg">
-                    <img src="/assets/img/sample_1.jpg" alt="">
+                    <source media="(max-width:767px)" srcset="/assets/img/hr/hr03.png">
+                    <img src="/assets/img/hr/hr03.png" alt="">
                   </picture>
                   <div class="txtbox">
                     <div class="skew-box">
-                            <h4 class="skew">OJT×新入社員対談</h4>
+                            <h4 class="skew">新人研修制度</h4>
                     </div>
-                    <p class="rb-txt">CROSS TALK 02</p>
+                    <p class="rb-txt">HUMAN RESOURCES 03</p>
                   </div>
-                  <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                  <a class="clm-alink" href="/hr/training"></a>
             </div>
           </div>
           </div>

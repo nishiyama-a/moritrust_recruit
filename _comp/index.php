@@ -15,7 +15,7 @@
           <div class="kv-ttl">
             <p class="kv-head-en">CORPORATE</p>
           <div class="kv-box skew-box">
-            <h1 class="kv-head skew">gittestトップページtitle</h1>
+            <h1 class="kv-head skew">トップページtitle</h1>
           </div>
           </div>
       </div>
@@ -161,7 +161,7 @@
                       <div class="skew-box">
                             <h4 class="skew">東京ワールドゲート</h4>
                     </div>
-                        <img src="/assets/img/ourbusiness/link01.png" alt="">
+                        <img src="/assets/img/sample_1.jpg" alt="">
                       </div>
                       <div class="clm-copy">
                         <p>森トラストの最新の不動産開発について知りたい</p>
@@ -176,7 +176,7 @@
                       <div class="skew-box">
                             <h4 class="skew">森トラストグループのCo-Creation活動</h4>
                     </div>
-                        <img src="/assets/img/ourbusiness/link02.png" alt="">
+                        <img src="/assets/img/sample_1.jpg" alt="">
                       </div>
                       <div class="clm-copy">
                       <p>森トラストのエリアマネジメントについて知りたい</p>

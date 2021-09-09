@@ -9,8 +9,8 @@
       <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
       <div class="sc-kv -page">
         <picture class="kv-img">
-          <source media="(max-width:767px)" srcset="/assets/img/corporate/corporate.png">
-            <img src="/assets/img/corporate/corporate.png">
+          <source media="(max-width:767px)" srcset="/assets/img/corporate/kv_about.png">
+            <img src="/assets/img/corporate/kv_about.png">
         </picture>
         <div class="kv-ttl">
             <p class="kv-head-en">CORPORATE</p>
@@ -20,7 +20,7 @@
           </div>
       </div>
 
-      <main class="l-contents" role="main">
+      <main class="l-contents" role="main" id="about">
         <section class="l-section corporate">
           <div class="sc-inr-s">
               <table class="tbl-1 tbl-sp mt40">

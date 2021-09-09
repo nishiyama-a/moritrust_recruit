@@ -9,8 +9,8 @@
     <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
       <div class="sc-kv -page2">
         <picture class="kv-img">
-          <source media="(max-width:767px)" srcset="/assets/img/sample_4.jpg">
-            <img src="/assets/img/sample_1.jpg">
+          <source media="(max-width:767px)" srcset="/assets/img/ourbusiness/kv_realestate.png">
+            <img src="/assets/img/ourbusiness/kv_realestate.png">
           </picture>
           <div class="kv-ttl">
             <div class="kv-box skew-box">
@@ -20,7 +20,7 @@
           </div>
       </div>
 
-      <main class="l-contents" role="main" id="realestate">
+      <main class="l-contents ourbusiness" role="main" id="realestate">
       <section class="l-section">
          <div class="sc-box">
             <div class="sc-inr">
@@ -31,7 +31,7 @@
          <div class="sc-box">
               <div class="mediabox mediabox-l">
                 <div class="mediabox-img">
-                  <img src="/assets/img/sample_1.jpg" alt="">
+                  <img src="/assets/img/ourbusiness/realestate01.png" alt="">
                 </div>
                 <div class="mediabox-copy copy-r cut-bg-l">
                 <div class="skew-box">
@@ -47,7 +47,7 @@
               </div>
               <div class="mediabox mediabox-r">
                 <div class="mediabox-img">
-                  <img src="/assets/img/sample_1.jpg" alt="">
+                  <img src="/assets/img/ourbusiness/realestate02.png" alt="">
                 </div>
                 <div class="mediabox-copy copy-l cut-bg-r">
                 <div class="skew-box">
@@ -133,13 +133,13 @@
                       <div class="skew-box">
                             <h4 class="skew">東京ワールドゲート</h4>
                     </div>
-                        <img src="/assets/img/ourbusiness/link01.png" alt="">
+                        <img src="/assets/img/ourbusiness/link1-1.png" alt="">
                       </div>
                       <div class="clm-copy">
                         <p>森トラストの最新の不動産開発について知りたい</p>
                         <p class="btn-style arr-next">view more</p>
                       </div>
-                      <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                      <a class="clm-alink" href="https://www.tokyoworldgate.com" target="_blank"></a>
                     </div>
                   </li>
                   <li>
@@ -148,13 +148,13 @@
                       <div class="skew-box">
                             <h4 class="skew">森トラストグループのCo-Creation活動</h4>
                     </div>
-                        <img src="/assets/img/ourbusiness/link02.png" alt="">
+                        <img src="/assets/img/ourbusiness/link1-2.png" alt="">
                       </div>
                       <div class="clm-copy">
                       <p>森トラストのエリアマネジメントについて知りたい</p>
                         <p class="btn-style arr-next">view more</p>
                       </div>
-                      <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                      <a class="clm-alink" href="https://www.mori-trust.co.jp/co-creation/index.html" target="_blank"></a>
                     </div>
                   </li>
                 </ul>
