@@ -15,7 +15,7 @@
           <div class="kv-ttl">
             <p class="kv-head-en">CORPORATE</p>
           <div class="kv-box skew-box">
-            <h1 class="kv-head skew">トップページtitle</h1>
+            <h1 class="kv-head skew">gittestトップページtitle</h1>
           </div>
           </div>
       </div>
