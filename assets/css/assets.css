@@ -3299,6 +3299,17 @@ body {
 .skew-box .skew_w {
   padding: 40px 0px;
 }
+.skew-box.bl {
+  font-size: 16px;
+  height: calc(40px + 1em + 16px);
+}
+.skew-box.bl::before {
+  background-color: #333;
+  border: 1px solid #333;
+}
+.skew-box.bl .skew {
+  padding: 0;
+}
 
 .h-link:hover .skew-box::before {
   background-color: #FFF;
@@ -3307,6 +3318,7 @@ body {
   color: #e8314b;
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
+  padding: 20px 1em;
 }
 
 p.point-txt {
@@ -4828,6 +4840,51 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 #academy .mediabox-copy .txt-t-img {
   position: absolute;
   top: -250px;
+}
+
+#training .schedule .month {
+  font-size: 40px;
+  font-family: "Cinzel", "Lato", serif;
+  letter-spacing: 0.05em;
+}
+#training .schedule .month span {
+  font-size: 14px;
+  margin-left: 1.5em;
+}
+#training .schedule .training-ttl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+#training .schedule .training-ttl .skew-box {
+  margin: 0 50px 0 0;
+}
+#training .schedule .training-ttl .skew-box .skew {
+  font-weight: 800;
+}
+#training .schedule .cut-bg-l {
+  width: 100%;
+  margin: 0 0 0 auto;
+  padding: 55px 20px;
+}
+#training .schedule .training-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+#training .schedule .training-item:last-child {
+  margin-bottom: 0;
+}
+#training .schedule .training-item .skew-box {
+  margin-right: 2em;
 }
 
 #ct-top .sc-inr, #ct-top .sc-inr-s, #ct-top .sc-inr-w {

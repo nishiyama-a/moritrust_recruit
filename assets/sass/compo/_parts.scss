@@ -127,6 +127,17 @@
   .skew_w{
     padding: 40px 0px;
   }
+  &.bl{
+    font-size: 16px;
+    height: calc(40px + 1em + 16px);
+    &::before{
+      background-color: $clr-text;
+      border: 1px solid $clr-text;
+    }
+    .skew{
+      padding: 0;
+    }
+  }
 }
 
 .h-link{
@@ -138,6 +149,7 @@
       .skew{
         color: $clr-main;
         @include transition;
+        padding: 20px 1em;
       }
     }
   }

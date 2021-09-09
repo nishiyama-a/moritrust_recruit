@@ -139,7 +139,7 @@
                   </picture>
                   <div class="txtbox">
                     <div class="skew-box">
-                            <h4 class="skew">タイトルです</h4>
+                      <h4 class="skew">タイトルです</h4>
                     </div>
                     <p class="rb-txt">OUR BUSINESS 01</p>
                   </div>
