@@ -22,10 +22,10 @@
             </div>
         </div>
 
-        <main class="l-contents" role="main" id="requirement">
+        <main class="l-contents recruit" role="main" id="requirement">
             <section class="l-section">
                 <div class="sc-inr-s">
-                    <h2 class="head-3">職務内容</h2>
+                    <h2 class="head-3 mb40">職務内容</h2>
                     <ul class="clm-2">
                         <li>
                             <div class="clm-box h-link">

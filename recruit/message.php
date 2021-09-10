@@ -22,7 +22,7 @@
             </div>
         </div>
 
-        <main class="l-contents" role="main" id="recruit">
+        <main class="l-contents recruit" role="main" id="message">
             <section class="l-section read-area">
                 <div class="sc-inr">
                     <div class="sc-box">

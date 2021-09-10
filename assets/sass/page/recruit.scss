@@ -1,4 +1,10 @@
-#recruit{
+.recruit{
+    .btn-3{
+        height: 150px;
+    }
+}
+
+#message{
     .message-copy{
         max-width: 650px;
         margin: 0 auto;
@@ -9,19 +15,41 @@
         line-height: lh(36);
         text-align: center;
     }
-    .btn-3{
-        height: 150px;
-    }
 }
 
 #requirement{
-    .l-contents{
-        background-color: red;
-    }
     .list-ind{
         margin-bottom: 0;
     }
-    .btn-3{
-        height: 150px;
+    .clm-box{
+        p > span{
+            width: 5em;
+            display: inline-block;
+        }
+    }
+}
+
+#steps{
+    .box-1{
+        position: relative;
+        padding-bottom: 65px;
+        margin-bottom: 35px;
+        &::before{
+            content: "\e900";
+            position: absolute;
+            font-family: 'icomoon' !important;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            transform: rotate(90deg);
+            font-size: 30px;
+        }
+        &:last-child{
+            padding-bottom: 0;
+            margin-bottom: 0;
+            &::before{
+                display: none;
+            }
+        }
     }
 }
