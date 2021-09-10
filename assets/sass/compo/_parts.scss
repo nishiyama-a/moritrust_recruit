@@ -128,13 +128,14 @@
     padding: 40px 0px;
   }
   &.bl{
-    font-size: 16px;
-    height: calc(40px + 1em + 16px);
+    padding: 20px 1em;
+    margin: 0 auto;
     &::before{
       background-color: $clr-text;
       border: 1px solid $clr-text;
     }
     .skew{
+      font-size: 16px;
       padding: 0;
     }
   }

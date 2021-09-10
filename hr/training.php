@@ -90,7 +90,7 @@
                             </div>
                             <p class="txt-box">
                                 不動産事業の全ての分野（企画・設計・営業・管理）についての知識を習得します。専門や配属部署に関わらず、当社の行う不動産事業を総合的に学習する研修となっています。また、オフィス移転を望むお客様に、森トラストのオフィスビルがどの様に提案されているのかを学ぶ営業同行研修や、オフィスビルが日々どの様に管理・運営されているのかを学ぶビル実習も不動産事業研修のカリキュラムの一環となっています。<a
-                                    href="#" class="btn-txtlink">森トラストの不動産事業について</a></p>
+                                    href="/ourbusiness/realestate.php" class="btn-txtlink">森トラストの不動産事業について</a></p>
                             <div class="training-img"><img src="/assets/img/hr/training04.png" alt=""></div>
                         </div>
                         <div class="training-item sc-inr">
@@ -99,7 +99,7 @@
                             </div>
                             <p class="txt-box">
                                 森トラストでは、都心の一等地と、日本の主要なリゾート地を厳選して、開発・経営・運営・投資・提携・誘致など、多様な手法でホテル事業を展開しています。ホテル&リゾート事業研修では、それぞれの手法についての講義や現場実習を行い、森トラストグループのホテル事業について理解を深めます。
-                                <a href="#" class="btn-txtlink">森トラストのホテル&リゾート事業について</a>
+                                <a href="/ourbusiness/hotel.php" class="btn-txtlink">森トラストのホテル&リゾート事業について</a>
 
                             </p>
                             <div class="training-img">
@@ -111,13 +111,13 @@
                             <div class="skew-box bl">
                                 <h4 class="skew">投資事業研修</h4>
                             </div>
-                            <p class="txt-box">投資概論から始まり不動産証券化に至るまで、各投資手法や評価方法について演習等も織り交ぜながら講義を行います。
-                                <a href="#" class="btn-txtlink">森トラストの投資事業について</a>
+                            <p class="txt-box">投資概論から始まり不動産証券化に至るまで、各投資手法や評価方法について演習等も織り交ぜながら講義を行います。<br>
+                                <a href="/ourbusiness/investment.php" class="btn-txtlink">森トラストの投資事業について</a>
 
                             </p>
                             <div class="training-img"></div>
                         </div>
-                        <div class="training-item sc-inr">
+                        <div class="training-item mb20 sc-inr">
                             <div class="skew-box bl">
                                 <h4 class="skew">財務研修</h4>
                             </div>
@@ -148,10 +148,12 @@
                     </div>
                     <div class="cut-bg-l">
                         <div class="training-item sc-inr">
+                            <div class="training-img mr30">
+                                <img src="/assets/img/hr/training09.png" alt="">
+                            </div>
                             <div class="training-img">
                                 <img src="/assets/img/hr/training07.png" alt="">
                                 <img src="/assets/img/hr/training08.png" alt="">
-                                <img src="/assets/img/hr/training09.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -177,13 +179,13 @@
                     </div>
                     <div class="cut-bg-l">
                         <div class="training-item sc-inr">
-                            <div class="training-item sc-inr-inr">
+                            <div class="training-item flex-box">
                                 <div class="skew-box bl">
                                     <h4 class="skew">宅地建物取引士</h4>
                                 </div>
                                 <p class="txt-box">不動産取引の基本的かつ必須の知識を習得し、宅地建物取引士の資格を取得します。</p>
                             </div>
-                            <div class="training-item sc-inr-inr">
+                            <div class="training-item flex-box">
                                 <div class="skew-box bl">
                                     <h4 class="skew">日商簿記検定</h4>
                                 </div>

@@ -71,7 +71,7 @@
                     </div>
                     <p class="rb-txt">HUMAN RESOURCES 03</p>
                   </div>
-                  <a class="clm-alink" href="/hr/training"></a>
+                  <a class="clm-alink" href="/hr/training.php"></a>
             </div>
           </div>
           </div>

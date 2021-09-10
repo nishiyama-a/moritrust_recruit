@@ -2782,6 +2782,19 @@ body {
 .btn-3.h-link:hover .arr-next::after {
   background-image: url(/assets/img/cmn/arr_next_w.svg);
 }
+.btn-txtlink {
+  color: #e8314b;
+  position: relative;
+  padding-right: 2em;
+  margin-top: 20px;
+  display: inline-block;
+}
+.btn-txtlink::after {
+  content: ">";
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 
 .btn-style.is-disable {
   background: #e1e3e8;
@@ -3300,14 +3313,15 @@ body {
   padding: 40px 0px;
 }
 .skew-box.bl {
-  font-size: 16px;
-  height: calc(40px + 1em + 16px);
+  padding: 20px 1em;
+  margin: 0 auto;
 }
 .skew-box.bl::before {
   background-color: #333;
   border: 1px solid #333;
 }
 .skew-box.bl .skew {
+  font-size: 16px;
   padding: 0;
 }
 
@@ -4872,12 +4886,18 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 #training .schedule .cut-bg-l {
   width: 100%;
   margin: 0 0 0 auto;
-  padding: 55px 20px;
+  padding: 55px 0;
 }
 #training .schedule .training-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   margin-bottom: 50px;
 }
 #training .schedule .training-item:last-child {
@@ -4885,6 +4905,36 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 #training .schedule .training-item .skew-box {
   margin-right: 2em;
+}
+#training .schedule .training-item .txt-box {
+  max-width: 400px;
+  width: 30%;
+  margin-right: 4%;
+}
+#training .schedule .training-item .training-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+}
+#training .schedule .training-item .training-img.mr30 {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+#training .schedule .training-item .training-img img {
+  margin-right: 30px;
+}
+#training .schedule .training-item .training-img img:last-child {
+  margin-right: 0;
+}
+#training .schedule .training-item.flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#training .schedule .training-item.flex-box .txt-box {
+  width: auto;
 }
 
 #ct-top .sc-inr, #ct-top .sc-inr-s, #ct-top .sc-inr-w {

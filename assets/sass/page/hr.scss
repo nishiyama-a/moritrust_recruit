@@ -52,16 +52,42 @@
         .cut-bg-l{
             width: 100%;
             margin: 0 0 0 auto;
-            padding: 55px 20px;
+            padding: 55px 0;
         }
         .training-item{
             display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
             margin-bottom: 50px;
             &:last-child{
                 margin-bottom: 0;
             }
             .skew-box{
                 margin-right: 2em;
+            }
+            .txt-box{
+                max-width: 400px;
+                width: 30%;
+                margin-right: 4%;
+            }
+            .training-img{
+                display: flex;
+                width: 40%;
+                &.mr30{
+                    justify-content: flex-end;
+                }
+                img{
+                    margin-right: 30px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+            }
+            &.flex-box{
+                display: flex;
+                .txt-box{
+                    width: auto;
+                }
             }
         }
     }
