@@ -25,8 +25,8 @@
           <div class="sc-inr">
 
               <ul class="clm-3">
-                <li class=" btn-3">
-                  <div class="clm-box h-link">
+                <li>
+                  <div class="clm-box h-link btn-3">
                       <h3 class="btn-txt">採用担当からの<br>メッセージ</h3>
                       <p class="btn-style arr-next">view more</p>
                     <a class="clm-alink" href="/recruit/message.php"></a>

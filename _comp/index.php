@@ -196,6 +196,49 @@
               </div>
           </div>
 </section>
+<section class="l-sextion">
+  <div class="sc-inr">
+    <ul class="clm-3">
+                <li>
+                  <div class="clm-box h-link btn-3">
+                      <h3 class="btn-txt">2行の場合<br>2行の場合</h3>
+                      <p class="btn-style arr-next">view more</p>
+                    <a class="clm-alink" href="/recruit/message.php"></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="clm-box h-link  btn-3">
+                      <h3 class="btn-txt">募集事項</h3>
+                      <p class="btn-style arr-next">view more</p>
+                    <a class="clm-alink" href="/recruit/requirement.php"></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="clm-box h-link  btn-3">
+                      <h3 class="btn-txt">選考ステップ</h3>
+                      <p class="btn-style arr-next">view more</p>
+                    <a class="clm-alink" href="/recruit/steps.php"></a>
+                  </div>
+                </li>
+              </ul>
+              <ul class="clm-2">
+                <li>
+                  <div class="clm-box h-link  btn-3">
+                      <h3 class="btn-txt">会社概要</h3>
+                      <p class="btn-style arr-next">view more</p>
+                    <a class="clm-alink" href="/corporate/about.php"></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="clm-box h-link  btn-3">
+                      <h3 class="btn-txt">パンフレット</h3>
+                      <p class="btn-style arr-next">view more</p>
+                    <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                  </div>
+                </li>
+
+              </ul></div>
+</section>
 
         <section class="l-section">
           <div class="sc-inr">

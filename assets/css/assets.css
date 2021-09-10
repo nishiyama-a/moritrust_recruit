@@ -2525,24 +2525,23 @@ body {
           transform: translateX(-50%);
 }
 .head-3 {
-  padding-bottom: 5px;
-  border-bottom: 2px solid #e1e3e8;
+  padding: 10px 0 10px 15px;
   font-size: 1.25rem;
-}
-.head-3:after {
-  width: 200px;
-  height: 2px;
-  display: block;
-  background: #e8314b;
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  background-color: #e8314b;
+  color: #fff;
+  letter-spacing: 0.2em;
 }
 .head-4 {
+  position: relative;
+  padding-bottom: 15px;
   margin-bottom: 20px;
-  color: #e8314b;
-  font-size: 1.125rem;
+  color: #333;
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  border-bottom: 1px solid #e1e3e8;
 }
 .head-5 {
   margin-bottom: 20px;
@@ -2746,16 +2745,25 @@ body {
 }
 .btn-3 {
   border: 1px solid #000;
-  padding: 110px 0;
+  height: 250px;
   position: relative;
   text-align: center;
 }
 @media (max-width: 767px) {
   .btn-3 {
-    padding: 70px 0;
+    height: 100px;
   }
 }
 .btn-3 .btn-txt {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   color: #333;
   font-weight: normal;
   letter-spacing: 0.2em;
@@ -4935,6 +4943,20 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 #training .schedule .training-item.flex-box .txt-box {
   width: auto;
+}
+
+#recruit .message-copy {
+  max-width: 650px;
+  margin: 0 auto;
+}
+#recruit .message {
+  font-size: 18px;
+  letter-spacing: 0.2em;
+  line-height: 2.75rem;
+  text-align: center;
+}
+#recruit .btn-3 {
+  height: 150px;
 }
 
 #ct-top .sc-inr, #ct-top .sc-inr-s, #ct-top .sc-inr-w {
