@@ -2,6 +2,12 @@
     .skew{
         padding: 0;
     }
+    .list-ttl{
+        margin-bottom: 30px;
+        @include breakpoint(small){
+         margin-bottom: 20px;   
+        }
+    }
  .list-ind{
      & > li{
          margin-bottom: 20px;
@@ -36,6 +42,10 @@
 }
 
 #realestate{
+    padding-top: 0;
+    @include breakpoint(small){
+        padding-top: 35px;
+    }
     .portforio{
         .clm-3{
             li{
@@ -84,6 +94,10 @@
 }
 
 #hotel{
+    padding-top: 0;
+    @include breakpoint(small){
+        padding-top: 35px;
+    }
     .portforio{
         .clm-3{
             li{
@@ -132,6 +146,10 @@
 }
 
 #investment{
+    padding-top: 0;
+    @include breakpoint(small){
+        padding-top: 35px;
+    }
     .portforio{
         .clm-3{
             li{

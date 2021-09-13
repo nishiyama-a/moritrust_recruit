@@ -68,6 +68,9 @@ body{
   }
   &-box{
     margin: 0 0 100px;
+    @include breakpoint(small){
+      margin-bottom: 50px;
+    }
     &:last-of-type{
       margin-bottom: 0;
     }

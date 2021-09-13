@@ -9,7 +9,7 @@
     <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
       <div class="sc-kv -page"> 
         <picture class="kv-img">
-          <source media="(max-width:767px)" srcset="/assets/img/ourbusiness/kv_index.pngg">
+          <source media="(max-width:767px)" srcset="/assets/img/ourbusiness/kv_index.png">
             <img src="/assets/img/ourbusiness/kv_index.png">
           </picture>
           <div class="kv-ttl">

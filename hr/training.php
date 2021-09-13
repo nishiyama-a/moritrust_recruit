@@ -26,7 +26,7 @@
             <section class="l-section">
                 <div class="sc-box">
                     <div class="sc-inr">
-                        <h2 class="head-1">森トラストグループ全体を見渡す視点を養う<br>『3部署ローテーション』</h2>
+                        <h2 class="head-1">森トラストグループ全体を見渡す<br class="disp-sp">視点を養う<br class="disp-pc">『3部署ローテーション』</h2>
                         <p class="box-txt">
                             森トラストの新人研修は、社会人としての成長を促すものから、各事業についての理解、知識の習得を目的としたものまで、1年間の充実したプログラムになっています。また、仕事を通じてトレーニングを行うOJTを実施しており、成長目標を明確にしながら、組織をあげた人財育成を行っています。さらに、若手社員数名で「新人インストラクター」を結成し、新人の日頃の相談に乗ったり、独自に研修プログラムを作成・実施したりすることで、新人とともに若手社員の成長も図っています。また、社会人基礎力の習得と事業理解、全社的視点の醸成を目指して、新入社員を１年間で３部署に配属する「3部署ローテーション」制度を導入しております。
                         </p>
@@ -40,7 +40,7 @@
                         <div class="skew-box">
                             <h4 class="skew">導入研修</h4>
                         </div>
-                        <p>森トラストでは、入社から配属までの間に、会社の仕組や不動産の基本的な知識、<br>
+                        <p>森トラストでは、入社から配属までの間に、会社の仕組や不動産の基本的な知識、<br class="disp-pc">
                             また社会人としてのマナーなど幅広い分野について研修を行います。</p>
                     </div>
                     <div class="cut-bg-l">
@@ -148,12 +148,10 @@
                     </div>
                     <div class="cut-bg-l">
                         <div class="training-item sc-inr">
-                            <div class="training-img mr30">
-                                <img src="/assets/img/hr/training09.png" alt="">
-                            </div>
-                            <div class="training-img">
+                            <div class="training-img pic-3">
                                 <img src="/assets/img/hr/training07.png" alt="">
                                 <img src="/assets/img/hr/training08.png" alt="">
+                                <img src="/assets/img/hr/training09.png" alt="">
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,9 @@
 #ceo{
+    .between-box{
+        @include breakpoint(small){
+            padding-bottom: 0;
+        }
+    }
     .read-area{
         padding-bottom: 110px;
         @include breakpoint(small){
@@ -6,11 +11,15 @@
         }
         picture{
             padding: 0 3%;
+            @include breakpoint(small){
+                padding: 0;
+            }
         }
         .txtbox{
             bottom: -110px;
             @include breakpoint(small){
                 bottom: -140px;
+                flex-direction: column;
             }
             .skew-box{
                 margin-left: 0;

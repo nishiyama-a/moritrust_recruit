@@ -3,6 +3,9 @@
   display: flex;
   flex-direction: row;
   position: relative;
+  @include breakpoint(small){
+    margin-bottom: 50px;
+  }
   &:last-child{
     margin-bottom: 0;
   }
@@ -38,15 +41,35 @@
     bottom: -50px;
     padding-top: 65px;
     padding-bottom: 50px;
+    @include breakpoint(small){
+      position: relative;
+      bottom: inherit;
+      padding: 20px;
+    }
     &.copy-l{
       padding-right: calc(60px + 10% );
       padding-left: 5%;
       left: 0;
+      @include breakpoint(small){
+        padding: 20px;
+        &::before{
+          display: none;
+        }
+      }
     }
     &.copy-r{
       padding-right: 5%;
       padding-left: calc(60px + 10% );
       right: 0;
+      @include breakpoint(small){
+        padding: 20px;
+        &::before{
+          display: none;
+        }
+      }
+      }
+      .skew-box{
+        margin-bottom: 20px;
       }
   }
 
@@ -127,20 +150,16 @@
 
 // SP
 @include breakpoint(small){
-  %mediabox-cmn {
-    display: block;
-  }
   .mediabox{
+    flex-direction: column;
     &-img{
       width: 100%;
       max-width: 100%;
-      margin-bottom: 10px!important;
-      span{
-        font-size: rem(12);
-        line-height: lh(12);
+      img{
+        height: auto;
       }
     }
-    &-copy{
+    .mediabox-copy{
       width: 100%;
     }
   }
