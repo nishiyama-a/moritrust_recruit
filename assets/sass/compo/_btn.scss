@@ -34,13 +34,11 @@ $btnsp-h: 55px;
     justify-content: center;
     color: #fff;
     z-index: 2;
-    font-size: 20px;
     margin: auto;
     font-weight: normal;
     letter-spacing: 0.2em;
     @include breakpoint(small){
       font-size: 14px;
-      margin: 20px auto;
     }
   }
   &:hover{
@@ -126,7 +124,6 @@ $btnsp-h: 55px;
         color: $clr-text;
         font-weight: normal;
         letter-spacing: 0.2em;
-        font-size: 20px;
     }
     .arr-next{
         position: absolute;
@@ -158,7 +155,6 @@ $btnsp-h: 55px;
     color: $clr-main;
     position: relative;
     padding-right: 2em;
-    margin-top: 20px;
     display: inline-block;
     &::after{
       content: ">";
@@ -166,6 +162,21 @@ $btnsp-h: 55px;
       right: 0;
       top: 0;
       
+    }
+  }
+}
+
+//h-link hover
+.h-link{
+  &:hover{
+    .skew-box{
+      &::before{
+        background-color: #FFF;
+      }
+      .skew{
+        color: $clr-main;
+        @include transition;
+      }
     }
   }
 }

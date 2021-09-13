@@ -139,22 +139,34 @@
       padding: 0;
     }
   }
-}
 
-.h-link{
-  &:hover{
-    .skew-box{
-      &::before{
-        background-color: #FFF;
+  &-w{
+    margin-bottom: 20px;
+    .skew{
+      position: relative;
+      display: inline-block;
+      margin-bottom: 10px;
+      &::before {
+        content: '';/*ボックス作成*/
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: #fff;
+        transform: skew(-7deg);
       }
-      .skew{
-        color: $clr-main;
-        @include transition;
-        padding: 20px 1em;
+      span{
+        padding:10px 15px;
+        color: #000;
+        font-size: 20px;
+        letter-spacing: 0.2em;
+        position: relative;
       }
     }
   }
 }
+
 
 p.point-txt{
   font-size: 18px;
@@ -174,6 +186,22 @@ p.point-txt{
     height: 100%;
     width: 5px;
     background-color: $clr-main;
+  }
+}
+
+.side-num{
+  font-family: $font-eng;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  @include breakpoint(small){
+      font-size: 12px;
+  }
+  span{
+      font-size: 30px;
+      font-family: $font-dec;
+      @include breakpoint(small){
+          font-size: 20px;
+      }
   }
 }
 

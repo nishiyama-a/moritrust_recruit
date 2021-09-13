@@ -9,8 +9,8 @@
     <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
       <div class="sc-kv -page">
         <picture class="kv-img">
-          <source media="(max-width:767px)" srcset="/assets/img/sample_4.jpg">
-            <img src="/assets/img/sample_1.jpg">
+          <source media="(max-width:767px)" srcset="/assets/img/crosstalk/kv_index.png">
+            <img src="/assets/img/crosstalk/kv_index.png">
           </picture>
           <div class="kv-ttl">
             <p class="kv-head-en">CROSS TALK</p>
@@ -28,8 +28,8 @@
           <div class="sc-box">
             <div class="between-box clm-box h-link">
               <picture class="mt20 h-img">
-                    <source media="(max-width:767px)" srcset="/assets/img/sample_4.jpg">
-                    <img src="/assets/img/sample_1.jpg" alt="">
+                    <source media="(max-width:767px)" srcset="/assets/img/crosstalk/crosstalk01.png">
+                    <img src="/assets/img/crosstalk/crosstalk01.png" alt="">
                   </picture>
                   <div class="txtbox">
                     <div class="skew-box">
@@ -37,14 +37,14 @@
                     </div>
                     <p class="rb-txt">CROSS TALK 01</p>
                   </div>
-                  <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                  <a class="clm-alink" href="/crosstalk/1.php"></a>
             </div>
           </div>
           <div class="sc-box">
             <div class="between-box clm-box h-link">
               <picture class="mt20 h-img">
-                    <source media="(max-width:767px)" srcset="/assets/img/sample_4.jpg">
-                    <img src="/assets/img/sample_1.jpg" alt="">
+                    <source media="(max-width:767px)" srcset="/assets/img/crosstalk/crosstalk02.png">
+                    <img src="/assets/img/crosstalk/crosstalk02.png" alt="">
                   </picture>
                   <div class="txtbox">
                     <div class="skew-box">
@@ -52,7 +52,7 @@
                     </div>
                     <p class="rb-txt">CROSS TALK 02</p>
                   </div>
-                  <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                  <a class="clm-alink" href="/crosstalk/2.php"></a>
             </div>
           </div>
           </div>
