@@ -365,10 +365,7 @@ p.point-txt{
 }
 
 .note{
-  font-size: 14px;
-  @include breakpoint(small){
-    font-size: 12px;
-  }
+  font-size: 12px;
 }
 
 .sliderArea {

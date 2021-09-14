@@ -2819,7 +2819,7 @@ body {
 }
 .interview-list .interview-pic img {
   width: 100%;
-  zname-boxindex: 3;
+  z-index: 3;
 }
 .interview-list .interview-pic .name-en {
   position: absolute;
@@ -3941,12 +3941,7 @@ p.point-txt::before {
 }
 
 .note {
-  font-size: 14px;
-}
-@media (max-width: 767px) {
-  .note {
-    font-size: 12px;
-  }
+  font-size: 12px;
 }
 
 .sliderArea {
@@ -5596,4 +5591,270 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   padding: 0;
   font-size: 18px;
   letter-spacing: 0.2em;
+}
+
+.kv-interview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.kv-interview .kv-img {
+  width: 75%;
+  position: relative;
+  z-index: 3;
+  padding-bottom: 50px;
+}
+.kv-interview .kv-img .job-info {
+  position: absolute;
+  left: 7%;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+}
+.kv-interview .kv-img .job-info .skew-box {
+  margin: 0 20px 0 0;
+}
+.kv-interview .kv-img .job-info .skew-box .skew {
+  font-size: 26px;
+  font-weight: 800;
+}
+.kv-interview .kv-ttl {
+  width: 25%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.kv-interview .kv-ttl .job {
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333;
+  display: inline-block;
+  margin-bottom: 55px;
+  letter-spacing: 0.2em;
+}
+@media (max-width: 767px) {
+  .kv-interview .kv-ttl .job {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}
+.kv-interview .kv-ttl .num {
+  font-family: "Marcellus", "Lato", serif;
+  letter-spacing: 0.05em;
+  text-align: left;
+  line-height: 1.4;
+}
+.kv-interview .kv-ttl .num span {
+  font-size: 100px;
+  letter-spacing: 0.05em;
+  font-family: "Cinzel", "Lato", serif;
+}
+.kv-interview .person {
+  padding: 85px 13%;
+  width: 60%;
+}
+.kv-interview .person .name-en {
+  font-family: "Marcellus", "Lato", serif;
+  letter-spacing: 0.05em;
+  margin-bottom: 25px;
+}
+.kv-interview .person .name {
+  font-size: 50px;
+  letter-spacing: 0.2em;
+  margin-bottom: 40px;
+  line-height: 1;
+}
+.kv-interview .person .history {
+  position: relative;
+  padding-left: 25px;
+}
+.kv-interview .person .history::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: #e8314b;
+  -webkit-transform: skew(-7deg);
+          transform: skew(-7deg);
+}
+.kv-interview .important {
+  position: relative;
+  width: 40%;
+  top: -120px;
+  padding: 140px 7% 50px;
+}
+.kv-interview .important .skew-box {
+  padding: 15px;
+}
+.kv-interview .important .skew-box .skew {
+  padding: 0;
+}
+.kv-interview .important-list .important-item {
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+}
+.kv-interview .important-list .important-item span {
+  font-family: "Cinzel", "Lato", serif;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  padding-right: 50px;
+  margin-right: 10px;
+  position: relative;
+}
+.kv-interview .important-list .important-item span::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 30px;
+  right: 0;
+  top: 50%;
+  background-color: #e8314b;
+}
+
+.interview {
+  padding-top: 0;
+  margin-top: -20px;
+}
+.interview .answer-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+}
+.interview .answer-wrap .answer-box {
+  padding: 90px 5%;
+}
+.interview .answer-wrap .answer-box .answer {
+  margin-bottom: 50px;
+  width: 65%;
+  max-width: 550px;
+}
+.interview .answer-wrap .answer-box .answer:last-child {
+  margin-bottom: 0;
+}
+.interview .answer-wrap .answer-box .skew-box {
+  padding: 15px;
+}
+.interview .answer-wrap .answer-box .skew-box .skew {
+  padding: 0;
+}
+.interview .answer-wrap .answer-img {
+  position: absolute;
+  width: 48%;
+  right: 5%;
+  bottom: 90px;
+}
+.interview .answer-wrap.box-r {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.interview .answer-wrap.box-r .answer {
+  margin: 0 0 50px auto;
+}
+.interview .answer-wrap.box-r .answer:last-child {
+  margin: 0 0 0 auto;
+}
+.interview .answer-wrap.box-r .answer-img {
+  right: inherit;
+  left: 5%;
+}
+.interview .cut-bg-r {
+  width: 70%;
+}
+.interview .cut-bg-r::before {
+  border-right: solid 155px #fff;
+  border-top: solid 920px transparent;
+}
+.interview .cut-bg-l {
+  width: 70%;
+}
+.interview .cut-bg-l::before {
+  border-left: solid 155px #fff;
+  border-bottom: solid 920px transparent;
+}
+
+.schedule-img {
+  width: 60%;
+  max-width: 830px;
+  margin: 0 5% 0 auto;
+  position: relative;
+  z-index: 3;
+}
+.schedule .flow {
+  width: 86%;
+  padding: 80px 5%;
+  margin-top: -90px;
+}
+.schedule .flow .skew-box {
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.schedule .flow .skew-box .skew {
+  padding: 0;
+}
+.schedule .flow-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.schedule .flow-list li .time-box .time {
+  position: relative;
+  padding-left: 35px;
+  width: 6em;
+}
+.schedule .flow-list li .time-box .time::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 17px;
+  height: 17px;
+}
+.schedule .flow-list li .time-box .time.time0830::before {
+  background-image: url(/assets/img/interview/0830.svg);
+}
+.schedule .flow-list li .border-box {
+  border-top: 1px solid #fff;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+}
+.schedule .flow-list li .border-box .flow-ttl {
+  color: #e8314b;
+  margin-right: 1em;
+  width: 10em;
 }

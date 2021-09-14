@@ -1,0 +1,254 @@
+.kv-interview{
+    display: flex;
+    flex-wrap: wrap;
+    .kv-img{
+        width: 75%;
+        position: relative;
+        z-index: 3;
+        padding-bottom: 50px;
+        .job-info{
+            position: absolute;
+            left: 7%;
+            bottom: 0;
+            display: flex;
+            align-items: flex-end;
+            width: 100%;
+            .skew-box{
+                margin: 0 20px 0 0;
+                .skew{
+                    font-size: 26px;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+    .kv-ttl{
+        width: 25%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .job{
+        font-size: 26px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        border-bottom: 1px solid $clr-text;
+        display: inline-block;
+        margin-bottom: 55px;
+        letter-spacing: 0.2em;
+        @include breakpoint(small){
+          font-size: 20px;
+          margin-bottom: 15px;
+        }
+        }
+        .num{
+            font-family: $font-eng;
+            letter-spacing: 0.05em;
+            text-align: left;
+            line-height: 1.4;
+            span{
+                font-size: 100px;
+                letter-spacing: 0.05em;
+                font-family: $font-dec;
+            }
+        }
+    }
+    .person{
+        padding: 85px 13%;
+        width: 60%;
+        .name-en{
+            font-family: $font-eng;
+            letter-spacing: 0.05em;
+            margin-bottom: 25px;
+        }
+        .name{
+            font-size: 50px;
+            letter-spacing: 0.2em;
+            margin-bottom: 40px;
+            line-height: 1;
+        }
+        .history{
+            position: relative;
+            padding-left: 25px;
+            &::before{
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 1px;
+                background-color: $clr-main;
+                transform: skew(-7deg);
+            }
+        }
+    }
+    .important{
+        position: relative;
+        width: 40%;
+        top: -120px;
+        padding: 140px 7% 50px;
+        .skew-box{
+            padding: 15px;
+            .skew{
+                padding: 0;
+            }
+        }
+        &-list{
+            .important-item{
+                margin-bottom: 10px;
+                font-weight: 800;
+                font-size: 20px;
+                letter-spacing: 0.2em;
+                span{
+                    font-family: $font-dec;
+                    font-size: 20px;
+                    letter-spacing: 0.05em;
+                    padding-right: 50px;
+                    margin-right: 10px;
+                    position: relative;
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        height: 1px;
+                        width: 30px;
+                        right: 0;
+                        top: 50%;
+                        background-color: $clr-main;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.interview{
+    padding-top: 0;
+    margin-top: -20px;
+    .answer-wrap{
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        .answer-box{
+            // width: 51%;
+            padding: 90px 5%;
+            .answer{
+                margin-bottom: 50px;
+                width: 65%;
+                max-width: 550px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+            .skew-box{
+                padding: 15px;
+                .skew{
+                    padding: 0;
+                }
+            }
+        }
+        .answer-img{
+            position: absolute;
+            width: 48%;
+            right: 5%;
+            bottom: 90px;
+        }
+        &.box-r{
+            justify-content: flex-end;
+            .answer{
+                margin: 0 0 50px auto;
+                &:last-child{
+                    margin: 0 0 0 auto;
+                }
+            }
+            .answer-img{
+                right: inherit;
+                left: 5%;
+            }
+        }
+    }
+    .cut-bg-r{
+        width: 70%;
+        &::before{
+            border-right: solid 155px #fff;
+            border-top: solid 920px transparent;
+        }
+    }
+    .cut-bg-l{
+        width: 70%;
+        &::before{
+            border-left: solid 155px #fff;
+            border-bottom: solid 920px transparent;
+        }
+    }
+}
+.schedule{
+    &-img{
+        width: 60%;
+        max-width: 830px;
+        margin: 0 5% 0 auto;
+        position: relative;
+        z-index: 3;
+    }
+    .flow{
+        width: 86%;
+        padding: 80px 5%;
+        margin-top: -90px;
+        .skew-box{
+            padding: 15px;
+            margin-bottom: 30px;
+            .skew{
+                padding: 0;
+            }
+        }
+        &-list{
+            li{
+                display: flex;
+                align-items: center;
+                .time-box{
+                    // position: relative;
+                    // padding-bottom: 40px;
+                    // &::after{
+                    //     content: '';
+                    //     position: absolute;
+                    //     height: 35px;
+                    //     width: 1px;
+                    //     background-color: $clr-text;
+                    //     bottom: 0;
+                    //     left: 50px;
+                    // }
+                    .time{
+                        position: relative;
+                        padding-left: 35px;
+                        width: 6em;
+                        &::before{
+                            content: "";
+                            position: absolute;
+                            left: 0;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            width: 17px;
+                            height: 17px;
+                        }
+                        &.time0830{
+                            &::before{
+                                background-image: url(/assets/img/interview/0830.svg);
+                            }
+                        }
+                    }
+                }
+                .border-box{
+                    border-top: 1px solid #fff;
+                    padding: 20px 0;
+                    display: flex;
+                    width: 70%;
+                    .flow-ttl{
+                        color: $clr-main;
+                        margin-right: 1em;
+                        width: 10em;
+                    }
+                }
+            }
+        }
+    }
+}
