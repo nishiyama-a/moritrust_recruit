@@ -235,6 +235,41 @@
                                 background-image: url(/assets/img/interview/0830.svg);
                             }
                         }
+                        &.time0930{
+                            &::before{
+                                background-image: url(/assets/img/interview/0930.svg);
+                            }
+                        }
+                        &.time1030{
+                            &::before{
+                                background-image: url(/assets/img/interview/1030.svg);
+                            }
+                        }
+                        &.time1200{
+                            &::before{
+                                background-image: url(/assets/img/interview/1200.svg);
+                            }
+                        }
+                        &.time1330{
+                            &::before{
+                                background-image: url(/assets/img/interview/1330.svg);
+                            }
+                        }
+                        &.time1430{
+                            &::before{
+                                background-image: url(/assets/img/interview/1430.svg);
+                            }
+                        }
+                        &.time1600{
+                            &::before{
+                                background-image: url(/assets/img/interview/1600.svg);
+                            }
+                        }
+                        &.time1730{
+                            &::before{
+                                background-image: url(/assets/img/interview/1730.svg);
+                            }
+                        }
                     }
                 }
                 &:last-child{

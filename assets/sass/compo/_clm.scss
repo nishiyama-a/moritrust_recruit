@@ -64,6 +64,9 @@
   >li,
   .clm-li{
     width: 33.333%;
+    @include breakpoint(small){
+      width: 100%;
+    }
   }
 }
 .clm-4{

@@ -22,7 +22,7 @@
             </div>
         </div>
 
-        <main class="l-contents pickup" role="main" id="twg">
+        <main class="l-contents pickup" role="main" id="hotel">
             <section class="l-section">
                 <div class="sc-box">
                     <div class="sc-inr">
@@ -97,13 +97,6 @@
                     <div class="sc-box">
                       <h2 class="head-5">また自由に旅を楽しめる日への準備を、<br>森トラストは進めています</h2>
                       <p class="box-txt">ウィズコロナの状況下では旅行はまだ難しいものですが、近い将来また自由に旅を楽しめる日が来たときのために、森トラストはディベロッパーとして準備を整えておきたいと動いています。コロナ禍での3つのホテル開業は、急遽対応が必要なことにも「安心安全」と「ブランドの世界観」を両立させるための柔軟性や、今後は設計段階から計画していきたいことへの気づきなど、ニューノーマル時代の観光産業をつくっていくうえでの大きな経験となりました。今すでにその実践に向けて開発・研究しているものもいくつかありますが、新しい技術を採り入れつつも、ホテルに求められている「非日常」や「快適性」といったものはしっかりと守り、良いところはどんどん改善を重ねて、皆さまの期待に応えつづけていける事業者でありたいと思っています。</p>
-                    </div>
-                    <div class="sc-box">
-                        <div class="btn-wrap clm-1">
-                            <a class="btn-style btn-2" href="/pickup/">
-                                <span>一覧に戻る</span>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </section>

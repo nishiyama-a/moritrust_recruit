@@ -11,22 +11,21 @@
         <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
         <div class="sc-kv kv-interview">
             <div class="kv-img">
-                <img src="/assets/img/interview/kv_01.png" alt="">
+                <img src="/assets/img/interview/kv_09.png" alt="">
                 <div class="job-info">
                     <div class="skew-box">
-                        <h1 class="kv-head skew">投資事業部</h1>
+                        <h1 class="kv-head skew">広報部</h1>
                     </div>
-                    <p class="note">※インタビュー当時の所属部署になります。</p>
                 </div>
             </div>
             <div class="kv-ttl">
-                <p class="job">用地取得</p>
-                <p class="num">PERSON<br><span>01</span></p>
+                <p class="job">広報</p>
+                <p class="num">PERSON<br><span>09</span></p>
             </div>
             <div class="person">
-                <p class="name-en">TAKAHIRO SEKI</p>
-                <p class="name">関 隆宏</p>
-                <p class="history">2009年入社<br>社会学部社会学科 卒業</p>
+                <p class="name-en">REINA SATO</p>
+                <p class="name">佐藤 怜奈</p>
+                <p class="history">2010年入社<br>社会学部社会学科 卒業</p>
             </div>
             <div class="important cut-bg-l">
                 <div class="skew-box">
@@ -34,21 +33,21 @@
                 </div>
                 <ul class="important-list">
                     <li>
-                        <p class="important-item"><span>01</span>目的を常に意識すること</p>
+                        <p class="important-item"><span>01</span>自分の意見を持つこと</p>
                     </li>
                     <li>
-                        <p class="important-item"><span>02</span>相手の立場に立つこと</p>
+                        <p class="important-item"><span>02</span>知らないことを知ろうとすること</p>
                     </li>
                     <li>
-                        <p class="important-item"><span>03</span>一人で考えすぎないこと</p>
+                        <p class="important-item"><span>03</span>外部の視点でも考えること</p>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <main class="l-contents interview" role="main" id="interview-01">
+        <main class="l-contents interview" role="main" id="interview-09">
             <section class="l-section">
-                <div class="sc-box">
+            <div class="sc-box">
                     <div class="answer-wrap box-l">
                         <div class="answer-box cut-bg-r">
                             <div class="answer">
@@ -56,7 +55,7 @@
                                     <h4 class="skew">現在の部署での業務内容</h4>
                                 </div>
                                 <p class="txt">
-                                    現在私は、森トラストの開発事業の土台である事業用地や収益物件の取得、販売用不動産の売却を担当しています。その業務は、不動産の権利関係や法的な規制の調査から、事業計画の立案、利害関係者との交渉、契約実務まで多岐にわたります。事業用地の取得は、①事業用地の情報収集、②現地調査や各種規制の確認、③調査結果をもとにした事業性の検討、④事業用地の所有者との売買条件の交渉、⑤契約書類の作成、⑥事業用地の取得というプロセスで行っていきます。会社にとって非常に大きな決定である「不動産投資の可否」を検証する機能であるため、高いプロフェッショナリズムが要求されます。
+                                広報部にて、主に、森トラストの大規模物件がある品川御殿山、神谷町、丸の内のエリアの魅力を高めるための「Co-Creation活動」の企画を行っています。毎日出社することが当たり前ではなくなってきた昨今、それでも行きたくなるオフィスとは何か、そして企業・ワーカーに愛される街とは何かを考え、エリアの魅力と合わせて発信できるイベントや施策を考えています。他に、森トラストの最新情報を適格に伝えるべく、プレスリリースを書いたり、営業・採用などに役立つ企業パンフレットの改訂を担当したり、幅広い業務に関わっています。
                                 </p>
                             </div>
                             <div class="answer">
@@ -64,21 +63,21 @@
                                     <h4 class="skew">やりがいを感じた経験談</h4>
                                 </div>
                                 <p class="txt">
-                                    事業用地の取得業務は、エリアの未来をイメージしながら進めていきます。事務所・ホテル・住宅等の中からどの用途を選択し、どのようなターゲットに向けた商品を企画するのかをシミュレーションすると同時に、投資金額と収支の定量的な側面から最適解を絞り込んでいくことにより、事業の方向性選択に関われることは非常にやりがいを感じます。もちろんこれらは担当一人で完結できるものではありません。部署横断的に物件の将来像を描きながら、様々な想定で検証を重ねることで事業の方向性を導き出すことが出来ます。その意味で、多くの関係者の尽力が取引の完了という形で報われたときが、一番大きな達成感を得られる瞬間です。
+                                育休復帰からまだ1年経っていませんが、沢山の業務を経験できていると感じています。中でも企業パンフレットの改訂は、他部署の動きをヒアリングしながら載せるべき情報を取捨選択し、わかりやすく伝えるという意味でとてもやりがいがありました。今までなんとなく眺めていたパンフレットですが、出来上がるとそれぞれのページに思い入れがあり良い経験です。また、広報部という立場上、色々な部署と密に連携して全体の動きを把握できる点は大変面白いと感じています。今後は「聞く広報」だけでなく、森トラストの目指す方向にマッチする情報を発掘し、それを実現させる「導く広報」を目指しています。
                                 </p>
                             </div>
                         </div>
-                        <div class="answer-img"><img src="/assets/img/interview/interview_1-1.png" alt=""></div>
+                        <div class="answer-img"><img src="/assets/img/interview/interview_9-1.png" alt=""></div>
                     </div>
                 </div>
                 <div class="answer-wrap box-r">
                         <div class="answer-box cut-bg-l">
                             <div class="answer">
                                 <div class="skew-box">
-                                    <h4 class="skew">好きなMTの物件（または街）</h4>
+                                    <h4 class="skew">好きな森トラストの物件</h4>
                                 </div>
                                 <p class="txt">
-                                森トラストで好きな物件は京橋トラストタワーです。京橋というと地味なイメージを持たれがちですが、中央通りに面し東京駅・銀座・日本橋いずれにも至近という森トラスト物件の中でも有数の好立地です。外観は低層階の高さを沿道のビル揃えることで統一感のある街並みを形成しています。また、事務所とホテルの複合ビルを複数手掛けている森トラストの中では珍しく低層階にホテルがあり、華やかな雰囲気を沿道まで感じることができます。
+                                復帰する前まで長くホテルに関わっていたので、京都の翠嵐はお気に入りです。人でいっぱいの嵐山を抜けた突き当たりに現れる、落ち着きのある歴史と、新しさが融合したホテルだと思います。宿泊するには結構勇気がいりますが、手前のカフェ八翠で保津川を眺めながらお茶をいただくだけでも、かなりの満足感。是非京都へお立ち寄りの際は行ってもらいたいです。都内なら、やはり新しくできた東京ワールドゲートの、EDITION虎ノ門。明るく解放感が溢れる中に、どこかスタイリッシュな雰囲気があり、行くだけで洗練されたオトナの気分を味わえます。やっぱりホテルが好きですね。
                                 </p>
                             </div>
                             <div class="answer">
@@ -86,16 +85,16 @@
                                     <h4 class="skew">就活生にひとことメッセージ</h4>
                                 </div>
                                 <p class="txt">
-                                変化が激しく先の見通しが難しい世の中ですが、不動産は無くなりません。これからの時代の不動産、都市の在り方を私たちと一緒に考え、創り上げていきましょう。</p>
+                                森トラストは、一人ひとりの存在がとても大きい会社です。だからこそ若いうちから大きな仕事があり、やりがいもあるかと思います。大変な時期ですが、熱意を持って働ける方とご一緒できたらとても嬉しいです。
                                 </p>
                             </div>
                         </div>
-                        <div class="answer-img"><img src="/assets/img/interview/interview_1-2.png" alt=""></div>
+                        <div class="answer-img"><img src="/assets/img/interview/interview_9-2.png" alt=""></div>
                     </div>
                 </div>
                 <div class="sc-box">
                     <div class="schedule">
-                        <div class="schedule-img"><img src="/assets/img/interview/interview_1-3.png" alt=""></div>
+                        <div class="schedule-img"><img src="/assets/img/interview/interview_9-3.png" alt=""></div>
                         <div class="flow cut-bg-r">
                             <div class="skew-box">
                                 <h4 class="skew">1日の流れ</h4>
@@ -103,20 +102,11 @@
                             <ul class="flow-list">
                                 <li>
                                     <div class="time-box">
-                                        <p class="time time0830">8:30</p>
-                                    </div>
-                                    <div class="border-box">
-                                        <p class="flow-ttl">業務開始</p>
-                                        <p>自宅でテレワーク開始</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="time-box">
                                         <p class="time time0930">9:30</p>
                                     </div>
                                     <div class="border-box">
-                                        <p class="flow-ttl">事業検討資料作成</p>
-                                        <p>投資額や収益・費用の妥当性を検証</p>
+                                        <p class="flow-ttl">始業（時短）</p>
+                                        <p>メール対応</p>
                                     </div>
                                 </li>
                                 <li>
@@ -124,8 +114,8 @@
                                         <p class="time time1030">10:30</p>
                                     </div>
                                     <div class="border-box">
-                                        <p class="flow-ttl">部内定例会議</p>
-                                        <p>各担当案件について進捗報告。<br>テレワークが常態化したからこそ定期的にWeb会議で顔を合わせる重要性を実感</p>
+                                        <p class="flow-ttl">社内打合せ</p>
+                                        <p>Co-Creationチームのメンバーで、<br>今後のイベントの開催方法や理想的な周知方法のあり方をブレスト</p>
                                     </div>
                                 </li>
                                 <li>
@@ -134,7 +124,7 @@
                                     </div>
                                     <div class="border-box">
                                     <p class="flow-ttl">ランチ</p>
-                                    <p>自宅近所の飲食店を開拓</p>
+                                    <p>テレワークなので、晩御飯の準備</p>
                                     </div>
                                 </li>
                                 <li>
@@ -142,8 +132,8 @@
                                         <p class="time time1330">13:30</p>
                                     </div>
                                     <div class="border-box">
-                                    <p class="flow-ttl">出社</p>
-                                    <p>業務の性質に応じて出社します</p>
+                                    <p class="flow-ttl">社外打合せ</p>
+                                    <p>企業パンフの印刷業者に、今回の変更点を説明。<br>写真や全体的なイメージを伝え、納期と費用を確認</p>
                                     </div>
                                 </li>
                                 <li>
@@ -151,8 +141,8 @@
                                         <p class="time time1430">14:30</p>
                                     </div>
                                     <div class="border-box">
-                                    <p class="flow-ttl">社外打合せ</p>
-                                    <p>売買契約の関係者とスケジュールや条件について調整</p>
+                                    <p class="flow-ttl">社内ヒアリング</p>
+                                    <p>コーポレートサイトの掲載内容について、どんなネタがあるか他部署にヒアリング。<br>担当するホテル分野の開発秘話などを掘り出す。</p>
                                     </div>
                                 </li>
                                 <li>
@@ -160,17 +150,17 @@
                                         <p class="time time1600">16:00</p>
                                     </div>
                                     <div class="border-box">
-                                    <p class="flow-ttl">契約書作成</p>
-                                    <p>契約書へ売買条件を落とし込みます</p>
+                                    <p class="flow-ttl">社内報告</p>
+                                    <p>本日の進捗を確認</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="time-box">
-                                        <p class="time time1730">17:30</p>
+                                        <p class="time time1630">16:30</p>
                                     </div>
                                     <div class="border-box">
-                                    <p class="flow-ttl">退社</p>
-                                    <p>保育園へ子供のお迎えのため少し早めに終業</p>
+                                    <p class="flow-ttl">終業（時短）</p>
+                                    <p>保育園へ双子のお迎えへ</p>
                                     </div>
                                 </li>
                             </ul>
