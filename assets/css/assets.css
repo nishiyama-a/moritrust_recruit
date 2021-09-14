@@ -5827,10 +5827,23 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
       -ms-flex-align: center;
           align-items: center;
 }
+.schedule .flow-list li .time-box {
+  position: relative;
+}
+.schedule .flow-list li .time-box::after {
+  content: "";
+  position: absolute;
+  height: 35px;
+  width: 1px;
+  background-color: #333;
+  left: 60px;
+}
 .schedule .flow-list li .time-box .time {
   position: relative;
-  padding-left: 35px;
-  width: 6em;
+  padding-left: 25px;
+  width: 5em;
+  margin-right: 2em;
+  text-align: right;
 }
 .schedule .flow-list li .time-box .time::before {
   content: "";
@@ -5845,6 +5858,9 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 .schedule .flow-list li .time-box .time.time0830::before {
   background-image: url(/assets/img/interview/0830.svg);
 }
+.schedule .flow-list li:last-child .time-box::after {
+  display: none;
+}
 .schedule .flow-list li .border-box {
   border-top: 1px solid #fff;
   padding: 20px 0;
@@ -5857,4 +5873,8 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   color: #e8314b;
   margin-right: 1em;
   width: 10em;
+}
+.schedule .cut-bg-r::before {
+  border-right: solid 100px #fff;
+  border-top: solid 900px transparent;
 }
