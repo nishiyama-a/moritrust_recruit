@@ -175,3 +175,35 @@
         }
     }
 }
+
+@include breakpoint(small){
+    .ourbusiness{
+        .portforio{
+            .clm-3{
+                li{
+                    width: 50%;
+                    margin-bottom: 0;
+                    .default-img{
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+        .link{
+            .cut-bg-back{
+                display: none;
+            }
+            .default-img{
+                margin-bottom: 10px;
+                height: 160px;
+            }
+            .clm-copy{
+                flex-direction: column;
+                .arr-next{
+                    text-align: right;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}

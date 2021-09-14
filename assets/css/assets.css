@@ -1047,7 +1047,7 @@ img {
   position: relative;
   padding: 0 1.5em;
   margin-bottom: 10px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .footer .f_link .f_links .link::before, .hamb-menu .f_link .f_links .link::before {
   position: absolute;
@@ -1221,148 +1221,6 @@ img {
     top: 8px;
   }
 }
-.footer, .hamb-menu {
-  padding: 95px 0 0;
-  font-weight: normal;
-  background: #e1e3e8;
-  color: #333;
-}
-.footer .f_wrap, .hamb-menu .f_wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 100px;
-}
-@media (max-width: 767px) {
-  .footer .f_wrap, .hamb-menu .f_wrap {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-bottom: 20px;
-  }
-}
-.footer .f_wrap .f_box:first-child, .hamb-menu .f_wrap .f_box:first-child {
-  width: 20%;
-  min-width: 120px;
-}
-@media (max-width: 767px) {
-  .footer .f_wrap .f_box:first-child, .hamb-menu .f_wrap .f_box:first-child {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-}
-.footer .f_wrap .f_box._links, .hamb-menu .f_wrap .f_box._links {
-  width: 80%;
-}
-@media (max-width: 767px) {
-  .footer .f_wrap .f_box._links, .hamb-menu .f_wrap .f_box._links {
-    width: 100%;
-  }
-}
-.footer .f_logo, .hamb-menu .f_logo {
-  width: 100%;
-  max-width: 140px;
-  margin-bottom: 40px;
-}
-.footer .f_contents, .hamb-menu .f_contents {
-  font-family: "Marcellus", "Lato", serif;
-  font-size: 14px;
-  color: #333;
-}
-@media (max-width: 767px) {
-  .footer .f_contents, .hamb-menu .f_contents {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-}
-.footer .f_contents .contents_item, .hamb-menu .f_contents .contents_item {
-  margin-bottom: 15px;
-}
-.footer .f_box._links, .hamb-menu .f_box._links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-.footer .f_link, .hamb-menu .f_link {
-  margin-right: 4%;
-}
-@media (max-width: 767px) {
-  .footer .f_link, .hamb-menu .f_link {
-    width: 45%;
-    margin: 0 auto;
-  }
-}
-.footer .f_link .aline, .hamb-menu .f_link .aline {
-  border-bottom: 1px solid #333;
-  margin-bottom: 15px;
-  padding-bottom: 10px;
-  font-family: "Marcellus", "Lato", serif;
-  font-size: 14px;
-  font-weight: normal;
-}
-.footer .f_link .f_links, .hamb-menu .f_link .f_links {
-  margin-bottom: 20px;
-}
-.footer .f_link .f_links .link, .hamb-menu .f_link .f_links .link {
-  position: relative;
-  padding: 0 1.5em;
-  margin-bottom: 10px;
-  font-size: 12px;
-}
-.footer .f_link .f_links .link::before, .hamb-menu .f_link .f_links .link::before {
-  position: absolute;
-  content: "▶︎";
-  top: 0;
-  left: 0;
-}
-.footer .f_link.fl_wrap, .hamb-menu .f_link.fl_wrap {
-  min-width: 260px;
-}
-@media (max-width: 767px) {
-  .footer .f_link.fl_wrap, .hamb-menu .f_link.fl_wrap {
-    min-width: none;
-  }
-}
-.footer .f_link.fl_wrap .f_links, .hamb-menu .f_link.fl_wrap .f_links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 200px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-@media (max-width: 767px) {
-  .footer .f_link.fl_wrap .f_links, .hamb-menu .f_link.fl_wrap .f_links {
-    height: auto;
-  }
-}
-.footer .copy, .hamb-menu .copy {
-  background-color: #fff;
-  width: 100%;
-  display: block;
-  font-size: 0.6875rem;
-  font-family: "Marcellus", "Lato", serif;
-  text-align: left;
-  padding: 20px;
-  font-weight: normal;
-}
-@media (max-width: 767px) {
-  .footer .copy, .hamb-menu .copy {
-    padding: 10px 5%;
-  }
-}
-
 html,
 body {
   width: 100%;
@@ -5303,6 +5161,32 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   background-size: cover;
 }
 
+@media (max-width: 767px) {
+  .ourbusiness .portforio .clm-3 li {
+    width: 50%;
+    margin-bottom: 0;
+  }
+  .ourbusiness .portforio .clm-3 li .default-img {
+    margin-bottom: 20px;
+  }
+  .ourbusiness .link .cut-bg-back {
+    display: none;
+  }
+  .ourbusiness .link .default-img {
+    margin-bottom: 10px;
+    height: 160px;
+  }
+  .ourbusiness .link .clm-copy {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ourbusiness .link .clm-copy .arr-next {
+    text-align: right;
+    margin-top: 5px;
+  }
+}
 .kv-interview {
   display: -webkit-box;
   display: -ms-flexbox;

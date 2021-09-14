@@ -69,7 +69,7 @@
                     <div class="default-img ratio-1by1">
                     </div>
                     <div class="clm-copy">
-                      <p class="point-txt">丸の内トラストシティ</p>
+                      <p class="point-txt">丸の内<br class="disp-sp">トラストシティ</p>
                     </div>
                   </div>
                 </li>
@@ -87,7 +87,7 @@
                     <div class="default-img ratio-1by1">
                     </div>
                     <div class="clm-copy">
-                      <p class="point-txt">御殿山トラストシティ</p>
+                      <p class="point-txt">御殿山<br class="disp-sp">トラストシティ</p>
                     </div>
                   </div>
                 </li>
@@ -114,7 +114,7 @@
                     <div class="default-img ratio-1by1">
                     </div>
                     <div class="clm-copy">
-                      <p class="point-txt">東京汐留ビルディング</p>
+                      <p class="point-txt">東京汐留<br class="disp-sp">ビルディング</p>
                     </div>
                   </div>
                 </li>

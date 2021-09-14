@@ -97,7 +97,7 @@
                     <div class="default-img ratio-1by1">
                     </div>
                     <div class="clm-copy">
-                      <p class="point-txt">東京マリオットホテル</p>
+                      <p class="point-txt">東京<br class="disp-sp">マリオットホテル</p>
                     </div>
                   </div>
                 </li>
@@ -115,7 +115,7 @@
                     <div class="default-img ratio-1by1">
                     </div>
                     <div class="clm-copy">
-                      <p class="point-txt">イラフ SUI ラグジュアリーコレクション</p>
+                      <p class="point-txt">イラフ SUI <br class="disp-sp">ラグジュアリーコレクション</p>
                     </div>
                   </div>
                 </li>
