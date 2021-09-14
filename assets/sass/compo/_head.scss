@@ -49,6 +49,9 @@
     background-color: $clr-main;
     color: #fff;
     letter-spacing: 0.2em;
+    @include breakpoint(small){
+      font-size: 14px;
+    }
   }
   &-4{
     @extend %head-cmn;
@@ -60,6 +63,11 @@
     font-weight: 800;
     letter-spacing: 0.2em;
     border-bottom: 1px solid $clr-gray;
+    @include breakpoint(small){
+      font-size: 14px;
+      margin-bottom: 10px!important;
+      padding-bottom: 10px;
+    }
   }
   &-5{
     @extend %head-cmn;

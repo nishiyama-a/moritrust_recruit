@@ -2634,6 +2634,11 @@ body {
   color: #fff;
   letter-spacing: 0.2em;
 }
+@media (max-width: 767px) {
+  .head-3 {
+    font-size: 14px;
+  }
+}
 .head-4 {
   position: relative;
   padding-bottom: 15px;
@@ -2643,6 +2648,13 @@ body {
   font-weight: 800;
   letter-spacing: 0.2em;
   border-bottom: 1px solid #e1e3e8;
+}
+@media (max-width: 767px) {
+  .head-4 {
+    font-size: 14px;
+    margin-bottom: 10px !important;
+    padding-bottom: 10px;
+  }
 }
 .head-5 {
   color: #333;
@@ -3115,6 +3127,25 @@ body {
   border: 1px solid #333;
   border-top: none;
 }
+@media (max-width: 767px) {
+  .box-1 p {
+    padding: 10px;
+    text-align: left;
+  }
+}
+.box-head {
+  background-color: #e1e3e8;
+  padding: 30px 0 20px;
+  font-weight: normal;
+  font-size: 1.25rem;
+  letter-spacing: 0.2em;
+  border: 1px solid #333;
+}
+@media (max-width: 767px) {
+  .box-head {
+    padding: 15px 0 10px;
+  }
+}
 .box-2 {
   background: #FFF;
   border: 1px solid #F99695;
@@ -3128,14 +3159,6 @@ body {
 }
 .box-4 .box-head {
   color: #db584b;
-}
-.box-head {
-  background-color: #e1e3e8;
-  padding: 30px 0 20px;
-  font-weight: normal;
-  font-size: 1.25rem;
-  letter-spacing: 0.2em;
-  border: 1px solid #333;
 }
 
 @media (max-width: 767px) {
@@ -5094,7 +5117,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 @media (max-width: 767px) {
   #message .message {
     font-size: 14px;
-    line-height: 1.75rem;
+    line-height: 2.0625rem;
   }
 }
 
@@ -5105,11 +5128,25 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   width: 5em;
   display: inline-block;
 }
+#requirement .first {
+  margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+  #requirement .first {
+    margin-bottom: 20px;
+  }
+}
 
 #steps .box-1 {
   position: relative;
   padding-bottom: 65px;
   margin-bottom: 35px;
+}
+@media (max-width: 767px) {
+  #steps .box-1 {
+    padding-bottom: 40px;
+    margin-bottom: 25px;
+  }
 }
 #steps .box-1::before {
   content: "";
@@ -5117,11 +5154,14 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   font-family: "icomoon" !important;
   left: 50%;
   bottom: 0;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: translateX(-50%) rotate(90deg);
+          transform: translateX(-50%) rotate(90deg);
   font-size: 30px;
+}
+@media (max-width: 767px) {
+  #steps .box-1::before {
+    font-size: 20px;
+  }
 }
 #steps .box-1:last-child {
   padding-bottom: 0;

@@ -25,11 +25,11 @@
         <main class="l-contents recruit" role="main" id="requirement">
             <section class="l-section">
                 <div class="sc-inr-s">
-                    <h2 class="head-3 mb40">職務内容</h2>
+                    <h2 class="head-3 first">職務内容</h2>
                     <ul class="clm-2">
                         <li>
                             <div class="clm-box h-link">
-                                <h2 class="head-4 mb40">1.不動産事業</h2>
+                                <h2 class="head-4 first">1.不動産事業</h2>
                                 <ul class="list-ind">
                                     <li>都市開発の企画・計画立案</li>
                                     <li>建築設計、設備設計</li>

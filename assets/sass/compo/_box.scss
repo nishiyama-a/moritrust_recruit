@@ -10,8 +10,25 @@
       padding: 20px 0;
       border: 1px solid $clr-text;
       border-top: none;
+      @include breakpoint(small){
+        padding: 10px;
+        text-align: left;
+      }
     }
   }
+  &-head{
+    background-color: $clr-gray;
+    padding: 30px 0 20px;
+    font-weight: normal;
+    font-size: rem(20);
+    letter-spacing: 0.2em;
+    border: 1px solid $clr-text;
+    @include breakpoint(small){
+      padding: 15px 0 10px;
+    }
+  }
+
+
   &-2{
     @extend %box-cmn;
     background: #FFF;
@@ -28,14 +45,6 @@
     .box-head{
       color: $clr-red;
     }
-  }
-  &-head{
-    background-color: $clr-gray;
-    padding: 30px 0 20px;
-    font-weight: normal;
-    font-size: rem(20);
-    letter-spacing: 0.2em;
-    border: 1px solid $clr-text;
   }
 }
 

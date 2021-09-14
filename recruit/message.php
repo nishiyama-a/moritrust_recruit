@@ -34,25 +34,29 @@
                         </div>
                     </div>
                     <div class="sc-box">
-                        <div class="message-copy"><img src="/assets/img/cmn/copy.svg" alt="創るのは、街だけじゃない。"></div>
+                        <div class="message-copy">
+                        <picture>
+                                <source media="(max-width:767px)" srcset="/assets/img/cmn/copy_sp.svg">
+                                <img src="/assets/img/cmn/copy.svg" alt="創るのは、街だけじゃない。">
+                            </picture></div>
                     </div>
                     <div class="sc-box">
                         <p class="message">こんにちは、森トラスト新卒採用担当です。<br>
-                            当社のホームページにアクセスいただき、ありがとうございます。<br>
-                            就職活動ではたくさん悩み、考え、決断することがあるかと思います。<br>
-                            私たちが発信する情報が少しでも皆さんのお役に立てれば幸いです。<br>
+                            当社のホームページにアクセスいただき、<br class="disp-sp">ありがとうございます。<br>
+                            就職活動ではたくさん悩み、考え、<br class="disp-sp">決断することがあるかと思います。<br>
+                            私たちが発信する情報が少しでも<br class="disp-sp">皆さんのお役に立てれば幸いです。<br>
                             <br>
-                            森トラストグループは、常に未来の社会を見据え、<br>
+                            森トラストグループは、<br class="disp-sp">常に未来の社会を見据え、<br>
                             不動産事業／ホテル＆リゾート事業／投資事業において<br>
-                            新たな商品・価値・ビジネスモデルを創造してきました。<br>
+                            新たな商品・価値・ビジネスモデルを<br class="disp-sp">創造してきました。<br>
                             世の中が目まぐるしく変化し、<br>
-                            ニューノーマルを見据えた街づくりが求められる今、<br>
-                            不動産領域に捉われない多角的な視野を持ち、<br>
-                            チャレンジ精神のある方には大きな活躍の場があります。<br>
-                            皆さんの多様な経験・知識と柔軟な発想を活かして、<br>
-                            私たちと一緒にわくわくする未来を共に創っていきましょう。<br>
+                            ニューノーマルを見据えた<br class="disp-sp">街づくりが求められる今、<br>
+                            不動産領域に捉われない<br class="disp-sp">多角的な視野を持ち、<br>
+                            チャレンジ精神のある方には<br class="disp-sp">大きな活躍の場があります。<br>
+                            皆さんの多様な経験・知識と<br class="disp-sp">柔軟な発想を活かして、<br>
+                            私たちと一緒にわくわくする未来を<br class="disp-sp">共に創っていきましょう。<br>
                             <br>
-                            みなさんにお会いできるのを楽しみにしています。
+                            みなさんにお会いできるのを<br class="disp-sp">楽しみにしています。
                         </p>
                     </div>
                 </div>
