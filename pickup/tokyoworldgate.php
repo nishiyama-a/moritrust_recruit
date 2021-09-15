@@ -109,10 +109,10 @@
 
             <section class="l-section interview-video">
                 <div class="sc-inr">
-                    <div class="sc-box">
+                    <div class="sc-box mbsp">
                       <h2 class="head-2">PROJECT INTERVIEW</h2>
-                      <p class="head-txt">2020年3月についに竣工を迎えた「東京ワールドゲート」<br>
-                          プロジェクトに携わってきた各部門の社員に、プロジェクトに対するこだわり、思い入れ、<br>
+                      <p class="head-txt">2020年3月についに竣工を迎えた「東京ワールドゲート」<br class="disp-pc">
+                          プロジェクトに携わってきた各部門の社員に、プロジェクトに対するこだわり、思い入れ、<br class="disp-pc">
                           これからの東京ワールドゲートに対する想いをインタビューしました。</p>
                     </div>
                     <div class="sc-box">
