@@ -1,0 +1,120 @@
+.footer{
+	padding: 95px 0 0;
+	font-weight: normal;
+	background: $clr-gray;
+	color: $clr-text;
+	.f_wrap{
+	  display: flex;
+	  margin-bottom: 100px;
+	  @include breakpoint(small){
+		flex-direction: column;
+		margin-bottom: 20px;
+	  }
+	  .f_box{
+		&:first-child{
+		  width: 20%;
+		  min-width: 120px;
+		  @include breakpoint(small){
+			width: 100%;
+			margin-bottom: 30px;
+		  }
+		}
+		&._links{
+		  width: 80%;
+		  @include breakpoint(small){
+			width: 100%;
+            flex-direction: column;
+            height: 920px;
+		  }
+		}
+	  }
+	}
+	.f_logo{
+	  width: 100%;
+	  max-width: 140px;
+	  margin-bottom: 40px;
+	}
+	.f_contents{
+	  font-family: $font-eng;
+	  font-size: 14px;
+	  color: $clr-text;
+	  @include breakpoint(small){
+		display: flex;
+		justify-content: space-between;
+	  }
+	  .contents_item{
+		margin-bottom: 15px;
+	  } 
+	}
+	.f_box._links{
+	  display: flex;
+	  flex-wrap: wrap;
+	}
+	.f_link{
+	  margin-right: 4%;
+      &:nth-child(5),&:last-child{
+          margin-right: 0;
+          @media (max-width: 1225px){
+              margin-right: 4%;
+          }
+      }
+	  @include breakpoint(small){
+		width: 45%;
+		margin: 0 auto;
+	  }
+	  .aline{
+		border-bottom: 1px solid $clr-text;
+		margin-bottom: 15px;
+		padding-bottom: 10px;
+		font-family: $font-eng;
+		font-size: 14px;
+		font-weight: normal;
+	  }
+	  .f_links{
+		margin-bottom: 20px;
+		&.fk_wrap{
+  
+		}
+		.link{
+		position: relative;
+		padding-left:1.5em;
+		margin-bottom: 10px;
+		font-size: 14px;
+		  &::before{
+			position: absolute;
+			content: "▶︎";
+			top: 0;
+			left: 0;
+	
+		  }
+		}
+	  }
+	  &.fl-wrap{
+		.f_links{
+            display: flex;
+            @include breakpoint(small){
+                flex-direction: column;
+            }
+  .link{
+      &:nth-child(3){
+          padding-right: 1.5em;
+      }
+  }
+		}
+	  }
+	}
+	.copy{
+	  background-color: #fff;
+	  width: 100%;
+	  display: block;
+	  font-size: rem(11);
+	  font-family: $font-eng;
+	  text-align: left;
+	  padding: 20px;
+	  font-weight: normal;
+	  @include breakpoint(small){
+		padding: 10px 5%;
+	  }
+	}
+  }
+  

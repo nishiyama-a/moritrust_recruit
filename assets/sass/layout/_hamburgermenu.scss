@@ -4,7 +4,7 @@
     background: $clr-text;
     cursor: pointer;
     display: block;
-    z-index: 303;
+    z-index: 310;
     .btn-inr{
       height: 100%;
       padding: 20px 20px;
@@ -50,12 +50,64 @@
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 302;
+    z-index: 305;
+    overflow: hidden;
+    background-color: $clr-text;
+    color: #fff;
     @include transition;
     transform: translate(0,-100%);
-    .f_wrap{
-      height: calc(100vh - 95px);
-      overflow-y: auto;
+    .hum_wrap{
+      margin: 0 auto;
+      padding: 150px 0 110px;
+      display: flex;
+      .hum_logo{
+        max-width: 135px;
+        margin-bottom: 55px;
+      }
+      .hum_contents{
+        font-family: $font-eng;
+        font-size: 24px;
+        color: $clr-text;
+        letter-spacing: 0.05em;
+        .contents_item{
+        margin-bottom: 15px;
+        font-weight: normal;
+        } 
+      }
+      .hum_box{
+        width: 20%;
+        a{
+          color: #fff;;
+        }
+        &._links{
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          height: 70vh;
+          .hum_link{
+            width: calc(100% / 3);
+            margin-bottom: 50px;
+          }
+          .hum_ttl{
+            font-size: 24px;
+            font-family: $font-eng;
+            letter-spacing: 0.05em;
+            margin-bottom: 20px;
+            font-weight: normal;
+          }
+          .hum_links{
+            .link{
+              font-size: 14px;
+              letter-spacing: 0.05em;
+              margin-bottom: 15px;
+              &:last-child{
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      }
     }
   }
 
@@ -77,6 +129,8 @@
       }
     }
   }
+
+  
 
   @include breakpoint(small){
     .header{

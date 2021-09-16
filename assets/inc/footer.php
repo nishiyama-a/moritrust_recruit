@@ -20,18 +20,22 @@
         <li class="link"><a href="https://www.yahoo.co.jp/">ワーケーション事業</a></li>
       </ul> 
     </div>
-    <div class="f_link fl_wrap">
+    <div class="f_link fl-wrap">
       <h4 class="aline">INTERVIEW</h4>
       <ul class="f_links">
-        <li class="link"><a href="https://www.yahoo.co.jp/">用地取得</a></li>
-        <li class="link"><a href="https://www.yahoo.co.jp/">不動産開発</a></li>
-        <li class="link"><a href="https://www.yahoo.co.jp/">ホテル企画開発</a></li>
-        <li class="link"><a href="https://www.yahoo.co.jp/">設計・施工監理</a></li>
-        <li class="link"><a href="https://www.yahoo.co.jp/">営業</a></li>
-        <li class="link"><a href="https://www.yahoo.co.jp/">管理</a></li>
-        <li class="link"><a href="https://www.yahoo.co.jp/">イノベーション投資</a></li>
-        <li class="link"><a href="https://www.yahoo.co.jp/">海外投資</a></li>
-        <li class="link"><a href="https://www.yahoo.co.jp/">広報</a></li>
+        <div class="wrap-box">
+          <li class="link"><a href="https://www.yahoo.co.jp/">用地取得</a></li>
+          <li class="link"><a href="https://www.yahoo.co.jp/">不動産開発</a></li>
+          <li class="link"><a href="https://www.yahoo.co.jp/">ホテル企画開発</a></li>
+          <li class="link"><a href="https://www.yahoo.co.jp/">設計・施工監理</a></li>
+          <li class="link"><a href="https://www.yahoo.co.jp/">営業</a></li>
+        </div>
+        <div class="wrap-box">
+          <li class="link"><a href="https://www.yahoo.co.jp/">管理</a></li>
+          <li class="link"><a href="https://www.yahoo.co.jp/">イノベーション投資</a></li>
+          <li class="link"><a href="https://www.yahoo.co.jp/">海外投資</a></li>
+          <li class="link"><a href="https://www.yahoo.co.jp/">広報</a></li>
+        </div>
       </ul> 
     </div>
     <div class="f_link">
@@ -81,7 +85,7 @@
     <div class="f_link">
       <h4 class="aline">RECRUIT</h4>
       <ul class="f_links">
-        <li class="link"><a href="https://www.yahoo.co.jp/">採用担当からメッセージ</a></li>
+        <li class="link"><a href="https://www.yahoo.co.jp/">採用担当から<br class="disp-sp">メッセージ</a></li>
         <li class="link"><a href="https://www.yahoo.co.jp/">募集要項</a></li>
         <li class="link"><a href="https://www.yahoo.co.jp/">選考ステップ</a></li>
       </ul> 
