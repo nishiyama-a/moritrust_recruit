@@ -6279,8 +6279,26 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 #freshman .sc-inr, #freshman .sc-inr-s, #freshman .sc-inr-w {
   max-width: 1160px;
 }
+#freshman .kv-ttl {
+  position: absolute;
+  top: inherit;
+  bottom: -95px;
+}
+#freshman .kv-ttl .note {
+  position: absolute;
+  top: 63px;
+  right: calc(15px + 3%);
+}
 #freshman #freshman-top {
-  padding-top: 0;
+  position: relative;
+  padding-top: 130px;
+}
+#freshman #freshman-top .bg-logo {
+  position: absolute;
+  right: -3%;
+  top: -35px;
+  width: 30%;
+  z-index: -1;
 }
 #freshman .ico-box {
   display: -webkit-box;

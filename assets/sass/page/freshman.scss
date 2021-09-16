@@ -3,8 +3,26 @@
     .sc-inr{
         max-width: 1160px;
     }
+    .kv-ttl{
+        position:absolute;
+        top: inherit;
+        bottom: -95px;
+        .note{
+            position: absolute;
+            top: 63px;
+            right: calc(15px + 3%);
+        }
+    }
     #freshman-top{
-        padding-top: 0;
+        position: relative;
+        padding-top: 130px;
+        .bg-logo{
+            position: absolute;
+            right: -3%;
+            top: -35px;
+            width: 30%;
+            z-index: -1;
+        }
     }
     .ico-box{
         display: flex;

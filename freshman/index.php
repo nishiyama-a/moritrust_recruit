@@ -19,10 +19,12 @@
                     <h1 class="kv-head skew">2021年入社 新入社員アンケート</h1>
                 </div>
                 <p class="kv-head-en">FRESHMAN</p>
+                <p class="note">※2021年4月1日 森トラストグループ入社式</p>
             </div>
         </div>
-
+        
         <main class="l-contents" role="main" id="freshman-top">
+            <div class="bg-logo"><img src="/assets/img/freshman/bg_logo.svg" alt=""></div>
             <section class="l-section">
                 <div class="sc-inr">
                     <h2 class="head-6">2021年春、<br class="disp-pc">

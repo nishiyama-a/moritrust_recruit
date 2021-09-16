@@ -27,7 +27,7 @@
                 <div class="sc-inr-s">
                 <div class="box-1">
                 <h3 class="box-head">エントリー受付</h3>
-                <p>採用HPのエントリーボタンからエントリーしてください。
+                <p>採用HPのエントリーボタンからエントリーしてください。<br>
   説明会等の開催についてはマイページにてご案内致します。</p>
 </div>
 <div class="box-1">
@@ -64,9 +64,9 @@
                         </li>
                         <li>
                             <div class="clm-box h-link btn-3">
-                                <h3 class="btn-txt">選考ステップ</h3>
+                                <h3 class="btn-txt">募集要項</h3>
                                 <p class="btn-style arr-next">view more</p>
-                                <a class="clm-alink" href="/recruit/steps.php"></a>
+                                <a class="clm-alink" href="/recruit/requirement.php"></a>
                             </div>
                         </li>
                     </ul>
