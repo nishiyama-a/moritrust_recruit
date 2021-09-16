@@ -2567,6 +2567,14 @@ body {
   padding: 0 2.5em;
   margin-bottom: 40px;
 }
+@media (max-width: 767px) {
+  .head-6 {
+    font-size: 14px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    margin-bottom: 25px;
+  }
+}
 .head-6::before {
   content: "";
   position: absolute;
@@ -2582,6 +2590,12 @@ body {
   width: 24px;
   height: 105px;
 }
+@media (max-width: 767px) {
+  .head-6::before {
+    width: 18px;
+    height: 82px;
+  }
+}
 .head-6::after {
   content: "";
   position: absolute;
@@ -2596,6 +2610,12 @@ body {
   display: inline-block;
   width: 24px;
   height: 105px;
+}
+@media (max-width: 767px) {
+  .head-6::after {
+    width: 18px;
+    height: 82px;
+  }
 }
 
 .list-num-2, .list-num, .list-ind, .list-ind-s {
@@ -6092,7 +6112,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   background-color: #e1e3e8;
 }
 #freshman .sc-inr, #freshman .sc-inr-s, #freshman .sc-inr-w {
-  max-width: 1120px;
+  max-width: 1160px;
 }
 #freshman #freshman-top {
   padding-top: 0;
@@ -6108,10 +6128,51 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media (max-width: 767px) {
+  #freshman .ico-box {
+    margin-bottom: 40px;
+  }
+}
 #freshman .ico-box .ico {
   width: 55px;
   height: 55px;
   margin: 0 5px;
+}
+@media (max-width: 767px) {
+  #freshman .ico-box .ico {
+    width: 35px;
+    height: 35px;
+    margin: 0 2.5px;
+  }
+}
+#freshman .txt-q {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  #freshman .txt-q {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  #freshman .txt-q::before, #freshman .txt-q::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-image: url(/assets/img/freshman/dec_sp.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 95px;
+    height: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  #freshman .txt-q::before {
+    left: 0;
+  }
+  #freshman .txt-q::after {
+    right: 0;
+  }
 }
 #freshman .txt-q p {
   font-size: 50px;
@@ -6120,6 +6181,13 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   position: relative;
   padding: 0 20px;
   display: inline-block;
+}
+@media (max-width: 767px) {
+  #freshman .txt-q p {
+    font-size: 30px;
+    padding: 0 15px;
+    margin-bottom: 0;
+  }
 }
 #freshman .txt-q p::before {
   content: "";
@@ -6135,6 +6203,12 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   width: 13px;
   display: inline-block;
 }
+@media (max-width: 767px) {
+  #freshman .txt-q p::before {
+    width: 6px;
+    height: 10px;
+  }
+}
 #freshman .txt-q p::after {
   content: "";
   position: absolute;
@@ -6149,16 +6223,37 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   width: 13px;
   display: inline-block;
 }
+@media (max-width: 767px) {
+  #freshman .txt-q p::after {
+    width: 6px;
+    height: 10px;
+  }
+}
+#freshman .txt-q.aldisp {
+  display: block !important;
+}
+#freshman .txt-q.disp {
+  display: block;
+}
 #freshman .freshman-q {
   margin: 0 auto;
 }
+@media (max-width: 767px) {
+  #freshman .freshman-q {
+    max-width: 290px;
+  }
+}
 #freshman .freshman-q li {
-  list-style: none;
-  margin-top: 10px;
+  padding-bottom: 40px;
+  position: relative;
+}
+@media (max-width: 767px) {
+  #freshman .freshman-q li {
+    padding-bottom: 5px;
+  }
 }
 #freshman .question {
   position: relative;
-  padding: 0.5em 1em;
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6166,26 +6261,137 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-bottom: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  #freshman .question {
+    padding-bottom: 30px;
+  }
+}
+#freshman .question::before, #freshman .question::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-image: url(/assets/img/freshman/dec.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 18%;
+  height: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+@media (max-width: 767px) {
+  #freshman .question::before, #freshman .question::after {
+    display: none;
+  }
+}
+#freshman .question::before {
+  left: 0;
+}
+#freshman .question::after {
+  right: 0;
+}
+#freshman .question .plus {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+@media (max-width: 767px) {
+  #freshman .question .plus {
+    width: 20px;
+    height: 20px;
+  }
+}
+#freshman .question .plus::before, #freshman .question .plus::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 1px;
+  width: 20px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #333;
+}
+@media (max-width: 767px) {
+  #freshman .question .plus::before, #freshman .question .plus::after {
+    width: 10px;
+  }
+}
+#freshman .question .plus::before {
+  -webkit-transform: translate(-50%, -50%) rotate(-90deg);
+          transform: translate(-50%, -50%) rotate(-90deg);
+}
+#freshman .question.open .plus::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  width: 12px;
+  left: inherit;
+  right: 10px;
+  top: 45%;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+@media (max-width: 767px) {
+  #freshman .question.open .plus::before {
+    width: 6px;
+    right: 5px;
+  }
+}
+#freshman .question.open .plus::after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  left: 10px;
+  width: 12px;
+  top: 45%;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+@media (max-width: 767px) {
+  #freshman .question.open .plus::after {
+    width: 6px;
+    left: 5px;
+  }
 }
 #freshman .question .q-txt {
   border: none;
   color: #333;
   font-size: 30px;
-  font-weight: 700;
   left: 0;
   position: relative;
   right: 0;
-  top: 50px;
   width: 60%;
-  margin: 0 2%;
-  padding: 45px 6em;
+  margin: 0 auto;
+  padding: 45px 0;
   background-image: url(/assets/img/freshman/q_bg_w.svg);
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
   text-align: center;
+  line-height: 1;
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
+}
+@media (max-width: 767px) {
+  #freshman .question .q-txt {
+    width: 100%;
+    font-size: 14px;
+    padding: 25px 1em;
+    background-image: url(/assets/img/freshman/q_bg_w_sp.svg);
+    height: 105px;
+  }
 }
 #freshman .question .q-txt span {
   font-size: 18px;
@@ -6194,6 +6400,21 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   color: #fff;
   position: relative;
   z-index: 5;
+}
+@media (max-width: 767px) {
+  #freshman .question .q-txt span {
+    line-height: 1.75rem;
+    font-size: 14px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
 }
 #freshman .question .q-txt::before {
   background-image: url(/assets/img/freshman/q_bg.svg);
@@ -6209,35 +6430,92 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
+@media (max-width: 767px) {
+  #freshman .question .q-txt::before {
+    background-image: url(/assets/img/freshman/q_bg_sp.svg);
+  }
+}
 #freshman .question .q-txt:hover span {
   color: #333;
 }
 #freshman .question .q-txt:hover::before {
   opacity: 0;
 }
-#freshman .question:after {
+#freshman .answer-list {
+  padding-top: 35px;
+}
+#freshman .answer-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: calc(290px + 3%);
+  margin: 0 auto;
+}
+@media (max-width: 767px) {
+  #freshman .answer-list li {
+    margin-bottom: 35px;
+  }
+  #freshman .answer-list li:last-child {
+    margin-bottom: 20px;
+  }
+}
+#freshman .answer-txt {
+  padding-bottom: 25px;
+  margin-bottom: 10px;
+  position: relative;
+  height: 100%;
+}
+#freshman .answer-txt::after {
   content: "";
   position: absolute;
-  right: 25px;
-  top: 38%;
-  /*   要素の動きを指定 */
   display: block;
-  width: 8px;
-  height: 8px;
-  border-top: solid 4px #000;
-  border-right: solid 4px #000;
-  -webkit-transform: rotate(135deg);
-  transform: rotate(135deg);
-  /* transform: rotateで要素の角度を指定 */
+  border-left: solid 12px #fff;
+  border-bottom: solid 25px transparent;
+  left: 50%;
+  bottom: 0;
 }
-#freshman .question.open:after {
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  top: 45%;
-  /*   .openクラスがついた時の要素の角度を指定 */
+#freshman .answer-txt p {
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 30px;
+  font-size: 14px;
+  letter-spacing: 0.09em;
+  height: 100%;
 }
-#freshman .answer {
-  padding: 0.5em 1em;
+@media (max-width: 767px) {
+  #freshman .answer-txt p {
+    padding: 25px;
+  }
+}
+#freshman .answer-txt p span {
+  color: #e8314b;
+}
+#freshman .answer .hash-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: auto;
+}
+#freshman .answer .hash-box .icon {
+  width: 26%;
+  max-width: 77px;
+  margin-right: 25px;
+}
+@media (max-width: 767px) {
+  #freshman .answer .hash-box .icon {
+    margin-right: 20px;
+  }
+}
+#freshman .answer .hash-box .hash {
+  font-size: 15px;
+  letter-spacing: 0.09em;
 }
 
 #ct-top .sc-inr, #ct-top .sc-inr-s, #ct-top .sc-inr-w {

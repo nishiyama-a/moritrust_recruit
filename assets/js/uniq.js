@@ -21,19 +21,18 @@ $("#kv_copy").on('animationend webkitAnimationEnd',function(){
 });
 
 
+//freshman
 
 jQuery(function ($) {
   $(".answer").css("display", "none");
-  // 質問の答えをあらかじめ非表示
-
+  $(".txt-q").css("display", "none");
   
-  
-  //質問をクリック
+  //質問をクリックしたら
   $(".question").click(function () {
     
     $(".question").not(this).removeClass("open");
     //クリックしたquestion以外の全てのopenを取る
-
+    
     $(".question").not(this).next().slideUp(300);
     //クリックされたquestion以外のanswerを閉じる
     
@@ -42,7 +41,10 @@ jQuery(function ($) {
     
     $(this).next().slideToggle(300);
     //thisのcontentを展開、開いていれば閉じる
-  
+
+    //txt-q
+    $(this).children('.txt-q').slideToggle();
   });
+
 });
 

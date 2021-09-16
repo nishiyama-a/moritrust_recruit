@@ -118,6 +118,12 @@
     position: relative;
     padding: 0 2.5em;
     margin-bottom: 40px;
+    @include breakpoint(small){
+      font-size: 14px;
+      text-align: justify;
+      text-justify: inter-ideograph;
+      margin-bottom: 25px;
+    }
     &::before{
       content: "";
       position: absolute;
@@ -131,6 +137,10 @@
       display: inline-block;
       width: 24px;
       height: 105px;
+      @include breakpoint(small){
+        width: 18px;
+        height: 82px;
+      }
     }
     &::after{
       content: "";
@@ -145,6 +155,10 @@
       display: inline-block;
       width: 24px;
       height: 105px;
+      @include breakpoint(small){
+        width: 18px;
+        height: 82px;
+      }
     }
   }
 }
