@@ -48,10 +48,7 @@
     <div class="f_link">
       <h4 class="aline">CEO TALKS</h4>
       <ul class="f_links">
-        <li class="link"><a href="https://www.yahoo.co.jp/">Vol.01</a></li>
-        <li class="link"><a href="https://www.yahoo.co.jp/">Vol.02</a></li>
-        <li class="link"><a href="https://www.yahoo.co.jp/">Vol.03</a></li>
-        <li class="link"><a href="https://www.yahoo.co.jp/">Vol.04</a></li>
+        <li class="link"><a href="https://www.yahoo.co.jp/">社長が語る森トラスト</a></li>
       </ul> 
     </div>
     <div class="f_link">

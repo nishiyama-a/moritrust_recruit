@@ -152,7 +152,7 @@ a{
 	@include transition;
 	&:hover {
 		color: darken($clr-main, 10%);
-		text-decoration: underline;
+		//text-decoration: underline;
 	}
 }
 ::selection,

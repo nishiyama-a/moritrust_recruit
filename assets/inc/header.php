@@ -12,13 +12,13 @@
                     <ul class="hum_contents">
                         <li class="contents_item"><a href="https://www.yahoo.co.jp/">ENTRY</a></li>
                         <li class="contents_item"><a href="https://www.yahoo.co.jp/">MY PAGE</a></li>
-                        <li class="contents_item"><a href="https://www.yahoo.co.jp/">CONTACT</a></li>
-                        <li class="contents_item"><a href="https://www.yahoo.co.jp/">PRIVACY POLICY</a></li>
+                        <li class="contents_item disp-pc"><a href="https://www.yahoo.co.jp/">CONTACT</a></li>
+                        <li class="contents_item disp-pc"><a href="https://www.yahoo.co.jp/">PRIVACY POLICY</a></li>
                     </ul>
                 </div>
                 <div class="hum_box _links">
                     <div class="hum_link">
-                        <h4 class="hum_ttl">PICK UP PROJECT</h4>
+                        <h4 class="hum_ttl">PICK UP <br class="disp-sp">PROJECT</h4>
                         <ul class="hum_links">
                             <li class="link"><a href="https://www.yahoo.co.jp/">東京ワールドゲート</a></li>
                             <li class="link"><a href="https://www.yahoo.co.jp/">３つのホテル事業</a></li>
@@ -52,14 +52,11 @@
                     <div class="hum_link">
                         <h4 class="hum_ttl">CEO TALKS</h4>
                         <ul class="hum_links">
-                            <li class="link"><a href="https://www.yahoo.co.jp/">Vol.01</a></li>
-                            <li class="link"><a href="https://www.yahoo.co.jp/">Vol.02</a></li>
-                            <li class="link"><a href="https://www.yahoo.co.jp/">Vol.03</a></li>
-                            <li class="link"><a href="https://www.yahoo.co.jp/">Vol.04</a></li>
+                            <li class="link"><a href="https://www.yahoo.co.jp/">社長が語る森トラスト</a></li>
                         </ul>
                     </div>
                     <div class="hum_link">
-                        <h4 class="hum_ttl">HUMAN RESOURCES</h4>
+                        <h4 class="hum_ttl">HUMAN <br>RESOURCES</h4>
                         <ul class="hum_links">
                             <li class="link"><a href="https://www.yahoo.co.jp/">MT TALK</a></li>
                             <li class="link"><a href="https://www.yahoo.co.jp/">MT ACADEMY</a></li>
@@ -101,6 +98,10 @@
                             <li class="link"><a href="https://www.yahoo.co.jp/">パンフレット</a></li>
                         </ul>
                     </div>
+                </div>
+                <div class="hum_f_box disp-sp">
+                    <p><a href="https://www.yahoo.co.jp/">CONTACT</a></p>
+                    <p><a href="https://www.yahoo.co.jp/">PRIVACY POLICY</a></p>
                 </div>
             </div>
         </section>
