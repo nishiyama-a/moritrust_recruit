@@ -20,25 +20,6 @@
           </div>
       </div>
 
-      <!--<div class="sc-breadcrumb">
-        <div class="sc-inr-w">
-          <ol itemscope itemtype="http://schema.org/BreadcrumbList">
-            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <a itemprop="item" href="/"><span itemprop="name">HOME</span></a>
-              <meta itemprop="position" content="1">
-            </li>
-            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <a itemprop="item" href="/●●●/"><span itemprop="name">●カテゴリ名●</span></a>
-              <meta itemprop="position" content="2">
-            </li>
-            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <span itemprop="name">●タイトル●が長い場合はSPは途中で切れます</span>
-              <meta itemprop="position" content="3">
-            </li>
-          </ol>
-        </div>
-      </div>-->
-
       <main class="l-contents" role="main">
       <section class="l-section">
           <div class="sc-inr">
