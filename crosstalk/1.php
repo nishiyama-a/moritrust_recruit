@@ -1,3 +1,9 @@
+<?php
+$pageInfo = array(
+  "pagetitle" => "女性社員座談会｜森トラスト新卒採用サイト",
+);
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -66,7 +72,9 @@
             <section class="l-section">
                 <div class="sc-box ttl-wrap">
                     <div class="ttl-box">
-                        <h2 class="head-6">森トラストで女性社員はどのように活躍しているのでしょうか？<br class="disp-pc">3名の若手女性社員に森トラストに入社してからのこと、<br class="disp-pc">これからのキャリアプランについて、話を聞いてみました！
+                        <h2 class="head-6">森トラストで女性社員はどのように活躍しているのでしょうか？<br
+                                class="disp-pc">3名の若手女性社員に森トラストに入社してからのこと、<br
+                                class="disp-pc">これからのキャリアプランについて、話を聞いてみました！
                         </h2>
                     </div>
                 </div>

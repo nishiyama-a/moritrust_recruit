@@ -1,3 +1,9 @@
+<?php
+$pageInfo = array(
+  "pagetitle" => "採用担当者からのメッセージ｜森トラスト新卒採用サイト",
+);
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -35,10 +41,11 @@
                     </div>
                     <div class="sc-box">
                         <div class="message-copy">
-                        <picture>
+                            <picture>
                                 <source media="(max-width:767px)" srcset="/assets/img/cmn/copy_sp.svg">
                                 <img src="/assets/img/cmn/copy.svg" alt="創るのは、街だけじゃない。">
-                            </picture></div>
+                            </picture>
+                        </div>
                     </div>
                     <div class="sc-box">
                         <p class="message">こんにちは、森トラスト新卒採用担当です。<br>
@@ -63,25 +70,25 @@
             </section>
 
             <section class="l-section">
-              <div class="sc-inr-s">
-              <ul class="clm-2">
-                <li>
-                  <div class="clm-box h-link  btn-3">
-                      <h3 class="btn-txt">募集要項</h3>
-                      <p class="btn-style arr-next">view more</p>
-                    <a class="clm-alink" href="/recruit/requirement.php"></a>
-                  </div>
-                </li>
-                <li>
-                  <div class="clm-box h-link  btn-3">
-                      <h3 class="btn-txt">選考ステップ</h3>
-                      <p class="btn-style arr-next">view more</p>
-                    <a class="clm-alink" href="/recruit/steps.php"></a>
-                  </div>
-                </li>
+                <div class="sc-inr-s">
+                    <ul class="clm-2">
+                        <li>
+                            <div class="clm-box h-link  btn-3">
+                                <h3 class="btn-txt">募集要項</h3>
+                                <p class="btn-style arr-next">view more</p>
+                                <a class="clm-alink" href="/recruit/requirement.php"></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="clm-box h-link  btn-3">
+                                <h3 class="btn-txt">選考ステップ</h3>
+                                <p class="btn-style arr-next">view more</p>
+                                <a class="clm-alink" href="/recruit/steps.php"></a>
+                            </div>
+                        </li>
 
-              </ul>
-              </div>
+                    </ul>
+                </div>
             </section>
 
 

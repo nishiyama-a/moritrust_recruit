@@ -1,3 +1,9 @@
+<?php
+$pageInfo = array(
+  "pagetitle" => "東京ワールドゲート｜森トラスト新卒採用サイト",
+);
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -110,110 +116,110 @@
             <section class="l-section interview-video">
                 <div class="sc-inr">
                     <div class="sc-box mbsp">
-                      <h2 class="head-2">PROJECT INTERVIEW</h2>
-                      <p class="head-txt">2020年3月についに竣工を迎えた「東京ワールドゲート」<br class="disp-pc">
-                          プロジェクトに携わってきた各部門の社員に、プロジェクトに対するこだわり、思い入れ、<br class="disp-pc">
-                          これからの東京ワールドゲートに対する想いをインタビューしました。</p>
+                        <h2 class="head-2">PROJECT INTERVIEW</h2>
+                        <p class="head-txt">2020年3月についに竣工を迎えた「東京ワールドゲート」<br class="disp-pc">
+                            プロジェクトに携わってきた各部門の社員に、プロジェクトに対するこだわり、思い入れ、<br class="disp-pc">
+                            これからの東京ワールドゲートに対する想いをインタビューしました。</p>
                     </div>
                     <div class="sc-box">
-                      <ul class="clm-3">
-                          <li>
-                              <div class="clm-box">
-                                  <div class="video-box clm-box h-link">
-                                      <p class="side-num">VOL.<span>01</span></p>
-                                      <div class="default-img icon-video">
-                                          <img src="/assets/img/video_demo.jpg" alt="">
-                                      </div>
-                                      <div class="txtbox">
-                                          <div class="skew-box">
-                                              <h4 class="skew">用地取得部門</h4>
-                                          </div>
-                                      </div>
-                                      <a class="clm-alink" href="/ourbusiness/realestate.php"></a>
-                                  </div>
-                              </div>
-                          </li>
-                          <li>
-                              <div class="clm-box">
-                                  <div class="video-box clm-box h-link">
-                                      <p class="side-num">VOL.<span>02</span></p>
-                                      <div class="default-img icon-video">
-                                          <img src="/assets/img/video_demo.jpg" alt="">
-                                      </div>
-                                      <div class="txtbox">
-                                          <div class="skew-box">
-                                              <h4 class="skew">開発部門</h4>
-                                          </div>
-                                      </div>
-                                      <a class="clm-alink" href="/ourbusiness/realestate.php"></a>
-                                  </div>
-                              </div>
-                          </li>
-                          <li>
-                              <div class="clm-box">
-                                  <div class="video-box clm-box h-link">
-                                      <p class="side-num">VOL.<span>03</span></p>
-                                      <div class="default-img icon-video">
-                                          <img src="/assets/img/video_demo.jpg" alt="">
-                                      </div>
-                                      <div class="txtbox">
-                                          <div class="skew-box">
-                                              <h4 class="skew">設計・施工部門</h4>
-                                          </div>
-                                      </div>
-                                      <a class="clm-alink" href="/ourbusiness/realestate.php"></a>
-                                  </div>
-                              </div>
-                          </li>
-                          <li>
-                              <div class="clm-box">
-                                  <div class="video-box clm-box h-link">
-                                      <p class="side-num">VOL.<span>04</span></p>
-                                      <div class="default-img icon-video">
-                                          <img src="/assets/img/video_demo.jpg" alt="">
-                                      </div>
-                                      <div class="txtbox">
-                                          <div class="skew-box">
-                                              <h4 class="skew">ホテル部門</h4>
-                                          </div>
-                                      </div>
-                                      <a class="clm-alink" href="/ourbusiness/realestate.php"></a>
-                                  </div>
-                              </div>
-                          </li>
-                          <li>
-                              <div class="clm-box">
-                                  <div class="video-box clm-box h-link">
-                                      <p class="side-num">VOL.<span>05</span></p>
-                                      <div class="default-img icon-video">
-                                          <img src="/assets/img/video_demo.jpg" alt="">
-                                      </div>
-                                      <div class="txtbox">
-                                          <div class="skew-box">
-                                              <h4 class="skew">営業部門</h4>
-                                          </div>
-                                      </div>
-                                      <a class="clm-alink" href="/ourbusiness/realestate.php"></a>
-                                  </div>
-                              </div>
-                          </li>
-                          <li>
-                              <div class="clm-box">
-                                  <div class="video-box clm-box h-link">
-                                      <p class="side-num">VOL.<span>06</span></p>
-                                      <div class="default-img icon-video">
-                                          <img src="/assets/img/video_demo.jpg" alt="">
-                                      </div>
-                                      <div class="txtbox">
-                                          <div class="skew-box">
-                                              <h4 class="skew">プロジェクト統括・エリアマネジメント部門</h4>
-                                          </div>
-                                      </div>
-                                      <a class="clm-alink" href="/ourbusiness/realestate.php"></a>
-                                  </div>
-                              </div>
-                          </li>
-                      </ul>
+                        <ul class="clm-3">
+                            <li>
+                                <div class="clm-box">
+                                    <div class="video-box clm-box h-link">
+                                        <p class="side-num">VOL.<span>01</span></p>
+                                        <div class="default-img icon-video">
+                                            <img src="/assets/img/video_demo.jpg" alt="">
+                                        </div>
+                                        <div class="txtbox">
+                                            <div class="skew-box">
+                                                <h4 class="skew">用地取得部門</h4>
+                                            </div>
+                                        </div>
+                                        <a class="clm-alink" href="/ourbusiness/realestate.php"></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="clm-box">
+                                    <div class="video-box clm-box h-link">
+                                        <p class="side-num">VOL.<span>02</span></p>
+                                        <div class="default-img icon-video">
+                                            <img src="/assets/img/video_demo.jpg" alt="">
+                                        </div>
+                                        <div class="txtbox">
+                                            <div class="skew-box">
+                                                <h4 class="skew">開発部門</h4>
+                                            </div>
+                                        </div>
+                                        <a class="clm-alink" href="/ourbusiness/realestate.php"></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="clm-box">
+                                    <div class="video-box clm-box h-link">
+                                        <p class="side-num">VOL.<span>03</span></p>
+                                        <div class="default-img icon-video">
+                                            <img src="/assets/img/video_demo.jpg" alt="">
+                                        </div>
+                                        <div class="txtbox">
+                                            <div class="skew-box">
+                                                <h4 class="skew">設計・施工部門</h4>
+                                            </div>
+                                        </div>
+                                        <a class="clm-alink" href="/ourbusiness/realestate.php"></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="clm-box">
+                                    <div class="video-box clm-box h-link">
+                                        <p class="side-num">VOL.<span>04</span></p>
+                                        <div class="default-img icon-video">
+                                            <img src="/assets/img/video_demo.jpg" alt="">
+                                        </div>
+                                        <div class="txtbox">
+                                            <div class="skew-box">
+                                                <h4 class="skew">ホテル部門</h4>
+                                            </div>
+                                        </div>
+                                        <a class="clm-alink" href="/ourbusiness/realestate.php"></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="clm-box">
+                                    <div class="video-box clm-box h-link">
+                                        <p class="side-num">VOL.<span>05</span></p>
+                                        <div class="default-img icon-video">
+                                            <img src="/assets/img/video_demo.jpg" alt="">
+                                        </div>
+                                        <div class="txtbox">
+                                            <div class="skew-box">
+                                                <h4 class="skew">営業部門</h4>
+                                            </div>
+                                        </div>
+                                        <a class="clm-alink" href="/ourbusiness/realestate.php"></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="clm-box">
+                                    <div class="video-box clm-box h-link">
+                                        <p class="side-num">VOL.<span>06</span></p>
+                                        <div class="default-img icon-video">
+                                            <img src="/assets/img/video_demo.jpg" alt="">
+                                        </div>
+                                        <div class="txtbox">
+                                            <div class="skew-box">
+                                                <h4 class="skew">プロジェクト統括・エリアマネジメント部門</h4>
+                                            </div>
+                                        </div>
+                                        <a class="clm-alink" href="/ourbusiness/realestate.php"></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </section>

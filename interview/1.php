@@ -1,3 +1,9 @@
+<?php
+$pageInfo = array(
+  "pagetitle" => "01 用地取得｜森トラスト新卒採用サイト",
+);
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -72,126 +78,126 @@
                     </div>
                 </div>
                 <div class="answer-wrap box-r">
-                        <div class="answer-box cut-bg-l">
-                            <div class="answer">
-                                <div class="skew-box">
-                                    <h4 class="skew">好きなMTの物件（または街）</h4>
-                                </div>
-                                <p class="txt">
-                                森トラストで好きな物件は京橋トラストタワーです。京橋というと地味なイメージを持たれがちですが、中央通りに面し東京駅・銀座・日本橋いずれにも至近という森トラスト物件の中でも有数の好立地です。外観は低層階の高さを沿道のビル揃えることで統一感のある街並みを形成しています。また、事務所とホテルの複合ビルを複数手掛けている森トラストの中では珍しく低層階にホテルがあり、華やかな雰囲気を沿道まで感じることができます。
-                                </p>
-                            </div>
-                            <div class="answer">
-                                <div class="skew-box">
-                                    <h4 class="skew">就活生にひとことメッセージ</h4>
-                                </div>
-                                <p class="txt">
-                                変化が激しく先の見通しが難しい世の中ですが、不動産は無くなりません。これからの時代の不動産、都市の在り方を私たちと一緒に考え、創り上げていきましょう。</p>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="answer-img"><img src="/assets/img/interview/interview_1-2.png" alt=""></div>
-                    </div>
-                </div>
-                <div class="sc-box">
-                    <div class="schedule">
-                        <div class="schedule-img"><img src="/assets/img/interview/interview_1-3.png" alt=""></div>
-                        <div class="flow cut-bg-r">
+                    <div class="answer-box cut-bg-l">
+                        <div class="answer">
                             <div class="skew-box">
-                                <h4 class="skew">1日の流れ</h4>
+                                <h4 class="skew">好きなMTの物件（または街）</h4>
                             </div>
-                            <ul class="flow-list">
-                                <li>
-                                    <div class="time-box">
-                                        <p class="time time0830">8:30</p>
-                                    </div>
-                                    <div class="border-box">
-                                        <p class="flow-ttl">業務開始</p>
-                                        <p>自宅でテレワーク開始</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="time-box">
-                                        <p class="time time0930">9:30</p>
-                                    </div>
-                                    <div class="border-box">
-                                        <p class="flow-ttl">事業検討資料作成</p>
-                                        <p>投資額や収益・費用の妥当性を検証</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="time-box">
-                                        <p class="time time1030">10:30</p>
-                                    </div>
-                                    <div class="border-box">
-                                        <p class="flow-ttl">部内定例会議</p>
-                                        <p>各担当案件について進捗報告。<br>テレワークが常態化したからこそ定期的にWeb会議で顔を合わせる重要性を実感</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="time-box">
-                                        <p class="time time1200">12:00</p>
-                                    </div>
-                                    <div class="border-box">
-                                    <p class="flow-ttl">ランチ</p>
-                                    <p>自宅近所の飲食店を開拓</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="time-box">
-                                        <p class="time time1330">13:30</p>
-                                    </div>
-                                    <div class="border-box">
-                                    <p class="flow-ttl">出社</p>
-                                    <p>業務の性質に応じて出社します</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="time-box">
-                                        <p class="time time1430">14:30</p>
-                                    </div>
-                                    <div class="border-box">
-                                    <p class="flow-ttl">社外打合せ</p>
-                                    <p>売買契約の関係者とスケジュールや条件について調整</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="time-box">
-                                        <p class="time time1600">16:00</p>
-                                    </div>
-                                    <div class="border-box">
-                                    <p class="flow-ttl">契約書作成</p>
-                                    <p>契約書へ売買条件を落とし込みます</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="time-box">
-                                        <p class="time time1730">17:30</p>
-                                    </div>
-                                    <div class="border-box">
-                                    <p class="flow-ttl">退社</p>
-                                    <p>保育園へ子供のお迎えのため少し早めに終業</p>
-                                    </div>
-                                </li>
-                            </ul>
+                            <p class="txt">
+                                森トラストで好きな物件は京橋トラストタワーです。京橋というと地味なイメージを持たれがちですが、中央通りに面し東京駅・銀座・日本橋いずれにも至近という森トラスト物件の中でも有数の好立地です。外観は低層階の高さを沿道のビル揃えることで統一感のある街並みを形成しています。また、事務所とホテルの複合ビルを複数手掛けている森トラストの中では珍しく低層階にホテルがあり、華やかな雰囲気を沿道まで感じることができます。
+                            </p>
+                        </div>
+                        <div class="answer">
+                            <div class="skew-box">
+                                <h4 class="skew">就活生にひとことメッセージ</h4>
+                            </div>
+                            <p class="txt">
+                                変化が激しく先の見通しが難しい世の中ですが、不動産は無くなりません。これからの時代の不動産、都市の在り方を私たちと一緒に考え、創り上げていきましょう。</p>
+                            </p>
                         </div>
                     </div>
+                    <div class="answer-img"><img src="/assets/img/interview/interview_1-2.png" alt=""></div>
                 </div>
-            </section>
-            <section class="l-contents">
-                <div class="sc-inr">
-                    <div class="btn-wrap clm-1">
-                        <a class="btn-style btn-2" href="/interview/">
-                            <span>一覧に戻る</span>
-                        </a>
-                    </div>
+    </div>
+    <div class="sc-box">
+        <div class="schedule">
+            <div class="schedule-img"><img src="/assets/img/interview/interview_1-3.png" alt=""></div>
+            <div class="flow cut-bg-r">
+                <div class="skew-box">
+                    <h4 class="skew">1日の流れ</h4>
                 </div>
-            </section>
+                <ul class="flow-list">
+                    <li>
+                        <div class="time-box">
+                            <p class="time time0830">8:30</p>
+                        </div>
+                        <div class="border-box">
+                            <p class="flow-ttl">業務開始</p>
+                            <p>自宅でテレワーク開始</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="time-box">
+                            <p class="time time0930">9:30</p>
+                        </div>
+                        <div class="border-box">
+                            <p class="flow-ttl">事業検討資料作成</p>
+                            <p>投資額や収益・費用の妥当性を検証</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="time-box">
+                            <p class="time time1030">10:30</p>
+                        </div>
+                        <div class="border-box">
+                            <p class="flow-ttl">部内定例会議</p>
+                            <p>各担当案件について進捗報告。<br>テレワークが常態化したからこそ定期的にWeb会議で顔を合わせる重要性を実感</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="time-box">
+                            <p class="time time1200">12:00</p>
+                        </div>
+                        <div class="border-box">
+                            <p class="flow-ttl">ランチ</p>
+                            <p>自宅近所の飲食店を開拓</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="time-box">
+                            <p class="time time1330">13:30</p>
+                        </div>
+                        <div class="border-box">
+                            <p class="flow-ttl">出社</p>
+                            <p>業務の性質に応じて出社します</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="time-box">
+                            <p class="time time1430">14:30</p>
+                        </div>
+                        <div class="border-box">
+                            <p class="flow-ttl">社外打合せ</p>
+                            <p>売買契約の関係者とスケジュールや条件について調整</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="time-box">
+                            <p class="time time1600">16:00</p>
+                        </div>
+                        <div class="border-box">
+                            <p class="flow-ttl">契約書作成</p>
+                            <p>契約書へ売買条件を落とし込みます</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="time-box">
+                            <p class="time time1730">17:30</p>
+                        </div>
+                        <div class="border-box">
+                            <p class="flow-ttl">退社</p>
+                            <p>保育園へ子供のお迎えのため少し早めに終業</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="l-contents">
+        <div class="sc-inr">
+            <div class="btn-wrap clm-1">
+                <a class="btn-style btn-2" href="/interview/">
+                    <span>一覧に戻る</span>
+                </a>
+            </div>
+        </div>
+    </section>
 
 
-        </main>
+    </main>
 
-        <?php include(dirname(__FILE__) . '/../assets/inc/footer.php'); ?>
+    <?php include(dirname(__FILE__) . '/../assets/inc/footer.php'); ?>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

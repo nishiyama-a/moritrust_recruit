@@ -1,3 +1,9 @@
+<?php
+$pageInfo = array(
+  "pagetitle" => "新人研修制度｜森トラスト新卒採用サイト",
+);
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 

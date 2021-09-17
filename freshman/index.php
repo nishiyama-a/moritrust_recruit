@@ -1,3 +1,9 @@
+<?php
+$pageInfo = array(
+  "pagetitle" => "2021年入社 新入社員アンケート｜森トラスト新卒採用サイト",
+);
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -22,7 +28,7 @@
                 <p class="note">※2021年4月1日 森トラストグループ入社式</p>
             </div>
         </div>
-        
+
         <main class="l-contents" role="main" id="freshman-top">
             <div class="bg-logo"><img src="/assets/img/freshman/bg_logo.svg" alt=""></div>
             <section class="l-section">
@@ -104,7 +110,9 @@
                         <li>
                             <div class="question">
                                 <div class="plus"></div>
-                                <div class="txt-q"><p>Q</p></div>
+                                <div class="txt-q">
+                                    <p>Q</p>
+                                </div>
                                 <p class="q-txt"><span>あなたの性格を一言で<br class="disp-sp">表してください</span></p>
                             </div>
                             <div class="answer">
@@ -155,8 +163,11 @@
                         <li>
                             <div class="question">
                                 <div class="plus"></div>
-                                <div class="txt-q"><p>Q</p></div>
-                                <p class="q-txt"><span>就職活動をするうえで大事にしていた<br class="disp-sp">軸と<br class="disp-pc">志望業界を教えてください</span></p>
+                                <div class="txt-q">
+                                    <p>Q</p>
+                                </div>
+                                <p class="q-txt"><span>就職活動をするうえで大事にしていた<br class="disp-sp">軸と<br
+                                            class="disp-pc">志望業界を教えてください</span></p>
                             </div>
                             <div class="answer">
                                 <ul class="answer-list clm-3">
@@ -207,7 +218,9 @@
                         <li>
                             <div class="question">
                                 <div class="plus"></div>
-                                <div class="txt-q"><p>Q</p></div>
+                                <div class="txt-q">
+                                    <p>Q</p>
+                                </div>
                                 <p class="q-txt"><span>森トラストの志望動機と<br>最終的に選んだ理由を教えてください</span></p>
                             </div>
                             <div class="answer">
@@ -259,7 +272,9 @@
                         <li>
                             <div class="question">
                                 <div class="plus"></div>
-                                <div class="txt-q"><p>Q</p></div>
+                                <div class="txt-q">
+                                    <p>Q</p>
+                                </div>
                                 <p class="q-txt"><span>森トラストの印象を教えてください</span></p>
                             </div>
                             <div class="answer">
@@ -312,7 +327,9 @@
                         <li>
                             <div class="question">
                                 <div class="plus"></div>
-                                <div class="txt-q"><p>Q</p></div>
+                                <div class="txt-q">
+                                    <p>Q</p>
+                                </div>
                                 <p class="q-txt"><span>森トラストでやりたい仕事は<br class="disp-sp">何ですか？</span></p>
                             </div>
                             <div class="answer">
@@ -362,7 +379,9 @@
                         <li>
                             <div class="question">
                                 <div class="plus"></div>
-                                <div class="txt-q"><p>Q</p></div>
+                                <div class="txt-q">
+                                    <p>Q</p>
+                                </div>
                                 <p class="q-txt"><span>最後に、就活生へひとこと<br class="disp-sp">メッセージをお願いします！</span></p>
                             </div>
                             <div class="answer">

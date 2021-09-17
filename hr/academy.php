@@ -1,3 +1,9 @@
+<?php
+$pageInfo = array(
+  "pagetitle" => "MT ACADEMY｜森トラスト新卒採用サイト",
+);
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 

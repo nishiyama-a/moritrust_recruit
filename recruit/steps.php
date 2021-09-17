@@ -1,3 +1,9 @@
+<?php
+$pageInfo = array(
+  "pagetitle" => "選考ステップ｜森トラスト新卒採用サイト",
+);
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -25,29 +31,29 @@
         <main class="l-contents recruit" role="main" id="steps">
             <section class="l-section">
                 <div class="sc-inr-s">
-                <div class="box-1">
-                <h3 class="box-head">エントリー受付</h3>
-                <p>採用HPのエントリーボタンからエントリーしてください。<br>
-  説明会等の開催についてはマイページにてご案内致します。</p>
-</div>
-<div class="box-1">
-    <h3 class="box-head">会社説明会</h3>
-    <p>選考上、会社説明会への参加は必須ではありません。</p>
-              </div>
-              <div class="box-1">
-                <h3 class="box-head">エントリーシート提出</h3>
-              </div>
-              <div class="box-1">
-                <h3 class="box-head">書類選考</h3>
-                <p>提出いただいたエントリーシートをもとに書類選考を行います。</p>
-              </div>
-              <div class="box-1">
-                <h3 class="box-head">Web試験・面接（複数回）</h3>
-                <p>Web試験では適性検査、能力検査を実施致します。</p>
-              </div>
-              <div class="box-1">
-                <h3 class="box-head">内々定</h3>
-              </div>
+                    <div class="box-1">
+                        <h3 class="box-head">エントリー受付</h3>
+                        <p>採用HPのエントリーボタンからエントリーしてください。<br>
+                            説明会等の開催についてはマイページにてご案内致します。</p>
+                    </div>
+                    <div class="box-1">
+                        <h3 class="box-head">会社説明会</h3>
+                        <p>選考上、会社説明会への参加は必須ではありません。</p>
+                    </div>
+                    <div class="box-1">
+                        <h3 class="box-head">エントリーシート提出</h3>
+                    </div>
+                    <div class="box-1">
+                        <h3 class="box-head">書類選考</h3>
+                        <p>提出いただいたエントリーシートをもとに書類選考を行います。</p>
+                    </div>
+                    <div class="box-1">
+                        <h3 class="box-head">Web試験・面接（複数回）</h3>
+                        <p>Web試験では適性検査、能力検査を実施致します。</p>
+                    </div>
+                    <div class="box-1">
+                        <h3 class="box-head">内々定</h3>
+                    </div>
                 </div>
             </section>
 

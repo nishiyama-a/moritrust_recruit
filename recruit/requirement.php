@@ -1,3 +1,9 @@
+<?php
+$pageInfo = array(
+  "pagetitle" => "募集要項｜森トラスト新卒採用サイト",
+);
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 
