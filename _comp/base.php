@@ -1,3 +1,9 @@
+<?php
+$pageInfo = array(
+  "pagetitle" => "",
+);
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 
