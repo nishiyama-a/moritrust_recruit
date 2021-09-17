@@ -43,9 +43,13 @@ $arr-width: 2px;
   &-top{
     @extend %icon-cmn;
     @extend %icon-arr;
-    &:before{
-      border-top: $arr-width solid #FFF;
-      border-left: $arr-width solid #FFF;
+    &:after{
+      margin: 0;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%) rotate(-90deg);
+      background-image: url(/assets/img/cmn/arr_next_w.svg);
     }
   }
   &-btm{

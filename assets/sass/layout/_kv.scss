@@ -4,7 +4,6 @@
   .first_kv{
     height: 100vh;
     width: 100%;
-    background-color: #FFF;
     position: relative;
     z-index: 100;
     display: flex;
@@ -55,15 +54,16 @@ transform: rotate(90deg);
     height: 100vh;
     position: relative;
     background-image: url(/assets/img/top/mv.png);
-    mask-image: url(/assets/img/top/kv_mask.svg);
-    mask-size: 170px;
-    mask-repeat: no-repeat;
-    mask-mode: alpha;
-    mask-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    overflow: hidden;
+    overflow: hidden; 
+    background-color: #FFF;
+      mask-image: url(/assets/img/top/kv_mask.svg);
+    mask-size: 170px;
+    mask-repeat: no-repeat;
+    mask-mode:luminance;
+    mask-position: center center;
     &.active{
       animation: anm_scale 2s ease 0s 1 alternate none running;
       animation-fill-mode: forwards;

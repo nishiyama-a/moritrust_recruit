@@ -139,7 +139,7 @@
                         <p>森トラストの最新の不動産開発について知りたい</p>
                         <p class="btn-style arr-next">view more</p>
                       </div>
-                      <a class="clm-alink" href="https://www.tokyoworldgate.com" target="_blank"></a>
+                      <a class="clm-alink" href="/pickup/tokyoworldgate.php"></a>
                     </div>
                   </li>
                   <li>

@@ -13,7 +13,7 @@
             <div class="first_kv">
                 <div class="copy"><img src="/assets/img/top/copy.png" alt="創るのは、街だけじゃない。"></div>
                 <p class="side">MORI TRUST<span class="red">GRADUATE RECRUITMENT</span></p>
-                <p class="scroll arr_next">SCROLL</p>
+                <p class="scroll arr-next">SCROLL</p>
                 <div id="kv-img">
                     <div class="copy_sp"><img src="/assets/img/top/copy_sp.svg" alt="創るのは、街だけじゃない。"></div>
                     <p id="kv_copy">
@@ -49,10 +49,10 @@
                                 <div class="project_pic"><img src="/assets/img/top/index_twg.png" alt="東京ワールドゲート"></div>
                                 <div class="txtarea">
                                     <p class="dec">PICK UP <br class="is-sp">PROJECT 01</p>
-                                    <div class="skew_box">
+                                    <div class="skew-box">
                                         <h4 class="skew">東京ワールドゲート</h4>
                                     </div>
-                                    <p class="btn-style arr_next">view more</p>
+                                    <p class="btn-style arr-next">view more</p>
                                 </div>
                             </div>
                         </a>
@@ -64,10 +64,10 @@
                                 </div>
                                 <div class="txtarea">
                                     <p class="dec">PICK UP <br class="is-sp">PROJECT 02</p>
-                                    <div class="skew_box">
+                                    <div class="skew-box">
                                         <h4 class="skew">3つのホテル</h4>
                                     </div>
-                                    <p class="btn-style arr_next">view more</p>
+                                    <p class="btn-style arr-next">view more</p>
                                 </div>
                             </div>
                         </a>
@@ -79,10 +79,10 @@
                                         alt="東京ワールドゲート"></div>
                                 <div class="txtarea">
                                     <p class="dec">PICK UP <br class="is-sp">PROJECT 03</p>
-                                    <div class="skew_box">
+                                    <div class="skew-box">
                                         <h4 class="skew">イノベーション事業</h4>
                                     </div>
-                                    <p class="btn-style arr_next">view more</p>
+                                    <p class="btn-style arr-next">view more</p>
                                 </div>
                             </div>
                         </a>
@@ -94,10 +94,10 @@
                                 </div>
                                 <div class="txtarea">
                                     <p class="dec">PICK UP <br class="is-sp">PROJECT 04</p>
-                                    <div class="skew_box">
+                                    <div class="skew-box">
                                         <h4 class="skew">ウェルネス事業</h4>
                                     </div>
-                                    <p class="btn-style arr_next">view more</p>
+                                    <p class="btn-style arr-next">view more</p>
                                 </div>
                             </div>
                         </a>
@@ -109,10 +109,10 @@
                                         alt="東京ワールドゲート"></div>
                                 <div class="txtarea">
                                     <p class="dec">PICK UP <br class="is-sp">PROJECT 05</p>
-                                    <div class="skew_box">
+                                    <div class="skew-box">
                                         <h4 class="skew">レストラン事業</h4>
                                     </div>
-                                    <p class="btn-style arr_next">view more</p>
+                                    <p class="btn-style arr-next">view more</p>
                                 </div>
                             </div>
                         </a>
@@ -124,10 +124,10 @@
                                 </div>
                                 <div class="txtarea">
                                     <p class="dec">PICK UP <br class="is-sp">PROJECT 06</p>
-                                    <div class="skew_box">
+                                    <div class="skew-box">
                                         <h4 class="skew">ワーケーション事業</h4>
                                     </div>
-                                    <p class="btn-style arr_next">view more</p>
+                                    <p class="btn-style arr-next">view more</p>
                                 </div>
                             </div>
                         </a>
@@ -205,10 +205,10 @@
                                 <div class="talk_pic"><img src="/assets/img/top/talk_women03.png" alt="女性社員座談会"></div>
                             </div>
                             <div class="btn_area">
-                                <div class="skew_box">
-                                    <h4 class="skew_w">女性社員座談会</h4>
+                                <div class="skew-box">
+                                    <h4 class="skew-w">女性社員座談会</h4>
                                 </div>
-                                <p class="arr_next">view more</p>
+                                <p class="arr-next">view more</p>
                             </div>
                         </div>
                     </a>
@@ -221,10 +221,10 @@
                                 <div class="talk_pic"><img src="/assets/img/top/talk_ojt04.png" alt="OJT×新入社員対談"></div>
                             </div>
                             <div class=btn_area>
-                                <div class="skew_box">
-                                    <h4 class="skew_w">OJT×新入社員対談</h4>
+                                <div class="skew-box">
+                                    <h4 class="skew-w">OJT×新入社員対談</h4>
                                 </div>
-                                <p class="arr_next">view more</p>
+                                <p class="arr-next">view more</p>
                             </div>
                         </div>
                     </a>
@@ -235,11 +235,11 @@
                         <a href="https://www.yahoo.co.jp/">
                             <div class="box_cnt">
                                 <p class="ttl_ja">社長が語る森トラスト</p>
-                                <div class="skew_box">
+                                <div class="skew-box">
                                     <h4 class="skew en"><span>CEO TALKS</span></h4>
                                 </div>
                                 <div class="talk_img"><img src="/assets/img/top/talk_ceo.png" alt="社長が語る森トラスト"></div>
-                                <p class="arr_next">view more</p>
+                                <p class="arr-next">view more</p>
                             </div>
                         </a>
                     </div>
@@ -247,11 +247,11 @@
                         <a href="https://www.yahoo.co.jp/">
                             <div class="box_cnt">
                                 <p class="ttl_ja">人財育成</p>
-                                <div class="skew_box">
+                                <div class="skew-box">
                                     <h4 class="skew en">HUMAN RESOURCES</h4>
                                 </div>
                                 <div class="talk_img"><img src="/assets/img/top/talk_learn.png" alt="社長が語る森トラスト"></div>
-                                <p class="arr_next">view more</p>
+                                <p class="arr-next">view more</p>
                             </div>
                         </a>
                     </div>
@@ -259,11 +259,11 @@
                         <a href="https://www.yahoo.co.jp/">
                             <div class="box_cnt">
                                 <p class="ttl_ja">2021年入社 新入社員アンケート</p>
-                                <div class="skew_box">
+                                <div class="skew-box">
                                     <h4 class="skew en">FRESHMAN</h4>
                                 </div>
                                 <div class="talk_img"><img src="/assets/img/top/talk_new.png" alt="社長が語る森トラスト"></div>
-                                <p class="arr_next">view more</p>
+                                <p class="arr-next">view more</p>
                             </div>
                         </a>
                     </div>
@@ -283,7 +283,7 @@
                             alt="従業員数396人　女性従業員比率女性27%（291人）・男性73%（105人）　平均年齢39.4歳　過去3年採用数16人（2019年）18人（2020年）15人（2021年）　2021年卒内訳男性7人（47%）・女性8人（53%）、文系6人（40%）・理系9人（60%）、院卒9人（60%）・学部卒6人（40%）">
                         <img src="/assets/img/top/number_sp.svg" class="is-sp"
                             alt="従業員数396人　女性従業員比率女性27%（291人）・男性73%（105人）　平均年齢39.4歳　過去3年採用数16人（2019年）18人（2020年）15人（2021年）　2021年卒内訳男性7人（47%）・女性8人（53%）、文系6人（40%）・理系9人（60%）、院卒9人（60%）・学部卒6人（40%）">
-                        <p class="arr_next">view more</p>
+                        <p class="arr-next">view more</p>
                         <div class="bg_wrap">
                             <div class="num_bg"></div>
                         </div>
@@ -293,41 +293,73 @@
 
 
             <section class="link_area">
-                <ul class="btn_box">
+            <ul class="clm-3 sc-inr">
+                <li>
+                  <div class="clm-box h-link btn-3">
+                  <div class="skew-box">
+                                <h4 class="skew en">OUR BUSINESS</h4>
+                            </div>
+                      <h3 class="btn-txt">事業紹介</h3>
+                      <p class="btn-style arr-next">view more</p>
+                    <a class="clm-alink" href="/ourbusiness/"></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="clm-box h-link  btn-3">
+                  <div class="skew-box">
+                                <h4 class="skew en">RECRUIT</h4>
+                            </div>
+                      <h3 class="btn-txt">採用情報</h3>
+                      <p class="btn-style arr-next">view more</p>
+                    <a class="clm-alink" href="/recruit/"></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="clm-box h-link  btn-3">
+                  <div class="skew-box">
+                                <h4 class="skew en">CORPORATE</h4>
+                            </div>
+                      <h3 class="btn-txt">選考ステップ</h3>
+                      <p class="btn-style arr-next">会社案内</p>
+                    <a class="clm-alink" href="/corporate/"></a>
+                  </div>
+                </li>
+              </ul>
+                <!-- <ul class="btn_box">
                     <li class="link_btn">
                         <a href="https://www.yahoo.co.jp/">
-                            <div class="skew_box">
+                            <div class="skew-box">
                                 <h4 class="skew en">OUR BUSINESS</h4>
                             </div>
                             <div class="wh_box">
                                 <p class="btn">事業紹介</p>
-                                <p class="arr_next">view more</p>
+                                <p class="arr-next">view more</p>
                             </div>
                         </a>
                     </li>
                     <li class="link_btn">
                         <a href="https://www.yahoo.co.jp/">
-                            <div class="skew_box">
+                            <div class="skew-box">
                                 <h4 class="skew en">RECRUIT</h4>
                             </div>
                             <div class="wh_box">
                                 <p class="btn">採用情報</p>
-                                <p class="arr_next">view more</p>
+                                <p class="arr-next">view more</p>
                             </div>
                         </a>
                     </li>
                     <li class="link_btn">
                         <a href="https://www.yahoo.co.jp/">
-                            <div class="skew_box">
+                            <div class="skew-box">
                                 <h4 class="skew en">CORPORATE</h4>
                             </div>
                             <div class="wh_box">
                                 <p class="btn">会社案内</p>
-                                <p class="arr_next">view more</p>
+                                <p class="arr-next">view more</p>
                             </div>
                         </a>
                     </li>
-                </ul>
+                </ul> -->
             </section>
         </main>
 
@@ -337,6 +369,9 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="/assets/js/script.min.js"></script>
     <script src="/assets/js/uniq.js"></script>
+    <!-- mv -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
     <!-- スライダー用 -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

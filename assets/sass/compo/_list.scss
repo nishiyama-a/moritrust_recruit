@@ -168,11 +168,11 @@
       &::before{
         content: "";
         position:absolute;
-        left: 0;
+        left: 50%;
         bottom: 0;
-        width: 100%;
+        width: 84%;
         height: 78%;
-        transform: skew(-7deg);
+        transform: skew(-7deg) translateX(-50%);
         z-index: -1;
       }
       img{

@@ -3,6 +3,9 @@
 	font-weight: normal;
 	background: $clr-gray;
 	color: $clr-text;
+	@include breakpoint(small){
+		padding-top: 40px;
+	}
 	.f_wrap{
 	  display: flex;
 	  margin-bottom: 100px;

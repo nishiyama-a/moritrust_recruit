@@ -108,7 +108,7 @@
                         <p>森トラストのイノベーション事業について知りたい</p>
                         <p class="btn-style arr-next">view more</p>
                       </div>
-                      <a class="clm-alink" href="http://www.mori-trust.co.jp/investment/innovation.html" target="_blank"></a>
+                      <a class="clm-alink" href="/pickup/innovation.php"></a>
                     </div>
                   </li>
                   <li>
@@ -123,7 +123,7 @@
                       <p>森トラストのウェルネス事業について知りたい</p>
                         <p class="btn-style arr-next">view more</p>
                       </div>
-                      <a class="clm-alink" href="https://www.mori-trust.co.jp/pure_wellness_room/" target="_blank"></a>
+                      <a class="clm-alink" href="/pickup/wellness.php"></a>
                     </div>
                   </li>
                   <li>
@@ -138,7 +138,7 @@
                         <p>森トラストのレストラン・食事業について知りたい</p>
                         <p class="btn-style arr-next">view more</p>
                       </div>
-                      <a class="clm-alink" href="https://www.mt-hr.com/business/restaurant.html" target="_blank"></a>
+                      <a class="clm-alink" href="/pickup/restaurant.php"></a>
                     </div>
                   </li>
                   <li>
@@ -153,7 +153,7 @@
                       <p>森トラストのワーケーション事業について知りたい</p>
                         <p class="btn-style arr-next">view more</p>
                       </div>
-                      <a class="clm-alink" href="https://www.mori-trust.co.jp/pressrelease/2021/20210324.pdf" target="_blank"></a>
+                      <a class="clm-alink" href="/pickup/worcation.php"></a>
                     </div>
                   </li>
                 </ul>

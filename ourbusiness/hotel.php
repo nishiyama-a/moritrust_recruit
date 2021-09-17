@@ -140,7 +140,7 @@
                         <p>森トラストの最新のホテル開発について知りたい</p>
                         <p class="btn-style arr-next">view more</p>
                       </div>
-                      <a class="clm-alink" href="https://www.mori-trust.co.jp/project/newprojects_hotel.html" target="_blank"></a>
+                      <a class="clm-alink" href="/pickup/hotel.php"></a>
                     </div>
                   </li>
                 </ul>

@@ -161,4 +161,41 @@
       }
     }
   }
+  &-7{
+    @extend %head-cmn;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding: 1em 40px;
+    margin: 0 auto 55px;
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    @include breakpoint(small){
+      font-size: 14px;
+      padding: 10px;
+      margin-bottom: 30px;
+    }
+    &::before{
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: #fff;
+      border-left: 18px solid $clr-main;
+      border-right: 18px solid $clr-main;
+      top: 0;
+      left: 50%;
+      transform: skew(-7deg) translateX(-50%);
+      @include breakpoint(small){
+        border-left: 7px solid $clr-main;
+        border-right: 7px solid $clr-main;
+      }
+    }
+    span{
+      position: relative;
+      z-index: 1;
+    }
+  }
 }

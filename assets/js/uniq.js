@@ -15,10 +15,25 @@ $(window).scroll(function () {
     $('#kv_copy').addClass('show');
 	}, 1500);
   // fixed
-$("#kv_copy").on('animationend webkitAnimationEnd',function(){
-  $('.header').addClass('fadedown');
+// $("#kv_copy").on('animationend webkitAnimationEnd',function(){
+//   $('.header').addClass('fadedown');
+// });
 });
-});
+
+// //top mv
+// gsap.to("box_c",{
+//   scrollTrigger: {
+//       trigger: ".box_c",
+//       start: "top center",
+//       end: "600px",
+//       scrub: true, // 要素を追従させる
+//       markers: true
+//   },
+//   rotation: 360,
+//   duration: 3,
+//   y: 600,
+// });
+
 
 
 //freshman

@@ -36,7 +36,7 @@
                   <div class="clm-box h-link  btn-3">
                       <h3 class="btn-txt">パンフレット</h3>
                       <p class="btn-style arr-next">view more</p>
-                    <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                    <a class="clm-alink" href="https://www.mori-trust.co.jp/english/pdf/profile2021.pdf" target="_blank"></a>
                   </div>
                 </li>
 
