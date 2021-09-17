@@ -44,7 +44,7 @@
                 </div>
                 <ul class="project_wrap">
                     <li class="project_item">
-                        <a href="https://www.yahoo.co.jp/" target="_blank">
+                        <a href="/pickup/tokyoworldgate.php">
                             <div class="project_bg">
                                 <div class="project_pic"><img src="/assets/img/top/index_twg.png" alt="東京ワールドゲート"></div>
                                 <div class="txtarea">
@@ -58,7 +58,7 @@
                         </a>
                     </li>
                     <li class="project_item">
-                        <a href="https://www.yahoo.co.jp/" target="_blank">
+                        <a href="/pickup/hotel.php">
                             <div class="project_bg">
                                 <div class="project_pic"><img src="/assets/img/top/index_hotel.png" alt="東京ワールドゲート">
                                 </div>
@@ -73,7 +73,7 @@
                         </a>
                     </li>
                     <li class="project_item">
-                        <a href="https://www.yahoo.co.jp/" target="_blank">
+                        <a href="/pickup/innovation.php">
                             <div class="project_bg">
                                 <div class="project_pic"><img src="/assets/img/top/index_innovation.png"
                                         alt="東京ワールドゲート"></div>
@@ -88,7 +88,7 @@
                         </a>
                     </li>
                     <li class="project_item">
-                        <a href="https://www.yahoo.co.jp/" target="_blank">
+                        <a href="/pickup/wellness.php">
                             <div class="project_bg">
                                 <div class="project_pic"><img src="/assets/img/top/index_wellness.png" alt="東京ワールドゲート">
                                 </div>
@@ -103,7 +103,7 @@
                         </a>
                     </li>
                     <li class="project_item">
-                        <a href="https://www.yahoo.co.jp/" target="_blank">
+                        <a href="/pickup/restaurant.php">
                             <div class="project_bg">
                                 <div class="project_pic"><img src="/assets/img/top/index_restaurant.png"
                                         alt="東京ワールドゲート"></div>
@@ -118,7 +118,7 @@
                         </a>
                     </li>
                     <li class="project_item">
-                        <a href="https://www.yahoo.co.jp/" target="_blank">
+                        <a href="/pickup/worcation.php">
                             <div class="project_bg">
                                 <div class="project_pic"><img src="/assets/img/top/index_workation.png" alt="東京ワールドゲート">
                                 </div>
@@ -145,42 +145,141 @@
                 </div>
 
                 <div class="swiper-container" id="slider-1">
-                    <div class="swiper-wrapper">
+                    <div class="swiper-wrapper interview-list">
                         <div class="swiper-slide">
-                            <div class="swiper-item _01">
-                                <figure class="interview_pic"><img src="/assets/img/top/interview01.png">
-                                    <p class="name_en">TAKAHIRO SEKI</p>
-                                </figure>
-                                <div class="name_box">
-                                    <p class="name">関 隆宏</p>
-                                    <p class="job">用地取得</p>
-                                    <p class="job_info">投資事業部</p>
+                        <div class="clm-box h-link box-01">
+                                    <div class="default-img interview-item">
+                                        <figure class="interview-pic"><img src="/assets/img/interview/people01.png">
+                                            <p class="name-en">TAKAHIRO SEKI</p>
+                                        </figure>
+                                    </div>
+                                    <div class="name-box">
+                                        <p class="name">関 隆宏</p>
+                                        <p class="job">用地取得</p>
+                                        <p class="job-info">投資事業部</p>
+                                    </div>
+                                    <a class="clm-alink" href="/interview/1.php"></a>
                                 </div>
-                            </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="swiper-item _02">
-                                <figure class="interview_pic"><img src="/assets/img/top/interview02.png">
-                                    <p class="name_en">YOSHIYUKI KUDO</p>
-                                </figure>
-                                <div class="name_box">
-                                    <p class="name">工藤 慶行</p>
-                                    <p class="job">不動産開発</p>
-                                    <p class="job_info">不動産開発本部アセットマネジメント部</p>
+                        <div class="clm-box h-link box-02">
+                                    <div class="default-img interview-item">
+                                        <figure class="interview-pic"><img src="/assets/img/interview/people02.png">
+                                            <p class="name-en">YOSHIYUKI KUDO</p>
+                                        </figure>
+                                    </div>
+                                    <div class="name-box">
+                                        <p class="name">工藤 慶行</p>
+                                        <p class="job">不動産開発</p>
+                                        <p class="job-info">不動産開発本部アセットマネジメント部</p>
+                                    </div>
+                                    <a class="clm-alink" href="/interview/2.php"></a>
                                 </div>
-                            </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="swiper-item _03">
-                                <figure class="interview_pic"><img src="/assets/img/top/interview03.png">
-                                    <p class="name_en">HANA KADOWAKI</p>
-                                </figure>
-                                <div class="name_box">
-                                    <p class="name">門脇 花奈</p>
-                                    <p class="job">ホテル企画開発</p>
-                                    <p class="job_info">不動産開発本部アセットマネジメント部</p>
+                        <div class="clm-box h-link box-03">
+                                    <div class="default-img interview-item">
+                                        <figure class="interview-pic"><img src="/assets/img/interview/people03.png">
+                                            <p class="name-en">HANA KADOWAKI</p>
+                                        </figure>
+                                    </div>
+                                    <div class="name-box">
+                                        <p class="name">門脇 花奈</p>
+                                        <p class="job">ホテル企画開発</p>
+                                        <p class="job-info">不動産開発本部アセットマネジメント部</p>
+                                    </div>
+                                    <a class="clm-alink" href="/interview/3.php"></a>
                                 </div>
-                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                        <div class="clm-box h-link box-04">
+                                    <div class="default-img interview-item">
+                                        <figure class="interview-pic"><img src="/assets/img/interview/people04.png">
+                                            <p class="name-en">HIROKI ISHIDA</p>
+                                        </figure>
+                                    </div>
+                                    <div class="name-box">
+                                        <p class="name">石田 洋輝</p>
+                                        <p class="job">設計・施工監理</p>
+                                        <p class="job-info">不動産開発本部コンストラクション<br>マネジメント部建築第２グループ</p>
+                                    </div>
+                                    <a class="clm-alink" href="/interview/4.php"></a>
+                                </div>
+                        </div>
+                        <div class="swiper-slide">
+                        <div class="clm-box h-link box-05">
+                                    <div class="default-img interview-item">
+                                        <figure class="interview-pic"><img src="/assets/img/interview/people05.png">
+                                            <p class="name-en">YU TAKAGI</p>
+                                        </figure>
+                                    </div>
+                                    <div class="name-box">
+                                        <p class="name">髙木 優</p>
+                                        <p class="job">営業</p>
+                                        <p class="job-info">営業本部営業第２グループ</p>
+                                    </div>
+                                    <a class="clm-alink" href="/interview/5.php"></a>
+                                </div>
+                        </div>
+                        <div class="swiper-slide">
+                        <div class="clm-box h-link box-06">
+                                    <div class="default-img interview-item">
+                                        <figure class="interview-pic"><img src="/assets/img/interview/people06.png">
+                                            <p class="name-en">MOE MATSUDA</p>
+                                        </figure>
+                                    </div>
+                                    <div class="name-box">
+                                        <p class="name">松田 萌</p>
+                                        <p class="job">管理</p>
+                                        <p class="job-info">ビル・リゾートマネジメント部<br>企画開発課業務グループ</p>
+                                    </div>
+                                    <a class="clm-alink" href="/interview/6.php"></a>
+                                </div>
+                        </div>
+                        <div class="swiper-slide">
+                        <div class="clm-box h-link box-07">
+                                    <div class="default-img interview-item">
+                                        <figure class="interview-pic"><img src="/assets/img/interview/people07.png">
+                                            <p class="name-en">TAKUYA KUDO</p>
+                                        </figure>
+                                    </div>
+                                    <div class="name-box">
+                                        <p class="name">工藤 卓也</p>
+                                        <p class="job">イノベーション投資</p>
+                                        <p class="job-info">投資事業部</p>
+                                    </div>
+                                    <a class="clm-alink" href="/interview/7.php"></a>
+                                </div>
+                        </div>
+                        <div class="swiper-slide">
+                        <div class="clm-box h-link box-08">
+                                    <div class="default-img interview-item">
+                                        <figure class="interview-pic"><img src="/assets/img/interview/people08.png">
+                                            <p class="name-en">WATARU OHASHI</p>
+                                        </figure>
+                                    </div>
+                                    <div class="name-box">
+                                        <p class="name">大橋 航</p>
+                                        <p class="job">海外投資</p>
+                                        <p class="job-info">投資事業部</p>
+                                    </div>
+                                    <a class="clm-alink" href="/interview/8.php"></a>
+                                </div>
+                        </div>
+                        <div class="swiper-slide">
+                        <div class="clm-box h-link box-09">
+                                    <div class="default-img interview-item">
+                                        <figure class="interview-pic"><img src="/assets/img/interview/people09.png">
+                                            <p class="name-en">REINA SATO</p>
+                                        </figure>
+                                    </div>
+                                    <div class="name-box">
+                                        <p class="name">佐藤 怜奈</p>
+                                        <p class="job">広報</p>
+                                        <p class="job-info">広報部</p>
+                                    </div>
+                                    <a class="clm-alink" href="/interview/9.php"></a>
+                                </div>
                         </div>
                     </div>
                     <div class="swiper-button-prev"><span></span></div>
@@ -197,7 +296,7 @@
                             class="stroke">CROSS TALK</span>CROSS TALK</h2>
                 </div>
                 <div class="talk_group_bg">
-                    <a href="https://www.yahoo.co.jp/" class="pic_wrap">
+                    <a href="/crosstalk/1.php" class="pic_wrap">
                         <div class="talk_group _01">
                             <div class="talk_pic_box">
                                 <div class="talk_pic"><img src="/assets/img/top/talk_women01.png" alt="女性社員座談会"></div>
@@ -212,7 +311,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="https://www.yahoo.co.jp/">
+                    <a href="/crosstalk/2.php">
                         <div class="talk_group _02">
                             <div class="talk_pic_box">
                                 <div class="talk_pic"><img src="/assets/img/top/talk_ojt01.png" alt="OJT×新入社員対談"></div>
@@ -232,7 +331,7 @@
                 <div class="talk_box_bg"></div>
                 <div class="talk_box">
                     <div class="talk_item">
-                        <a href="https://www.yahoo.co.jp/">
+                        <a href="/ceo/">
                             <div class="box_cnt">
                                 <p class="ttl_ja">社長が語る森トラスト</p>
                                 <div class="skew-box">
@@ -244,7 +343,7 @@
                         </a>
                     </div>
                     <div class="talk_item">
-                        <a href="https://www.yahoo.co.jp/">
+                        <a href="/hr/">
                             <div class="box_cnt">
                                 <p class="ttl_ja">人財育成</p>
                                 <div class="skew-box">
@@ -256,7 +355,7 @@
                         </a>
                     </div>
                     <div class="talk_item">
-                        <a href="https://www.yahoo.co.jp/">
+                        <a href="/freshman/">
                             <div class="box_cnt">
                                 <p class="ttl_ja">2021年入社 新入社員アンケート</p>
                                 <div class="skew-box">
@@ -278,7 +377,7 @@
                             class="stroke">FIGURES</span>FIGURES<span class="stroke">FIGURES</span>FIGURES<span
                             class="stroke">FIGURES</span>FIGURES</h2>
                 </div>
-                <a href="https://www.yahoo.co.jp/">
+                <a href="/figures/">
                     <div class="num_cnt"><img src="/assets/img/top/numbers.png" class="is-pc"
                             alt="従業員数396人　女性従業員比率女性27%（291人）・男性73%（105人）　平均年齢39.4歳　過去3年採用数16人（2019年）18人（2020年）15人（2021年）　2021年卒内訳男性7人（47%）・女性8人（53%）、文系6人（40%）・理系9人（60%）、院卒9人（60%）・学部卒6人（40%）">
                         <img src="/assets/img/top/number_sp.svg" class="is-sp"
@@ -293,73 +392,38 @@
 
 
             <section class="link_area">
-            <ul class="clm-3 sc-inr">
-                <li>
-                  <div class="clm-box h-link btn-3">
-                  <div class="skew-box">
-                                <h4 class="skew en">OUR BUSINESS</h4>
-                            </div>
-                      <h3 class="btn-txt">事業紹介</h3>
-                      <p class="btn-style arr-next">view more</p>
-                    <a class="clm-alink" href="/ourbusiness/"></a>
-                  </div>
-                </li>
-                <li>
-                  <div class="clm-box h-link  btn-3">
-                  <div class="skew-box">
-                                <h4 class="skew en">RECRUIT</h4>
-                            </div>
-                      <h3 class="btn-txt">採用情報</h3>
-                      <p class="btn-style arr-next">view more</p>
-                    <a class="clm-alink" href="/recruit/"></a>
-                  </div>
-                </li>
-                <li>
-                  <div class="clm-box h-link  btn-3">
-                  <div class="skew-box">
-                                <h4 class="skew en">CORPORATE</h4>
-                            </div>
-                      <h3 class="btn-txt">選考ステップ</h3>
-                      <p class="btn-style arr-next">会社案内</p>
-                    <a class="clm-alink" href="/corporate/"></a>
-                  </div>
-                </li>
-              </ul>
-                <!-- <ul class="btn_box">
-                    <li class="link_btn">
-                        <a href="https://www.yahoo.co.jp/">
+                <ul class="clm-3 sc-inr">
+                    <li>
+                        <div class="clm-box h-link btn-3">
                             <div class="skew-box">
                                 <h4 class="skew en">OUR BUSINESS</h4>
                             </div>
-                            <div class="wh_box">
-                                <p class="btn">事業紹介</p>
-                                <p class="arr-next">view more</p>
-                            </div>
-                        </a>
+                            <h3 class="btn-txt">事業紹介</h3>
+                            <p class="btn-style arr-next">view more</p>
+                            <a class="clm-alink" href="/ourbusiness/"></a>
+                        </div>
                     </li>
-                    <li class="link_btn">
-                        <a href="https://www.yahoo.co.jp/">
+                    <li>
+                        <div class="clm-box h-link  btn-3">
                             <div class="skew-box">
                                 <h4 class="skew en">RECRUIT</h4>
                             </div>
-                            <div class="wh_box">
-                                <p class="btn">採用情報</p>
-                                <p class="arr-next">view more</p>
-                            </div>
-                        </a>
+                            <h3 class="btn-txt">採用情報</h3>
+                            <p class="btn-style arr-next">view more</p>
+                            <a class="clm-alink" href="/recruit/"></a>
+                        </div>
                     </li>
-                    <li class="link_btn">
-                        <a href="https://www.yahoo.co.jp/">
+                    <li>
+                        <div class="clm-box h-link  btn-3">
                             <div class="skew-box">
                                 <h4 class="skew en">CORPORATE</h4>
                             </div>
-                            <div class="wh_box">
-                                <p class="btn">会社案内</p>
-                                <p class="arr-next">view more</p>
-                            </div>
-                        </a>
+                            <h3 class="btn-txt">会社案内</h3>
+                            <p class="btn-style arr-next">view more</p>
+                            <a class="clm-alink" href="/corporate/"></a>
+                        </div>
                     </li>
-                </ul> -->
+                </ul>
             </section>
         </main>
 

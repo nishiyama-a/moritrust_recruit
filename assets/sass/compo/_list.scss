@@ -128,7 +128,7 @@
       }
     }
   }
-  li{
+  li,.swiper-slide{
     &:nth-child(even){
       .interview-pic{
         &::before{
