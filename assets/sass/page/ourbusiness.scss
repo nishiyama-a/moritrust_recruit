@@ -27,6 +27,16 @@
                 content: "③";
             }
         }
+        &:nth-child(4){
+            &::before{
+                content: "④";
+            }
+        }
+        &:nth-child(5){
+            &::before{
+                content: "⑤";
+            }
+        }
      }
  
     }

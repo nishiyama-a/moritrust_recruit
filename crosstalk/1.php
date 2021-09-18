@@ -29,7 +29,7 @@ $pageInfo = array(
             <ul class="people-list">
                 <li class="people-item">
                     <div class="people">
-                        <div class="face-ico"><img src="/assets/img/crosstalk/people_w1.png" alt=""></div>
+                        <div class="face-ico"><img src="/assets/img/crosstalk/people_w1.png" alt="角田 真依子"></div>
                         <div class="name">
                             <p class="en">MAIKO TUNODA</p>
                             <p class="ja">角田 真依子</p>
@@ -42,7 +42,7 @@ $pageInfo = array(
                 </li>
                 <li class="people-item">
                     <div class="people">
-                        <div class="face-ico"><img src="/assets/img/crosstalk/people_w2.png" alt=""></div>
+                        <div class="face-ico"><img src="/assets/img/crosstalk/people_w2.png" alt="等々力 ゆり子"></div>
                         <div class="name">
                             <p class="en">YURIKO TODOROKI</p>
                             <p class="ja">等々力 ゆり子</p>
@@ -54,7 +54,7 @@ $pageInfo = array(
                 </li>
                 <li class="people-item">
                     <div class="people">
-                        <div class="face-ico"><img src="/assets/img/crosstalk/people_w3.png" alt=""></div>
+                        <div class="face-ico"><img src="/assets/img/crosstalk/people_w3.png" alt="牧内 悠香"></div>
                         <div class="name">
                             <p class="en">HARUKA MAKIUCHI</p>
                             <p class="ja">牧内 悠香</p>

@@ -41,60 +41,6 @@
 }
 
 
-// ttl
-.ttl_area{
-  padding: 160px 0 100px;
-  @include breakpoint(small){
-    padding: 50px 0 40px;
-  }
-  .ttl_ja{
-    max-width: 1250px;
-    margin: 0 auto 35px;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0.2em;
-    @include breakpoint(small){
-      margin:0 auto 15px 5%;
-    }
-  }
-  .ttl_en{
-    font-family: $font-dec;
-    font-size: 50px;
-    overflow: hidden;
-    white-space: nowrap;
-    height: 68px;
-    display: flex;
-    align-items: center;
-    margin-left: -6em;
-    @include breakpoint(small){
-      font-size: 20px;
-      height: auto;
-    }
-    .stroke{
-      font-family: $font-dec;
-      color: transparent;
-      -webkit-text-stroke: 1px $clr-text;
-      margin: 0 10px;
-    }
-  }
-}
-
-.box-txt{
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: justify;
-}
-.head-txt{
-  text-align: center;
-  margin: 0 auto;
-  letter-spacing: 0.2em;
-  @include breakpoint(small){
-    text-align: left;
-  }
-}
-
-
-
 .skew-box{
   position: relative;
   text-align: center;
@@ -105,7 +51,7 @@
     padding: 15px;
   }
   &::before {
-    content: '';/*ボックス作成*/
+    content: '';
     position: absolute;
     top: 0;
     bottom: 0;
@@ -182,80 +128,6 @@
 }
 
 
-p.point-txt{
-  font-size: 18px;
-  letter-spacing: 0.2em;
-  padding-left: 20px;
-  position: relative;
-  margin-bottom: 25px;
-  @include breakpoint(small){
-    font-size: 14px;
-    margin-bottom: 20px;
-  }
-  &::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 5px;
-    background-color: $clr-main;
-  }
-}
-
-.side-num{
-  font-family: $font-eng;
-  font-size: 14px;
-  letter-spacing: 0.05em;
-  @include breakpoint(small){
-      font-size: 12px;
-  }
-  span{
-      font-size: 30px;
-      font-family: $font-dec;
-      @include breakpoint(small){
-          font-size: 20px;
-      }
-  }
-}
-
-//画像＋テキスト
-%cut-bg{
-  background-color: $clr-gray;
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
-.cut-bg{
-  &-l{
-    @extend %cut-bg;
-    padding-left: 60px;
-    &::before{
-      position: absolute;
-      content: "";
-      left: 0px;
-      top: 0px;
-      border: none;
-      border-left: solid 60px #fff;
-      border-bottom: solid 500px transparent;
-    }
-  }
-  &-r{
-    @extend %cut-bg;
-    padding-right: 60px;
-    &::before{
-      position: absolute;
-      content: "";
-      right: 0px;
-      top: 0px;
-      border: none;
-      border-right: solid 60px #fff;
-      border-top: solid 500px transparent;
-    }
-  }
-}
-
 //台形背景
 .cut-bg{
   .clm-box{
@@ -308,7 +180,45 @@ p.point-txt{
   }
 }
 
+//画像＋テキスト
+%cut-bg{
+  background-color: $clr-gray;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
 
+.cut-bg{
+  &-l{
+    @extend %cut-bg;
+    padding-left: 60px;
+    &::before{
+      position: absolute;
+      content: "";
+      left: 0px;
+      top: 0px;
+      border: none;
+      border-left: solid 60px #fff;
+      border-bottom: solid 500px transparent;
+    }
+  }
+  &-r{
+    @extend %cut-bg;
+    padding-right: 60px;
+    &::before{
+      position: absolute;
+      content: "";
+      right: 0px;
+      top: 0px;
+      border: none;
+      border-right: solid 60px #fff;
+      border-top: solid 500px transparent;
+    }
+  }
+}
+
+
+//画像＋ボックス下
 .between-box{
   @include breakpoint(small){
     padding-bottom: 20px;
@@ -366,10 +276,29 @@ p.point-txt{
   }
 }
 
+
+.side-num{
+  font-family: $font-eng;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  @include breakpoint(small){
+      font-size: 12px;
+  }
+  span{
+      font-size: 30px;
+      font-family: $font-dec;
+      @include breakpoint(small){
+          font-size: 20px;
+      }
+  }
+}
+
 .note{
   font-size: 12px;
 }
 
+
+//slick
 .sliderArea {
   max-width: 100%;
   margin: 0 auto;

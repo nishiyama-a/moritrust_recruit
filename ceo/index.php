@@ -34,7 +34,7 @@ $pageInfo = array(
                     <div class="between-box clm-box">
                         <picture>
                             <source media="(max-width:767px)" srcset="/assets/img/ceo/president.png">
-                            <img src="/assets/img/ceo/president.png" alt="">
+                            <img src="/assets/img/ceo/president.png" alt="森トラスト代表取締役社長 伊達 美和子">
                         </picture>
                         <div class="txtbox clm-copy">
                             <div class="skew-box">
@@ -61,18 +61,16 @@ $pageInfo = array(
 
             <section class="l-section interview-video">
                 <div class="sc-inr">
-                    <ul class="clm-2">
+                    <ul class="clm-2 youtube">
                         <li>
                             <div class="clm-box">
                                 <div class="clm-copy">
                                     <p class="point-txt">デベロッパーの魅力は？<br>森トラストの企業ビジョンは？</p>
                                     <p class="side-num">VOL.<span>01</span></p>
                                 </div>
-                                <a href="https://www.yahoo.co.jp/" target="_blank">
-                                    <div class="default-img clm-img icon-video">
-                                        <img src="/assets/img/video_demo.jpg" alt="">
+                                    <div class="default-img clm-img">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bQn4OVv0Hwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
-                                </a>
                                 <p>森トラスト社長が考えるデベロッパーの魅力や日本の未来像、森トラストの企業ビジョンについて語ります。</p>
                             </div>
                         </li>
@@ -82,11 +80,9 @@ $pageInfo = array(
                                     <p class="point-txt">東京ワールドゲートに対する<br>社長の想いは？</p>
                                     <p class="side-num">VOL.<span>02</span></p>
                                 </div>
-                                <a href="https://www.yahoo.co.jp/" target="_blank">
-                                    <div class="default-img clm-img icon-video">
-                                        <img src="/assets/img/video_demo.jpg" alt="">
+                                    <div class="default-img clm-img">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Idg8jSWhFrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
-                                </a>
                                 <p>約12年にわたるプロジェクトの中で、どのようなエピソードがあったのか、そして竣工したときの想いについて語ります。</p>
                             </div>
                         </li>
@@ -96,11 +92,9 @@ $pageInfo = array(
                                     <p class="point-txt">今後のホテルやオフィスはどうなる？</p>
                                     <p class="side-num">VOL.<span>03</span></p>
                                 </div>
-                                <a href="https://www.yahoo.co.jp/" target="_blank">
-                                    <div class="default-img clm-img icon-video">
-                                        <img src="/assets/img/video_demo.jpg" alt="">
+                                    <div class="default-img clm-img">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1LVMD6lHEuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
-                                </a>
                                 <p>新型コロナウイルスによる観光業への影響、テレワークの浸透によるオフィス賃貸市場への影響、さらには近年新たに認知されつつあるワーケーションについてなど、世間的にも関心の高まっている話題に対する考えを語ります。
                                 </p>
                             </div>
@@ -111,11 +105,9 @@ $pageInfo = array(
                                     <p class="point-txt">森トラストの人財育成制度は？</p>
                                     <p class="side-num">VOL.<span>04</span></p>
                                 </div>
-                                <a href="https://www.yahoo.co.jp/" target="_blank">
-                                    <div class="default-img clm-img icon-video">
-                                        <img src="/assets/img/video_demo.jpg" alt="">
+                                    <div class="default-img clm-img">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DokMQMa2oNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
-                                </a>
                                 <p>森トラストの特徴的な人財育成制度について、またその制度に込める想いを語ります。</p>
                             </div>
                         </li>

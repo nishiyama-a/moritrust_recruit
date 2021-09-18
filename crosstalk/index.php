@@ -37,7 +37,7 @@ $pageInfo = array(
                         <div class="between-box clm-box h-link">
                             <picture class="mt20 h-img">
                                 <source media="(max-width:767px)" srcset="/assets/img/crosstalk/crosstalk01.png">
-                                <img src="/assets/img/crosstalk/crosstalk01.png" alt="">
+                                <img src="/assets/img/crosstalk/crosstalk01.png" alt="女性社員座談会">
                             </picture>
                             <div class="txtbox">
                                 <div class="skew-box">
@@ -52,7 +52,7 @@ $pageInfo = array(
                         <div class="between-box clm-box h-link">
                             <picture class="mt20 h-img">
                                 <source media="(max-width:767px)" srcset="/assets/img/crosstalk/crosstalk02.png">
-                                <img src="/assets/img/crosstalk/crosstalk02.png" alt="">
+                                <img src="/assets/img/crosstalk/crosstalk02.png" alt="OJT×新入社員対談">
                             </picture>
                             <div class="txtbox">
                                 <div class="skew-box">

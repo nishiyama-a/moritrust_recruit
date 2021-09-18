@@ -29,7 +29,7 @@ $pageInfo = array(
             <ul class="people-list">
                 <li class="people-item">
                     <div class="people">
-                        <div class="face-ico"><img src="/assets/img/crosstalk/people_o1.png" alt=""></div>
+                        <div class="face-ico"><img src="/assets/img/crosstalk/people_o1.png" alt="古田 舜典"></div>
                         <div class="name">
                             <p class="en">SHUNSUKE FURUTA</p>
                             <p class="ja">古田 舜典</p>
@@ -41,7 +41,7 @@ $pageInfo = array(
                 </li>
                 <li class="people-item">
                     <div class="people">
-                        <div class="face-ico"><img src="/assets/img/crosstalk/people_o2.png" alt=""></div>
+                        <div class="face-ico"><img src="/assets/img/crosstalk/people_o2.png" alt="濱田 崇行"></div>
                         <div class="name">
                             <p class="en">TAKAYUKI HAMADA</p>
                             <p class="ja">濱田 崇行</p>
@@ -53,7 +53,7 @@ $pageInfo = array(
                 </li>
                 <li class="people-item">
                     <div class="people">
-                        <div class="face-ico"><img src="/assets/img/crosstalk/people_o3.png" alt=""></div>
+                        <div class="face-ico"><img src="/assets/img/crosstalk/people_o3.png" alt="髙木 優"></div>
                         <div class="name">
                             <p class="en">YU TAKAGII</p>
                             <p class="ja">髙木 優</p>
@@ -65,7 +65,7 @@ $pageInfo = array(
                 </li>
                 <li class="people-item">
                     <div class="people">
-                        <div class="face-ico"><img src="/assets/img/crosstalk/people_o4.png" alt=""></div>
+                        <div class="face-ico"><img src="/assets/img/crosstalk/people_o4.png" alt="板垣 孝紀"></div>
                         <div class="name">
                             <p class="en">TAKANORI ITAGAKI</p>
                             <p class="ja">板垣 孝紀</p>

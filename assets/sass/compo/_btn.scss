@@ -170,21 +170,6 @@ $btnsp-h: 55px;
   }
 }
 
-//h-link hover
-.h-link{
-  &:hover{
-    .skew-box{
-      &::before{
-        background-color: #FFF;
-        @include transition;
-      }
-      .skew{
-        color: $clr-main;
-        @include transition;
-      }
-    }
-  }
-}
 
 .btn-style{
   &.is-disable{
