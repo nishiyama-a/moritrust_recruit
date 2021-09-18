@@ -40,9 +40,9 @@ $pageInfo = array(
                 </div>
                 <div class="sc-box">
                     <div class="mediabox-2 mediabox-l">
-                        <div class="mediabox-img">
-                            <img src="/assets/img/pickup/restaurant01.png" alt="">
+                        <div class="mediabox-img  cut-bg">
                             <div class="cut-bg-r"></div>
+                            <img src="/assets/img/pickup/restaurant01.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-r">
                             <p class="num">POINT<br><span>01</span>
@@ -59,9 +59,9 @@ $pageInfo = array(
                 </div>
                 <div class="sc-box">
                     <div class="mediabox-2 mediabox-r">
-                        <div class="mediabox-img">
-                            <img src="/assets/img/pickup/restaurant02.png" alt="">
+                        <div class="mediabox-img cut-bg">
                             <div class="cut-bg-l"></div>
+                            <img src="/assets/img/pickup/restaurant02.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-l">
                             <p class="num">POINT<br><span>02</span>
@@ -78,9 +78,9 @@ $pageInfo = array(
                 </div>
                 <div class="sc-box">
                     <div class="mediabox-2 mediabox-l">
-                        <div class="mediabox-img">
-                            <img src="/assets/img/pickup/restaurant03.png" alt="">
+                        <div class="mediabox-img  cut-bg">
                             <div class="cut-bg-r"></div>
+                            <img src="/assets/img/pickup/restaurant03.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-r">
                             <p class="num">POINT<br><span>03</span>

@@ -10,10 +10,13 @@
     margin-bottom: 0;
   }
 }
+
+//画像　+ テキスト
 .mediabox{
   @extend %mediabox-cmn;
   align-items: flex-end;
   justify-content: space-between;
+
   &-r{
     flex-direction: row-reverse;
   }
@@ -35,20 +38,30 @@
       text-align: center;
     }
   }
+  &-l{
+    .cut-bg{
+      padding: 65px 5% 50px 10%;
+
+    }
+  }
+  &-r{
+    .cut-bg{
+      padding: 65px 10% 50px 5%;
+
+    }
+  }
+  .cut-bg{
+    width: 50%;
+  }
   .mediabox-copy{
-    width: calc(45% + 60px + 5%);
     position: absolute;
     bottom: -50px;
-    padding-top: 65px;
-    padding-bottom: 50px;
     @include breakpoint(small){
       position: relative;
       bottom: inherit;
       padding: 20px;
     }
     &.copy-l{
-      padding-right: calc(60px + 10% );
-      padding-left: 5%;
       left: 0;
       @include breakpoint(small){
         padding: 20px;
@@ -58,8 +71,6 @@
       }
     }
     &.copy-r{
-      padding-right: 5%;
-      padding-left: calc(60px + 10% );
       right: 0;
       @include breakpoint(small){
         padding: 20px;
@@ -68,57 +79,37 @@
         }
       }
       }
+      .cut-bg{
+        position: absolute;
+        width: 50%;
+      }
+      p{
+        z-index: 3;
+        position: relative;
+      }
       .skew-box{
         margin-bottom: 20px;
       }
   }
 
-
   &-2{
     @extend %mediabox-cmn;
     align-items: flex-end;
-    padding-bottom: 120px;
     .mediabox-img{
-      width: 60%;
+      width: 70%;
       img{
         position: relative;
         z-index: 2;
+        height: auto;
       }
     }
-    .cut-bg-r, .cut-bg-l{
-      height: 500px;
-      position: absolute;
-      width: 110%;
-    }
-    .cut-bg-r{
-      bottom: -120px;
-      left: 0;
-    }
-    .cut-bg-l{
-      bottom: -60px;
-      right: 0;
-    }
     .mediabox-copy{
-      width: 38%;
+      width: 39%;
       background-color: $clr-main;
       color: #fff;
       padding: 60px 4%;
-      position: relative;
+      position: absolute;
       z-index: 5;
-      &.copy-r{
-        left: -4%;
-        bottom: -60px;
-        .num{
-          right: 30px;
-        }
-      }
-      &.copy-l{
-        right: -4%;
-        bottom: -120px;
-        .num{
-          left: 30px;
-        }
-      }
       .num{
         font-size: 14px;
         font-family: $font-eng;
@@ -143,6 +134,109 @@
           top: 0;
         }
       }
+    }
+    &.mediabox-l{
+      padding-bottom: 150px;
+      .cut-bg{
+        padding: 0 10% 0 0;
+        .cut-bg-r{
+          bottom: -150px;
+          left: 0;
+        }
+      }
+      .copy-r{
+        right: 7%;
+        bottom: 60px;
+        .num{
+          right: 30px;
+        }
+      }
+    }
+    &.mediabox-r{
+      padding-bottom: 160px;
+      .cut-bg{
+        padding: 0 0 0 10%;
+        .cut-bg-l{
+          bottom: -100px;
+          right: 0;
+        }
+      }
+      .copy-l{
+        left: 7%;
+        bottom: 0;
+        .num{
+          left: 30px;
+        }
+      }
+    }
+  }
+}
+
+//台形
+%cut-bg {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.cut-bg{
+  @extend %cut-bg;
+  padding: 50px 5%;
+  &-l,&-r{
+    position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  &::after{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0%;
+    transform: skew(-7deg);
+    background: $clr-gray;
+    left: 0;
+    z-index: -1;
+  }
+}
+&-l{
+  right: 0;
+  &::after{
+    transform-origin: 100% 100%;
+  }
+}
+&-r{
+  left: 0;
+  &::after{
+    transform-origin: 100% 0;
+  }
+}
+
+//背景
+&-back-wrap{
+  @extend %cut-bg;
+  padding: 0;
+}
+  &-back{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    &::after{
+      transform-origin: 100% 0;
+      position: absolute;
+      display: block;
+      width: 76%;
+      height: 88%;
+      content: '';
+      bottom: 0%;
+      transform: skew(-7deg);
+      background: $clr-gray;
+      left: 0;
+      z-index: -1;
     }
   }
 }

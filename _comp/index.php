@@ -106,11 +106,12 @@ $pageInfo = array(
                         <div class="mediabox-img">
                             <img src="/assets/img/sample_1.jpg" alt="">
                         </div>
-                        <div class="mediabox-copy copy-r cut-bg-l">
+                        <div class="mediabox-copy copy-r cut-bg">
+                            <div class="cut-bg-l"></div>
                             <div class="skew-box">
-                                <h4 class="skew">東京ワールドゲート</h4>
+                                <h4 class="skew">東京ワールドゲートテスト</h4>
                             </div>
-                            <p>この原稿はダミーテキストとして使用しております。ABC・123文字組を美しく見せるにはある程度漢字とひらがなとカタカナがうまく混じったダミー原稿を使用した方が良いようです。D／４また、句読点や英字・数字を含むダミー原稿は文字組にばらつきが出るのでなるべくEFG…567使わないようにします。しかし実際の原稿には句読点や数字や英字は入ってくるのですがHIJ890？
+                            <p>この原稿はダミーテキストとして使用しております。ABC・123文字組を美しく見せるにはある程度漢字とひらがなとカタカナがうまく混じったダミー原稿を使用した方が良いようです。D／４また、句読点や英字・数字を含むダミー原稿は文字組にばらつきが出るのでなるべくEFG…567使わないようにします。しかし実際の原稿には句読点や数字や英字は入ってくるのですがHIJ890？この原稿はダミーテキストとして使用しております。ABC・123文字組を美しく見せるにはある程度漢字とひらがなとカタカナがうまく混じったダミー原稿を使用した方が良いようです。D／４また、句読点や英字・数字を含むダミー原稿は文字組にばらつきが出るのでなるべくEFG…567使わないようにします。しかし実際の原稿には句読点や数字や英字は入ってくるのですがHIJ890？
                             </p>
                         </div>
                     </div>
@@ -118,7 +119,8 @@ $pageInfo = array(
                         <div class="mediabox-img">
                             <img src="/assets/img/sample_1.jpg" alt="">
                         </div>
-                        <div class="mediabox-copy copy-l cut-bg-r">
+                        <div class="mediabox-copy copy-l cut-bg">
+                        <div class="cut-bg-r"></div>
                             <div class="skew-box">
                                 <h4 class="skew">東京ワールドゲート</h4>
                             </div>

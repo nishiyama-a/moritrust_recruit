@@ -33,7 +33,8 @@ $pageInfo = array(
                 <p class="name">大橋 航</p>
                 <p class="history">2018年入社（中途）<br>外国語学部第2部英米学科 卒業</p>
             </div>
-            <div class="important cut-bg-l">
+            <div class="important cut-bg">
+            <div class="cut-bg-l"></div>
                 <div class="skew-box">
                     <h4 class="skew">仕事をしている上で、大切にしていること</h4>
                 </div>
@@ -55,7 +56,8 @@ $pageInfo = array(
             <section class="l-section">
                 <div class="sc-box">
                     <div class="answer-wrap box-l">
-                        <div class="answer-box cut-bg-r">
+                        <div class="answer-box cut-bg">
+                        <div class="cut-bg-r"></div>
                             <div class="answer">
                                 <div class="skew-box">
                                     <h4 class="skew">現在の部署での業務内容</h4>
@@ -79,7 +81,8 @@ $pageInfo = array(
                     </div>
                 </div>
                 <div class="answer-wrap box-r">
-                    <div class="answer-box cut-bg-l">
+                    <div class="answer-box cut-bg">
+                    <div class="cut-bg-l"></div>
                         <div class="answer">
                             <div class="skew-box">
                                 <h4 class="skew">好きな森トラストの物件</h4>
@@ -103,7 +106,8 @@ $pageInfo = array(
     <div class="sc-box">
         <div class="schedule">
             <div class="schedule-img"><img src="/assets/img/interview/interview_8-3.png" alt=""></div>
-            <div class="flow cut-bg-r">
+            <div class="flow cut-bg">
+            <div class="cut-bg-r"></div>
                 <div class="skew-box">
                     <h4 class="skew">1日の流れ</h4>
                 </div>

@@ -41,7 +41,8 @@ $pageInfo = array(
                         <div class="mediabox-img">
                             <img src="/assets/img/hr/academy01.png" alt="">
                         </div>
-                        <div class="mediabox-copy copy-r cut-bg-l">
+                        <div class="mediabox-copy copy-r cut-bg">
+                            <dic class="cut-bg-l"></dic>
                             <div class="txt-t-img"><img src="/assets/img/hr/academy02.png" alt=""></div>
                             <p class="mb40">
                                 自ら課題を考え、解決のために企画し、実行するためのベースとなるスキル「クリティカルシンキング」や「デザイン思考」を、オンライン学習や課題図書を通して“インプット”し、グループワークでアイデアを練り“アウトプット”することで、スキルの習得・習慣化を目指します。

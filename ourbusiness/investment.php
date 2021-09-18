@@ -43,7 +43,8 @@ $pageInfo = array(
                         <div class="mediabox-img">
                             <img src="/assets/img/ourbusiness/investment01.png" alt="">
                         </div>
-                        <div class="mediabox-copy copy-r cut-bg-l">
+                        <div class="mediabox-copy copy-r cut-bg">
+                            <div class="cut-bg-l"></div>
                             <div class="skew-box">
                                 <h4 class="skew">海外不動産投資</h4>
                             </div>
@@ -57,7 +58,8 @@ $pageInfo = array(
                         <div class="mediabox-img">
                             <img src="/assets/img/ourbusiness/investment02.png" alt="">
                         </div>
-                        <div class="mediabox-copy copy-l cut-bg-r">
+                        <div class="mediabox-copy copy-l cut-bg">
+                            <div class="cut-bg-r"></div>
                             <div class="skew-box">
                                 <h4 class="skew">新イノベーション投資戦略</h4>
                             </div>
@@ -104,11 +106,11 @@ $pageInfo = array(
                 </div>
             </section>
             <section class="l-section link">
-                <div class="sc-inr">
-                    <h2 class="head-2">LINK</h2>
-                    <div class="sc-box">
-                        <ul class="clm-2 cut-bg h2x">
-                            <div class="cut-bg-back"></div>
+                <h2 class="head-2">LINK</h2>
+                <div class="sc-box cut-bg">
+                    <div class="cut-bg-back"></div>
+                    <div class="sc-inr">
+                        <ul class="clm-2">
                             <li>
                                 <div class="clm-box h-link">
                                     <div class="default-img h-img">
@@ -171,12 +173,12 @@ $pageInfo = array(
                             </li>
                         </ul>
                     </div>
-                    <div class="sc-box">
-                        <div class="btn-wrap clm-1">
-                            <a class="btn-style btn-2" href="/ourbusiness/">
-                                <span>一覧に戻る</span>
-                            </a>
-                        </div>
+                </div>
+                <div class="sc-box">
+                    <div class="btn-wrap clm-1">
+                        <a class="btn-style btn-2" href="/ourbusiness/">
+                            <span>一覧に戻る</span>
+                        </a>
                     </div>
                 </div>
             </section>

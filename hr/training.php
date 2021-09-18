@@ -49,7 +49,8 @@ $pageInfo = array(
                         <p>森トラストでは、入社から配属までの間に、会社の仕組や不動産の基本的な知識、<br class="disp-pc">
                             また社会人としてのマナーなど幅広い分野について研修を行います。</p>
                     </div>
-                    <div class="cut-bg-l">
+                    <div class="cut-bg">
+                    <div class="cut-bg-l"></div>
                         <div class="training-item sc-inr">
                             <div class="skew-box bl">
                                 <h4 class="skew">部門演習</h4>
@@ -89,14 +90,17 @@ $pageInfo = array(
                         <p>森トラストの最も特徴的な研修です。<br>
                             森トラストの主要事業について、先輩社員が日頃の業務から得た経験や知識をもとにし、より実践的な講義・実習を行います。</p>
                     </div>
-                    <div class="cut-bg-l">
-                        <div class="training-item sc-inr">
-                            <div class="skew-box bl">
-                                <h4 class="skew">不動産事業研修</h4>
+                    <div class="cut-bg">
+                    <div class="cut-bg-l"></div>
+                        <div class="training-item">
+                            <div class="skew-wrap">
+                                <div class="skew-box bl">
+                                    <h4 class="skew">不動産事業研修</h4>
+                                </div>
                             </div>
                             <p class="txt-box">
-                                不動産事業の全ての分野（企画・設計・営業・管理）についての知識を習得します。専門や配属部署に関わらず、当社の行う不動産事業を総合的に学習する研修となっています。また、オフィス移転を望むお客様に、森トラストのオフィスビルがどの様に提案されているのかを学ぶ営業同行研修や、オフィスビルが日々どの様に管理・運営されているのかを学ぶビル実習も不動産事業研修のカリキュラムの一環となっています。<a
-                                    href="/ourbusiness/realestate.php" class="btn-txtlink">森トラストの不動産事業について</a></p>
+                                不動産事業の全ての分野（企画・設計・営業・管理）についての知識を習得します。専門や配属部署に関わらず、当社の行う不動産事業を総合的に学習する研修となっています。また、オフィス移転を望むお客様に、森トラストのオフィスビルがどの様に提案されているのかを学ぶ営業同行研修や、オフィスビルが日々どの様に管理・運営されているのかを学ぶビル実習も不動産事業研修のカリキュラムの一環となっています。<br>
+                                <a href="/ourbusiness/realestate.php" class="btn-txtlink">森トラストの不動産事業について</a></p>
                             <div class="training-img"><img src="/assets/img/hr/training04.png" alt=""></div>
                         </div>
                         <div class="training-item sc-inr">
@@ -152,7 +156,8 @@ $pageInfo = array(
                             先輩社員の前でプレゼンします。グループによる作業のため、<br>
                             新人間の絆が深まるとともに、先輩社員からも熱い講評や温かいエールが送られます。</p>
                     </div>
-                    <div class="cut-bg-l">
+                    <div class="cut-bg">
+                    <div class="cut-bg-l"></div>
                         <div class="training-item sc-inr">
                             <div class="training-img pic-3">
                                 <img src="/assets/img/hr/training07.png" alt="">
@@ -181,7 +186,8 @@ $pageInfo = array(
                         </div>
                         <p>新人の間に知識を習得すると共に、資格を取得します。</p>
                     </div>
-                    <div class="cut-bg-l">
+                    <div class="cut-bg">
+                    <div class="cut-bg-l"></div>
                         <div class="training-item sc-inr">
                             <div class="training-item flex-box">
                                 <div class="skew-box bl">
