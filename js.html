@@ -66,16 +66,47 @@
         </div>
       </div>
       <main class="l-contents" role="main">
-        <p class="desc">下にスクロールしてください</p>
-
-    <p class="text text_a">A.回転しながら左から中央まで移動してきます</p>
-    <div class="box_a">A</div>
-
-    <p class="text text_b">B.スクロールを戻すとアニメーションが最初から開始します</p>
-    <div class="box_b">B</div>
-
-    <p class="text text_c">C.スクロールに追従します</p>
-    <div class="box_c">C</div>
+        <div class="l-section">
+          <div class="sc-inr-s">
+            <h1 class="head-1 view-up" data-text="modal">モーダル</h1>
+            <div class="btn-wrap clm-1 view-up">
+              <div class="btn-style btn-1 modal-open"><span class="arr-next arr-w">modalオープン</span></div>
+            </div>
+            <p class="mt20 view-up">自作のモーダルなので必要なかったら切ってください。基本的に中身はAPI呼び出しで使ってます。</p>
+          </div>
+        </div>
+        <div class="l-section">
+          <div class="sc-inr">
+            <h2 class="head-1 view-up" data-text="slider">スライダー</h2>
+            <div class="sc-box">
+              <h2 class="head-2 view-up" data-text="#swiper-1">スライダー</h2>
+              <div class="swiper-main view-up">
+                <div class="swiper-container" id="slider-1">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/assets/img/sample_1.jpg"></div>
+                    <div class="swiper-slide"><img src="/assets/img/sample_2.jpg"></div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-prev"><span></span></div>
+                  <div class="swiper-button-next"><span></span></div>
+                </div>
+              </div>
+            </div>
+            <div class="sc-box">
+              <h2 class="head-2" data-text="#swiper-2 view-up">SP時余白なし</h2>
+              <div class="swiper-main sp-wfull view-up">
+                <div class="swiper-container" id="slider-2">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/assets/img/sample_1.jpg"></div>
+                    <div class="swiper-slide"><img src="/assets/img/sample_2.jpg"></div>
+                  </div>
+                  <div class="swiper-button-prev"><span></span></div>
+                  <div class="swiper-button-next"><span></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
       <footer class="footer" role="contentinfo">
         <div id="pagetop-btn"><a class="arr-top" href="#pagetop"></a></div>
@@ -91,7 +122,6 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/uniq.js"></script>
     <!-- スライダー用 -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
