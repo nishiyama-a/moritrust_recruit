@@ -33,9 +33,9 @@ $pageInfo = array(
 
             <section class="l-section">
                 <div class="sc-inr">
-                    <p class="head-txt">森トラストは、コーポレートスローガン「Create the Future」のもと、2030年より先の社会を見据え、<br>
-                        新たな商品・価値・ビジネスモデルを創造しています。<br>
-                        わくわくするような未来を創造する、「考える力」「企画する力」「実行する力」を兼ね備えた人財を育成し、<br>
+                    <p class="head-txt">森トラストは、コーポレートスローガン「Create the Future」のもと、2030年より先の社会を見据え、<br class="disp-pc">
+                        新たな商品・価値・ビジネスモデルを創造しています。<br class="disp-pc">
+                        わくわくするような未来を創造する、「考える力」「企画する力」「実行する力」を兼ね備えた人財を育成し、<br class="disp-pc">
                         活力のある組織へと成長するための様々なプログラムを実施しています。</p>
                     <div class="sc-box">
                         <div class="between-box clm-box h-link">

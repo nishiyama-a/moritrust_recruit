@@ -1540,6 +1540,12 @@ body {
   z-index: 10;
   opacity: 1;
 }
+.sc-kv .kv-scroll #scroll_logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .sc-kv .kv-scroll .overlay {
   width: 100%;
   height: 100%;
@@ -1573,7 +1579,7 @@ body {
   }
 }
 .sc-kv #kv-img .copy_sp.disp-sp {
-  left: 20%;
+  left: 16%;
 }
 .sc-kv #kv-img #kv_copy {
   position: absolute;
@@ -1598,7 +1604,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    top: 50vh;
+    top: 40vh;
     right: inherit;
     width: 100%;
     padding: 0 5%;
@@ -3505,7 +3511,7 @@ p.point-txt::before {
 }
 @media (max-width: 767px) {
   .mediabox-2.mediabox-l {
-    padding-bottom: 0;
+    padding-bottom: 40px;
   }
 }
 .mediabox-2.mediabox-l .cut-bg {
@@ -3519,6 +3525,11 @@ p.point-txt::before {
   right: 7%;
   bottom: 60px;
 }
+@media (max-width: 767px) {
+  .mediabox-2.mediabox-l .copy-r {
+    right: 20px;
+  }
+}
 .mediabox-2.mediabox-l .copy-r .num {
   right: 30px;
 }
@@ -3527,7 +3538,7 @@ p.point-txt::before {
 }
 @media (max-width: 767px) {
   .mediabox-2.mediabox-r {
-    padding-bottom: 0;
+    padding-bottom: 40px;
   }
 }
 .mediabox-2.mediabox-r .cut-bg {
@@ -3540,6 +3551,12 @@ p.point-txt::before {
 .mediabox-2.mediabox-r .copy-l {
   left: 7%;
   bottom: 0;
+}
+@media (max-width: 767px) {
+  .mediabox-2.mediabox-r .copy-l {
+    left: inherit;
+    right: 0;
+  }
 }
 .mediabox-2.mediabox-r .copy-l .num {
   left: 30px;
@@ -3841,14 +3858,6 @@ p.point-txt::before {
   line-height: 0;
 }
 
-@media (max-width: 767px) {
-  .sp-wfull {
-    width: calc(100% + (20px * 2));
-    max-width: inherit;
-    margin: 0 -20px;
-    display: block;
-  }
-}
 .anchr {
   margin: 0;
   padding: 0;
@@ -4570,6 +4579,11 @@ section.pickup .cut-bg {
   padding: 0 0 50px;
   bottom: -50px;
 }
+@media (max-width: 767px) {
+  section.pickup .cut-bg-r {
+    display: none;
+  }
+}
 section.pickup .ttl_area {
   padding-top: 0;
 }
@@ -4591,6 +4605,7 @@ section.pickup .txtarea .dec {
   section.pickup .txtarea .dec {
     font-size: 12px;
     font-weight: bold;
+    margin-bottom: 0;
   }
 }
 section.pickup .txtarea .skew-box {
@@ -4602,7 +4617,6 @@ section.pickup .txtarea .skew-box {
 @media (max-width: 767px) {
   section.pickup .txtarea .skew-box {
     margin-left: 0;
-    margin-bottom: 15px;
     width: 100%;
   }
 }
@@ -4673,6 +4687,20 @@ section.pickup .project_bg .project_pic::before {
     display: none;
   }
 }
+section.pickup .project_bg .project_pic::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  opacity: 1;
+  background-image: url(/assets/img/cmn/plus.svg);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
 section.pickup .project_bg .txtarea {
   position: absolute;
   top: 50%;
@@ -4707,51 +4735,60 @@ section.pickup .project_bg .txtarea {
             order: 2;
   }
 }
-section.pickup .project_item:hover .txtarea .skew-box {
+section.pickup .project_item:hover .txtarea .skew-box, section.pickup .project_item.open-first .txtarea .skew-box {
   margin-bottom: 20px;
 }
-section.pickup .project_item:hover .txtarea .skew-box::before {
+section.pickup .project_item:hover .txtarea .skew-box::before, section.pickup .project_item.open-first .txtarea .skew-box::before {
   background-color: #fff;
 }
 @media (max-width: 767px) {
-  section.pickup .project_item:hover .txtarea .skew-box {
+  section.pickup .project_item:hover .txtarea .skew-box::before, section.pickup .project_item.open-first .txtarea .skew-box::before {
+    background-color: #e8314b;
+  }
+}
+@media (max-width: 767px) {
+  section.pickup .project_item:hover .txtarea .skew-box, section.pickup .project_item.open-first .txtarea .skew-box {
     margin-bottom: 15px;
   }
 }
-section.pickup .project_item:hover .txtarea .skew-box .skew {
+section.pickup .project_item:hover .txtarea .skew-box .skew, section.pickup .project_item.open-first .txtarea .skew-box .skew {
   padding: 40px 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   color: #e8314b;
 }
 @media (max-width: 767px) {
-  section.pickup .project_item:hover .txtarea .skew-box .skew {
+  section.pickup .project_item:hover .txtarea .skew-box .skew, section.pickup .project_item.open-first .txtarea .skew-box .skew {
     padding: 15px 0;
+    color: #fff;
   }
 }
-section.pickup .project_item:hover .txtarea .arr-next {
+section.pickup .project_item:hover .txtarea .arr-next, section.pickup .project_item.open-first .txtarea .arr-next {
   opacity: 1;
 }
-section.pickup .project_item:hover .project_bg {
+section.pickup .project_item:hover .project_bg, section.pickup .project_item.open-first .project_bg {
   height: 600px;
 }
 @media (max-width: 767px) {
-  section.pickup .project_item:hover .project_bg {
+  section.pickup .project_item:hover .project_bg, section.pickup .project_item.open-first .project_bg {
     height: 145px;
   }
 }
-section.pickup .project_item:hover .project_bg .project_pic {
+section.pickup .project_item:hover .project_bg .project_pic, section.pickup .project_item.open-first .project_bg .project_pic {
   height: 600px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 @media (max-width: 767px) {
-  section.pickup .project_item:hover .project_bg .project_pic {
+  section.pickup .project_item:hover .project_bg .project_pic, section.pickup .project_item.open-first .project_bg .project_pic {
     height: 145px;
   }
 }
-section.pickup .project_item:hover .project_bg .project_pic::before {
+section.pickup .project_item:hover .project_bg .project_pic::before, section.pickup .project_item.open-first .project_bg .project_pic::before {
   background-color: rgba(0, 0, 0, 0);
+}
+section.pickup .project_item:hover .project_bg .project_pic::after, section.pickup .project_item.open-first .project_bg .project_pic::after {
+  opacity: 0;
 }
 
 section.interview {
@@ -4793,7 +4830,6 @@ section.interview .swiper-container .swiper-button-prev, section.interview .swip
   section.interview .swiper-container .swiper-button-prev, section.interview .swiper-container .swiper-button-next {
     width: 30px;
     height: 30px;
-    top: inherit;
   }
 }
 section.interview .swiper-container .swiper-button-prev::after, section.interview .swiper-container .swiper-button-next::after {
@@ -4949,6 +4985,9 @@ section.cross_talk a .talk_group {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 section.cross_talk a .talk_group:last-child {
   left: -3%;
@@ -5710,6 +5749,18 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 @media (max-width: 767px) {
   .kv-interview .kv-img .job-info .skew-box .skew {
     font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  .kv-interview .kv-img .job-info.bt20 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .kv-interview .kv-img .note {
+    font-size: 11px;
+    font-weight: 400;
+    color: #666;
   }
 }
 .kv-interview .kv-ttl {

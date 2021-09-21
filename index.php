@@ -26,7 +26,11 @@ $pageInfo = array(
                     </picture>
                 </div>
                 <div class="kv-scroll">
-                    <img src="/assets/img/top/kv_logo.svg" alt="" id="scroll_logo">
+                    <!-- <img src="/assets/img/top/kv_logo.svg" alt="" id="scroll_logo"> -->
+                     <picture id="scroll_logo">
+                        <source media="(max-width:767px)" srcset="/assets/img/top/kv_logo_sp.svg">
+                        <img src="/assets/img/top/kv_logo.svg">
+                    </picture>
                     <div class="overlay"></div>
                 </div>
                 <div id="kv-img">
@@ -88,7 +92,7 @@ $pageInfo = array(
                 <div class="cut-bg">
                     <div class="cut-bg-r"></div>
                     <ul class="project_wrap">
-                        <li class="project_item open_first">
+                        <li class="project_item open-first">
                             <a href="/pickup/tokyoworldgate.php">
                                 <div class="project_bg">
                                     <div class="project_pic"><img src="/assets/img/top/index_twg.png" alt="東京ワールドゲート"></div>
@@ -498,7 +502,6 @@ $pageInfo = array(
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="/assets/js/swiper.js"></script>
-    <!-- <script src="/assets/js/init.js"></script> -->
     <!-- kv -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>

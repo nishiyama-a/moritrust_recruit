@@ -49,6 +49,19 @@
                     }
                 }
             }
+            //interview 6
+            &.bt20{
+                @include breakpoint(small){
+                   margin-bottom: 10px;
+                }
+            }
+        }
+        .note{
+            @include breakpoint(small){
+                font-size: 11px;
+                font-weight: 400;
+                color: #666;
+              }
         }
     }
     .kv-ttl{

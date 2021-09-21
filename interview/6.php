@@ -18,9 +18,9 @@ $pageInfo = array(
         <div class="sc-kv kv-interview">
             <div class="kv-img">
                 <img src="/assets/img/interview/kv_06.png" alt="">
-                <div class="job-info">
+                <div class="job-info  bt20">
                     <div class="skew-box">
-                        <h1 class="kv-head skew">森トラスト・ビルマネジメント株式会社<br>ビル・リゾートマネジメント部企画開発課業務グループ（出向）</h1>
+                        <h1 class="kv-head skew">森トラスト・ビルマネジメント株式会社<br>ビル・リゾートマネジメント部<br class="disp-sp">企画開発課業務グループ（出向）</h1>
                     </div>
                 </div>
             </div>

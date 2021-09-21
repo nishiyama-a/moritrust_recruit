@@ -43,6 +43,11 @@ section.pickup{
     padding: 0 0 50px;
     bottom: -50px;
   }
+  .cut-bg-r{
+    @include breakpoint(small){
+      display: none;
+    }
+  }
   .ttl_area{
     padding-top: 0;
     @include breakpoint(small){
@@ -61,6 +66,7 @@ section.pickup{
         @include breakpoint(small){
           font-size: 12px;
           font-weight: bold;
+          margin-bottom: 0;
         }
       }
       .skew-box{
@@ -70,7 +76,6 @@ section.pickup{
         margin-bottom: 0;
         @include breakpoint(small){
           margin-left: 0;
-          margin-bottom: 15px;
           width: 100%;
         }
         .skew{
@@ -129,6 +134,18 @@ section.pickup{
           display: none;
         }
       }
+      &::after{
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        transform: translateY(-50%);
+        opacity: 1;
+        background-image: url(/assets/img/cmn/plus.svg);
+        @include transition;
+      }
       }
       .txtarea{
         position: absolute;
@@ -153,12 +170,15 @@ section.pickup{
         }
       }
     }
-    .project_item:hover{
+    .project_item:hover,.project_item.open-first{
       .txtarea{
         .skew-box{
           margin-bottom: 20px;
           &::before{
             background-color: #fff;
+            @include breakpoint(small){
+              background-color: $clr-main;
+            }
           }
           @include breakpoint(small){
             margin-bottom: 15px;
@@ -169,6 +189,7 @@ section.pickup{
             color: $clr-main;
             @include breakpoint(small){
               padding: 15px 0;
+              color: #fff;
             }
           }
         }
@@ -189,6 +210,9 @@ section.pickup{
           }
           &::before{
             background-color: rgba(0, 0, 0, 0);
+          }
+          &::after{
+            opacity: 0;
           }
         }
     }
@@ -226,7 +250,6 @@ section.pickup{
           @include breakpoint(small){
             width: 30px;
             height: 30px;
-            top: inherit;
           }
           &::after{
             font-size: 20px;
@@ -370,6 +393,7 @@ section.pickup{
         display: flex;
         align-items: center;
         margin-bottom: 30px;
+        justify-content: center;
         &:last-child{
           left: -3%;
           @include breakpoint(small){
