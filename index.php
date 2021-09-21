@@ -17,11 +17,37 @@ $pageInfo = array(
         <?php include(dirname(__FILE__). '/assets/inc/header.php'); ?>
         <div class="sc-kv">
             <div class="first_kv">
-                <div class="copy"><img src="/assets/img/top/copy.png" alt="創るのは、街だけじゃない。"></div>
-                <p class="side">MORI TRUST<span class="red">GRADUATE RECRUITMENT</span></p>
-                <p class="scroll arr-next">SCROLL</p>
+                <div class="kv_top">
+                    <p class="side">MORI TRUST<span class="red">GRADUATE RECRUITMENT</span></p>
+                    <p class="scroll arr-next">SCROLL</p>
+                    <picture class="copy">
+                        <source media="(max-width:767px)" srcset="/assets/img/top/copy_sp.png">
+                        <img src="/assets/img/top/copy.png" alt="創るのは、街だけじゃない。">
+                    </picture>
+                </div>
+                <div class="kv-scroll">
+                    <img src="/assets/img/top/kv_logo.svg" alt="" id="scroll_logo">
+                    <div class="overlay"></div>
+                </div>
                 <div id="kv-img">
-                    <div class="copy_sp"><img src="/assets/img/top/copy_sp.svg" alt="創るのは、街だけじゃない。"></div>
+                    <!-- <div class="mask-wrap">
+                        <svg version="1.1" id="mask" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 164 193"
+                            xml:space="preserve">
+                            <clipPath id="svgPath">
+                                <path d="M22.2,30.2c11.8,3.1,26.8,5,43.1,5.7c3.3-6.4,7.3-10.2,11.9-10.2c4.6,0,8.6,3.8,11.9,10.2c12.3-0.5,23.8-1.8,33.8-3.7
+        	c3.3-11.9,7.6-21,12.8-25.1c-1.3-0.4-2.8-0.8-4.3-1.2C116.8,2.1,97.4,0,76.8,0c-20.6,0-40,2.1-54.6,5.9C6.6,9.9,1.1,14.8,1.1,18
+        	C1.1,21.3,6.6,26.2,22.2,30.2z M86.2,40.5c-0.4-0.8-0.7-1.6-1.1-2.2c-0.4-0.8-0.8-1.6-1.2-2.3c-2.5-4.1-4.8-5.8-6.7-5.8
+        	c-1.9,0-4.2,1.7-6.7,5.8c-0.4,0.7-0.8,1.4-1.2,2.2c-0.4,0.7-0.7,1.5-1.1,2.3c-1.4,3.2-2.9,7.4-4.2,12.5c-4.1,15.6-6.3,36.4-6.3,58.6
+        	c0,22.2,2.2,43,6.3,58.6c4.4,16.8,9.7,22.8,13.2,22.8c3.5,0,8.8-6,13.2-22.8c4.1-15.6,6.3-36.4,6.3-58.6c0-22.2-2.2-43-6.3-58.6
+        	C89.1,47.9,87.7,43.8,86.2,40.5z M17.1,48.9C10,48.9,0,76.2,0,120.9c0,19.7,2,38.1,5.6,52c3.9,14.8,8.5,20,11.5,20
+        	c7.1,0,17.1-27.4,17.1-72c0-19.7-2-38.1-5.6-52C24.7,54.1,20.1,48.9,17.1,48.9z M153.9,24.7c-0.3-0.8-0.6-1.6-0.9-2.3
+        	c-0.4-0.9-0.7-1.7-1.1-2.5c-1.8-3.8-3.6-6.6-5.4-8.4c-1.5-1.4-3-2.2-4.5-2.2h-0.1c-4.8,0.1-9.9,8-13.9,21.8
+        	c-0.2,0.8-0.5,1.7-0.7,2.5c-0.2,0.8-0.4,1.6-0.6,2.4c-4.1,16.1-6.9,38.7-6.9,65.2c0,54.2,11.7,91.9,22.3,91.9
+        	c10.6,0,22.3-37.8,22.3-91.9C164.3,67.8,159.8,40.7,153.9,24.7z" />
+                            </clipPath>
+                        </svg>
+                    </div> -->
                     <p id="kv_copy">
                         <span>森トラストは、不動産の会社というイメージがあるかもしれません。</span>
                         <span>約<span class="combine">70</span>年にわたり、都心の大型複合開発や</span>
@@ -439,13 +465,14 @@ $pageInfo = array(
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="/assets/js/script.min.js"></script>
     <script src="/assets/js/uniq.js"></script>
-    <!-- mv -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
-    <!-- スライダー用 -->
+    <!-- kv -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="/assets/js/swiper.min.js"></script>
+    <!-- スライダー用 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
+    <script src="/assets/js/gsap.min.js"></script>
 </body>
 
 </html>
