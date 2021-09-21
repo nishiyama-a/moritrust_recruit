@@ -50,9 +50,21 @@
      }
  }
  .link{
-    .h-link .h-img{
-        overflow: inherit;
-    }
+     .skew-box{
+         margin: 0 auto;
+         padding: 5px 15px;
+         position: relative;
+         left: -10px;
+         z-index: 5;
+         .skew{
+             font-size: 18px;
+             letter-spacing: 0.2em;
+         }
+     }
+     .default-img{
+         position: relative;
+         top: -25px;
+     }
  }
 }
 

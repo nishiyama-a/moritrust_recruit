@@ -113,10 +113,10 @@ $pageInfo = array(
                         <ul class="clm-2">
                             <li>
                                 <div class="clm-box h-link">
+                                    <div class="skew-box">
+                                        <h4 class="skew">イノベーション事業</h4>
+                                    </div>
                                     <div class="default-img h-img">
-                                        <div class="skew-box">
-                                            <h4 class="skew">イノベーション事業</h4>
-                                        </div>
                                         <img src="/assets/img/ourbusiness/link3-1.png" alt="">
                                     </div>
                                     <div class="clm-copy">
@@ -128,10 +128,10 @@ $pageInfo = array(
                             </li>
                             <li>
                                 <div class="clm-box h-link">
+                                    <div class="skew-box">
+                                        <h4 class="skew">ウェルネス事業</h4>
+                                    </div>
                                     <div class="default-img h-img">
-                                        <div class="skew-box">
-                                            <h4 class="skew">ウェルネス事業</h4>
-                                        </div>
                                         <img src="/assets/img/ourbusiness/link3-2.png" alt="">
                                     </div>
                                     <div class="clm-copy">
@@ -143,10 +143,10 @@ $pageInfo = array(
                             </li>
                             <li>
                                 <div class="clm-box h-link">
+                                    <div class="skew-box">
+                                        <h4 class="skew">レストラン・食事業</h4>
+                                    </div>
                                     <div class="default-img h-img">
-                                        <div class="skew-box">
-                                            <h4 class="skew">レストラン・食事業</h4>
-                                        </div>
                                         <img src="/assets/img/ourbusiness/link3-3.png" alt="">
                                     </div>
                                     <div class="clm-copy">
@@ -158,10 +158,10 @@ $pageInfo = array(
                             </li>
                             <li>
                                 <div class="clm-box h-link">
+                                    <div class="skew-box">
+                                        <h4 class="skew">ワーケーション事業</h4>
+                                    </div>
                                     <div class="default-img h-img">
-                                        <div class="skew-box">
-                                            <h4 class="skew">ワーケーション事業</h4>
-                                        </div>
                                         <img src="/assets/img/ourbusiness/link3-4.png" alt="">
                                     </div>
                                     <div class="clm-copy">

@@ -143,10 +143,10 @@ $pageInfo = array(
                         <ul class="clm-2">
                             <li>
                                 <div class="clm-box h-link">
+                                    <div class="skew-box">
+                                        <h4 class="skew">3つのホテル</h4>
+                                    </div>
                                     <div class="default-img h-img">
-                                        <div class="skew-box">
-                                            <h4 class="skew">3つのホテル</h4>
-                                        </div>
                                         <img src="/assets/img/ourbusiness/link2-1.png" alt="">
                                     </div>
                                     <div class="clm-copy">

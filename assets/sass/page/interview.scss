@@ -52,7 +52,7 @@
         }
     }
     .kv-ttl{
-        width: 25%;
+        width: 12%;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -210,14 +210,13 @@
             padding-top: 160px;
         }
         .answer-box{
-            padding: 90px 5%;
+            padding: 90px 10%;
             @include breakpoint(small){
                 padding: 40px 20px 20px;
             }
             .answer{
                 margin-bottom: 50px;
-                width: 65%;
-                max-width: 550px;
+                width: 45%;
                 display: block!important;
                 @include breakpoint(small){
                     width: 100%;
@@ -225,6 +224,9 @@
                 }
                 &:last-child{
                     margin-bottom: 0;
+                }
+                .txt{
+                    text-align: justify;
                 }
             }
             .skew-box{
@@ -239,8 +241,8 @@
         }
         .answer-img{
             position: absolute;
-            width: 48%;
-            right: 5%;
+            width: 50%;
+            right: 0;
             bottom: 90px;
             @include breakpoint(small){
                 bottom: inherit;
@@ -259,7 +261,7 @@
             }
             .answer-img{
                 right: inherit;
-                left: 5%;
+                left: 10%;
                 @include breakpoint(small){
                     left: 40px;
                 }
@@ -295,8 +297,7 @@
 }
 .schedule{
     &-img{
-        width: 60%;
-        max-width: 830px;
+        width: 40%;
         margin: 0 5% 0 auto;
         position: relative;
         z-index: 3;
@@ -307,7 +308,7 @@
     .flow{
         width: 86%;
         padding: 80px 5%;
-        margin-top: -90px;
+        margin-top: -140px;
         @include breakpoint(small){
             width: calc(100% - 20px);
             margin-top: -25px;

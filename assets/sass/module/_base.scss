@@ -180,7 +180,7 @@ img{
 @include breakpoint(small){
 	body {
 		font-size: rem(14);
-		line-height: 1.6;
+		line-height: lh(17);
 	}
 }
 

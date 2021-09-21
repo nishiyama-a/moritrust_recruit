@@ -24,10 +24,6 @@
 		}
 		&._links{
 		  width: 100%;
-		  @include breakpoint(small){
-            flex-direction: column;
-            height: 820px;
-		  }
 		}
 	  }
 	}

@@ -40,7 +40,7 @@ $pageInfo = array(
                         <span>そこで働く人、訪れる人、その街の人にとって、</span>
                         <span>「より豊かなライフスタイル」を提案したい。</span>
                         <span>そのための「新しい価値」を提供することで、</span>
-                        <span>地域や社会に貢献したい。</span>
+                        <span>地域や社会に貢献したい。</span><br class="disp-sp"><br class="disp-sp">
                         <span class="br2">創業以来ずっと、この想いを軸に事業を展開してきました。</span>
                         <span>世界が大きく変わりつづける中で、私たちにできることは何だろう。</span>
                         <span>多様化する一人ひとりと、未来を見つめて、</span>
@@ -85,97 +85,115 @@ $pageInfo = array(
                             class="stroke">PICK UP PROJECT</span>PICK UP PROJECT<span class="stroke">PICK UP
                             PROJECT</span>PICK UP PROJECT<span class="stroke">PICK UP PROJECT</span>PICK UP PROJECT</h2>
                 </div>
-                <ul class="project_wrap">
-                    <li class="project_item">
-                        <a href="/pickup/tokyoworldgate.php">
-                            <div class="project_bg">
-                                <div class="project_pic"><img src="/assets/img/top/index_twg.png" alt="東京ワールドゲート"></div>
-                                <div class="txtarea">
-                                    <p class="dec">PICK UP <br class="is-sp">PROJECT 01</p>
-                                    <div class="skew-box">
-                                        <h4 class="skew">東京ワールドゲート</h4>
+                <div class="cut-bg">
+                    <div class="cut-bg-r"></div>
+                    <ul class="project_wrap">
+                        <li class="project_item open_first">
+                            <a href="/pickup/tokyoworldgate.php">
+                                <div class="project_bg">
+                                    <div class="project_pic"><img src="/assets/img/top/index_twg.png" alt="東京ワールドゲート"></div>
+                                    <div class="txtarea">
+                                        <p class="dec">PICK UP <br class="is-sp">PROJECT 01</p>
+                                        <div class="skew-box">
+                                            <h4 class="skew">東京ワールドゲート</h4>
+                                        </div>
+                                        <p class="btn-style arr-next">view more</p>
                                     </div>
-                                    <p class="btn-style arr-next">view more</p>
                                 </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="project_item">
-                        <a href="/pickup/hotel.php">
-                            <div class="project_bg">
-                                <div class="project_pic"><img src="/assets/img/top/index_hotel.png" alt="東京ワールドゲート">
-                                </div>
-                                <div class="txtarea">
-                                    <p class="dec">PICK UP <br class="is-sp">PROJECT 02</p>
-                                    <div class="skew-box">
-                                        <h4 class="skew">3つのホテル</h4>
+                            </a>
+                        </li>
+                        <li class="project_item">
+                            <a href="/pickup/hotel.php">
+                                <div class="project_bg">
+                                    <div class="project_pic"><img src="/assets/img/top/index_hotel.png" alt="東京ワールドゲート">
                                     </div>
-                                    <p class="btn-style arr-next">view more</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="project_item">
-                        <a href="/pickup/innovation.php">
-                            <div class="project_bg">
-                                <div class="project_pic"><img src="/assets/img/top/index_innovation.png"
-                                        alt="東京ワールドゲート"></div>
-                                <div class="txtarea">
-                                    <p class="dec">PICK UP <br class="is-sp">PROJECT 03</p>
-                                    <div class="skew-box">
-                                        <h4 class="skew">イノベーション事業</h4>
+                                    <div class="txtarea">
+                                        <p class="dec">PICK UP <br class="is-sp">PROJECT 02</p>
+                                        <div class="skew-box">
+                                            <h4 class="skew">3つのホテル</h4>
+                                        </div>
+                                        <p class="btn-style arr-next">view more</p>
                                     </div>
-                                    <p class="btn-style arr-next">view more</p>
                                 </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="project_item">
-                        <a href="/pickup/wellness.php">
-                            <div class="project_bg">
-                                <div class="project_pic"><img src="/assets/img/top/index_wellness.png" alt="東京ワールドゲート">
-                                </div>
-                                <div class="txtarea">
-                                    <p class="dec">PICK UP <br class="is-sp">PROJECT 04</p>
-                                    <div class="skew-box">
-                                        <h4 class="skew">ウェルネス事業</h4>
+                            </a>
+                        </li>
+                        <li class="project_item">
+                            <a href="/pickup/innovation.php">
+                                <div class="project_bg">
+                                    <div class="project_pic"><img src="/assets/img/top/index_innovation.png"
+                                            alt="東京ワールドゲート"></div>
+                                    <div class="txtarea">
+                                        <p class="dec">PICK UP <br class="is-sp">PROJECT 03</p>
+                                        <div class="skew-box">
+                                            <h4 class="skew">イノベーション事業</h4>
+                                        </div>
+                                        <p class="btn-style arr-next">view more</p>
                                     </div>
-                                    <p class="btn-style arr-next">view more</p>
                                 </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="project_item">
-                        <a href="/pickup/restaurant.php">
-                            <div class="project_bg">
-                                <div class="project_pic"><img src="/assets/img/top/index_restaurant.png"
-                                        alt="東京ワールドゲート"></div>
-                                <div class="txtarea">
-                                    <p class="dec">PICK UP <br class="is-sp">PROJECT 05</p>
-                                    <div class="skew-box">
-                                        <h4 class="skew">レストラン事業</h4>
+                            </a>
+                        </li>
+                        <li class="project_item">
+                            <a href="/pickup/wellness.php">
+                                <div class="project_bg">
+                                    <div class="project_pic"><img src="/assets/img/top/index_wellness.png" alt="東京ワールドゲート">
                                     </div>
-                                    <p class="btn-style arr-next">view more</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="project_item">
-                        <a href="/pickup/worcation.php">
-                            <div class="project_bg">
-                                <div class="project_pic"><img src="/assets/img/top/index_workation.png" alt="東京ワールドゲート">
-                                </div>
-                                <div class="txtarea">
-                                    <p class="dec">PICK UP <br class="is-sp">PROJECT 06</p>
-                                    <div class="skew-box">
-                                        <h4 class="skew">ワーケーション事業</h4>
+                                    <div class="txtarea">
+                                        <p class="dec">PICK UP <br class="is-sp">PROJECT 04</p>
+                                        <div class="skew-box">
+                                            <h4 class="skew">ウェルネス事業</h4>
+                                        </div>
+                                        <p class="btn-style arr-next">view more</p>
                                     </div>
-                                    <p class="btn-style arr-next">view more</p>
                                 </div>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
+                            </a>
+                        </li>
+                        <li class="project_item">
+                            <a href="/pickup/restaurant.php">
+                                <div class="project_bg">
+                                    <div class="project_pic"><img src="/assets/img/top/index_restaurant.png"
+                                            alt="東京ワールドゲート"></div>
+                                    <div class="txtarea">
+                                        <p class="dec">PICK UP <br class="is-sp">PROJECT 05</p>
+                                        <div class="skew-box">
+                                            <h4 class="skew">レストラン事業</h4>
+                                        </div>
+                                        <p class="btn-style arr-next">view more</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="project_item">
+                            <a href="/pickup/worcation.php">
+                                <div class="project_bg">
+                                    <div class="project_pic"><img src="/assets/img/top/index_workation.png"
+                                            alt="ワーケーション事業"></div>
+                                    <div class="txtarea">
+                                        <p class="dec">PICK UP <br class="is-sp">PROJECT 06</p>
+                                        <div class="skew-box">
+                                            <h4 class="skew">ワーケーション事業</h4>
+                                        </div>
+                                        <p class="btn-style arr-next">view more</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- <li class="project_item">
+                            <a href="/pickup/worcation.php">
+                                <div class="prxoject_bg">
+                                    <div class="project_pic"><img src="/assets/img/top/index_workation.png" alt="東京ワールドゲート">
+                                    </div>
+                                    <div class="txtarea">
+                                        <p class="dec">PICK UP <br class="is-sp">PROJECT 06</p>
+                                        <div class="skew-box">
+                                            <h4 class="skew">ワーケーション事業</h4>
+                                        </div>
+                                        <p class="btn-style arr-next">view more</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
             </section>
 
 

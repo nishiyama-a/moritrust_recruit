@@ -143,10 +143,10 @@ $pageInfo = array(
                         <ul class="clm-2">
                             <li>
                                 <div class="clm-box h-link">
+                                    <div class="skew-box">
+                                        <h4 class="skew">東京ワールドゲート</h4>
+                                    </div>
                                     <div class="default-img h-img">
-                                        <div class="skew-box">
-                                            <h4 class="skew">東京ワールドゲート</h4>
-                                        </div>
                                         <img src="/assets/img/ourbusiness/link1-1.png" alt="">
                                     </div>
                                     <div class="clm-copy">
@@ -158,10 +158,10 @@ $pageInfo = array(
                             </li>
                             <li>
                                 <div class="clm-box h-link">
+                                    <div class="skew-box">
+                                        <h4 class="skew">森トラストグループのCo-Creation活動</h4>
+                                    </div>
                                     <div class="default-img h-img">
-                                        <div class="skew-box">
-                                            <h4 class="skew">森トラストグループのCo-Creation活動</h4>
-                                        </div>
                                         <img src="/assets/img/ourbusiness/link1-2.png" alt="">
                                     </div>
                                     <div class="clm-copy">

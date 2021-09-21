@@ -851,7 +851,7 @@ img {
 @media (max-width: 767px) {
   body {
     font-size: 0.875rem;
-    line-height: 1.6;
+    line-height: 1.5625rem;
   }
 }
 .header {
@@ -1251,15 +1251,6 @@ img {
 .footer .f_wrap .f_box._links {
   width: 100%;
 }
-@media (max-width: 767px) {
-  .footer .f_wrap .f_box._links {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 820px;
-  }
-}
 .footer .f_logo {
   width: 100%;
   max-width: 140px;
@@ -1647,7 +1638,6 @@ body {
 }
 @media (max-width: 767px) {
   .sc-kv #kv-img #kv_copy span.br2 {
-    display: block;
     margin-left: 0;
     margin-top: 1em;
   }
@@ -3458,6 +3448,7 @@ p.point-txt::before {
 .mediabox .mediabox-copy p {
   z-index: 3;
   position: relative;
+  text-align: justify;
 }
 .mediabox .mediabox-copy .skew-box {
   margin-bottom: 20px;
@@ -3482,6 +3473,7 @@ p.point-txt::before {
   padding: 60px 4%;
   position: absolute;
   z-index: 5;
+  text-align: justify;
 }
 .mediabox-2 .mediabox-copy .num {
   font-size: 14px;
@@ -3511,6 +3503,11 @@ p.point-txt::before {
 .mediabox-2.mediabox-l {
   padding-bottom: 150px;
 }
+@media (max-width: 767px) {
+  .mediabox-2.mediabox-l {
+    padding-bottom: 0;
+  }
+}
 .mediabox-2.mediabox-l .cut-bg {
   padding: 0 10% 0 0;
 }
@@ -3527,6 +3524,11 @@ p.point-txt::before {
 }
 .mediabox-2.mediabox-r {
   padding-bottom: 160px;
+}
+@media (max-width: 767px) {
+  .mediabox-2.mediabox-r {
+    padding-bottom: 0;
+  }
 }
 .mediabox-2.mediabox-r .cut-bg {
   padding: 0 0 0 10%;
@@ -3663,6 +3665,7 @@ p.point-txt::before {
     width: calc(100% - 20px);
     right: 0;
     padding: 30px 20px;
+    position: relative;
   }
   .mediabox-2 .mediabox-copy.copy-r {
     left: inherit;
@@ -4560,13 +4563,24 @@ p.point-txt::before {
   margin: 0 10px;
 }
 
-section.pickup .project_wrap {
-  background-color: #e1e3e8;
+section.pickup {
+  padding-bottom: 50px;
+}
+section.pickup .cut-bg {
+  padding: 0 0 50px;
+  bottom: -50px;
+}
+section.pickup .ttl_area {
+  padding-top: 0;
 }
 @media (max-width: 767px) {
-  section.pickup .project_wrap {
-    background-color: inherit;
+  section.pickup .ttl_area {
+    padding-top: 50px;
   }
+}
+section.pickup .project_wrap {
+  position: relative;
+  top: -50px;
 }
 section.pickup .txtarea .dec {
   font-family: "Cinzel", "Lato", serif;
@@ -4773,11 +4787,13 @@ section.interview .swiper-container .swiper-button-prev, section.interview .swip
   border-radius: 50%;
   border: 1px solid #000;
   outline: none;
+  top: 40%;
 }
 @media (max-width: 767px) {
   section.interview .swiper-container .swiper-button-prev, section.interview .swiper-container .swiper-button-next {
     width: 30px;
     height: 30px;
+    top: inherit;
   }
 }
 section.interview .swiper-container .swiper-button-prev::after, section.interview .swiper-container .swiper-button-next::after {
@@ -4890,7 +4906,12 @@ section.interview .swiper-slide .name_box .job_info {
 }
 
 section.cross_talk .ttl_area {
-  padding-bottom: 20px;
+  padding: 100px 0 100px;
+}
+@media (max-width: 767px) {
+  section.cross_talk .ttl_area {
+    padding: 50px 0 20px;
+  }
 }
 section.cross_talk .talk_group_bg {
   background-color: #e1e3e8;
@@ -5486,8 +5507,20 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 .ourbusiness .portforio .clm-3 li .default-img {
   margin-bottom: 25px;
 }
-.ourbusiness .link .h-link .h-img {
-  overflow: inherit;
+.ourbusiness .link .skew-box {
+  margin: 0 auto;
+  padding: 5px 15px;
+  position: relative;
+  left: -10px;
+  z-index: 5;
+}
+.ourbusiness .link .skew-box .skew {
+  font-size: 18px;
+  letter-spacing: 0.2em;
+}
+.ourbusiness .link .default-img {
+  position: relative;
+  top: -25px;
 }
 
 #realestate {
@@ -5680,7 +5713,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   }
 }
 .kv-interview .kv-ttl {
-  width: 25%;
+  width: 12%;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5887,7 +5920,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   }
 }
 .interview .answer-wrap .answer-box {
-  padding: 90px 5%;
+  padding: 90px 10%;
 }
 @media (max-width: 767px) {
   .interview .answer-wrap .answer-box {
@@ -5896,8 +5929,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 .interview .answer-wrap .answer-box .answer {
   margin-bottom: 50px;
-  width: 65%;
-  max-width: 550px;
+  width: 45%;
   display: block !important;
 }
 @media (max-width: 767px) {
@@ -5908,6 +5940,9 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 .interview .answer-wrap .answer-box .answer:last-child {
   margin-bottom: 0;
+}
+.interview .answer-wrap .answer-box .answer .txt {
+  text-align: justify;
 }
 .interview .answer-wrap .answer-box .skew-box {
   padding: 15px;
@@ -5922,8 +5957,8 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 .interview .answer-wrap .answer-img {
   position: absolute;
-  width: 48%;
-  right: 5%;
+  width: 50%;
+  right: 0;
   bottom: 90px;
 }
 @media (max-width: 767px) {
@@ -5947,7 +5982,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 .interview .answer-wrap.box-r .answer-img {
   right: inherit;
-  left: 5%;
+  left: 10%;
 }
 @media (max-width: 767px) {
   .interview .answer-wrap.box-r .answer-img {
@@ -5990,8 +6025,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 
 .schedule-img {
-  width: 60%;
-  max-width: 830px;
+  width: 40%;
   margin: 0 5% 0 auto;
   position: relative;
   z-index: 3;
@@ -6004,7 +6038,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 .schedule .flow {
   width: 86%;
   padding: 80px 5%;
-  margin-top: -90px;
+  margin-top: -140px;
 }
 @media (max-width: 767px) {
   .schedule .flow {
@@ -6757,6 +6791,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   margin-bottom: 10px;
   position: relative;
   height: 100%;
+  text-align: justify;
 }
 #freshman .answer-txt::after {
   content: "";
@@ -6842,7 +6877,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 @media (max-width: 767px) {
   .closstalk .people-list .people-item {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
   }
 }
 .closstalk .people-list .people-item:last-child {
@@ -6856,7 +6891,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 @media (max-width: 767px) {
   .closstalk .people-list .people-item .people {
-    width: 45%;
+    width: 40%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -6870,7 +6905,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 @media (max-width: 767px) {
   .closstalk .people-list .people-item .people .face-ico {
-    margin: 0 auto 10px;
+    margin: 0 auto;
   }
 }
 .closstalk .people-list .people-item .people .en {
@@ -6881,7 +6916,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 @media (max-width: 767px) {
   .closstalk .people-list .people-item .people .en {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 .closstalk .people-list .people-item .people .ja {
@@ -6890,7 +6925,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 @media (max-width: 767px) {
   .closstalk .people-list .people-item .people .ja {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .closstalk .people-list .people-item .history {
@@ -6906,9 +6941,10 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 @media (max-width: 767px) {
   .closstalk .people-list .people-item .history {
-    width: 55%;
+    width: 60%;
     text-align: justify;
     padding: 0;
+    font-size: 12px;
   }
 }
 .closstalk .people-list .people-item .history::before {
@@ -6933,7 +6969,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 @media (max-width: 767px) {
   .closstalk .people-list .people-item .history p span {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 .closstalk main {

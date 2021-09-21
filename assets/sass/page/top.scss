@@ -38,12 +38,21 @@
 }
 
 section.pickup{
-    .project_wrap{
-      background-color: $clr-gray;
-      @include breakpoint(small){
-        background-color: inherit;
-      }
+  padding-bottom: 50px;
+  .cut-bg{
+    padding: 0 0 50px;
+    bottom: -50px;
+  }
+  .ttl_area{
+    padding-top: 0;
+    @include breakpoint(small){
+      padding-top: 50px;
     }
+  }
+  .project_wrap{
+    position: relative;
+    top: -50px;
+  }
     .txtarea{
       .dec{
         font-family: $font-dec;
@@ -213,9 +222,11 @@ section.pickup{
           border-radius: 50%;
           border: 1px solid #000;
           outline: none;
+          top:40%;
           @include breakpoint(small){
             width: 30px;
             height: 30px;
+            top: inherit;
           }
           &::after{
             font-size: 20px;
@@ -323,7 +334,10 @@ section.pickup{
   
   section.cross_talk{
     .ttl_area{
-      padding-bottom: 20px;
+      padding: 100px 0 100px;
+      @include breakpoint(small){
+        padding: 50px 0 20px;
+      }
     }
     .talk_group_bg{
       background-color: $clr-gray;
