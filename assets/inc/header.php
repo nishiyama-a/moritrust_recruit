@@ -20,7 +20,7 @@
                 </div>
                 <div class="hum_box _links">
                     <div class="hum_link">
-                        <h4 class="hum_ttl">PICK UP <br class="disp-sp">PROJECT</h4>
+                        <h4 class="hum_ttl">PICK UP PROJECT</h4>
                         <ul class="hum_links">
                             <li class="link"><a href="/pickup/tokyoworldgate.php">東京ワールドゲート</a></li>
                             <li class="link"><a href="/pickup/hotel.php">３つのホテル事業</a></li>
@@ -58,7 +58,7 @@
                         </ul>
                     </div>
                     <div class="hum_link">
-                        <h4 class="hum_ttl">HUMAN <br>RESOURCES</h4>
+                        <h4 class="hum_ttl">HUMAN <br class="disp-pc">RESOURCES</h4>
                         <ul class="hum_links">
                             <li class="link"><a href="/hr/mttalk.php">MT TALK</a></li>
                             <li class="link"><a href="/hr/academy.php">MT ACADEMY</a></li>
