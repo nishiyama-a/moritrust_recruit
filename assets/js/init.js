@@ -1,3 +1,4 @@
+
 (function () {
   var elem = document.querySelector("#slider-fade");
   if (elem !== null) { //swiper-containerがあれば…

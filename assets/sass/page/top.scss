@@ -388,9 +388,11 @@ section.pickup{
         }
         &._02{
           .talk_pic_box{
-            width: 90%;
             margin-left: 0;
             z-index: 3;
+            @include breakpoint(small){
+              width: 90%;
+            }
           }
         }
         .talk_pic_box{

@@ -1653,7 +1653,7 @@ body {
   }
 }
 
-#slider-fade .swiper-slide {
+#slider-2 .swiper-slide {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1662,13 +1662,13 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-#slider-fade .swiper-slide img {
+#slider-2 .swiper-slide img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-#slider-fade .swiper-slide .kv_en {
+#slider-2 .swiper-slide .kv_en {
   font-family: "Cinzel", "Lato", serif;
   font-size: 50px;
   -webkit-writing-mode: vertical-rl;
@@ -1681,20 +1681,20 @@ body {
   color: #fff;
 }
 @media (max-width: 767px) {
-  #slider-fade .swiper-slide .kv_en {
+  #slider-2 .swiper-slide .kv_en {
     font-size: 25px;
     top: 0;
     left: 20px;
   }
 }
-#slider-fade .swiper-slide .kv_en .stroke {
+#slider-2 .swiper-slide .kv_en .stroke {
   color: transparent;
   -webkit-text-stroke: 1px #fff;
 }
-#slider-fade .swiper-slide:nth-child(2) .kv_en {
+#slider-2 .swiper-slide:nth-child(3) .kv_en {
   color: #000;
 }
-#slider-fade .swiper-slide:nth-child(2) .kv_en .stroke {
+#slider-2 .swiper-slide:nth-child(3) .kv_en .stroke {
   -webkit-text-stroke: 1px #000;
 }
 
@@ -4963,9 +4963,13 @@ section.cross_talk a .talk_group._01:first-child {
   }
 }
 section.cross_talk a .talk_group._02 .talk_pic_box {
-  width: 90%;
   margin-left: 0;
   z-index: 3;
+}
+@media (max-width: 767px) {
+  section.cross_talk a .talk_group._02 .talk_pic_box {
+    width: 90%;
+  }
 }
 section.cross_talk a .talk_group .talk_pic_box {
   display: -webkit-box;
@@ -5476,6 +5480,9 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 .ourbusiness .portforio .clm-3 li .default-img {
   margin-bottom: 25px;
 }
+.ourbusiness .link .h-link .h-img {
+  overflow: inherit;
+}
 
 #realestate {
   padding-top: 0;
@@ -5885,6 +5892,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   margin-bottom: 50px;
   width: 65%;
   max-width: 550px;
+  display: block !important;
 }
 @media (max-width: 767px) {
   .interview .answer-wrap .answer-box .answer {
@@ -6791,6 +6799,10 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 #freshman .answer .hash-box .hash {
   font-size: 15px;
   letter-spacing: 0.09em;
+}
+
+.figure-img img {
+  max-width: 1100px;
 }
 
 #ct-top .sc-inr, #ct-top .sc-inr-s, #ct-top .sc-inr-w {

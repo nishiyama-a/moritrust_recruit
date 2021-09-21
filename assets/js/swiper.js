@@ -28,20 +28,15 @@ var options1 = {
 
 var slider2 = '#slider-2';
 var options2 = {
-  loop: true,
-  spaceBetween: 10,
+  loop: true, //ループさせる
+  effect: "fade", //フェードのエフェクト
   slidesPerView: 1.2,
-  centeredSlides : true,
-  navigation: {
-    nextEl: slider2 + ' .swiper-button-next',
-    prevEl: slider2 + ' .swiper-button-prev'
+  autoplay: {
+    delay: 4000, //４秒後に次の画像へ
+    disableOnInteraction: false //ユーザー操作後に自動再生を再開する
   },
-  breakpoints: {
-    767: {
-      slidesPerView: 1,
-      spaceBetween: 30,
-    },
-  },
+  speed: 2500, //２秒かけながら次の画像へ移動
+  allowTouchMove: false //マウスでのスワイプを禁止
 
 }
 

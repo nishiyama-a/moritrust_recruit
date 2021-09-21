@@ -46,30 +46,31 @@ $pageInfo = array(
                         <span>多様化する一人ひとりと、未来を見つめて、</span>
                         <span>森トラストの挑戦は広がりつづけています。</span>
                     </p>
-                    <div class="swiper-container" id="slider-fade">
-                        <div class="swiper-wrapper2">
-                            <div class="swiper-slide">
-                                <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
-                                <picture class="kv-back">
-                                    <source media="(max-width:767px)" srcset="/assets/img/top/kv_slide01_sp.jpg">
-                                    <img src="/assets/img/top/kv_slide01.jpg" alt="">
-                                </picture>
-                            </div>
-                            <div class="swiper-slide">
-                                <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
-                                <picture class="kv-back">
-                                    <source media="(max-width:767px)" srcset="/assets/img/top/kv_slide02_sp.jpg">
-                                    <img src="/assets/img/top/kv_slide02.jpg" alt="">
-                                </picture>
-                            </div>
-                            <div class="swiper-slide">
-                                <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
-                                <picture class="kv-back">
-                                    <source media="(max-width:767px)" srcset="/assets/img/top/kv_slide03_sp.jpg">
-                                    <img src="/assets/img/top/kv_slide03.jpg" alt="">
-                                </picture>
-                            </div>
-
+                </div>
+            </div>
+            <div class="swiper-main sp-wfull view-up">
+                <div class="swiper-container" id="slider-2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
+                            <picture class="kv-back">
+                                <source media="(max-width:767px)" srcset="/assets/img/top/kv_slide01_sp.jpg">
+                                <img src="/assets/img/top/kv_slide01.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
+                            <picture class="kv-back">
+                                <source media="(max-width:767px)" srcset="/assets/img/top/kv_slide02_sp.jpg">
+                                <img src="/assets/img/top/kv_slide02.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
+                            <picture class="kv-back">
+                                <source media="(max-width:767px)" srcset="/assets/img/top/kv_slide03_sp.jpg">
+                                <img src="/assets/img/top/kv_slide03.jpg" alt="">
+                            </picture>
                         </div>
                     </div>
                 </div>
@@ -478,8 +479,8 @@ $pageInfo = array(
     <!-- スライダー -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="/assets/js/swiper.min.js"></script>
-    <script src="/assets/js/init.js"></script>
+    <script src="/assets/js/swiper.js"></script>
+    <!-- <script src="/assets/js/init.js"></script> -->
     <!-- kv -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>

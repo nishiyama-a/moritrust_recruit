@@ -21,7 +21,7 @@ $pageInfo = array(
                 <img src="/assets/img/ceo/kv_index.png">
             </picture>
             <div class="kv-ttl">
-                <p class="kv-head-en">CEO TALKS</p>
+                <p class="kv-head-en">CEO TALK</p>
                 <div class="kv-box skew-box">
                     <h1 class="kv-head skew">社長が語る森トラスト</h1>
                 </div>

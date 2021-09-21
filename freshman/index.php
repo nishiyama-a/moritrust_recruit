@@ -430,13 +430,6 @@ $pageInfo = array(
                             </div>
                         </li>
                     </ul>
-                    <div class="sc-box">
-                        <div class="btn-wrap clm-1">
-                            <a class="btn-style btn-2" href="/ourbusiness/">
-                                <span>一覧に戻る</span>
-                            </a>
-                        </div>
-                    </div>
             </section>
         </main>
 
