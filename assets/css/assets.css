@@ -1625,6 +1625,16 @@ body {
   }
 }
 
+#slider-fade .swiper-slide {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
 @media (max-width: 767px) {
   .sc-kv .kv-img img {
     width: 90%;
