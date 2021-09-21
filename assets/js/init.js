@@ -1,7 +1,7 @@
 (function () {
   var elem = document.querySelector("#slider-fade");
   if (elem !== null) { //swiper-containerがあれば…
-  var mySwiper = new Swiper(".swiper-container", {
+  var mySwiper = new Swiper(".swiper-container2", {
     loop: true, //ループさせる
     effect: "fade", //フェードのエフェクト
     autoplay: {

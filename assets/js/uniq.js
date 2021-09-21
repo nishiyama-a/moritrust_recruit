@@ -70,7 +70,7 @@ $(function(){
     });
 
       //ボディーコピーを表示
-  gsap.fromTo('#kv_copy', { 
+  gsap.fromTo('#kv_copy , .copy_sp', { 
     autoAlpha: 0, //初期状態
     },
     {
@@ -86,28 +86,3 @@ $(function(){
   
 
 });
-
-
-(function () {
-  var elem = document.querySelector(".swiper-container");
-  if (elem !== null) { //swiper-containerがあれば…
-  var mySwiper = new Swiper(".swiper-container", {
-    loop: true, //ループさせる
-    effect: "fade", //フェードのエフェクト
-    autoplay: {
-      delay: 4000, //４秒後に次の画像へ
-      disableOnInteraction: false //ユーザー操作後に自動再生を再開する
-    },
-    speed: 2000, //２秒かけながら次の画像へ移動
-    allowTouchMove: false, //マウスでのスワイプを禁止
-    navigation: { //左右のページ送りを有効にする
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
-    },
-    pagination: { //円形のページネーションを有効にする
-      el: ".swiper-pagination",
-      clickable: true //クリックを有効にする
-    }
-  });
-}
-})();

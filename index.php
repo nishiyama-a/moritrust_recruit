@@ -21,8 +21,8 @@ $pageInfo = array(
                     <p class="side">MORI TRUST<span class="red">GRADUATE RECRUITMENT</span></p>
                     <p class="scroll arr-next">SCROLL</p>
                     <picture class="copy">
-                        <source media="(max-width:767px)" srcset="/assets/img/top/copy_sp.png">
-                        <img src="/assets/img/top/copy.png" alt="創るのは、街だけじゃない。">
+                        <source media="(max-width:767px)" srcset="/assets/img/top/copy_sp.svg">
+                        <img src="/assets/img/top/copy.svg" alt="創るのは、街だけじゃない。">
                     </picture>
                 </div>
                 <div class="kv-scroll">
@@ -30,6 +30,9 @@ $pageInfo = array(
                     <div class="overlay"></div>
                 </div>
                 <div id="kv-img">
+                    <div class="copy_sp disp-sp">
+                    <img src="/assets/img/top/copy_sp.svg" alt="創るのは、街だけじゃない。">
+                    </div>
                     <p id="kv_copy">
                         <span>森トラストは、不動産の会社というイメージがあるかもしれません。</span>
                         <span>約<span class="combine">70</span>年にわたり、都心の大型複合開発や</span>
@@ -44,13 +47,26 @@ $pageInfo = array(
                         <span>森トラストの挑戦は広がりつづけています。</span>
                     </p>
                     <div class="swiper-container" id="slider-fade">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image: url('./assets/img/top/kv_slide01.jpg');">
+                        <div class="swiper-wrapper2">
+                            <div class="swiper-slide">
+                                <picture class="kv-back">
+                                    <source media="(max-width:767px)" srcset="/assets/img/top/kv_slide01_sp.jpg">
+                                    <img src="/assets/img/top/kv_slide01.jpg" alt="。">
+                                </picture>
                             </div>
-                            <div class="swiper-slide" style="background-image: url('./assets/img/top/kv_slide02.jpg');">
+                            <div class="swiper-slide">
+                                <picture class="kv-back">
+                                    <source media="(max-width:767px)" srcset="/assets/img/top/kv_slide02_sp.jpg">
+                                    <img src="/assets/img/top/kv_slide02.jpg" alt="。">
+                                </picture>
                             </div>
-                            <div class="swiper-slide" style="background-image: url('./assets/img/top/kv_slide03.jpg');">
+                            <div class="swiper-slide">
+                                <picture class="kv-back">
+                                    <source media="(max-width:767px)" srcset="/assets/img/top/kv_slide03_sp.jpg">
+                                    <img src="/assets/img/top/kv_slide03.jpg" alt="。">
+                                </picture>
                             </div>
+
                         </div>
                     </div>
                 </div>
