@@ -52,21 +52,21 @@ $pageInfo = array(
                                 <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
                                 <picture class="kv-back">
                                     <source media="(max-width:767px)" srcset="/assets/img/top/kv_slide01_sp.jpg">
-                                    <img src="/assets/img/top/kv_slide01.jpg" alt="。">
+                                    <img src="/assets/img/top/kv_slide01.jpg" alt="">
                                 </picture>
                             </div>
                             <div class="swiper-slide">
                                 <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
                                 <picture class="kv-back">
                                     <source media="(max-width:767px)" srcset="/assets/img/top/kv_slide02_sp.jpg">
-                                    <img src="/assets/img/top/kv_slide02.jpg" alt="。">
+                                    <img src="/assets/img/top/kv_slide02.jpg" alt="">
                                 </picture>
                             </div>
                             <div class="swiper-slide">
                                 <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
                                 <picture class="kv-back">
                                     <source media="(max-width:767px)" srcset="/assets/img/top/kv_slide03_sp.jpg">
-                                    <img src="/assets/img/top/kv_slide03.jpg" alt="。">
+                                    <img src="/assets/img/top/kv_slide03.jpg" alt="">
                                 </picture>
                             </div>
 
@@ -479,11 +479,11 @@ $pageInfo = array(
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="/assets/js/swiper.min.js"></script>
+    <script src="/assets/js/init.js"></script>
     <!-- kv -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
     <script src="/assets/js/gsap.min.js"></script>
-    <script src="/assets/js/init.js"></script>
 </body>
 
 </html>
