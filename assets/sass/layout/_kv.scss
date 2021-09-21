@@ -110,6 +110,9 @@ transform: rotate(90deg);
           width: 100%;
         }
       }
+      &.disp-sp{
+        left: 20%;
+      }
     }
     #kv_copy{
       position: absolute;
@@ -173,6 +176,33 @@ transform: rotate(90deg);
     height: 100%;
     width: 100%;
     object-fit: cover;
+  }
+  .kv_en{
+    font-family: $font-dec;
+    font-size: 50px;
+    writing-mode: vertical-rl;
+    position: absolute;
+    z-index: 8;
+    top: -150px;
+    left: 5%;
+    color: #fff;
+    @include breakpoint(small){
+      font-size: 25px;
+      top: 0;
+      left: 20px;
+    }
+    .stroke{
+      color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    }
+  }
+  &:nth-child(2){
+    .kv_en{
+      color: #000;
+      .stroke{
+      -webkit-text-stroke: 1px #000;
+      }
+    }
   }
 }
 .kv-back{
