@@ -5,7 +5,7 @@
     overflow: hidden; 
     height: 100vh;
     width: 100%;
-    position: relative;
+    position: absolute;
     z-index: 100;
     display: flex;
     justify-content: center;
@@ -172,6 +172,10 @@ transform: rotate(90deg);
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  margin-top: -$header-h;
+    @include breakpoint(small){
+      margin-top: -$hambmenu-h;
+    }
   img{
     height: 100%;
     width: 100%;

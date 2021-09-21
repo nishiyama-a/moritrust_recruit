@@ -1454,7 +1454,7 @@ body {
   overflow: hidden;
   height: 100vh;
   width: 100%;
-  position: relative;
+  position: absolute;
   z-index: 100;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1661,6 +1661,12 @@ body {
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  margin-top: -70px;
+}
+@media (max-width: 767px) {
+  #slider-2 .swiper-slide {
+    margin-top: -50px;
+  }
 }
 #slider-2 .swiper-slide img {
   height: 100%;

@@ -29,8 +29,8 @@ $(function () {
   //ロゴが拡大する
   gsap.to("#scroll_logo", {
     scrollTrigger: {
-      trigger: ".first_kv",
-      start: "top top",
+      trigger: ".sc-kv",
+      start: "-70 top",
       end: '+=1500', //アニメーション開始位置から1500px固定する
       scrub: true, // スクロールに合わせて動く
       //markers: true,
@@ -46,7 +46,7 @@ $(function () {
     {
       autoAlpha: 0,
       scrollTrigger: {
-        trigger: 'first_kv',
+        trigger: '.first_kv',
         start: "top top",
         end: '+=100', //アニメーション開始位置から200pxの位置で終わる
         scrub: true, // スクロールに合わせて動く
@@ -61,7 +61,7 @@ $(function () {
     {
       autoAlpha: 1,
       scrollTrigger: {
-        trigger: 'first_kv',
+        trigger: '.first_kv',
         start: "700 top",
         end: '+=300', //アニメーション開始位置から200pxの位置で終わる
         scrub: true, // スクロールに合わせて動く
@@ -76,7 +76,7 @@ $(function () {
     {
       autoAlpha: 1,
       scrollTrigger: {
-        trigger: 'first_kv',
+        trigger: '.first_kv',
         start: "700 top",
         end: '+=300', //アニメーション開始位置から300pxの位置で終わる
         scrub: true, // スクロールに合わせて動く
