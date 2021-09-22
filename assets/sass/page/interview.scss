@@ -216,12 +216,47 @@
     @include breakpoint(small){
         margin-top: 0;
     }
+    .cut-bg-r,.cut-bg-l{
+        &::after{
+            transform: skew(0);
+        }
+    }
+    @include breakpoint(small){
+
+        .box-l{
+            .answer{
+                padding-right: 20px;
+                
+            }
+        }
+        .box-r{
+            .answer{
+                padding-left: 20px;
+                
+            }
+        }
+    }
     .answer-wrap{
         display: flex;
         align-items: flex-end;
         position: relative;
         @include breakpoint(small){
             padding-top: 160px;
+        }
+        @include breakpoint(small){
+
+            .box-l{
+                .answer{
+                    padding-right: 20px;
+                    
+                }
+            }
+            .box-r{
+                .answer{
+                    padding-left: 20px;
+                    
+                }
+            }
         }
         .answer-box{
             padding: 90px 10%;
@@ -324,7 +359,7 @@
         padding: 80px 5%;
         margin-top: -140px;
         @include breakpoint(small){
-            width: calc(100% - 20px);
+            width: 100%;
             margin-top: -25px;
             padding: 40px 20px 35px;
         }
@@ -336,6 +371,9 @@
             }
         }
         &-list{
+            @include breakpoint(small){
+                padding-right: 20px;
+            }
             li{
                 display: flex;
                 align-items: center;
@@ -495,10 +533,12 @@
                     border-top: 1px solid #fff;
                     padding: 20px 0;
                     display: flex;
-                    width: 70%;
+                    width: 85%;
+                    align-items: center;
                     @include breakpoint(small){
                         flex-direction: column;
                         padding: 15px 0 ;
+                        align-items: flex-start;
                     }
                     .flow-ttl{
                         color: $clr-main;
@@ -508,13 +548,11 @@
                 }
             }
         }
-    }
-    .cut-bg-r{
-        &::before{
-            border-right: solid 100px #fff;
-            border-top: solid 900px transparent;
-            @include breakpoint(small){
-                display: none;
+        .cut-bg-r{
+            &::after{
+                @include breakpoint(small){
+                    transform: skew(0);
+                }
             }
         }
     }

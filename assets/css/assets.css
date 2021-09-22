@@ -6000,6 +6000,18 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
     margin-top: 0;
   }
 }
+.interview .cut-bg-r::after, .interview .cut-bg-l::after {
+  -webkit-transform: skew(0);
+          transform: skew(0);
+}
+@media (max-width: 767px) {
+  .interview .box-l .answer {
+    padding-right: 20px;
+  }
+  .interview .box-r .answer {
+    padding-left: 20px;
+  }
+}
 .interview .answer-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6012,6 +6024,14 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 @media (max-width: 767px) {
   .interview .answer-wrap {
     padding-top: 160px;
+  }
+}
+@media (max-width: 767px) {
+  .interview .answer-wrap .box-l .answer {
+    padding-right: 20px;
+  }
+  .interview .answer-wrap .box-r .answer {
+    padding-left: 20px;
   }
 }
 .interview .answer-wrap .answer-box {
@@ -6137,7 +6157,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 @media (max-width: 767px) {
   .schedule .flow {
-    width: calc(100% - 20px);
+    width: 100%;
     margin-top: -25px;
     padding: 40px 20px 35px;
   }
@@ -6148,6 +6168,11 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 .schedule .flow .skew-box .skew {
   padding: 0;
+}
+@media (max-width: 767px) {
+  .schedule .flow-list {
+    padding-right: 20px;
+  }
 }
 .schedule .flow-list li {
   display: -webkit-box;
@@ -6268,7 +6293,10 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 70%;
+  width: 85%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 @media (max-width: 767px) {
   .schedule .flow-list li .border-box {
@@ -6277,6 +6305,9 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 15px 0;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 .schedule .flow-list li .border-box .flow-ttl {
@@ -6284,13 +6315,10 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   margin-right: 1em;
   width: 10em;
 }
-.schedule .cut-bg-r::before {
-  border-right: solid 100px #fff;
-  border-top: solid 900px transparent;
-}
 @media (max-width: 767px) {
-  .schedule .cut-bg-r::before {
-    display: none;
+  .schedule .flow .cut-bg-r::after {
+    -webkit-transform: skew(0);
+            transform: skew(0);
   }
 }
 

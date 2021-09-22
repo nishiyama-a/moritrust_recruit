@@ -57,7 +57,7 @@ $pageInfo = array(
                 <div class="sc-box">
                     <div class="answer-wrap box-l">
                         <div class="answer-box cut-bg">
-                <div class="cut-bg-r"></div>
+                            <div class="cut-bg-r"></div>
                             <div class="answer">
                                 <div class="skew-box">
                                     <h4 class="skew">現在の部署での業務内容</h4>
@@ -80,7 +80,7 @@ $pageInfo = array(
                 </div>
                 <div class="answer-wrap box-r">
                     <div class="answer-box cut-bg">
-                <div class="cut-bg-l"></div>
+                        <div class="cut-bg-l"></div>
                         <div class="answer">
                             <div class="skew-box">
                                 <h4 class="skew">好きな森トラストの物件</h4>
@@ -100,12 +100,11 @@ $pageInfo = array(
                     </div>
                     <div class="answer-img"><img src="/assets/img/interview/interview_2-2.png" alt=""></div>
                 </div>
-    </div>
     <div class="sc-box">
         <div class="schedule">
             <div class="schedule-img"><img src="/assets/img/interview/interview_2-3.png" alt=""></div>
             <div class="flow cut-bg">
-            <div class="cut-bg-r"></div>
+                <div class="cut-bg-r"></div>
                 <div class="skew-box">
                     <h4 class="skew">1日の流れ</h4>
                 </div>
