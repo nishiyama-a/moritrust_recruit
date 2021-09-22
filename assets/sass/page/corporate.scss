@@ -6,14 +6,8 @@
             margin-bottom: 50px;
         }
         .slogan{
-            font-family: $font-eng;
-            font-size: 36px;
-            letter-spacing: 0.05em;
-            line-height: 2;
-            font-weight: normal;
-            @include breakpoint(small){
-                font-size: 20px;
-            }
+            width: 50%;
+            padding: 10px 0 15px;
         }
     }
 }

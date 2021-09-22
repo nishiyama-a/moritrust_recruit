@@ -39,7 +39,7 @@ $pageInfo = array(
                         <div class="txtbox clm-copy">
                             <div class="skew-box">
                                 <h4 class="skew">その場所自体が生きたものに<br class="disp-sp">変わっていくのを、<br>
-                                    本当に体現・体感することができるのが<br class="disp-sp">デベロッパーの一番の魅力</h4>
+                                    本当に体現・体感することができるのが<br class="disp-sp">ディベロッパーの一番の魅力</h4>
                             </div>
                             <div class="rb-txt">
                                 <p>森トラスト代表取締役社長</p>
@@ -65,13 +65,13 @@ $pageInfo = array(
                         <li>
                             <div class="clm-box">
                                 <div class="clm-copy">
-                                    <p class="point-txt">デベロッパーの魅力は？<br>森トラストの企業ビジョンは？</p>
+                                    <p class="point-txt">ディベロッパーの魅力は？<br>森トラストの企業ビジョンは？</p>
                                     <p class="side-num">VOL.<span>01</span></p>
                                 </div>
                                     <div class="default-img clm-img">
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/bQn4OVv0Hwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
-                                <p>森トラスト社長が考えるデベロッパーの魅力や日本の未来像、森トラストの企業ビジョンについて語ります。</p>
+                                <p>森トラスト社長が考えるディベロッパーの魅力や日本の未来像、森トラストの企業ビジョンについて語ります。</p>
                             </div>
                         </li>
                         <li>

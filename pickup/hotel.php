@@ -22,7 +22,7 @@ $pageInfo = array(
             </picture>
             <div class="kv-ttl">
                 <div class="kv-box skew-box">
-                    <h1 class="kv-head skew">３つのホテル</h1>
+                    <h1 class="kv-head skew">3つのホテル</h1>
                 </div>
                 <p class="kv-head-en">PICK UP PROJECT 02</p>
             </div>

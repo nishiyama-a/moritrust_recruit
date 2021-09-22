@@ -67,7 +67,7 @@ $pageInfo = array(
                             </tr>
                             <tr>
                                 <th>コーポレート<br class="disp-pc">スローガン</th>
-                                <td><span class="slogan">Create the Future</span><br>
+                                <td><div class="slogan"><img src="/assets/img/corporate/slogan.png" alt="Create the Future"></div>
                                     森トラストグループは、創業以来、先進技術やシステムを採用した<br class="disp-pc">
                                     大型複合開発をはじめ、日本初の法人会員制リゾートの創業、<br class="disp-pc">
                                     業界に先駆けた高級外資系ホテルの誘致、リート市場創設の提唱など、<br class="disp-pc">

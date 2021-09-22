@@ -54,10 +54,10 @@ $pageInfo = array(
                         <div class="ico"><img src="/assets/img/freshman/grape.svg" alt=""></div>
                         <div class="ico"><img src="/assets/img/freshman/dies.svg" alt=""></div>
                     </div>
+                    <div class="txt-q aldisp">
+                        <p>Q</p>
+                    </div>
                     <ul class="freshman-q">
-                        <div class="txt-q aldisp">
-                            <p>Q</p>
-                        </div>
                         <li>
                             <div class="question">
                                 <div class="plus"></div>
@@ -110,9 +110,9 @@ $pageInfo = array(
                         <li>
                             <div class="question">
                                 <div class="plus"></div>
-                                <div class="txt-q">
+                                <!-- <div class="txt-q">
                                     <p>Q</p>
-                                </div>
+                                </div> -->
                                 <p class="q-txt"><span>あなたの性格を一言で<br class="disp-sp">表してください</span></p>
                             </div>
                             <div class="answer">
@@ -163,9 +163,9 @@ $pageInfo = array(
                         <li>
                             <div class="question">
                                 <div class="plus"></div>
-                                <div class="txt-q">
+                                <!-- <div class="txt-q">
                                     <p>Q</p>
-                                </div>
+                                </div> -->
                                 <p class="q-txt"><span>就職活動をするうえで大事にしていた<br class="disp-sp">軸と<br
                                             class="disp-pc">志望業界を教えてください</span></p>
                             </div>
@@ -174,7 +174,7 @@ $pageInfo = array(
                                     <li>
 
                                         <div class="answer-txt">
-                                            <p><span>「未来に向けた、都市・まちづくり携わることができる」</span>仕事を軸にしていました。大学では都市建築デザインを専攻しており、急速に変化する社会に対して、新しい都市や建築を様々な設計課題や授業を通して考えてきました。そこで私はリサーチとそこから考えるコンセプト設定により興味を持って取り組みました。その経験から、都市や街づくりに対してより上流から関わりたいと考え、志望業界も不動産業界のみを志望していました。<span>大学での経験が、就活における軸を形成</span>する要因になったのだと思います。
+                                            <p><span>「未来に向けた、都市・まちづくりに携わることができる」</span>仕事を軸にしていました。大学では都市建築デザインを専攻しており、急速に変化する社会に対して、新しい都市や建築を様々な設計課題や授業を通して考えてきました。そこで私はリサーチとそこから考えるコンセプト設定により興味を持って取り組みました。その経験から、都市や街づくりに対してより上流から関わりたいと考え、志望業界も不動産業界のみを志望していました。<span>大学での経験が、就活における軸を形成</span>する要因になったのだと思います。
                                             </p>
                                         </div>
                                         <div class="hash-box">
@@ -188,7 +188,7 @@ $pageInfo = array(
                                     <li>
 
                                         <div class="answer-txt">
-                                            <p>私が就職活動をする上で大事にしていた軸は<span>「人」</span>です。12年間チーム競技であるサッカーを続けてきて、大学でもスキーの団体戦という競技で最もやりがいを感じたこともあり、<span>多くのステークホルダーと協力しながら、多くの人が集う「街」という大きなものをつくる</span>ことができるデベロッパーの仕事に惹かれ志望しました。また、文系という立場からでも「街」という大きなものを「つくる」ことに携われることや、それらを利用する人々の喜ぶ姿を見ることができることもデベロッパーの大きな魅力だと感じました。
+                                            <p>私が就職活動をする上で大事にしていた軸は<span>「人」</span>です。12年間チーム競技であるサッカーを続けてきて、大学でもスキーの団体戦という競技で最もやりがいを感じたこともあり、<span>多くのステークホルダーと協力しながら、多くの人が集う「街」という大きなものをつくる</span>ことができるディベロッパーの仕事に惹かれ志望しました。また、文系という立場からでも「街」という大きなものを「つくる」ことに携われることや、それらを利用する人々の喜ぶ姿を見ることができることもディベロッパーの大きな魅力だと感じました。
                                             </p>
                                         </div>
                                         <div class="hash-box">
@@ -218,9 +218,9 @@ $pageInfo = array(
                         <li>
                             <div class="question">
                                 <div class="plus"></div>
-                                <div class="txt-q">
+                                <!-- <div class="txt-q">
                                     <p>Q</p>
-                                </div>
+                                </div> -->
                                 <p class="q-txt"><span>森トラストの志望動機と<br>最終的に選んだ理由を教えてください</span></p>
                             </div>
                             <div class="answer">
@@ -256,7 +256,7 @@ $pageInfo = array(
                                     <li>
 
                                         <div class="answer-txt">
-                                            <p>私は、<span>「新たな付加価値の創出により、今よりも豊かな生活が可能な街」を具現化出来る</span>と思い志望しました。就活中、多くのデベロッパー企業を見てきましたが、神谷町など日本のビジネスの要となる街にただオフィスビルを生み出すだけではなく、ベンチャー企業とともにビルやホテルに新しい価値を提供する姿勢や、新たなラグジュアリーホテルを日本に提供していくといった<span>『新たな価値の創造』の姿勢に共感</span>し志望度が高まりました。そして最終的には、社員の方の仕事に対する姿勢をみてここで働きたいという思いが強くなりました！
+                                            <p>私は、<span>「新たな付加価値の創出により、今よりも豊かな生活が可能な街」を具現化出来る</span>と思い志望しました。就活中、多くのディベロッパー企業を見てきましたが、神谷町など日本のビジネスの要となる街にただオフィスビルを生み出すだけではなく、ベンチャー企業とともにビルやホテルに新しい価値を提供する姿勢や、新たなラグジュアリーホテルを日本に提供していくといった<span>『新たな価値の創造』の姿勢に共感</span>し志望度が高まりました。そして最終的には、社員の方の仕事に対する姿勢をみてここで働きたいという思いが強くなりました！
                                             </p>
                                         </div>
                                         <div class="hash-box">
@@ -272,9 +272,9 @@ $pageInfo = array(
                         <li>
                             <div class="question">
                                 <div class="plus"></div>
-                                <div class="txt-q">
+                                <!-- <div class="txt-q">
                                     <p>Q</p>
-                                </div>
+                                </div> -->
                                 <p class="q-txt"><span>森トラストの印象を教えてください</span></p>
                             </div>
                             <div class="answer">
@@ -327,9 +327,9 @@ $pageInfo = array(
                         <li>
                             <div class="question">
                                 <div class="plus"></div>
-                                <div class="txt-q">
+                                <!-- <div class="txt-q">
                                     <p>Q</p>
-                                </div>
+                                </div> -->
                                 <p class="q-txt"><span>森トラストでやりたい仕事は<br class="disp-sp">何ですか？</span></p>
                             </div>
                             <div class="answer">
@@ -366,7 +366,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/cat.svg" alt=""></div>
+                                            <div class="icon"><img src="/assets/img/freshman/grape.svg" alt=""></div>
                                             <div class="hash">
                                                 <p>#男性<br>#文系<br>#ぶどう</p>
                                             </div>
@@ -379,9 +379,9 @@ $pageInfo = array(
                         <li>
                             <div class="question">
                                 <div class="plus"></div>
-                                <div class="txt-q">
+                                <!-- <div class="txt-q">
                                     <p>Q</p>
-                                </div>
+                                </div> -->
                                 <p class="q-txt"><span>最後に、就活生へひとこと<br class="disp-sp">メッセージをお願いします！</span></p>
                             </div>
                             <div class="answer">
@@ -392,7 +392,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/travel.svg" alt="">
+                                            <div class="icon"><img src="/assets/img/freshman/flower.svg" alt="">
                                             </div>
                                             <div class="hash">
                                                 <p>#女性<br>#文系<br>#お花</p>
@@ -420,9 +420,9 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/cat.svg" alt=""></div>
+                                            <div class="icon"><img src="/assets/img/freshman/golf.svg" alt=""></div>
                                             <div class="hash">
-                                                <p>#女性<br>#文系<br>#ゴルフ</p>
+                                                <p>#男性<br>#文系<br>#ゴルフ</p>
                                             </div>
                                         </div>
                                     </li>

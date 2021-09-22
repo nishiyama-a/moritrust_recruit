@@ -143,11 +143,11 @@
     cursor: pointer;
     display: flex;
     justify-content: center;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
     flex-direction: column;
     text-align: center;
     @include breakpoint(small){
-        padding-bottom: 30px;
+        margin-bottom: 30px;
     }
     &::before, &::after{
         content: "";

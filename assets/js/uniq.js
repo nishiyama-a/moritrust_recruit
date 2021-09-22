@@ -1,6 +1,9 @@
 $(function () {
-  //ハンバーガーメニュー
 
+  //ハンバーガーメニューのheight設定
+  $('.hum_wrap').css('height',$(window).height());
+
+  //ハンバーガーメニュー
   if (window.matchMedia('(max-width: 768px)').matches) {
     $(".hum_links").css("display", "none");
     $(".hum_ttl").click(function () {
@@ -34,7 +37,7 @@ $(function () {
 
   //freshman　アコーディオン
   $(".answer").css("display", "none");
-  $(".txt-q").css("display", "none");
+  //$(".txt-q").css("display", "none");
 
   $(".question").click(function () {
 
@@ -43,7 +46,7 @@ $(function () {
     $(this).toggleClass("open");
     $(this).next().slideToggle(300);
     //txt-q
-    $(this).children('.txt-q').slideToggle();
+    //$(this).children('.txt-q').slideToggle();
   });
 
   //top pickup TWG
@@ -62,7 +65,7 @@ $('.open-first').mouseout(function(e) {
       //markers: true,
       pin: true //トリガー要素を固定する
     },
-    scale: 35,
+    scale: 45,
   });
 
   //コピー等が消える

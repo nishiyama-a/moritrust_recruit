@@ -400,7 +400,7 @@ $pageInfo = array(
                             <div class="box_cnt">
                                 <p class="ttl_ja">社長が語る森トラスト</p>
                                 <div class="skew-box">
-                                    <h4 class="skew en"><span>CEO TALKS</span></h4>
+                                    <h4 class="skew en"><span>CEO TALK</span></h4>
                                 </div>
                                 <div class="talk_img"><img src="/assets/img/top/talk_ceo.png" alt="社長が語る森トラスト"></div>
                                 <p class="arr-next">view more</p>

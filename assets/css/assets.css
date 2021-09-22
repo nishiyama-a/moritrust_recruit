@@ -5965,14 +5965,15 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   font-family: "Cinzel", "Lato", serif;
   font-size: 20px;
   letter-spacing: 0.05em;
-  padding-right: 50px;
   margin-right: 10px;
   position: relative;
+  display: inline-block;
+  width: 3.6em;
 }
 @media (max-width: 767px) {
   .kv-interview .important-list .important-item span {
     margin-right: 10px;
-    padding-right: 30px;
+    width: 2.6em;
   }
 }
 .kv-interview .important-list .important-item span::after {
@@ -6678,7 +6679,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -6687,7 +6688,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 @media (max-width: 767px) {
   #freshman .question {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
 }
 #freshman .question::before, #freshman .question::after {
@@ -6936,8 +6937,23 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   letter-spacing: 0.09em;
 }
 
+.figure-img {
+  text-align: center;
+}
 .figure-img img {
   max-width: 1100px;
+}
+.figure-img .note {
+  font-size: 14px;
+  text-align: right;
+  max-width: 1100px;
+  margin: 15px auto 0;
+}
+@media (max-width: 767px) {
+  .figure-img .note {
+    font-size: 12px;
+    margin-top: 10px;
+  }
 }
 
 #ct-top .sc-inr, #ct-top .sc-inr-s, #ct-top .sc-inr-w {
@@ -7378,16 +7394,8 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   }
 }
 .corporate .tbl-1 .slogan {
-  font-family: "Marcellus", "Lato", serif;
-  font-size: 36px;
-  letter-spacing: 0.05em;
-  line-height: 2;
-  font-weight: normal;
-}
-@media (max-width: 767px) {
-  .corporate .tbl-1 .slogan {
-    font-size: 20px;
-  }
+  width: 50%;
+  padding: 10px 0 15px;
 }
 
 @media (max-width: 767px) {
