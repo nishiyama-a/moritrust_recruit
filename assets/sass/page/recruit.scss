@@ -5,6 +5,13 @@
 }
 
 #message{
+    .between-box{
+        margin-bottom: 100px;
+        @include breakpoint(small){
+            padding-bottom: 30px;
+            margin-bottom: 0;
+        }
+    }
     .message-copy{
         max-width: 650px;
         margin: 0 auto;

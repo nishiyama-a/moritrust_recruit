@@ -31,14 +31,12 @@ $pageInfo = array(
         <main class="l-contents recruit" role="main" id="message">
             <section class="l-section read-area">
                 <div class="sc-inr">
-                    <div class="sc-box">
                         <div class="between-box clm-box">
                             <picture>
                                 <source media="(max-width:767px)" srcset="/assets/img/recruit/message.png">
                                 <img src="/assets/img/recruit/message.png" alt="">
                             </picture>
                         </div>
-                    </div>
                     <div class="sc-box">
                         <div class="message-copy">
                             <picture>

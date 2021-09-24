@@ -22,4 +22,7 @@ if (empty($pageInfo['pagetitle'])) {
 <meta content="森トラスト新卒採用サイト｜株式会社森トラスト" property="twitter:title">
 <meta content="「創るのは、街だけじゃない。」をコンセプトにリクルートを行う、株式会社森トラストの新卒採用サイト。" property="twitter:description">
 <meta content="http://recruit.mori-trust.co.jp/recruit/sinsotsu/assets/img/og.jpg" property="twitter:image:src">
+<link rel="icon" href="/assets/img/cmn//favicon.svg"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/cmn/favicon.svg">
+<link rel="icon" type="image/png" href="/assets/img/cmn/favicon.svg" sizes="192x192">
 <link rel="stylesheet" href="/assets/css/assets.css">
