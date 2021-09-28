@@ -129,6 +129,7 @@ transform: rotate(90deg);
       transition: 0.3s;
       letter-spacing: 0.1em;
       line-height: 1.75;
+      opacity: 0;
       @include breakpoint(small){
         flex-direction: column;
         top: 40vh;

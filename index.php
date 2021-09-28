@@ -203,7 +203,7 @@ $pageInfo = array(
 
             <section class="interview">
                 <div class="ttl_area">
-                    <h3 class="ttl_ja">社員が語る森トラスト</h3>
+                    <h3 class="ttl_ja">仕事と人</h3>
                     <h2 class="ttl_en"><span class="stroke">INTERVIEW</span>INTERVIEW<span
                             class="stroke">INTERVIEW</span>INTERVIEW<span class="stroke">INTERVIEW</span>INTERVIEW<span
                             class="stroke">INTERVIEW</span>INTERVIEW</h2>
@@ -355,7 +355,7 @@ $pageInfo = array(
 
             <section class="cross_talk">
                 <div class="ttl_area">
-                    <h3 class="ttl_ja">社員が語る森トラスト</h3>
+                    <h3 class="ttl_ja">仕事と人</h3>
                     <h2 class="ttl_en"><span class="stroke">CROSS TALK</span>CROSS TALK<span class="stroke">CROSS
                             TALK</span>CROSS TALK<span class="stroke">CROSS TALK</span>CROSS TALK<span
                             class="stroke">CROSS TALK</span>CROSS TALK</h2>

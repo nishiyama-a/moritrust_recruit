@@ -1,6 +1,6 @@
 <?php
 $pageInfo = array(
-  "pagetitle" => "社員が語る森トラスト｜森トラスト新卒採用サイト",
+  "pagetitle" => "仕事と人｜森トラスト新卒採用サイト",
 );
 ?>
 
@@ -23,7 +23,7 @@ $pageInfo = array(
             <div class="kv-ttl">
                 <p class="kv-head-en">CROSS TALK</p>
                 <div class="kv-box skew-box">
-                    <h1 class="kv-head skew">社員が語る森トラスト</h1>
+                    <h1 class="kv-head skew">仕事と人</h1>
                 </div>
             </div>
         </div>

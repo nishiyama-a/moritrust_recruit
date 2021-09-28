@@ -16,7 +16,8 @@
        margin-bottom: 30px;
     }
     .kv-img{
-        width: 75%;
+        max-width: 75%;
+        margin-right: 5%;
         position: relative;
         z-index: 3;
         padding-bottom: 50px;
@@ -65,7 +66,7 @@
         }
     }
     .kv-ttl{
-        width: 12%;
+        // width: 12%;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -79,7 +80,7 @@
             margin-bottom: 30px;
         }
         .job{
-        font-size: 26px;
+        font-size: 1.5vw;
         font-weight: bold;
         padding-bottom: 10px;
         border-bottom: 1px solid $clr-text;
@@ -97,7 +98,7 @@
             text-align: left;
             line-height: 1.4;
             span{
-                font-size: 100px;
+                font-size: 5.8vw;
                 letter-spacing: 0.05em;
                 font-family: $font-dec;
                 @include breakpoint(small){
@@ -108,7 +109,7 @@
     }
     .person{
         padding: 85px 13%;
-        width: 60%;
+        width: 50%;
         @include breakpoint(small){
             width: 65%;
             padding: 0;
@@ -150,9 +151,9 @@
     }
     .important{
         position: relative;
-        width: 40%;
+        width: 50%;
         top: -120px;
-        padding: 140px 7% 50px;
+        padding: 140px 2% 50px 7%;
         @include breakpoint(small){
             width: 100%;
             padding: 20px;
@@ -175,7 +176,7 @@
             .important-item{
                 margin-bottom: 10px;
                 font-weight: 800;
-                font-size: 20px;
+                font-size: 18px;
                 letter-spacing: 0.2em;
                 @include breakpoint(small){
                     font-size: 14px;

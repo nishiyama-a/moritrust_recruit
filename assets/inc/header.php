@@ -26,7 +26,7 @@
                             <li class="link"><a href="/pickup/hotel.php">3つのホテル</a></li>
                             <li class="link"><a href="/pickup/innovation.php">イノベーション事業</a></li>
                             <li class="link"><a href="/pickup/wellness.php">ウェルネス事業</a></li>
-                            <li class="link"><a href="/pickup/restaurant.php">レストラン・食事業</a></li>
+                            <li class="link"><a href="/pickup/restaurant.php">カフェ・レストラン事業</a></li>
                             <li class="link"><a href="/pickup/worcation.php">ワーケーション事業</a></li>
                         </ul>
                     </div>

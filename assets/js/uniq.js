@@ -60,12 +60,12 @@ $('.open-first').mouseout(function(e) {
     scrollTrigger: {
       trigger: ".sc-kv",
       start: "-70 top",
-      end: '+=1500', //アニメーション開始位置から1500px固定する
+      end: '+=1000', //アニメーション開始位置から1500px固定する
       scrub: true, // スクロールに合わせて動く
+      pin: true, //トリガー要素を固定する
       //markers: true,
-      pin: true //トリガー要素を固定する
     },
-    scale: 45,
+    scale: 60,
   });
 
   //コピー等が消える
@@ -77,7 +77,7 @@ $('.open-first').mouseout(function(e) {
       scrollTrigger: {
         trigger: '.first_kv',
         start: "top top",
-        end: '+=100', //アニメーション開始位置から200pxの位置で終わる
+        end: '+=100', //アニメーション開始位置から100pxの位置で終わる
         scrub: true, // スクロールに合わせて動く
         //markers: true,
       }
@@ -91,8 +91,8 @@ $('.open-first').mouseout(function(e) {
       autoAlpha: 1,
       scrollTrigger: {
         trigger: '.first_kv',
-        start: "700 top",
-        end: '+=300', //アニメーション開始位置から200pxの位置で終わる
+        start: "200 top",
+        end: '+=100', //アニメーション開始位置から100pxの位置で終わる
         scrub: true, // スクロールに合わせて動く
         //markers: true,
       }
@@ -106,7 +106,7 @@ $('.open-first').mouseout(function(e) {
       autoAlpha: 1,
       scrollTrigger: {
         trigger: '.first_kv',
-        start: "700 top",
+        start: "200 top",
         end: '+=300', //アニメーション開始位置から300pxの位置で終わる
         scrub: true, // スクロールに合わせて動く
         // markers: true,

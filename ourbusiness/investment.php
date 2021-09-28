@@ -144,13 +144,13 @@ $pageInfo = array(
                             <li>
                                 <div class="clm-box h-link">
                                     <div class="skew-box">
-                                        <h4 class="skew">レストラン・食事業</h4>
+                                        <h4 class="skew">カフェ・レストラン事業</h4>
                                     </div>
                                     <div class="default-img h-img">
                                         <img src="/assets/img/ourbusiness/link3-3.png" alt="">
                                     </div>
                                     <div class="clm-copy">
-                                        <p>森トラストのレストラン・食事業について知りたい</p>
+                                        <p>森トラストのカフェ・レストラン事業について知りたい</p>
                                         <p class="btn-style arr-next">view more</p>
                                     </div>
                                     <a class="clm-alink" href="/pickup/restaurant.php"></a>
