@@ -50,10 +50,10 @@ $pageInfo = array(
                             </div>
                             <p class="mb30">森トラストは、4つの基本理念をもってホテル＆リゾート事業を推進します。</p>
                             <ul class="list-ind">
-                                <li>「ジャパンブランドの発信」 豊富な観光資源を活用し、日本の魅力を世界に発信</li>
-                                <li>「グローバルスタンダード」 国内に国際基準のサービスや世界のライフスタイルを提供</li>
-                                <li>「イノベーション」 日本の文化と国際基準のサービスの融合により、新たな価値を創出</li>
-                                <li>「観光先進国へ」 事業を通じて、日本の観光先進国たる地位の確立に寄与</li>
+                                <li>「ジャパンブランドの発信」<br>豊富な観光資源を活用し、日本の魅力を世界に発信</li>
+                                <li>「グローバルスタンダード」<br>国内に国際基準のサービスや世界のライフスタイルを提供</li>
+                                <li>「イノベーション」<br>日本の文化と国際基準のサービスの融合により、新たな価値を創出</li>
+                                <li>「観光先進国へ」<br>事業を通じて、日本の観光先進国たる地位の確立に寄与</li>
                             </ul>
                         </div>
                     </div>
@@ -110,7 +110,7 @@ $pageInfo = array(
                                 <div class="default-img ratio-1by1">
                                 </div>
                                 <div class="clm-copy">
-                                    <p class="point-txt">東京<br class="disp-sp">マリオットホテル</p>
+                                    <p class="point-txt">東京マリオットホテル</p>
                                 </div>
                             </div>
                         </li>
@@ -128,7 +128,7 @@ $pageInfo = array(
                                 <div class="default-img ratio-1by1">
                                 </div>
                                 <div class="clm-copy">
-                                    <p class="point-txt">イラフ SUI <br class="disp-sp">ラグジュアリーコレクション</p>
+                                    <p class="point-txt">イラフ SUI ラグジュアリーコレクション</p>
                                 </div>
                             </div>
                         </li>

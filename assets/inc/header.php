@@ -1,7 +1,10 @@
 <header class="header" role="banner">
     <p class="header-logo"><a href="/"><img class="img-h" src="/assets/img/cmn/logo.svg" alt="森トラスト"></a></p>
     <div class="header-main">
-        <div class="entry"><a href="https://www.yahoo.co.jp/">ENTRY</a></div>
+        <div class="entry">
+            <p class="soon"><span class="note">coming soon</span><br>ENTRY</p>
+            <!-- <a href="https://www.yahoo.co.jp/">ENTRY</a> -->
+        </div>
         <div class="hamb-btn" id="hamb-btn">
             <div class="btn-inr"><span class="btn-bar"></span></div>
         </div>
@@ -10,8 +13,14 @@
                 <div class="hum_box">
                     <div class="hum_logo"><a href="/"><img src="/assets/img/cmn/logo_w.svg" alt="森トラスト"></a></div>
                     <ul class="hum_contents">
-                        <li class="contents_item"><a href="https://www.yahoo.co.jp/">ENTRY</a></li>
-                        <li class="contents_item"><a href="https://www.yahoo.co.jp/">MY PAGE</a></li>
+                        <li class="contents_item">
+                            <p class="soon">ENTRY <br class="disp-sp"><span class="note">coming soon</span></p>
+                            <!-- <a href="https://www.yahoo.co.jp/">ENTRY</a> -->
+                        </li>
+                        <li class="contents_item">
+                            <p class="soon">MY PAGE <br class="disp-sp"><span class="note">coming soon</span></p>
+                            <!-- <a href="https://www.yahoo.co.jp/">MY PAGE</a> -->
+                        </li>
                         <li class="contents_item disp-pc"><a
                                 href="https://www.mori-trust.co.jp/inquiry.html">CONTACT</a></li>
                         <li class="contents_item disp-pc"><a href="https://www.mori-trust.co.jp/privacy/">PRIVACY

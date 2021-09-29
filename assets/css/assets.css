@@ -916,6 +916,14 @@ img {
   color: #fff;
 }
 
+.soon {
+  color: #fff !important;
+}
+
+.soon-f {
+  color: #333 !important;
+}
+
 @media (max-width: 767px) {
   .header {
     height: 50px;
@@ -2828,7 +2836,7 @@ body {
 
 p.point-txt {
   font-size: 18px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   padding-left: 15px;
   position: relative;
   margin-bottom: 25px;
@@ -5365,6 +5373,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   background-image: url(/assets/img/top/link_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   height: 440px;
   width: 100%;
   position: relative;
@@ -6009,10 +6018,10 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   .interview {
     margin-top: 0;
   }
-}
-.interview .cut-bg-r::after, .interview .cut-bg-l::after {
-  -webkit-transform: skew(0);
-          transform: skew(0);
+  .interview .cut-bg-r::after, .interview .cut-bg-l::after {
+    -webkit-transform: skew(0);
+            transform: skew(0);
+  }
 }
 @media (max-width: 767px) {
   .interview .box-l .answer {

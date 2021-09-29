@@ -50,9 +50,9 @@ $pageInfo = array(
                             </div>
                             <p class="list-ttl">森トラストは、3つの基本理念をもって不動産事業を推進します。</p>
                             <ul class="list-ind">
-                                <li>「選択と集中」 競争力の高いエリアへの集中的な投資</li>
-                                <li>「最適複合」土地の特性を最大化する機能を最適な形で複合</li>
-                                <li>「国際都市機能の強化」 日本の国際競争力強化に資する都市づくりへ貢献</li>
+                                <li>「選択と集中」<br>競争力の高いエリアへの集中的な投資</li>
+                                <li>「最適複合」<br>土地の特性を最大化する機能を最適な形で複合</li>
+                                <li>「国際都市機能の強化」<br>日本の国際競争力強化に資する都市づくりへ貢献</li>
                             </ul>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ $pageInfo = array(
                                 <div class="default-img ratio-1by1">
                                 </div>
                                 <div class="clm-copy">
-                                    <p class="point-txt">丸の内<br class="disp-sp">トラストシティ</p>
+                                    <p class="point-txt">丸の内トラストシティ</p>
                                 </div>
                             </div>
                         </li>
@@ -101,7 +101,7 @@ $pageInfo = array(
                                 <div class="default-img ratio-1by1">
                                 </div>
                                 <div class="clm-copy">
-                                    <p class="point-txt">御殿山<br class="disp-sp">トラストシティ</p>
+                                    <p class="point-txt">御殿山トラストシティ</p>
                                 </div>
                             </div>
                         </li>
@@ -128,7 +128,7 @@ $pageInfo = array(
                                 <div class="default-img ratio-1by1">
                                 </div>
                                 <div class="clm-copy">
-                                    <p class="point-txt">東京汐留<br class="disp-sp">ビルディング</p>
+                                    <p class="point-txt">東京汐留ビルディング</p>
                                 </div>
                             </div>
                         </li>

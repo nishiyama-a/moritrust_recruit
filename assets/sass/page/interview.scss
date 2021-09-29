@@ -216,10 +216,10 @@
     margin-top: -20px;
     @include breakpoint(small){
         margin-top: 0;
-    }
-    .cut-bg-r,.cut-bg-l{
-        &::after{
-            transform: skew(0);
+        .cut-bg-r,.cut-bg-l{
+            &::after{
+                transform: skew(0);
+            }
         }
     }
     @include breakpoint(small){
