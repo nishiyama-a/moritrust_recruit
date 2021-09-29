@@ -17,8 +17,8 @@ $pageInfo = array(
         <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
         <div class="sc-kv -page">
             <picture class="kv-img">
-                <source media="(max-width:767px)" srcset="/assets/img/recruit/kv_message.png">
-                <img src="/assets/img/recruit/kv_message.png">
+                <source media="(max-width:767px)" srcset="../assets/img/recruit/kv_message.png">
+                <img src="../assets/img/recruit/kv_message.png">
             </picture>
             <div class="kv-ttl">
                 <p class="kv-head-en">RECRUIT</p>
@@ -33,15 +33,15 @@ $pageInfo = array(
                 <div class="sc-inr">
                         <div class="between-box clm-box">
                             <picture>
-                                <source media="(max-width:767px)" srcset="/assets/img/recruit/message.png">
-                                <img src="/assets/img/recruit/message.png" alt="">
+                                <source media="(max-width:767px)" srcset="../assets/img/recruit/message.png">
+                                <img src="../assets/img/recruit/message.png" alt="">
                             </picture>
                         </div>
                     <div class="sc-box">
                         <div class="message-copy">
                             <picture>
-                                <source media="(max-width:767px)" srcset="/assets/img/cmn/copy_sp.svg">
-                                <img src="/assets/img/cmn/copy.svg" alt="創るのは、街だけじゃない。">
+                                <source media="(max-width:767px)" srcset="../assets/img/cmn/copy_sp.svg">
+                                <img src="../assets/img/cmn/copy.svg" alt="創るのは、街だけじゃない。">
                             </picture>
                         </div>
                     </div>
@@ -74,14 +74,14 @@ $pageInfo = array(
                             <div class="clm-box h-link  btn-3">
                                 <h3 class="btn-txt">募集要項</h3>
                                 <p class="btn-style arr-next">view more</p>
-                                <a class="clm-alink" href="/recruit/requirement.php"></a>
+                                <a class="clm-alink" href="requirement.php"></a>
                             </div>
                         </li>
                         <li>
                             <div class="clm-box h-link  btn-3">
                                 <h3 class="btn-txt">選考ステップ</h3>
                                 <p class="btn-style arr-next">view more</p>
-                                <a class="clm-alink" href="/recruit/steps.php"></a>
+                                <a class="clm-alink" href="steps.php"></a>
                             </div>
                         </li>
 
@@ -96,8 +96,8 @@ $pageInfo = array(
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/uniq.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/uniq.js"></script>
 
 </body>
 

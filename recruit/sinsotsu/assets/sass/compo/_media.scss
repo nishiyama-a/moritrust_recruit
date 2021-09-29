@@ -97,21 +97,27 @@
     @extend %mediabox-cmn;
     align-items: flex-end;
     .mediabox-img{
-      width: 70%;
+      position: absolute;
+      width: vw(1000);
+      top: 0;
       img{
         position: relative;
         z-index: 2;
         height: auto;
       }
+      .cut-bg-r,.cut-bg-l{
+        bottom: -60px;
+      }
     }
     .mediabox-copy{
-      width: 39%;
+      width: vw(560);
       background-color: $clr-main;
       color: #fff;
       padding: 60px 4%;
-      position: absolute;
+      position: relative;
       z-index: 5;
       text-align: justify;
+      top: 140px;
       .num{
         font-size: 14px;
         font-family: $font-eng;
@@ -144,22 +150,16 @@
       }
     }
     &.mediabox-l{
-      padding-bottom: 150px;
-      @include breakpoint(small){
-        padding-bottom: 40px;
-      }
       .cut-bg{
         padding: 0 10% 0 0;
         .cut-bg-r{
-          bottom: -150px;
           left: 0;
         }
       }
       .copy-r{
-        right: 7%;
-        bottom: 60px;
+        margin: 0 7% 0 auto;
         @include breakpoint(small){
-          right: 20px;
+          margin: 0 20px 0 auto;
         }
         .num{
           right: 30px;
@@ -167,23 +167,16 @@
       }
     }
     &.mediabox-r{
-      padding-bottom: 160px;
-      @include breakpoint(small){
-        padding-bottom: 40px;
-      }
       .cut-bg{
         padding: 0 0 0 10%;
         .cut-bg-l{
-          bottom: -100px;
           right: 0;
         }
       }
       .copy-l{
-        left: 7%;
-        bottom: 0;
+        margin: 0 auto 0 7%;
         @include breakpoint(small){
-          left: inherit;
-          right: 0;
+          margin: 0 auto 0 20px;
         }
         .num{
           left: 30px;

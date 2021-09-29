@@ -13,12 +13,12 @@ $pageInfo = array(
 
 <body id="pagetop" class="fixed">
     <?php include(dirname(__FILE__) . '/../assets/inc/bodyInr.php'); ?>
-    <div class="l-wrap">
+    <di class="l-wrap">
         <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
         <div class="sc-kv -page2">
             <picture class="kv-img">
-                <source media="(max-width:767px)" srcset="/assets/img/pickup/kv_twg.png">
-                <img src="/assets/img/pickup/kv_twg.png">
+                <source media="(max-width:767px)" srcset="../assets/img/pickup/kv_twg.png">
+                <img src="../assets/img/pickup/kv_twg.png">
             </picture>
             <div class="kv-ttl">
                 <div class="kv-box skew-box">
@@ -40,9 +40,11 @@ $pageInfo = array(
                 </div>
                 <div class="sc-box">
                     <div class="mediabox-2 mediabox-l">
-                        <div class="mediabox-img cut-bg">
-                            <div class="cut-bg-r"></div>
-                            <img src="/assets/img/pickup/twg01.png" alt="">
+                        <div class="mediabox-img">
+                            <div class="imgbox cut-bg">
+                                <div class="cut-bg-r"></div>
+                                <img src="../assets/img/pickup/twg01.png" alt="">
+                            </div>
                         </div>
                         <div class="mediabox-copy copy-r">
                             <p class="num">POINT<br><span>01</span>
@@ -58,9 +60,11 @@ $pageInfo = array(
                 </div>
                 <div class="sc-box">
                     <div class="mediabox-2 mediabox-r">
-                        <div class="mediabox-img cut-bg">
-                            <div class="cut-bg-l"></div>
-                            <img src="/assets/img/pickup/twg02.png" alt="">
+                        <div class="mediabox-img">
+                            <div class="imgbox cut-bg">
+                                <div class="cut-bg-l"></div>
+                                <img src="../assets/img/pickup/twg02.png" alt="">
+                            </div>
                         </div>
                         <div class="mediabox-copy copy-l">
                             <p class="num">POINT<br><span>02</span>
@@ -77,9 +81,11 @@ $pageInfo = array(
                 </div>
                 <div class="sc-box">
                     <div class="mediabox-2 mediabox-l">
-                        <div class="mediabox-img cut-bg">
-                            <div class="cut-bg-r"></div>
-                            <img src="/assets/img/pickup/twg03.png" alt="">
+                        <div class="mediabox-img">
+                            <div class="imgbox cut-bg">
+                                <div class="cut-bg-r"></div>
+                                <img src="../assets/img/pickup/twg03.png" alt="">
+                            </div>
                         </div>
                         <div class="mediabox-copy copy-r">
                             <p class="num">POINT<br><span>03</span>
@@ -95,9 +101,11 @@ $pageInfo = array(
                 </div>
                 <div class="sc-box">
                     <div class="mediabox-2 mediabox-r">
-                        <div class="mediabox-img cut-bg">
-                            <div class="cut-bg-l"></div>
-                            <img src="/assets/img/pickup/twg04.png" alt="">
+                        <div class="mediabox-img">
+                            <div class="imgbox cut-bg">
+                                <div class="cut-bg-l"></div>
+                                <img src="../assets/img/pickup/twg04.png" alt="">
+                            </div>
                         </div>
                         <div class="mediabox-copy copy-l">
                             <p class="num">POINT<br><span>04</span>
@@ -128,7 +136,11 @@ $pageInfo = array(
                                     <div class="video-box clm-box h-link">
                                         <p class="side-num">VOL.<span>01</span></p>
                                         <div class="default-img">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/A_b-UqrITBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <iframe width="560" height="315"
+                                                src="https://www.youtube.com/embed/A_b-UqrITBo"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
                                         </div>
                                         <div class="txtbox">
                                             <div class="skew-box">
@@ -143,7 +155,11 @@ $pageInfo = array(
                                     <div class="video-box clm-box h-link">
                                         <p class="side-num">VOL.<span>02</span></p>
                                         <div class="default-img">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/y6Z1apNv9Ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <iframe width="560" height="315"
+                                                src="https://www.youtube.com/embed/y6Z1apNv9Ss"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
                                         </div>
                                         <div class="txtbox">
                                             <div class="skew-box">
@@ -158,7 +174,11 @@ $pageInfo = array(
                                     <div class="video-box clm-box h-link">
                                         <p class="side-num">VOL.<span>03</span></p>
                                         <div class="default-img">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/OYGnAdBykCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <iframe width="560" height="315"
+                                                src="https://www.youtube.com/embed/OYGnAdBykCE"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
                                         </div>
                                         <div class="txtbox">
                                             <div class="skew-box">
@@ -173,7 +193,11 @@ $pageInfo = array(
                                     <div class="video-box clm-box h-link">
                                         <p class="side-num">VOL.<span>04</span></p>
                                         <div class="default-img">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7yBCcjBwSKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <iframe width="560" height="315"
+                                                src="https://www.youtube.com/embed/7yBCcjBwSKI"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
                                         </div>
                                         <div class="txtbox">
                                             <div class="skew-box">
@@ -188,7 +212,11 @@ $pageInfo = array(
                                     <div class="video-box clm-box h-link">
                                         <p class="side-num">VOL.<span>05</span></p>
                                         <div class="default-img">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/d5dXcN5PB58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <iframe width="560" height="315"
+                                                src="https://www.youtube.com/embed/d5dXcN5PB58"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
                                         </div>
                                         <div class="txtbox">
                                             <div class="skew-box">
@@ -203,7 +231,11 @@ $pageInfo = array(
                                     <div class="video-box clm-box h-link">
                                         <p class="side-num">VOL.<span>06</span></p>
                                         <div class="default-img">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-i5jDl47O2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <iframe width="560" height="315"
+                                                src="https://www.youtube.com/embed/-i5jDl47O2k"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
                                         </div>
                                         <div class="txtbox">
                                             <div class="skew-box">
@@ -220,11 +252,10 @@ $pageInfo = array(
         </main>
 
         <?php include(dirname(__FILE__) . '/../assets/inc/footer.php'); ?>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="../assets/js/script.min.js"></script>
-    <script src="../assets/js/uniq.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="../assets/js/script.min.js"></script>
+        <script src="../assets/js/uniq.js"></script>
 
 </body>
 

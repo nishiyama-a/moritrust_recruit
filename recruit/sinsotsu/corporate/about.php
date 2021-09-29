@@ -17,8 +17,8 @@ $pageInfo = array(
         <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
         <div class="sc-kv -page">
             <picture class="kv-img">
-                <source media="(max-width:767px)" srcset="/assets/img/corporate/kv_about.png">
-                <img src="/assets/img/corporate/kv_about.png">
+                <source media="(max-width:767px)" srcset="../assets/img/corporate/kv_about.png">
+                <img src="../assets/img/corporate/kv_about.png">
             </picture>
             <div class="kv-ttl">
                 <p class="kv-head-en">CORPORATE</p>
@@ -67,7 +67,7 @@ $pageInfo = array(
                             </tr>
                             <tr>
                                 <th>コーポレート<br class="disp-pc">スローガン</th>
-                                <td><div class="slogan"><img src="/assets/img/corporate/slogan.png" alt="Create the Future"></div>
+                                <td><div class="slogan"><img src="../assets/img/corporate/slogan.png" alt="Create the Future"></div>
                                     森トラストグループは、創業以来、先進技術やシステムを採用した<br class="disp-pc">
                                     大型複合開発をはじめ、日本初の法人会員制リゾートの創業、<br class="disp-pc">
                                     業界に先駆けた高級外資系ホテルの誘致、リート市場創設の提唱など、<br class="disp-pc">
@@ -80,7 +80,7 @@ $pageInfo = array(
                         </tbody>
                     </table>
                     <div class="btn-wrap clm-1">
-                        <a class="btn-style btn-2" href="/corporate/">
+                        <a class="btn-style btn-2" href="./">
                             <span>一覧に戻る</span>
                         </a>
                     </div>
@@ -94,8 +94,8 @@ $pageInfo = array(
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/uniq.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/uniq.js"></script>
 </body>
 
 </html>

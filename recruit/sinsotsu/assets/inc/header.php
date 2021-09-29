@@ -1,5 +1,5 @@
 <header class="header" role="banner">
-    <p class="header-logo"><a href="/"><img class="img-h" src="/recruit/sinsotsu/assets/img/cmn/logo.svg" alt="森トラスト"></a></p>
+    <p class="header-logo"><a href="/recruit/sinsotsu/"><img class="img-h" src="/recruit/sinsotsu/assets/img/cmn/logo.svg" alt="森トラスト"></a></p>
     <div class="header-main">
         <div class="entry">
             <p class="soon"><span class="note">coming soon</span><br>ENTRY</p>
@@ -11,7 +11,7 @@
         <section class="hamb-menu">
             <div class="sc-inr hum_wrap">
                 <div class="hum_box">
-                    <div class="hum_logo"><a href="/"><img src="/recruit/sinsotsu/assets/img/cmn/logo_w.svg" alt="森トラスト"></a></div>
+                    <div class="hum_logo"><a href="/recruit/sinsotsu/"><img src="/recruit/sinsotsu/assets/img/cmn/logo_w.svg" alt="森トラスト"></a></div>
                     <ul class="hum_contents">
                         <li class="contents_item">
                             <p class="soon">ENTRY <br class="disp-sp"><span class="note">coming soon</span></p>

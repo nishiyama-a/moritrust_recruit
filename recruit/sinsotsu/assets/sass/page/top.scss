@@ -143,7 +143,7 @@ section.pickup{
         height: 40px;
         transform: translateY(-50%);
         opacity: 1;
-        background-image: url(/assets/img/cmn/plus.svg);
+        background-image: url(../img/cmn/plus.svg);
         @include transition;
       }
       }
@@ -681,7 +681,7 @@ section.pickup{
   
   
   .link_area{
-    background-image: url(/assets/img/top/link_bg.png);
+    background-image: url(../img/top/link_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -736,7 +736,7 @@ section.pickup{
           .arr-next{
             color: $clr-text;
             &::after{
-              background-image: url(/assets/img/cmn/arr_next.svg);
+              background-image: url(../img/cmn/arr_next.svg);
             }
           }
         }

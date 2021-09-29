@@ -52,7 +52,7 @@
                 content: "";
                 position: absolute;
                 display: block;
-                background-image: url(/assets/img/freshman/dec_sp.svg);
+                background-image: url(../img/freshman/dec_sp.svg);
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position: center center;
@@ -86,7 +86,7 @@
             left: 0;
             top: 50%;
             transform: translateY(-50%);
-            background-image: url(/assets/img/freshman/q_l.svg);
+            background-image: url(../img/freshman/q_l.svg);
             background-size: contain;
             background-repeat: no-repeat;
             height: 20px;
@@ -103,7 +103,7 @@
             right: 0;
             top: 50%;
             transform: translateY(-50%);
-            background-image: url(/assets/img/freshman/q_r.svg);
+            background-image: url(../img/freshman/q_r.svg);
             background-size: contain;
             background-repeat: no-repeat;
             height: 20px;
@@ -153,7 +153,7 @@
         content: "";
         position: absolute;
         display: block;
-        background-image: url(/assets/img/freshman/dec.svg);
+        background-image: url(../img/freshman/dec.svg);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center center;
@@ -238,7 +238,7 @@
         width: 60%;
         margin: 0 auto;
         padding: 45px 0;
-        background-image: url(/assets/img/freshman/q_bg_w.svg);
+        background-image: url(../img/freshman/q_bg_w.svg);
         background-size: contain;
         background-position: center center;
         background-repeat: no-repeat;
@@ -249,7 +249,7 @@
             width: 100%;
             font-size: 14px;
             padding: 25px 1em;
-        background-image: url(/assets/img/freshman/q_bg_w_sp.svg);
+        background-image: url(../img/freshman/q_bg_w_sp.svg);
         height: 105px;
         }
         span{
@@ -266,7 +266,7 @@
             }
         }
         &::before{
-            background-image: url(/assets/img/freshman/q_bg.svg);
+            background-image: url(../img/freshman/q_bg.svg);
             background-size: contain;
             background-position: center center;
             background-repeat: no-repeat;
@@ -278,7 +278,7 @@
             top: 0;
             @include transition;
             @include breakpoint(small){
-            background-image: url(/assets/img/freshman/q_bg_sp.svg);
+            background-image: url(../img/freshman/q_bg_sp.svg);
             }
         }
         &:hover{

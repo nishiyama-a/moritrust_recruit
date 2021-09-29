@@ -17,8 +17,8 @@ $pageInfo = array(
         <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
         <div class="sc-kv -page">
             <picture class="kv-img">
-                <source media="(max-width:767px)" srcset="/assets/img/hr/kv_index.png">
-                <img src="/assets/img/hr/kv_index.png">
+                <source media="(max-width:767px)" srcset="../assets/img/hr/kv_index.png">
+                <img src="../assets/img/hr/kv_index.png">
             </picture>
             <div class="kv-ttl">
                 <p class="kv-head-en">HUMAN RESOURCES</p>
@@ -40,8 +40,8 @@ $pageInfo = array(
                     <div class="sc-box">
                         <div class="between-box clm-box h-link">
                             <picture class="mt20 h-img">
-                                <source media="(max-width:767px)" srcset="/assets/img/hr/hr01.png">
-                                <img src="/assets/img/hr/hr01.png" alt="">
+                                <source media="(max-width:767px)" srcset="../assets/img/hr/hr01.png">
+                                <img src="../assets/img/hr/hr01.png" alt="">
                             </picture>
                             <div class="txtbox">
                                 <div class="skew-box">
@@ -49,14 +49,14 @@ $pageInfo = array(
                                 </div>
                                 <p class="rb-txt">HUMAN RESOURCES 01</p>
                             </div>
-                            <a class="clm-alink" href="/hr/mttalk.php"></a>
+                            <a class="clm-alink" href="mttalk.php"></a>
                         </div>
                     </div>
                     <div class="sc-box">
                         <div class="between-box clm-box h-link">
                             <picture class="mt20 h-img">
-                                <source media="(max-width:767px)" srcset="/assets/img/hr/hr02.png">
-                                <img src="/assets/img/hr/hr02.png" alt="">
+                                <source media="(max-width:767px)" srcset="../assets/img/hr/hr02.png">
+                                <img src="../assets/img/hr/hr02.png" alt="">
                             </picture>
                             <div class="txtbox">
                                 <div class="skew-box">
@@ -64,14 +64,14 @@ $pageInfo = array(
                                 </div>
                                 <p class="rb-txt">HUMAN RESOURCES 02</p>
                             </div>
-                            <a class="clm-alink" href="/hr/academy.php"></a>
+                            <a class="clm-alink" href="academy.php"></a>
                         </div>
                     </div>
                     <div class="sc-box">
                         <div class="between-box clm-box h-link">
                             <picture class="mt20 h-img">
-                                <source media="(max-width:767px)" srcset="/assets/img/hr/hr03.png">
-                                <img src="/assets/img/hr/hr03.png" alt="">
+                                <source media="(max-width:767px)" srcset="../assets/img/hr/hr03.png">
+                                <img src="../assets/img/hr/hr03.png" alt="">
                             </picture>
                             <div class="txtbox">
                                 <div class="skew-box">
@@ -79,7 +79,7 @@ $pageInfo = array(
                                 </div>
                                 <p class="rb-txt">HUMAN RESOURCES 03</p>
                             </div>
-                            <a class="clm-alink" href="/hr/training.php"></a>
+                            <a class="clm-alink" href="/training.php"></a>
                         </div>
                     </div>
                 </div>
@@ -90,8 +90,8 @@ $pageInfo = array(
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/uniq.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/uniq.js"></script>
 
 </body>
 

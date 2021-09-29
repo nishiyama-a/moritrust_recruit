@@ -17,8 +17,8 @@ $pageInfo = array(
         <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
         <div class="sc-kv -page">
             <picture class="kv-img">
-                <source media="(max-width:767px)" srcset="/assets/img/ceo/kv_index.png">
-                <img src="/assets/img/ceo/kv_index.png">
+                <source media="(max-width:767px)" srcset="../assets/img/ceo/kv_index.png">
+                <img src="../assets/img/ceo/kv_index.png">
             </picture>
             <div class="kv-ttl">
                 <p class="kv-head-en">CEO TALK</p>
@@ -33,8 +33,8 @@ $pageInfo = array(
                 <div class="sc-inr">
                     <div class="between-box clm-box">
                         <picture>
-                            <source media="(max-width:767px)" srcset="/assets/img/ceo/president.png">
-                            <img src="/assets/img/ceo/president.png" alt="森トラスト代表取締役社長 伊達 美和子">
+                            <source media="(max-width:767px)" srcset="../assets/img/ceo/president.png">
+                            <img src="../assets/img/ceo/president.png" alt="森トラスト代表取締役社長 伊達 美和子">
                         </picture>
                         <div class="txtbox clm-copy">
                             <div class="skew-box">
@@ -120,8 +120,8 @@ $pageInfo = array(
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/uniq.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/uniq.js"></script>
 </body>
 
 </html>

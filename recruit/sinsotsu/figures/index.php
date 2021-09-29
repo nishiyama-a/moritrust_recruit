@@ -17,8 +17,8 @@ $pageInfo = array(
         <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
         <div class="sc-kv -page">
             <picture class="kv-img">
-                <source media="(max-width:767px)" srcset="/assets/img/figures/kv_index.png">
-                <img src="/assets/img/figures/kv_index.png">
+                <source media="(max-width:767px)" srcset="../assets/img/figures/kv_index.png">
+                <img src="../assets/img/figures/kv_index.png">
             </picture>
             <div class="kv-ttl">
                 <p class="kv-head-en">FIGURES</p>
@@ -37,29 +37,29 @@ $pageInfo = array(
                            <h2 class="fugures-ttl">従業員の構成</h2>
                             <div class="figure-row">
                                 <picture>
-                                    <source media="(max-width:767px)" srcset="/assets/img/figures/figures01_sp.svg">
-                                    <img src="/assets/img/figures/figures01.svg">
+                                    <source media="(max-width:767px)" srcset="../assets/img/figures/figures01_sp.svg">
+                                    <img src="../assets/img/figures/figures01.svg">
                                 </picture>
                             </div>
                             <h2 class="fugures-ttl">少数精鋭</h2>
                             <div class="figure-row">
                                 <picture>
-                                    <source media="(max-width:767px)" srcset="/assets/img/figures/figures02_sp.svg">
-                                    <img src="/assets/img/figures/figures02.svg">
+                                    <source media="(max-width:767px)" srcset="../assets/img/figures/figures02_sp.svg">
+                                    <img src="../assets/img/figures/figures02.svg">
                                 </picture>
                             </div>
                             <h2 class="fugures-ttl">財務安定性</h2>
                             <div class="figure-row">
                                 <picture>
-                                    <source media="(max-width:767px)" srcset="/assets/img/figures/figures03_sp.svg">
-                                    <img src="/assets/img/figures/figures03.svg">
+                                    <source media="(max-width:767px)" srcset="../assets/img/figures/figures03_sp.svg">
+                                    <img src="../assets/img/figures/figures03.svg">
                                 </picture>
                             </div>
                             <h2 class="fugures-ttl">働きやすさ</h2>
                             <div class="figure-row">
                                 <picture>
-                                    <source media="(max-width:767px)" srcset="/assets/img/figures/figures04_sp.svg">
-                                    <img src="/assets/img/figures/figures04.svg">
+                                    <source media="(max-width:767px)" srcset="../assets/img/figures/figures04_sp.svg">
+                                    <img src="../assets/img/figures/figures04.svg">
                                 </picture>
                             </div>
                         </div>
@@ -75,8 +75,8 @@ $pageInfo = array(
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/uniq.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/uniq.js"></script>
 
 </body>
 

@@ -17,8 +17,8 @@ $pageInfo = array(
         <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
         <div class="sc-kv -page2">
             <picture class="kv-img">
-                <source media="(max-width:767px)" srcset="/assets/img/hr/kv_mktalk.png">
-                <img src="/assets/img/hr/kv_mktalk.png">
+                <source media="(max-width:767px)" srcset="../assets/img/hr/kv_mktalk.png">
+                <img src="../assets/img/hr/kv_mktalk.png">
             </picture>
             <div class="kv-ttl">
                 <div class="kv-box skew-box">
@@ -41,7 +41,7 @@ $pageInfo = array(
                 <div class="sc-box">
                     <div class="mediabox mediabox-l">
                         <div class="mediabox-img">
-                            <img src="/assets/img/hr/mttalk01.png" alt="">
+                            <img src="../assets/img/hr/mttalk01.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-r cut-bg">
                         <div class="cut-bg-l"></div>
@@ -58,7 +58,7 @@ $pageInfo = array(
                     </div>
                     <div class="mediabox mediabox-r">
                         <div class="mediabox-img">
-                            <img src="/assets/img/hr/mttalk02.png" alt="">
+                            <img src="../assets/img/hr/mttalk02.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-l cut-bg">
                             <div class="cut-bg-r"></div>
@@ -70,7 +70,7 @@ $pageInfo = array(
                         </div>
                     </div>
                     <div class="btn-wrap clm-1">
-                        <a class="btn-style btn-2" href="/hr/index.php">
+                        <a class="btn-style btn-2" href="./">
                             <span>一覧に戻る</span>
                         </a>
                     </div>
@@ -82,8 +82,8 @@ $pageInfo = array(
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/uniq.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/uniq.js"></script>
 
 </body>
 

@@ -12,7 +12,7 @@ $arr-width: 2px;
    &::after{
       content: "";
       display: inline-block;
-      background-image: url(/assets/img/cmn/arr_next.svg);
+      background-image: url(../img/cmn/arr_next.svg);
       background-repeat: no-repeat;
       background-size: contain; 
       width: 30px;
@@ -49,7 +49,7 @@ $arr-width: 2px;
       left: 50%;
       top: 50%;
       transform: translate(-50%,-50%) rotate(-90deg);
-      background-image: url(/assets/img/cmn/arr_next_w.svg);
+      background-image: url(../img/cmn/arr_next_w.svg);
     }
   }
   &-btm{

@@ -17,8 +17,8 @@ $pageInfo = array(
         <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
         <div class="sc-kv -page2">
             <picture class="kv-img">
-                <source media="(max-width:767px)" srcset="/assets/img/freshman/kv_freshman.png">
-                <img src="/assets/img/freshman/kv_freshman.png">
+                <source media="(max-width:767px)" srcset="../assets/img/freshman/kv_freshman.png">
+                <img src="../assets/img/freshman/kv_freshman.png">
             </picture>
             <div class="kv-ttl">
                 <div class="kv-box skew-box">
@@ -30,7 +30,7 @@ $pageInfo = array(
         </div>
 
         <main class="l-contents" role="main" id="freshman-top">
-            <div class="bg-logo"><img src="/assets/img/freshman/bg_logo.svg" alt=""></div>
+            <div class="bg-logo"><img src="../assets/img/freshman/bg_logo.svg" alt=""></div>
             <section class="l-section">
                 <div class="sc-inr">
                     <h2 class="head-6">2021年春、<br class="disp-pc">
@@ -38,21 +38,21 @@ $pageInfo = array(
                         新入社員の皆さんにはそれぞれご自身の趣味や好きなことを表すアイコンを選んでいただいたので、<br class="disp-pc">
                         どんな社員がいるんだろう？と想像しながら、ぜひ楽しんでご覧ください！</h2>
                     <div class="ico-box">
-                        <div class="ico"><img src="/assets/img/freshman/croissant.svg" alt=""></div>
-                        <div class="ico"><img src="/assets/img/freshman/question.svg" alt=""></div>
-                        <div class="ico"><img src="/assets/img/freshman/run.svg" alt=""></div>
-                        <div class="ico"><img src="/assets/img/freshman/dog.svg" alt=""></div>
-                        <div class="ico"><img src="/assets/img/freshman/basketball.svg" alt=""></div>
-                        <div class="ico"><img src="/assets/img/freshman/pineapple.svg" alt=""></div>
-                        <div class="ico"><img src="/assets/img/freshman/sneaker.svg" alt=""></div>
-                        <div class="ico"><img src="/assets/img/freshman/golf.svg" alt=""></div>
-                        <div class="ico"><img src="/assets/img/freshman/flower.svg" alt=""></div>
-                        <div class="ico"><img src="/assets/img/freshman/cat.svg" alt=""></div>
-                        <div class="ico"><img src="/assets/img/freshman/dolphin.svg" alt=""></div>
-                        <div class="ico"><img src="/assets/img/freshman/girl.svg" alt=""></div>
-                        <div class="ico"><img src="/assets/img/freshman/travel.svg" alt=""></div>
-                        <div class="ico"><img src="/assets/img/freshman/grape.svg" alt=""></div>
-                        <div class="ico"><img src="/assets/img/freshman/dies.svg" alt=""></div>
+                        <div class="ico"><img src="../assets/img/freshman/croissant.svg" alt=""></div>
+                        <div class="ico"><img src="../assets/img/freshman/question.svg" alt=""></div>
+                        <div class="ico"><img src="../assets/img/freshman/run.svg" alt=""></div>
+                        <div class="ico"><img src="../assets/img/freshman/dog.svg" alt=""></div>
+                        <div class="ico"><img src="../assets/img/freshman/basketball.svg" alt=""></div>
+                        <div class="ico"><img src="../assets/img/freshman/pineapple.svg" alt=""></div>
+                        <div class="ico"><img src="../assets/img/freshman/sneaker.svg" alt=""></div>
+                        <div class="ico"><img src="../assets/img/freshman/golf.svg" alt=""></div>
+                        <div class="ico"><img src="../assets/img/freshman/flower.svg" alt=""></div>
+                        <div class="ico"><img src="../assets/img/freshman/cat.svg" alt=""></div>
+                        <div class="ico"><img src="../assets/img/freshman/dolphin.svg" alt=""></div>
+                        <div class="ico"><img src="../assets/img/freshman/girl.svg" alt=""></div>
+                        <div class="ico"><img src="../assets/img/freshman/travel.svg" alt=""></div>
+                        <div class="ico"><img src="../assets/img/freshman/grape.svg" alt=""></div>
+                        <div class="ico"><img src="../assets/img/freshman/dies.svg" alt=""></div>
                     </div>
                     <div class="txt-q aldisp">
                         <p>Q</p>
@@ -72,7 +72,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/croissant.svg" alt="">
+                                            <div class="icon"><img src="../assets/img/freshman/croissant.svg" alt="">
                                             </div>
                                             <div class="hash">
                                                 <p>#女性<br>#理系<br>#パン</p>
@@ -85,7 +85,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/question.svg" alt="">
+                                            <div class="icon"><img src="../assets/img/freshman/question.svg" alt="">
                                             </div>
                                             <div class="hash">
                                                 <p>#男性<br>#文系<br>#謎解き</p>
@@ -98,7 +98,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/run.svg" alt=""></div>
+                                            <div class="icon"><img src="../assets/img/freshman/run.svg" alt=""></div>
                                             <div class="hash">
                                                 <p>#男性<br>#文系<br>#ランニング</p>
                                             </div>
@@ -123,7 +123,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/dog.svg" alt="">
+                                            <div class="icon"><img src="../assets/img/freshman/dog.svg" alt="">
                                             </div>
                                             <div class="hash">
                                                 <p>#女性<br>#理系<br>#犬</p>
@@ -136,7 +136,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/basketball.svg" alt="">
+                                            <div class="icon"><img src="../assets/img/freshman/basketball.svg" alt="">
                                             </div>
                                             <div class="hash">
                                                 <p>#男性<br>#文系<br>#バスケ</p>
@@ -150,7 +150,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/pineapple.svg" alt="">
+                                            <div class="icon"><img src="../assets/img/freshman/pineapple.svg" alt="">
                                             </div>
                                             <div class="hash">
                                                 <p>#女性<br>#理系<br>#パイナップル</p>
@@ -178,7 +178,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/sneaker.svg" alt="">
+                                            <div class="icon"><img src="../assets/img/freshman/sneaker.svg" alt="">
                                             </div>
                                             <div class="hash">
                                                 <p>#男性<br>#理系<br>#スニーカー</p>
@@ -192,7 +192,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/golf.svg" alt="">
+                                            <div class="icon"><img src="../assets/img/freshman/golf.svg" alt="">
                                             </div>
                                             <div class="hash">
                                                 <p>#男性<br>#文系<br>#ゴルフ</p>
@@ -206,7 +206,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/flower.svg" alt=""></div>
+                                            <div class="icon"><img src="../assets/img/freshman/flower.svg" alt=""></div>
                                             <div class="hash">
                                                 <p>#女性<br>#文系<br>#お花</p>
                                             </div>
@@ -232,7 +232,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/cat.svg" alt="">
+                                            <div class="icon"><img src="../assets/img/freshman/cat.svg" alt="">
                                             </div>
                                             <div class="hash">
                                                 <p>#女性<br>#理系<br>#猫</p>
@@ -246,7 +246,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/dolphin.svg" alt="">
+                                            <div class="icon"><img src="../assets/img/freshman/dolphin.svg" alt="">
                                             </div>
                                             <div class="hash">
                                                 <p>#男性<br>#理系<br>#イルカ</p>
@@ -260,7 +260,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/girl.svg" alt=""></div>
+                                            <div class="icon"><img src="../assets/img/freshman/girl.svg" alt=""></div>
                                             <div class="hash">
                                                 <p>#女性<br>#文系<br>#街歩き</p>
                                             </div>
@@ -286,7 +286,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/travel.svg" alt="">
+                                            <div class="icon"><img src="../assets/img/freshman/travel.svg" alt="">
                                             </div>
                                             <div class="hash">
                                                 <p>#女性<br>#理系<br>#旅行</p>
@@ -300,7 +300,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/dolphin.svg" alt="">
+                                            <div class="icon"><img src="../assets/img/freshman/dolphin.svg" alt="">
                                             </div>
                                             <div class="hash">
                                                 <p>#男性<br>#理系<br>#イルカ</p>
@@ -314,7 +314,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/cat.svg" alt=""></div>
+                                            <div class="icon"><img src="../assets/img/freshman/cat.svg" alt=""></div>
                                             <div class="hash">
                                                 <p>#女性<br>#理系<br>#猫</p>
                                             </div>
@@ -340,7 +340,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/croissant.svg" alt="">
+                                            <div class="icon"><img src="../assets/img/freshman/croissant.svg" alt="">
                                             </div>
                                             <div class="hash">
                                                 <p>#女性<br>#理系<br>#パン</p>
@@ -353,7 +353,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/basketball.svg" alt="">
+                                            <div class="icon"><img src="../assets/img/freshman/basketball.svg" alt="">
                                             </div>
                                             <div class="hash">
                                                 <p>#男性<br>#理系<br>#バスケ</p>
@@ -366,7 +366,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/grape.svg" alt=""></div>
+                                            <div class="icon"><img src="../assets/img/freshman/grape.svg" alt=""></div>
                                             <div class="hash">
                                                 <p>#男性<br>#文系<br>#ぶどう</p>
                                             </div>
@@ -392,7 +392,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/flower.svg" alt="">
+                                            <div class="icon"><img src="../assets/img/freshman/flower.svg" alt="">
                                             </div>
                                             <div class="hash">
                                                 <p>#女性<br>#文系<br>#お花</p>
@@ -406,7 +406,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/dies.svg" alt="">
+                                            <div class="icon"><img src="../assets/img/freshman/dies.svg" alt="">
                                             </div>
                                             <div class="hash">
                                                 <p>#女性<br>#文系<br>#サイコロ</p>
@@ -420,7 +420,7 @@ $pageInfo = array(
                                             </p>
                                         </div>
                                         <div class="hash-box">
-                                            <div class="icon"><img src="/assets/img/freshman/golf.svg" alt=""></div>
+                                            <div class="icon"><img src="../assets/img/freshman/golf.svg" alt=""></div>
                                             <div class="hash">
                                                 <p>#男性<br>#文系<br>#ゴルフ</p>
                                             </div>
@@ -437,8 +437,8 @@ $pageInfo = array(
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/uniq.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/uniq.js"></script>
 </body>
 
 </html>

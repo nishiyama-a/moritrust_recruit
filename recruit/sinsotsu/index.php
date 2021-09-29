@@ -21,21 +21,21 @@ $pageInfo = array(
                     <p class="side">MORI TRUST<span class="red">GRADUATE RECRUITMENT</span></p>
                     <p class="scroll arr-next">SCROLL</p>
                     <picture class="copy">
-                        <source media="(max-width:767px)" srcset="/assets/img/top/copy_sp.svg">
-                        <img src="/assets/img/top/copy.svg" alt="創るのは、街だけじゃない。">
+                        <source media="(max-width:767px)" srcset="assets/img/top/copy_sp.svg">
+                        <img src="assets/img/top/copy.svg" alt="創るのは、街だけじゃない。">
                     </picture>
                 </div>
                 <div class="kv-scroll">
-                    <!-- <img src="/assets/img/top/kv_logo.svg" alt="" id="scroll_logo"> -->
+                    <!-- <img src="assets/img/top/kv_logo.svg" alt="" id="scroll_logo"> -->
                      <picture id="scroll_logo">
-                        <source media="(max-width:767px)" srcset="/assets/img/top/kv_logo_sp.svg">
-                        <img src="/assets/img/top/kv_logo.svg">
+                        <source media="(max-width:767px)" srcset="assets/img/top/kv_logo_sp.svg">
+                        <img src="assets/img/top/kv_logo.svg">
                     </picture>
                     <div class="overlay"></div>
                 </div>
                 <div id="kv-img">
                     <div class="copy_sp disp-sp">
-                        <img src="/assets/img/top/copy_sp.svg" alt="創るのは、街だけじゃない。">
+                        <img src="assets/img/top/copy_sp.svg" alt="創るのは、街だけじゃない。">
                     </div>
                     <p id="kv_copy">
                         <span>森トラストは、不動産の会社というイメージがあるかもしれません。</span>
@@ -58,22 +58,22 @@ $pageInfo = array(
                         <div class="swiper-slide">
                             <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
                             <picture class="kv-back">
-                                <source media="(max-width:767px)" srcset="/assets/img/top/kv_slide01_sp.jpg">
-                                <img src="/assets/img/top/kv_slide01.jpg" alt="">
+                                <source media="(max-width:767px)" srcset="assets/img/top/kv_slide01_sp.jpg">
+                                <img src="assets/img/top/kv_slide01.jpg" alt="">
                             </picture>
                         </div>
                         <div class="swiper-slide">
                             <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
                             <picture class="kv-back">
-                                <source media="(max-width:767px)" srcset="/assets/img/top/kv_slide02_sp.jpg">
-                                <img src="/assets/img/top/kv_slide02.jpg" alt="">
+                                <source media="(max-width:767px)" srcset="assets/img/top/kv_slide02_sp.jpg">
+                                <img src="assets/img/top/kv_slide02.jpg" alt="">
                             </picture>
                         </div>
                         <div class="swiper-slide">
                             <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
                             <picture class="kv-back">
-                                <source media="(max-width:767px)" srcset="/assets/img/top/kv_slide03_sp.jpg">
-                                <img src="/assets/img/top/kv_slide03.jpg" alt="">
+                                <source media="(max-width:767px)" srcset="assets/img/top/kv_slide03_sp.jpg">
+                                <img src="assets/img/top/kv_slide03.jpg" alt="">
                             </picture>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ $pageInfo = array(
                         <li class="project_item open-first">
                             <a href="/pickup/tokyoworldgate.php">
                                 <div class="project_bg">
-                                    <div class="project_pic"><img src="/assets/img/top/index_twg.png" alt="東京ワールドゲート"></div>
+                                    <div class="project_pic"><img src="assets/img/top/index_twg.png" alt="東京ワールドゲート"></div>
                                     <div class="txtarea">
                                         <p class="dec">PICK UP <br class="is-sp">PROJECT 01</p>
                                         <div class="skew-box">
@@ -109,7 +109,7 @@ $pageInfo = array(
                         <li class="project_item">
                             <a href="/pickup/hotel.php">
                                 <div class="project_bg">
-                                    <div class="project_pic"><img src="/assets/img/top/index_hotel.png" alt="東京ワールドゲート">
+                                    <div class="project_pic"><img src="assets/img/top/index_hotel.png" alt="東京ワールドゲート">
                                     </div>
                                     <div class="txtarea">
                                         <p class="dec">PICK UP <br class="is-sp">PROJECT 02</p>
@@ -124,7 +124,7 @@ $pageInfo = array(
                         <li class="project_item">
                             <a href="/pickup/innovation.php">
                                 <div class="project_bg">
-                                    <div class="project_pic"><img src="/assets/img/top/index_innovation.png"
+                                    <div class="project_pic"><img src="assets/img/top/index_innovation.png"
                                             alt="東京ワールドゲート"></div>
                                     <div class="txtarea">
                                         <p class="dec">PICK UP <br class="is-sp">PROJECT 03</p>
@@ -139,7 +139,7 @@ $pageInfo = array(
                         <li class="project_item">
                             <a href="/pickup/wellness.php">
                                 <div class="project_bg">
-                                    <div class="project_pic"><img src="/assets/img/top/index_wellness.png" alt="東京ワールドゲート">
+                                    <div class="project_pic"><img src="assets/img/top/index_wellness.png" alt="東京ワールドゲート">
                                     </div>
                                     <div class="txtarea">
                                         <p class="dec">PICK UP <br class="is-sp">PROJECT 04</p>
@@ -154,7 +154,7 @@ $pageInfo = array(
                         <li class="project_item">
                             <a href="/pickup/restaurant.php">
                                 <div class="project_bg">
-                                    <div class="project_pic"><img src="/assets/img/top/index_restaurant.png"
+                                    <div class="project_pic"><img src="assets/img/top/index_restaurant.png"
                                             alt="東京ワールドゲート"></div>
                                     <div class="txtarea">
                                         <p class="dec">PICK UP <br class="is-sp">PROJECT 05</p>
@@ -169,7 +169,7 @@ $pageInfo = array(
                         <li class="project_item">
                             <a href="/pickup/worcation.php">
                                 <div class="project_bg">
-                                    <div class="project_pic"><img src="/assets/img/top/index_workation.png"
+                                    <div class="project_pic"><img src="assets/img/top/index_workation.png"
                                             alt="ワーケーション事業"></div>
                                     <div class="txtarea">
                                         <p class="dec">PICK UP <br class="is-sp">PROJECT 06</p>
@@ -199,7 +199,7 @@ $pageInfo = array(
                         <div class="swiper-slide">
                             <div class="clm-box h-link box-01">
                                 <div class="default-img interview-item">
-                                    <figure class="interview-pic"><img src="/assets/img/interview/people01.png">
+                                    <figure class="interview-pic"><img src="assets/img/interview/people01.png">
                                         <p class="name-en">TAKAHIRO SEKI</p>
                                     </figure>
                                 </div>
@@ -214,7 +214,7 @@ $pageInfo = array(
                         <div class="swiper-slide">
                             <div class="clm-box h-link box-02">
                                 <div class="default-img interview-item">
-                                    <figure class="interview-pic"><img src="/assets/img/interview/people02.png">
+                                    <figure class="interview-pic"><img src="assets/img/interview/people02.png">
                                         <p class="name-en">YOSHIYUKI KUDO</p>
                                     </figure>
                                 </div>
@@ -229,7 +229,7 @@ $pageInfo = array(
                         <div class="swiper-slide">
                             <div class="clm-box h-link box-03">
                                 <div class="default-img interview-item">
-                                    <figure class="interview-pic"><img src="/assets/img/interview/people03.png">
+                                    <figure class="interview-pic"><img src="assets/img/interview/people03.png">
                                         <p class="name-en">HANA KADOWAKI</p>
                                     </figure>
                                 </div>
@@ -244,7 +244,7 @@ $pageInfo = array(
                         <div class="swiper-slide">
                             <div class="clm-box h-link box-04">
                                 <div class="default-img interview-item">
-                                    <figure class="interview-pic"><img src="/assets/img/interview/people04.png">
+                                    <figure class="interview-pic"><img src="assets/img/interview/people04.png">
                                         <p class="name-en">HIROKI ISHIDA</p>
                                     </figure>
                                 </div>
@@ -259,7 +259,7 @@ $pageInfo = array(
                         <div class="swiper-slide">
                             <div class="clm-box h-link box-05">
                                 <div class="default-img interview-item">
-                                    <figure class="interview-pic"><img src="/assets/img/interview/people05.png">
+                                    <figure class="interview-pic"><img src="assets/img/interview/people05.png">
                                         <p class="name-en">YU TAKAGI</p>
                                     </figure>
                                 </div>
@@ -274,7 +274,7 @@ $pageInfo = array(
                         <div class="swiper-slide">
                             <div class="clm-box h-link box-06">
                                 <div class="default-img interview-item">
-                                    <figure class="interview-pic"><img src="/assets/img/interview/people06.png">
+                                    <figure class="interview-pic"><img src="assets/img/interview/people06.png">
                                         <p class="name-en">MOE MATSUDA</p>
                                     </figure>
                                 </div>
@@ -289,7 +289,7 @@ $pageInfo = array(
                         <div class="swiper-slide">
                             <div class="clm-box h-link box-07">
                                 <div class="default-img interview-item">
-                                    <figure class="interview-pic"><img src="/assets/img/interview/people07.png">
+                                    <figure class="interview-pic"><img src="assets/img/interview/people07.png">
                                         <p class="name-en">TAKUYA KUDO</p>
                                     </figure>
                                 </div>
@@ -304,7 +304,7 @@ $pageInfo = array(
                         <div class="swiper-slide">
                             <div class="clm-box h-link box-08">
                                 <div class="default-img interview-item">
-                                    <figure class="interview-pic"><img src="/assets/img/interview/people08.png">
+                                    <figure class="interview-pic"><img src="assets/img/interview/people08.png">
                                         <p class="name-en">WATARU OHASHI</p>
                                     </figure>
                                 </div>
@@ -319,7 +319,7 @@ $pageInfo = array(
                         <div class="swiper-slide">
                             <div class="clm-box h-link box-09">
                                 <div class="default-img interview-item">
-                                    <figure class="interview-pic"><img src="/assets/img/interview/people09.png">
+                                    <figure class="interview-pic"><img src="assets/img/interview/people09.png">
                                         <p class="name-en">REINA SATO</p>
                                     </figure>
                                 </div>
@@ -349,9 +349,9 @@ $pageInfo = array(
                     <a href="/crosstalk/1.php" class="pic_wrap">
                         <div class="talk_group _01">
                             <div class="talk_pic_box">
-                                <div class="talk_pic"><img src="/assets/img/top/talk_women01.png" alt="女性社員座談会"></div>
-                                <div class="talk_pic"><img src="/assets/img/top/talk_women02.png" alt="女性社員座談会"></div>
-                                <div class="talk_pic"><img src="/assets/img/top/talk_women03.png" alt="女性社員座談会"></div>
+                                <div class="talk_pic"><img src="assets/img/top/talk_women01.png" alt="女性社員座談会"></div>
+                                <div class="talk_pic"><img src="assets/img/top/talk_women02.png" alt="女性社員座談会"></div>
+                                <div class="talk_pic"><img src="assets/img/top/talk_women03.png" alt="女性社員座談会"></div>
                             </div>
                             <div class="btn_area">
                                 <div class="skew-box">
@@ -364,10 +364,10 @@ $pageInfo = array(
                     <a href="/crosstalk/2.php">
                         <div class="talk_group _02">
                             <div class="talk_pic_box">
-                                <div class="talk_pic"><img src="/assets/img/top/talk_ojt01.png" alt="OJT×新入社員対談"></div>
-                                <div class="talk_pic"><img src="/assets/img/top/talk_ojt02.png" alt="OJT×新入社員対談"></div>
-                                <div class="talk_pic"><img src="/assets/img/top/talk_ojt03.png" alt="OJT×新入社員対談"></div>
-                                <div class="talk_pic"><img src="/assets/img/top/talk_ojt04.png" alt="OJT×新入社員対談"></div>
+                                <div class="talk_pic"><img src="assets/img/top/talk_ojt01.png" alt="OJT×新入社員対談"></div>
+                                <div class="talk_pic"><img src="assets/img/top/talk_ojt02.png" alt="OJT×新入社員対談"></div>
+                                <div class="talk_pic"><img src="assets/img/top/talk_ojt03.png" alt="OJT×新入社員対談"></div>
+                                <div class="talk_pic"><img src="assets/img/top/talk_ojt04.png" alt="OJT×新入社員対談"></div>
                             </div>
                             <div class=btn_area>
                                 <div class="skew-box">
@@ -387,7 +387,7 @@ $pageInfo = array(
                                 <div class="skew-box">
                                     <h4 class="skew en"><span>CEO TALK</span></h4>
                                 </div>
-                                <div class="talk_img"><img src="/assets/img/top/talk_ceo.png" alt="社長が語る森トラスト"></div>
+                                <div class="talk_img"><img src="assets/img/top/talk_ceo.png" alt="社長が語る森トラスト"></div>
                                 <p class="arr-next">view more</p>
                             </div>
                         </a>
@@ -399,7 +399,7 @@ $pageInfo = array(
                                 <div class="skew-box">
                                     <h4 class="skew en">HUMAN RESOURCES</h4>
                                 </div>
-                                <div class="talk_img"><img src="/assets/img/top/talk_learn.png" alt="社長が語る森トラスト"></div>
+                                <div class="talk_img"><img src="assets/img/top/talk_learn.png" alt="社長が語る森トラスト"></div>
                                 <p class="arr-next">view more</p>
                             </div>
                         </a>
@@ -411,7 +411,7 @@ $pageInfo = array(
                                 <div class="skew-box">
                                     <h4 class="skew en">FRESHMAN</h4>
                                 </div>
-                                <div class="talk_img"><img src="/assets/img/top/talk_new.png" alt="社長が語る森トラスト"></div>
+                                <div class="talk_img"><img src="assets/img/top/talk_new.png" alt="社長が語る森トラスト"></div>
                                 <p class="arr-next">view more</p>
                             </div>
                         </a>
@@ -429,9 +429,9 @@ $pageInfo = array(
                 </div>
                 <a href="/figures/">
                     <div class="num_cnt">
-                        <img src="/assets/img/top/figures.svg" class="is-pc"
+                        <img src="assets/img/top/figures.svg" class="is-pc"
                             alt="従業員数396人　女性従業員比率女性27%（291人）・男性73%（105人）　平均年齢39.4歳　過去3年採用数16人（2019年）18人（2020年）15人（2021年）　2021年卒内訳男性7人（47%）・女性8人（53%）、文系6人（40%）・理系9人（60%）、院卒9人（60%）・学部卒6人（40%）">
-                        <img src="/assets/img/top/figures_sp.svg" class="is-sp"
+                        <img src="assets/img/top/figures_sp.svg" class="is-sp"
                             alt="従業員数396人　女性従業員比率女性27%（291人）・男性73%（105人）　平均年齢39.4歳　過去3年採用数16人（2019年）18人（2020年）15人（2021年）　2021年卒内訳男性7人（47%）・女性8人（53%）、文系6人（40%）・理系9人（60%）、院卒9人（60%）・学部卒6人（40%）">
                         <p class="arr-next">view more</p>
                         <div class="bg_wrap">
@@ -487,11 +487,11 @@ $pageInfo = array(
     <!-- スライダー -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="/assets/js/swiper.js"></script>
+    <script src="assets/js/swiper.js"></script>
     <!-- kv -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
-    <script src="/assets/js/gsap.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
 </body>
 
 </html>

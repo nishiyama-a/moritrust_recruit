@@ -29,9 +29,7 @@ $btnsp-h: 55px;
   span{
     width: 100%;
     padding: 0 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     color: #fff;
     z-index: 2;
     margin: auto;
@@ -149,7 +147,7 @@ $btnsp-h: 55px;
           }
           .arr-next{
             &::after{
-              background-image: url(/assets/img/cmn/arr_next_w.svg);
+              background-image: url(../img/cmn/arr_next_w.svg);
             }
           }
       }

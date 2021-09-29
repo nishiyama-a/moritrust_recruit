@@ -17,8 +17,8 @@ $pageInfo = array(
         <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
         <div class="sc-kv -page2">
             <picture class="kv-img">
-                <source media="(max-width:767px)" srcset="/assets/img/pickup/kv_hotel.png">
-                <img src="/assets/img/pickup/kv_hotel.png">
+                <source media="(max-width:767px)" srcset="../assets/img/pickup/kv_hotel.png">
+                <img src="../assets/img/pickup/kv_hotel.png">
             </picture>
             <div class="kv-ttl">
                 <div class="kv-box skew-box">
@@ -40,9 +40,11 @@ $pageInfo = array(
                 </div>
                 <div class="sc-box">
                     <div class="mediabox-2 mediabox-l">
-                        <div class="mediabox-img cut-bg">
-                            <div class="cut-bg-r"></div>
-                            <img src="/assets/img/pickup/hotel01.png" alt="">
+                        <div class="mediabox-img">
+                            <div class="imgbox cut-bg">
+                                <div class="cut-bg-r"></div>
+                                <img src="../assets/img/pickup/hotel01.png" alt="">
+                            </div>
                         </div>
                         <div class="mediabox-copy copy-r">
                             <p class="num">POINT<br><span>01</span>
@@ -59,9 +61,11 @@ $pageInfo = array(
                 </div>
                 <div class="sc-box">
                     <div class="mediabox-2 mediabox-r">
-                        <div class="mediabox-img cut-bg">
-                            <div class="cut-bg-l"></div>
-                            <img src="/assets/img/pickup/hotel02.png" alt="">
+                        <div class="mediabox-img">
+                        <div class="imgbox cut-bg">
+                                <div class="cut-bg-l"></div>
+                                <img src="../assets/img/pickup/hotel02.png" alt="">
+                            </div>
                         </div>
                         <div class="mediabox-copy copy-l">
                             <p class="num">POINT<br><span>02</span>
@@ -78,9 +82,11 @@ $pageInfo = array(
                 </div>
                 <div class="sc-box">
                     <div class="mediabox-2 mediabox-l">
-                        <div class="mediabox-img cut-bg">
-                            <div class="cut-bg-r"></div>
-                            <img src="/assets/img/pickup/hotel03.png" alt="">
+                        <div class="mediabox-img">
+                        <div class="imgbox cut-bg">
+                                <div class="cut-bg-r"></div>
+                                <img src="../assets/img/pickup/hotel03.png" alt="">
+                            </div>
                         </div>
                         <div class="mediabox-copy copy-r">
                             <p class="num">POINT<br><span>03</span>
@@ -117,8 +123,8 @@ $pageInfo = array(
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/uniq.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/uniq.js"></script>
 
 </body>
 

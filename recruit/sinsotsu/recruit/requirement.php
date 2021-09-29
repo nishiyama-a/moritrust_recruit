@@ -17,8 +17,8 @@ $pageInfo = array(
         <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
         <div class="sc-kv -page">
             <picture class="kv-img">
-                <source media="(max-width:767px)" srcset="/assets/img/recruit/kv_requirement.png">
-                <img src="/assets/img/recruit/kv_requirement.png">
+                <source media="(max-width:767px)" srcset="../assets/img/recruit/kv_requirement.png">
+                <img src="../assets/img/recruit/kv_requirement.png">
             </picture>
             <div class="kv-ttl">
                 <p class="kv-head-en">RECRUIT</p>
@@ -154,14 +154,14 @@ $pageInfo = array(
                             <div class="clm-box h-link btn-3">
                                 <h3 class="btn-txt">採用担当からの<br>メッセージ</h3>
                                 <p class="btn-style arr-next">view more</p>
-                                <a class="clm-alink" href="/recruit/message.php"></a>
+                                <a class="clm-alink" href="message.php"></a>
                             </div>
                         </li>
                         <li>
                             <div class="clm-box h-link btn-3">
                                 <h3 class="btn-txt">選考ステップ</h3>
                                 <p class="btn-style arr-next">view more</p>
-                                <a class="clm-alink" href="/recruit/steps.php"></a>
+                                <a class="clm-alink" href="steps.php"></a>
                             </div>
                         </li>
                     </ul>
@@ -175,8 +175,8 @@ $pageInfo = array(
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/uniq.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/uniq.js"></script>
 
 </body>
 

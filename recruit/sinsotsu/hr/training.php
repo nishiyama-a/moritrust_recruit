@@ -17,8 +17,8 @@ $pageInfo = array(
         <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
         <div class="sc-kv -page2">
             <picture class="kv-img">
-                <source media="(max-width:767px)" srcset="/assets/img/hr/kv_training.png">
-                <img src="/assets/img/hr/kv_training.png">
+                <source media="(max-width:767px)" srcset="../assets/img/hr/kv_training.png">
+                <img src="../assets/img/hr/kv_training.png">
             </picture>
             <div class="kv-ttl">
                 <div class="kv-box skew-box">
@@ -50,7 +50,7 @@ $pageInfo = array(
                             また社会人としてのマナーなど幅広い分野について研修を行います。</p>
                     </div>
                     <div class="cut-bg">
-                    <div class="cut-bg-l"></div>
+                        <div class="cut-bg-l"></div>
                         <div class="training-item sc-inr">
                             <div class="skew-box bl">
                                 <h4 class="skew">部門演習</h4>
@@ -58,7 +58,7 @@ $pageInfo = array(
                             <p class="txt-box">
                                 配属前に各部門の業務内容を理解するために、実際に働く若手社員が講師になり、業務紹介、演習を行います。（物件調査、採算計算、賃貸ビル見学、エリア調査、震災対策
                                 等）<br>全ての部門の研修を終えると、森トラストの会社の仕組はもちろんのこと、その他業務上必要な基本的な知識やスキルが習得されています。</p>
-                            <div class="training-img"><img src="/assets/img/hr/training01.png" alt=""></div>
+                            <div class="training-img"><img src="../assets/img/hr/training01.png" alt=""></div>
                         </div>
                         <div class="training-item sc-inr">
                             <div class="skew-box bl">
@@ -68,8 +68,8 @@ $pageInfo = array(
                                 森トラストグループのホテル&リゾート事業の原点とも言えるラフォーレ修善寺の視察を行います。ホテル、チャペル、温泉、テニスコート、ゴルフ場等を併設した総合リゾートホテルの視察を行うことは、ホテル&リゾート事業への理解が深まるだけでなく、森トラストグループの歴史を学ぶことに繋がります。
                             </p>
                             <div class="training-img">
-                                <img src="/assets/img/hr/training02.png" alt="">
-                                <img src="/assets/img/hr/training03.png" alt="">
+                                <img src="../assets/img/hr/training02.png" alt="">
+                                <img src="../assets/img/hr/training03.png" alt="">
                             </div>
                         </div>
                         <div class="training-item sc-inr">
@@ -91,17 +91,18 @@ $pageInfo = array(
                             森トラストの主要事業について、先輩社員が日頃の業務から得た経験や知識をもとにし、より実践的な講義・実習を行います。</p>
                     </div>
                     <div class="cut-bg">
-                    <div class="cut-bg-l"></div>
-                        <div class="training-item">
-                            <div class="skew-wrap">
-                                <div class="skew-box bl">
-                                    <h4 class="skew">不動産事業研修</h4>
-                                </div>
+                        <div class="cut-bg-l"></div>
+                        <div class="training-item sc-inr">
+                            <div class="skew-box bl">
+                                <h4 class="skew">不動産事業研修</h4>
                             </div>
-                            <p class="txt-box">
+                            <p class="txt-box"> 
                                 不動産事業の全ての分野（企画・設計・営業・管理）についての知識を習得します。専門や配属部署に関わらず、当社の行う不動産事業を総合的に学習する研修となっています。また、オフィス移転を望むお客様に、森トラストのオフィスビルがどの様に提案されているのかを学ぶ営業同行研修や、オフィスビルが日々どの様に管理・運営されているのかを学ぶビル実習も不動産事業研修のカリキュラムの一環となっています。<br>
-                                <a href="/ourbusiness/realestate.php" class="btn-txtlink">森トラストの不動産事業について</a></p>
-                            <div class="training-img"><img src="/assets/img/hr/training04.png" alt=""></div>
+                                <a href="/ourbusiness/realestate.php" class="btn-txtlink">森トラストの不動産事業について</a>
+                            </p>
+                            <div class="training-img">
+                                <img src="../assets/img/hr/training04.png" alt="">
+                            </div>
                         </div>
                         <div class="training-item sc-inr">
                             <div class="skew-box bl">
@@ -110,11 +111,10 @@ $pageInfo = array(
                             <p class="txt-box">
                                 森トラストでは、都心の一等地と、日本の主要なリゾート地を厳選して、開発・経営・運営・投資・提携・誘致など、多様な手法でホテル事業を展開しています。ホテル&リゾート事業研修では、それぞれの手法についての講義や現場実習を行い、森トラストグループのホテル事業について理解を深めます。
                                 <a href="/ourbusiness/hotel.php" class="btn-txtlink">森トラストのホテル&リゾート事業について</a>
-
                             </p>
                             <div class="training-img">
-                                <img src="/assets/img/hr/training05.png" alt="">
-                                <img src="/assets/img/hr/training06.png" alt="">
+                                <img src="../assets/img/hr/training05.png" alt="">
+                                <img src="../assets/img/hr/training06.png" alt="">
                             </div>
                         </div>
                         <div class="training-item sc-inr">
@@ -123,7 +123,6 @@ $pageInfo = array(
                             </div>
                             <p class="txt-box">投資概論から始まり不動産証券化に至るまで、各投資手法や評価方法について演習等も織り交ぜながら講義を行います。<br>
                                 <a href="/ourbusiness/investment.php" class="btn-txtlink">森トラストの投資事業について</a>
-
                             </p>
                             <div class="training-img"></div>
                         </div>
@@ -131,7 +130,8 @@ $pageInfo = array(
                             <div class="skew-box bl">
                                 <h4 class="skew">財務研修</h4>
                             </div>
-                            <p class="txt-box">財務諸表（B/S、P/L、C/S）、連結決算といった財務・会計の基礎的知識を習得します。
+                            <p class="txt-box">
+                                財務諸表（B/S、P/L、C/S）、連結決算といった財務・会計の基礎的知識を習得します。
                             </p>
                             <div class="training-img"></div>
                         </div>
@@ -139,7 +139,8 @@ $pageInfo = array(
                             <div class="skew-box bl">
                                 <h4 class="skew">法務研修</h4>
                             </div>
-                            <p class="txt-box">不動産事業を行う上で不可欠な法務知識を実際の契約書や事例を用いて学びます。
+                            <p class="txt-box">
+                                不動産事業を行う上で不可欠な法務知識を実際の契約書や事例を用いて学びます。
                             </p>
                             <div class="training-img"></div>
                         </div>
@@ -157,12 +158,12 @@ $pageInfo = array(
                             新人間の絆が深まるとともに、先輩社員からも熱い講評や温かいエールが送られます。</p>
                     </div>
                     <div class="cut-bg">
-                    <div class="cut-bg-l"></div>
+                        <div class="cut-bg-l"></div>
                         <div class="training-item sc-inr">
                             <div class="training-img pic-3">
-                                <img src="/assets/img/hr/training07.png" alt="">
-                                <img src="/assets/img/hr/training08.png" alt="">
-                                <img src="/assets/img/hr/training09.png" alt="">
+                                <img src="../assets/img/hr/training07.png" alt="">
+                                <img src="../assets/img/hr/training08.png" alt="">
+                                <img src="../assets/img/hr/training09.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -187,7 +188,7 @@ $pageInfo = array(
                         <p>新人の間に知識を習得すると共に、資格を取得します。</p>
                     </div>
                     <div class="cut-bg">
-                    <div class="cut-bg-l"></div>
+                        <div class="cut-bg-l"></div>
                         <div class="training-item sc-inr">
                             <div class="training-item flex-box">
                                 <div class="skew-box bl">
@@ -216,7 +217,7 @@ $pageInfo = array(
             </section>
             <section class="l-section">
                 <div class="btn-wrap clm-1">
-                    <a class="btn-style btn-2" href="/hr/index.php">
+                    <a class="btn-style btn-2" href="./">
                         <span>一覧に戻る</span>
                     </a>
                 </div>
@@ -227,8 +228,8 @@ $pageInfo = array(
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/uniq.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/uniq.js"></script>
 
 </body>
 

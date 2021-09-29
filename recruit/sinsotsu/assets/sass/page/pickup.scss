@@ -23,6 +23,9 @@
 
 .pickup{
     padding-top: 0;
+    .sc-box:not(:first-child){
+    padding-bottom: 140px;
+    }
 
 }
 
