@@ -181,21 +181,6 @@ $pageInfo = array(
                                 </div>
                             </a>
                         </li>
-                        <!-- <li class="project_item">
-                            <a href="/pickup/worcation.php">
-                                <div class="prxoject_bg">
-                                    <div class="project_pic"><img src="/assets/img/top/index_workation.png" alt="東京ワールドゲート">
-                                    </div>
-                                    <div class="txtarea">
-                                        <p class="dec">PICK UP <br class="is-sp">PROJECT 06</p>
-                                        <div class="skew-box">
-                                            <h4 class="skew">ワーケーション事業</h4>
-                                        </div>
-                                        <p class="btn-style arr-next">view more</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li> -->
                     </ul>
                 </div>
             </section>
@@ -443,9 +428,10 @@ $pageInfo = array(
                             class="stroke">FIGURES</span>FIGURES</h2>
                 </div>
                 <a href="/figures/">
-                    <div class="num_cnt"><img src="/assets/img/top/numbers.png" class="is-pc"
+                    <div class="num_cnt">
+                        <img src="/assets/img/top/figures.svg" class="is-pc"
                             alt="従業員数396人　女性従業員比率女性27%（291人）・男性73%（105人）　平均年齢39.4歳　過去3年採用数16人（2019年）18人（2020年）15人（2021年）　2021年卒内訳男性7人（47%）・女性8人（53%）、文系6人（40%）・理系9人（60%）、院卒9人（60%）・学部卒6人（40%）">
-                        <img src="/assets/img/top/number_sp.svg" class="is-sp"
+                        <img src="/assets/img/top/figures_sp.svg" class="is-sp"
                             alt="従業員数396人　女性従業員比率女性27%（291人）・男性73%（105人）　平均年齢39.4歳　過去3年採用数16人（2019年）18人（2020年）15人（2021年）　2021年卒内訳男性7人（47%）・女性8人（53%）、文系6人（40%）・理系9人（60%）、院卒9人（60%）・学部卒6人（40%）">
                         <p class="arr-next">view more</p>
                         <div class="bg_wrap">

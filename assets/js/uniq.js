@@ -7,19 +7,10 @@ $(function () {
   if (window.matchMedia('(max-width: 768px)').matches) {
     $(".hum_links").css("display", "none");
     $(".hum_ttl").click(function () {
-      
       $(".hum_ttl").not(this).removeClass("open");
-      //クリックしたquestion以外の全てのopenを取る
-  
       $(".hum_ttl").not(this).next().slideUp(300);
-      //クリックされたquestion以外のanswerを閉じる
-      
       $(this).toggleClass("open");
-      //thisにopenクラスを付与
-      
       $(this).next().slideToggle(300);
-      //thisのcontentを展開、開いていれば閉じる
-    
     });
     }
 
