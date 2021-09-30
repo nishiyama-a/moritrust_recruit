@@ -40,6 +40,9 @@
        .txt-t-img{
            position: absolute;
            top: -250px;
+           @include breakpoint(medium){
+               display: none;
+           }
        }
    }
 }
@@ -47,7 +50,7 @@
 
 #training{
     padding-top: 0;
-    @include breakpoint(small){
+    @include breakpoint(medium){
         padding-top: 35px;
     }
     .schedule{
@@ -59,7 +62,7 @@
             span{
                 font-size: 14px;
                 margin-left: 1.5em;
-                @include breakpoint(small){
+                @include breakpoint(medium){
                     font-size: 12px;
                 }
             }
@@ -69,17 +72,17 @@
             justify-content: flex-start;
             align-items: center;
             margin-bottom: 50px;
-            @include breakpoint(small){
+            @include breakpoint(medium){
                 flex-direction: column;
             }
             .skew-box{
                 margin: 0 50px 0 0;
-                @include breakpoint(small){
+                @include breakpoint(medium){
                     margin: 0 auto 20px 0;
                 }
                 .skew{
                     font-weight: 800;
-                    @include breakpoint(small){
+                    @include breakpoint(medium){
                         font-weight: normal;
                     }
                 }
@@ -89,13 +92,19 @@
             width: 85%;
             left: inherit;
             right: 0;
+            @include breakpoint(medium){
+                width: 100%;
+                &::after{
+                    transform: skew(0);
+                }
+            }
         }
         .training-item{
             display: flex;
             align-items: flex-start;
             justify-content: flex-end;
             margin-bottom: 50px;
-            @include breakpoint(small){
+            @include breakpoint(medium){
                 flex-direction: column;
                 margin-bottom: 20px;
             }
@@ -106,14 +115,14 @@
                 width: 18%;
             }
             .skew-box{
-                @include breakpoint(small){
+                @include breakpoint(medium){
                    margin: 0 auto 20px 0;
                 }
             }
             .txt-box{
                 width: vw(500);
                 padding: 0 3%;
-                @include breakpoint(small){
+                @include breakpoint(medium){
                     width: 100%;
                     margin: 0 auto;
                 }
@@ -121,14 +130,14 @@
             .training-img{
                 display: flex;
                 width: 37%;
-                @include breakpoint(small){
+                @include breakpoint(medium){
                     justify-content: space-between;
                     width: 100%;
                     margin-top: 20px;
                 }
                 img{
                     margin-right: 30px;
-                    @include breakpoint(small){
+                    @include breakpoint(medium){
                         margin-right: 10px;
                         width: calc(50% - 5px);
                     }
@@ -138,7 +147,7 @@
                 }
                 &.pic-3{
                     width: auto;
-                    @include breakpoint(small){
+                    @include breakpoint(medium){
                         flex-wrap: wrap;
                         margin-top: 0;
                         img{

@@ -168,7 +168,7 @@
       .copy-r{
         margin: 0 7% 0 auto;
         @include breakpoint(small){
-          margin: 0 20px 0 auto;
+          margin: 40px 20px 0 auto;
         }
         .num{
           right: 30px;
@@ -185,7 +185,7 @@
       .copy-l{
         margin: 0 auto 0 7%;
         @include breakpoint(small){
-          margin: 0 auto 0 20px;
+          margin: 40px auto 0 20px;
         }
         .num{
           left: 30px;
