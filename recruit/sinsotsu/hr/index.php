@@ -79,7 +79,7 @@ $pageInfo = array(
                                 </div>
                                 <p class="rb-txt">HUMAN RESOURCES 03</p>
                             </div>
-                            <a class="clm-alink" href="/training.php"></a>
+                            <a class="clm-alink" href="training.php"></a>
                         </div>
                     </div>
                 </div>

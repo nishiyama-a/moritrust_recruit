@@ -17,7 +17,7 @@ $pageInfo = array(
         <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
         <div class="sc-kv kv-interview">
             <div class="kv-img">
-                <img src="/assets/img/interview/kv_05.png" alt="">
+                <img src="../assets/img/interview/kv_05.png" alt="">
                 <div class="job-info">
                     <div class="skew-box">
                         <h1 class="kv-head skew">営業本部営業第２グループ</h1>
@@ -75,7 +75,7 @@ $pageInfo = array(
                                 </p>
                             </div>
                         </div>
-                        <div class="answer-img"><img src="/assets/img/interview/interview_5-1.png" alt=""></div>
+                        <div class="answer-img"><img src="../assets/img/interview/interview_5-1.png" alt=""></div>
                     </div>
                 </div>
                 <div class="answer-wrap box-r">
@@ -98,12 +98,12 @@ $pageInfo = array(
                             </p>
                         </div>
                     </div>
-                    <div class="answer-img"><img src="/assets/img/interview/interview_5-2.png" alt=""></div>
+                    <div class="answer-img"><img src="../assets/img/interview/interview_5-2.png" alt=""></div>
                 </div>
     </div>
     <div class="sc-box">
         <div class="schedule">
-            <div class="schedule-img"><img src="/assets/img/interview/interview_5-3.png" alt=""></div>
+            <div class="schedule-img"><img src="../assets/img/interview/interview_5-3.png" alt=""></div>
             <div class="flow cut-bg">
             <div class="cut-bg-r"></div>
                 <div class="skew-box">
@@ -208,7 +208,7 @@ $pageInfo = array(
     <section class="l-contents">
         <div class="sc-inr">
             <div class="btn-wrap clm-1">
-                <a class="btn-style btn-2" href="/interview/">
+                <a class="btn-style btn-2" href="./">
                     <span>一覧に戻る</span>
                 </a>
             </div>
@@ -222,8 +222,8 @@ $pageInfo = array(
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/uniq.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/uniq.js"></script>
 
 </body>
 

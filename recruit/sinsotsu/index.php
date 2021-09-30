@@ -93,7 +93,7 @@ $pageInfo = array(
                     <div class="cut-bg-r"></div>
                     <ul class="project_wrap">
                         <li class="project_item open-first">
-                            <a href="/pickup/tokyoworldgate.php">
+                            <a href="./pickup/tokyoworldgate.php">
                                 <div class="project_bg">
                                     <div class="project_pic"><img src="assets/img/top/index_twg.png" alt="東京ワールドゲート"></div>
                                     <div class="txtarea">
@@ -107,7 +107,7 @@ $pageInfo = array(
                             </a>
                         </li>
                         <li class="project_item">
-                            <a href="/pickup/hotel.php">
+                            <a href="./pickup/hotel.php">
                                 <div class="project_bg">
                                     <div class="project_pic"><img src="assets/img/top/index_hotel.png" alt="東京ワールドゲート">
                                     </div>
@@ -122,7 +122,7 @@ $pageInfo = array(
                             </a>
                         </li>
                         <li class="project_item">
-                            <a href="/pickup/innovation.php">
+                            <a href="./pickup/innovation.php">
                                 <div class="project_bg">
                                     <div class="project_pic"><img src="assets/img/top/index_innovation.png"
                                             alt="東京ワールドゲート"></div>
@@ -137,7 +137,7 @@ $pageInfo = array(
                             </a>
                         </li>
                         <li class="project_item">
-                            <a href="/pickup/wellness.php">
+                            <a href="./pickup/wellness.php">
                                 <div class="project_bg">
                                     <div class="project_pic"><img src="assets/img/top/index_wellness.png" alt="東京ワールドゲート">
                                     </div>
@@ -152,7 +152,7 @@ $pageInfo = array(
                             </a>
                         </li>
                         <li class="project_item">
-                            <a href="/pickup/restaurant.php">
+                            <a href="./pickup/restaurant.php">
                                 <div class="project_bg">
                                     <div class="project_pic"><img src="assets/img/top/index_restaurant.png"
                                             alt="東京ワールドゲート"></div>
@@ -167,7 +167,7 @@ $pageInfo = array(
                             </a>
                         </li>
                         <li class="project_item">
-                            <a href="/pickup/worcation.php">
+                            <a href="./pickup/worcation.php">
                                 <div class="project_bg">
                                     <div class="project_pic"><img src="assets/img/top/index_workation.png"
                                             alt="ワーケーション事業"></div>
@@ -208,7 +208,7 @@ $pageInfo = array(
                                     <p class="job">用地取得</p>
                                     <p class="job-info">投資事業部</p>
                                 </div>
-                                <a class="clm-alink" href="/interview/1.php"></a>
+                                <a class="clm-alink" href="./interview/1.php"></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -223,7 +223,7 @@ $pageInfo = array(
                                     <p class="job">不動産開発</p>
                                     <p class="job-info">不動産開発本部アセットマネジメント部</p>
                                 </div>
-                                <a class="clm-alink" href="/interview/2.php"></a>
+                                <a class="clm-alink" href="./interview/2.php"></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -238,7 +238,7 @@ $pageInfo = array(
                                     <p class="job">ホテル企画開発</p>
                                     <p class="job-info">不動産開発本部アセットマネジメント部</p>
                                 </div>
-                                <a class="clm-alink" href="/interview/3.php"></a>
+                                <a class="clm-alink" href="./interview/3.php"></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -253,7 +253,7 @@ $pageInfo = array(
                                     <p class="job">設計・施工監理</p>
                                     <p class="job-info">不動産開発本部コンストラクション<br>マネジメント部建築第２グループ</p>
                                 </div>
-                                <a class="clm-alink" href="/interview/4.php"></a>
+                                <a class="clm-alink" href="./interview/4.php"></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -268,7 +268,7 @@ $pageInfo = array(
                                     <p class="job">営業</p>
                                     <p class="job-info">営業本部営業第２グループ</p>
                                 </div>
-                                <a class="clm-alink" href="/interview/5.php"></a>
+                                <a class="clm-alink" href="./interview/5.php"></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -283,7 +283,7 @@ $pageInfo = array(
                                     <p class="job">管理</p>
                                     <p class="job-info">ビル・リゾートマネジメント部<br>企画開発課業務グループ</p>
                                 </div>
-                                <a class="clm-alink" href="/interview/6.php"></a>
+                                <a class="clm-alink" href="./interview/6.php"></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -298,7 +298,7 @@ $pageInfo = array(
                                     <p class="job">イノベーション投資</p>
                                     <p class="job-info">投資事業部</p>
                                 </div>
-                                <a class="clm-alink" href="/interview/7.php"></a>
+                                <a class="clm-alink" href="./interview/7.php"></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -313,7 +313,7 @@ $pageInfo = array(
                                     <p class="job">海外投資</p>
                                     <p class="job-info">投資事業部</p>
                                 </div>
-                                <a class="clm-alink" href="/interview/8.php"></a>
+                                <a class="clm-alink" href="./interview/8.php"></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -328,7 +328,7 @@ $pageInfo = array(
                                     <p class="job">広報</p>
                                     <p class="job-info">広報部</p>
                                 </div>
-                                <a class="clm-alink" href="/interview/9.php"></a>
+                                <a class="clm-alink" href="./interview/9.php"></a>
                             </div>
                         </div>
                     </div>
@@ -346,7 +346,7 @@ $pageInfo = array(
                             class="stroke">CROSS TALK</span>CROSS TALK</h2>
                 </div>
                 <div class="talk_group_bg">
-                    <a href="/crosstalk/1.php" class="pic_wrap">
+                    <a href="./crosstalk/1.php" class="pic_wrap">
                         <div class="talk_group _01">
                             <div class="talk_pic_box">
                                 <div class="talk_pic"><img src="assets/img/top/talk_women01.png" alt="女性社員座談会"></div>
@@ -361,7 +361,7 @@ $pageInfo = array(
                             </div>
                         </div>
                     </a>
-                    <a href="/crosstalk/2.php">
+                    <a href="./crosstalk/2.php">
                         <div class="talk_group _02">
                             <div class="talk_pic_box">
                                 <div class="talk_pic"><img src="assets/img/top/talk_ojt01.png" alt="OJT×新入社員対談"></div>
@@ -381,7 +381,7 @@ $pageInfo = array(
                 <div class="talk_box_bg"></div>
                 <div class="talk_box">
                     <div class="talk_item">
-                        <a href="/ceo/">
+                        <a href="./ceo/">
                             <div class="box_cnt">
                                 <p class="ttl_ja">社長が語る森トラスト</p>
                                 <div class="skew-box">
@@ -393,7 +393,7 @@ $pageInfo = array(
                         </a>
                     </div>
                     <div class="talk_item">
-                        <a href="/hr/">
+                        <a href="./hr/">
                             <div class="box_cnt">
                                 <p class="ttl_ja">人財育成</p>
                                 <div class="skew-box">
@@ -405,7 +405,7 @@ $pageInfo = array(
                         </a>
                     </div>
                     <div class="talk_item">
-                        <a href="/freshman/">
+                        <a href="./freshman/">
                             <div class="box_cnt">
                                 <p class="ttl_ja">2021年入社 新入社員アンケート</p>
                                 <div class="skew-box">
@@ -427,7 +427,7 @@ $pageInfo = array(
                             class="stroke">FIGURES</span>FIGURES<span class="stroke">FIGURES</span>FIGURES<span
                             class="stroke">FIGURES</span>FIGURES</h2>
                 </div>
-                <a href="/figures/">
+                <a href="./figures/">
                     <div class="num_cnt">
                         <img src="assets/img/top/figures.svg" class="is-pc"
                             alt="従業員数396人　女性従業員比率女性27%（291人）・男性73%（105人）　平均年齢39.4歳　過去3年採用数16人（2019年）18人（2020年）15人（2021年）　2021年卒内訳男性7人（47%）・女性8人（53%）、文系6人（40%）・理系9人（60%）、院卒9人（60%）・学部卒6人（40%）">
@@ -451,7 +451,7 @@ $pageInfo = array(
                             </div>
                             <h3 class="btn-txt">事業紹介</h3>
                             <p class="btn-style arr-next">view more</p>
-                            <a class="clm-alink" href="/ourbusiness/"></a>
+                            <a class="clm-alink" href="./ourbusiness/"></a>
                         </div>
                     </li>
                     <li>
@@ -461,7 +461,7 @@ $pageInfo = array(
                             </div>
                             <h3 class="btn-txt">採用情報</h3>
                             <p class="btn-style arr-next">view more</p>
-                            <a class="clm-alink" href="/recruit/"></a>
+                            <a class="clm-alink" href="./recruit/"></a>
                         </div>
                     </li>
                     <li>
@@ -471,7 +471,7 @@ $pageInfo = array(
                             </div>
                             <h3 class="btn-txt">会社案内</h3>
                             <p class="btn-style arr-next">view more</p>
-                            <a class="clm-alink" href="/corporate/"></a>
+                            <a class="clm-alink" href="./corporate/"></a>
                         </div>
                     </li>
                 </ul>

@@ -77,6 +77,13 @@
 .ratio-golden:before {
   padding-top: 61.804697157%;
 }
+.ratio-ceo {
+  background-image: url(../img/ceo/president.png);
+  background-size: cover;
+}
+.ratio-ceo:before {
+  padding-top: 44.3548387097%;
+}
 
 @-webkit-keyframes menu-bar-1 {
   0% {
@@ -795,9 +802,15 @@ img {
 .soon {
   color: #fff !important;
 }
+.soon .note {
+  font-size: 10px;
+}
 
 .soon-f {
   color: #333 !important;
+}
+.soon-f .note {
+  font-size: 10px;
 }
 
 @media (max-width: 767px) {
@@ -1167,6 +1180,7 @@ img {
 }
 .footer .f_wrap .f_box:first-child {
   width: 16%;
+  margin-right: 3%;
   min-width: 120px;
 }
 @media (max-width: 767px) {
@@ -1174,9 +1188,6 @@ img {
     width: 100%;
     margin-bottom: 30px;
   }
-}
-.footer .f_wrap .f_box._links {
-  width: 100%;
 }
 .footer .f_logo {
   width: 100%;
@@ -1735,6 +1746,7 @@ body {
   .sc-kv.-page2 .kv-ttl {
     top: -20px;
     margin-left: 20px;
+    width: auto;
   }
 }
 .sc-kv.-page2 .kv-ttl .skew-box {
@@ -1770,56 +1782,6 @@ body {
   }
 }
 
-.sc-breadcrumb {
-  margin: 0 !important;
-  padding: 20px 0;
-}
-.sc-breadcrumb ol {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-.sc-breadcrumb ol li {
-  font-size: 0.75rem;
-  position: relative;
-}
-.sc-breadcrumb ol li::after {
-  margin: 0 5px 0 2px;
-  content: ">";
-}
-.sc-breadcrumb ol li:first-child a {
-  color: #e8314b;
-}
-.sc-breadcrumb ol li:last-child {
-  margin: 0;
-}
-.sc-breadcrumb ol li:last-child:after {
-  display: none;
-}
-.sc-breadcrumb ol li a {
-  color: #333;
-}
-.sc-breadcrumb ol li span {
-  white-space: normal;
-}
-
-@media (max-width: 767px) {
-  .sc-breadcrumb {
-    padding: 10px 0;
-  }
-  .sc-breadcrumb ol li {
-    font-size: 0.5625rem;
-  }
-  .sc-breadcrumb ol li:last-of-type span {
-    width: 120px;
-    display: block;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
-}
 .mt0 {
   margin-top: 0px !important;
 }
@@ -3383,16 +3345,28 @@ p.point-txt::before {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  padding-bottom: 140px;
+}
+@media (max-width: 767px) {
+  .mediabox-2 {
+    padding-bottom: 0;
+  }
 }
 .mediabox-2 .mediabox-img {
   position: absolute;
   width: 69.44vw;
   top: 0;
 }
+@media (max-width: 767px) {
+  .mediabox-2 .mediabox-img {
+    position: relative;
+  }
+}
 .mediabox-2 .mediabox-img img {
   position: relative;
   z-index: 2;
   height: auto;
+  max-height: 550px;
 }
 .mediabox-2 .mediabox-img .cut-bg-r, .mediabox-2 .mediabox-img .cut-bg-l {
   bottom: -60px;
@@ -3591,11 +3565,11 @@ p.point-txt::before {
   }
   .mediabox-2 .mediabox-copy.copy-r {
     left: inherit;
-    bottom: -40px;
+    top: 0;
   }
   .mediabox-2 .mediabox-copy.copy-l {
     right: inherit;
-    bottom: -40px;
+    top: 0;
   }
   .mediabox-2 .mediabox-copy .num {
     font-size: 12px;
@@ -5415,6 +5389,11 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 .pickup .sc-box:not(:first-child) {
   padding-bottom: 140px;
 }
+@media (max-width: 767px) {
+  .pickup .sc-box:not(:first-child) {
+    padding-bottom: 0;
+  }
+}
 
 @media (max-width: 767px) {
   .pickup .sc-box.mbsp {
@@ -5665,6 +5644,11 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   font-size: 26px;
   font-weight: 800;
 }
+@media (max-width: 1000px) {
+  .kv-interview .kv-img .job-info .skew-box .skew {
+    font-size: 18px;
+  }
+}
 @media (max-width: 767px) {
   .kv-interview .kv-img .job-info .skew-box .skew {
     font-size: 14px;
@@ -5718,7 +5702,13 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   border-bottom: 1px solid #333;
   display: inline-block;
   margin-bottom: 55px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
+}
+@media (max-width: 1000px) {
+  .kv-interview .kv-ttl .job {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 767px) {
   .kv-interview .kv-ttl .job {
@@ -5746,6 +5736,16 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   padding: 85px 13%;
   width: 50%;
 }
+@media (max-width: 1000px) {
+  .kv-interview .person {
+    padding: 85px 3% 85px 7%;
+  }
+}
+@media (max-width: 1000px) {
+  .kv-interview .person {
+    width: 40%;
+  }
+}
 @media (max-width: 767px) {
   .kv-interview .person {
     width: 65%;
@@ -5771,6 +5771,11 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   letter-spacing: 0.2em;
   margin-bottom: 40px;
   line-height: 1;
+}
+@media (max-width: 1000px) {
+  .kv-interview .person .name {
+    font-size: 30px;
+  }
 }
 @media (max-width: 767px) {
   .kv-interview .person .name {
@@ -5799,6 +5804,11 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   top: -120px;
   padding: 140px 2% 50px 7%;
 }
+@media (max-width: 1000px) {
+  .kv-interview .important {
+    width: 60%;
+  }
+}
 @media (max-width: 767px) {
   .kv-interview .important {
     width: 100%;
@@ -5819,6 +5829,16 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 .kv-interview .important .skew-box .skew {
   padding: 0;
+}
+@media (max-width: 1000px) {
+  .kv-interview .important .skew-box .skew {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .kv-interview .important .skew-box .skew {
+    font-size: 14px;
+  }
 }
 @media (max-width: 767px) {
   .kv-interview .important-list {
@@ -5870,7 +5890,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   padding-top: 0;
   margin-top: -20px;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .interview {
     margin-top: 0;
   }
@@ -5879,7 +5899,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
             transform: skew(0);
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .interview .box-l .answer {
     padding-right: 20px;
   }
@@ -5896,12 +5916,12 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
           align-items: flex-end;
   position: relative;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .interview .answer-wrap {
     padding-top: 160px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .interview .answer-wrap .box-l .answer {
     padding-right: 20px;
   }
@@ -5910,9 +5930,9 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   }
 }
 .interview .answer-wrap .answer-box {
-  padding: 90px 10%;
+  padding: 90px 7%;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .interview .answer-wrap .answer-box {
     padding: 40px 20px 20px;
   }
@@ -5922,7 +5942,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   width: 45%;
   display: block !important;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .interview .answer-wrap .answer-box .answer {
     width: 100%;
     margin-bottom: 20px;
@@ -5937,7 +5957,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 .interview .answer-wrap .answer-box .skew-box {
   padding: 15px;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .interview .answer-wrap .answer-box .skew-box {
     margin-bottom: 20px;
   }
@@ -5951,7 +5971,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   right: 0;
   bottom: 90px;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .interview .answer-wrap .answer-img {
     bottom: inherit;
     top: 0;
@@ -5972,9 +5992,9 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 .interview .answer-wrap.box-r .answer-img {
   right: inherit;
-  left: 10%;
+  left: 0;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .interview .answer-wrap.box-r .answer-img {
     left: 40px;
   }
@@ -5982,7 +6002,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 .interview .cut-bg-r {
   width: 70%;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .interview .cut-bg-r {
     width: calc(100% - 20px);
   }
@@ -5991,7 +6011,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   border-right: solid 155px #fff;
   border-top: solid 920px transparent;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .interview .cut-bg-r::before {
     display: none;
   }
@@ -5999,7 +6019,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 .interview .cut-bg-l {
   width: 70%;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .interview .cut-bg-l {
     width: calc(100% - 20px);
   }
@@ -6008,7 +6028,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   border-left: solid 155px #fff;
   border-bottom: solid 920px transparent;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .interview .cut-bg-l::before {
     display: none;
   }
@@ -6020,7 +6040,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   position: relative;
   z-index: 3;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .schedule-img {
     width: 280px;
   }
@@ -6030,7 +6050,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   padding: 80px 5%;
   margin-top: -140px;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .schedule .flow {
     width: 100%;
     margin-top: -25px;
@@ -6044,7 +6064,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 .schedule .flow .skew-box .skew {
   padding: 0;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .schedule .flow-list {
     padding-right: 20px;
   }
@@ -6068,7 +6088,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   background-color: #333;
   left: 60px;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .schedule .flow-list li .time-box::after {
     left: 50px;
   }
@@ -6173,7 +6193,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
       -ms-flex-align: center;
           align-items: center;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .schedule .flow-list li .border-box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -6190,7 +6210,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   margin-right: 1em;
   width: 10em;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .schedule .flow .cut-bg-r::after {
     -webkit-transform: skew(0);
             transform: skew(0);
@@ -6695,7 +6715,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   right: 0;
   width: 60%;
   margin: 0 auto;
-  padding: 45px 0;
+  padding: 45px 10px;
   background-image: url(../img/freshman/q_bg_w.svg);
   background-size: contain;
   background-position: center center;
@@ -7342,7 +7362,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 #ceo .read-area .txtbox {
   bottom: -110px;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   #ceo .read-area .txtbox {
     bottom: -140px;
     -webkit-box-orient: vertical;
@@ -7355,20 +7375,25 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   margin-left: 0;
   padding: 20px 3%;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   #ceo .read-area .txtbox .skew-box {
     margin: 0 auto 20px;
     padding: 10px 15px;
   }
 }
 #ceo .read-area .txtbox .skew-box .skew {
-  font-size: 24px;
+  font-size: 1.8vw;
   text-align: left;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   #ceo .read-area .txtbox .skew-box .skew {
     font-size: 14px;
     padding: 0;
+  }
+}
+@media (min-width: 1350px) {
+  #ceo .read-area .txtbox .skew-box .skew {
+    font-size: 24px;
   }
 }
 #ceo .read-area .txtbox .rb-txt {

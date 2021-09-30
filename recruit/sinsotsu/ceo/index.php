@@ -32,10 +32,12 @@ $pageInfo = array(
             <section class="l-section read-area">
                 <div class="sc-inr">
                     <div class="between-box clm-box">
-                        <picture>
+            <div class="ratio-ceo"></div>
+
+                        <!-- <picture>
                             <source media="(max-width:767px)" srcset="../assets/img/ceo/president.png">
                             <img src="../assets/img/ceo/president.png" alt="森トラスト代表取締役社長 伊達 美和子">
-                        </picture>
+                        </picture> -->
                         <div class="txtbox clm-copy">
                             <div class="skew-box">
                                 <h4 class="skew">その場所自体が生きたものに<br class="disp-sp">変わっていくのを、<br>

@@ -21,8 +21,7 @@ if (empty($pageInfo['pagetitle'])) {
 <meta content="summary_large_image" property="twitter:card">
 <meta content="森トラスト新卒採用サイト｜株式会社森トラスト" property="twitter:title">
 <meta content="「創るのは、街だけじゃない。」をコンセプトにリクルートを行う、株式会社森トラストの新卒採用サイト。" property="twitter:description">
-<meta content="http://recruit.mori-trust.co.jp/recruit/sinsotsu/assets/img/og.jpg" property="twitter:image:src">
-<link rel="icon" href="/recruit/sinsotsu/assets/img/cmn/favicon.svg"/>
-<link rel="apple-touch-icon" sizes="180x180" href="/recruit/sinsotsu/assets/img/cmn/favicon.svg">
-<link rel="icon" type="image/png" href="/recruit/sinsotsu/assets/img/cmn/favicon.svg" sizes="192x192">
+<meta content="http://recruit.mori-trust.co.jp/recruit/sinsotsu/assets/img/cmn/og.jpg" property="twitter:image:src">
+<link rel="icon" href="/recruit/sinsotsu/assets/img/cmn/favicon.ico">
+<link rel="apple-touch-icon" sizes="144x144" href="/recruit/sinsotsu/assets/img/cmn/apple-touch-icon-144x144.png" />
 <link rel="stylesheet" href="/recruit/sinsotsu/assets/css/assets.css">

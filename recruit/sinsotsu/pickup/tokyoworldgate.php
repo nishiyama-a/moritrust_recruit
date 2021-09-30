@@ -50,7 +50,7 @@ $pageInfo = array(
                             <p class="num">POINT<br><span>01</span>
                             </p>
                             <div class="skew-box-w">
-                                <h4 class="skew"><span>自由な働き方を可能にする</span></h4>
+                                <h4 class="skew"><span>自由な働き方を可能にする</span></h4><br>
                                 <h4 class="skew"><span>洗練されたオフィス空間</span></h4>
                             </div>
                             <p>オフィスロビーは世界的建築家の隈研吾氏の設計のもと、「森のような、やわらかであたたかい空間」をテーマに、洗練された空間を演出しています。オフィスフロアの低層階では「クリエイティブフロア」を展開し、入居企業の多様なニーズに合わせたレイアウトを低コストで実現可能にし、イノベーティブなオフィス空間の創造をサポートします。
@@ -70,8 +70,8 @@ $pageInfo = array(
                             <p class="num">POINT<br><span>02</span>
                             </p>
                             <div class="skew-box-w">
-                                <h4 class="skew"><span>日本初進出のラグジュアリー</span></h4>
-                                <h4 class="skew"><span>ライフスタイルホテルブランド</span></h4>
+                                <h4 class="skew"><span>日本初進出のラグジュアリー</span></h4><br>
+                                <h4 class="skew"><span>ライフスタイルホテルブランド</span></h4><br>
                                 <h4 class="skew"><span>『EDITION』を含む多彩な施設</span></h4>
                             </div>
                             <p>マリオット・インターナショナルとイアン・シュレーガー氏のコラボレーションにより誕生した、日本初進出のラグジュアリーライフスタイルホテル『東京エディション虎ノ門』。デザイナーとして隈研吾氏を起用し、世界を飛び回る人々の感性を刺激する、新たな拠点として注目を集めます。さらに日本初上陸となるNY発の人気モダンイタリアンレストラン『Scarpetta』を迎え、世界最先端の高品質なトレンドを採り入れています。
@@ -91,7 +91,7 @@ $pageInfo = array(
                             <p class="num">POINT<br><span>03</span>
                             </p>
                             <div class="skew-box-w">
-                                <h4 class="skew"><span>賑わいと潤いを演出する</span></h4>
+                                <h4 class="skew"><span>賑わいと潤いを演出する</span></h4><br>
                                 <h4 class="skew"><span>約5,500㎡の緑地空間</span></h4>
                             </div>
                             <p>快適な緑地空間や水景の潤いある水辺テラス等、気分に合わせて選べる多様な屋外サードプレイスを提供します。緑地空間では、300年以上の歴史を持つ葺城稲荷神社を再整備したほか、樹齢100年以上の大クスノキを立曳き工法により敷地内で移植・保全し、生物多様性に配慮したビオトープを創出するなど、地域由来の景観を創出しています。
@@ -111,7 +111,7 @@ $pageInfo = array(
                             <p class="num">POINT<br><span>04</span>
                             </p>
                             <div class="skew-box-w">
-                                <h4 class="skew"><span>ビジネスをサポートする高水準の</span></h4>
+                                <h4 class="skew"><span>ビジネスをサポートする高水準の</span></h4><br>
                                 <h4 class="skew"><span>BCP支援機能と地域防災対応力</span></h4>
                             </div>
                             <p>最大で平常時電力需要の約8割をカバーする大容量の非常用発電機を実装しており、非常時においても約1週間電源供給が可能な計画としています。超高層建築物に求められる耐震性能の1.5倍の性能を実現し、1,500人が3日間滞在するのに必要な飲食料・簡易トイレ・防寒具を備蓄することで、「持続可能で先進的な街づくり」を目指します。
@@ -239,7 +239,7 @@ $pageInfo = array(
                                         </div>
                                         <div class="txtbox">
                                             <div class="skew-box">
-                                                <h4 class="skew">プロジェクト統括・エリアマネジメント部門</h4>
+                                                <h4 class="skew">プロジェクト統括・<br class="disp-sp">エリアマネジメント部門</h4>
                                             </div>
                                         </div>
                                     </div>

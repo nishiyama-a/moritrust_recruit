@@ -321,6 +321,7 @@ transform: rotate(90deg);
       @include breakpoint(small){
         top:-20px;
         margin-left: 20px;
+        width: auto;
       }
       .skew-box{
         padding: 25px 3%;

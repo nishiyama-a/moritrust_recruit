@@ -96,14 +96,22 @@
   &-2{
     @extend %mediabox-cmn;
     align-items: flex-end;
+    padding-bottom: 140px;
+    @include breakpoint(small){
+        padding-bottom: 0;
+    }
     .mediabox-img{
       position: absolute;
       width: vw(1000);
       top: 0;
+      @include breakpoint(small){
+        position: relative;
+      }
       img{
         position: relative;
         z-index: 2;
         height: auto;
+        max-height: 550px;
       }
       .cut-bg-r,.cut-bg-l{
         bottom: -60px;
@@ -127,9 +135,6 @@
         line-height: 1.17;
         letter-spacing: 0.05em;
         padding-left: 15px;
-        // @include breakpoint(small){
-        //   color: #fff;
-        // }
         span{
           font-family: $font-dec;
         font-size: 50px;
@@ -143,9 +148,6 @@
           transform: skew(-7deg);
           left: 0;
           top: 0;
-          // @include breakpoint(small){
-          //   background-color: #FFF;
-          // }
         }
       }
     }
@@ -306,11 +308,11 @@
         position: relative;
         &.copy-r{
           left: inherit;
-          bottom: -40px;
+          top: 0;
         }
         &.copy-l{
           right: inherit;
-          bottom: -40px;
+          top: 0;
         }
         .num{
           font-size: 12px;

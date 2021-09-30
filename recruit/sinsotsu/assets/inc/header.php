@@ -2,7 +2,7 @@
     <p class="header-logo"><a href="/recruit/sinsotsu/"><img class="img-h" src="/recruit/sinsotsu/assets/img/cmn/logo.svg" alt="森トラスト"></a></p>
     <div class="header-main">
         <div class="entry">
-            <p class="soon"><span class="note">coming soon</span><br>ENTRY</p>
+            <p class="soon">ENTRY<br><span class="note">coming soon</span></p>
             <!-- <a href="https://www.yahoo.co.jp/">ENTRY</a> -->
         </div>
         <div class="hamb-btn" id="hamb-btn">

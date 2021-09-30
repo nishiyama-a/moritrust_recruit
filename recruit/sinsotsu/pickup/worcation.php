@@ -17,8 +17,8 @@ $pageInfo = array(
         <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
         <div class="sc-kv -page2">
             <picture class="kv-img">
-                <source media="(max-width:767px)" srcset="/assets/img/pickup/kv_worcation.png">
-                <img src="/assets/img/pickup/kv_worcation.png">
+                <source media="(max-width:767px)" srcset="../assets/img/pickup/kv_worcation.png">
+                <img src="../assets/img/pickup/kv_worcation.png">
             </picture>
             <div class="kv-ttl">
                 <div class="kv-box skew-box">
@@ -42,13 +42,13 @@ $pageInfo = array(
                     <div class="mediabox-2 mediabox-l">
                         <div class="mediabox-img cut-bg">
                             <div class="cut-bg-r"></div>
-                            <img src="/assets/img/pickup/worcation01.png" alt="">
+                            <img src="../assets/img/pickup/worcation01.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-r">
                             <p class="num">POINT<br><span>01</span>
                             </p>
                             <div class="skew-box-w">
-                                <h4 class="skew"><span>「都心のオフィス事業」×</span></h4>
+                                <h4 class="skew"><span>「都心のオフィス事業」×</span></h4><br>
                                 <h4 class="skew"><span>「リゾートのホテル事業」という強み</span></h4>
                             </div>
                             <p>森トラストではかねてより、このワークスタイルやライフスタイルの変化に着目していました。オフィス事業では、業界を問わず都心のお客様の最先端な働き方に日々触れており、コロナ禍以前からサテライトオフィスやリモートワークを活用する姿、そのニーズの高まりを感じていたからです。「働く場所や働き方の選択肢はきっともっと広がっていく。ならば私たちは、それに応える新たな魅力をもった環境を提供していこう。」そんな発想から、リゾート地でのワーケーション事業へと繋がっていきました。都心で働くワーカーの求めること、リゾート地のホテルで過ごすひとときが与えてくれるもの、その両方をオフィス事業とホテル＆リゾート事業で追求しつづけている私たちだからこその視点で、様々なアイデアを形にしていきます。
@@ -60,13 +60,13 @@ $pageInfo = array(
                     <div class="mediabox-2 mediabox-r">
                         <div class="mediabox-img cut-bg">
                             <div class="cut-bg-l"></div>
-                            <img src="/assets/img/pickup/worcation02.png" alt="">
+                            <img src="../assets/img/pickup/worcation02.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-l">
                             <p class="num">POINT<br><span>02</span>
                             </p>
                             <div class="skew-box-w">
-                                <h4 class="skew"><span>クリエイティビティと利便性を</span></h4>
+                                <h4 class="skew"><span>クリエイティビティと利便性を</span></h4><br>
                                 <h4 class="skew"><span>兼ね備えた、最先端のリゾートワークを</span></h4>
                             </div>
                             <p>森トラストが都心で運営する「Cozy
@@ -79,13 +79,13 @@ $pageInfo = array(
                     <div class="mediabox-2 mediabox-l">
                         <div class="mediabox-img cut-bg">
                             <div class="cut-bg-r"></div>
-                            <img src="/assets/img/pickup/worcation03.png" alt="">
+                            <img src="../assets/img/pickup/worcation03.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-r">
                             <p class="num">POINT<br><span>03</span>
                             </p>
                             <div class="skew-box-w">
-                                <h4 class="skew"><span>ワーケーションの普及のために</span></h4>
+                                <h4 class="skew"><span>ワーケーションの普及のために</span></h4><br>
                                 <h4 class="skew"><span>自社でも導入、効果検証も</span></h4>
                             </div>
                             <p>ワーカーにとっても、勤め先の企業にとっても、「ワーケーションを活用することはとてもハッピーなことなんだ」ということがしっかりと伝わるような取り組みにも力を入れています。例えば、ワーケーションの効果を検証するところから。森トラスト自身がワーケーションを人事制度に導入し、ワーケーションがどれだけ人のメンタルにプラスの影響を及ぼすことができるのかといったことを外部企業と提携してアプリを使って測定してみるなど。一部の限られた人だけでなく、広くワーカーの皆さんにワーケーションというスタイルを楽しんでいただけるよう、魅力づくりや裏付けにも多方面からアプローチしています。
@@ -111,8 +111,8 @@ $pageInfo = array(
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/uniq.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/uniq.js"></script>
 
 </body>
 

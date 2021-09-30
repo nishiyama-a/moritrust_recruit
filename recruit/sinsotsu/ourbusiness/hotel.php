@@ -153,7 +153,7 @@ $pageInfo = array(
                                         <p>森トラストの最新のホテル開発について知りたい</p>
                                         <p class="btn-style arr-next">view more</p>
                                     </div>
-                                    <a class="clm-alink" href="/pickup/hotel.php"></a>
+                                    <a class="clm-alink" href="../pickup/hotel.php"></a>
                                 </div>
                             </li>
                         </ul>
@@ -161,7 +161,7 @@ $pageInfo = array(
                     </div>
                     <div class="sc-box">
                         <div class="btn-wrap clm-1">
-                            <a class="btn-style btn-2" href="/ourbusiness/">
+                            <a class="btn-style btn-2" href="./">
                                 <span>一覧に戻る</span>
                             </a>
                         </div>

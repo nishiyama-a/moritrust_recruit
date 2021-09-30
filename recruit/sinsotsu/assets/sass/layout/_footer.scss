@@ -16,14 +16,12 @@
 	  .f_box{
 		&:first-child{
 		  width: 16%;
+		  margin-right: 3%;
 		  min-width: 120px;
 		  @include breakpoint(small){
 			width: 100%;
 			margin-bottom: 30px;
 		  }
-		}
-		&._links{
-		  width: 100%;
 		}
 	  }
 	}

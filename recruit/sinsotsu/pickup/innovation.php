@@ -17,8 +17,8 @@ $pageInfo = array(
         <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
         <div class="sc-kv -page2">
             <picture class="kv-img">
-                <source media="(max-width:767px)" srcset="/assets/img/pickup/kv_innovation.png">
-                <img src="/assets/img/pickup/kv_innovation.png">
+                <source media="(max-width:767px)" srcset="../assets/img/pickup/kv_innovation.png">
+                <img src="../assets/img/pickup/kv_innovation.png">
             </picture>
             <div class="kv-ttl">
                 <div class="kv-box skew-box">
@@ -42,13 +42,13 @@ $pageInfo = array(
                     <div class="mediabox-2 mediabox-l">
                         <div class="mediabox-img cut-bg">
                             <div class="cut-bg-r"></div>
-                            <img src="/assets/img/pickup/innovation01.png" alt="">
+                            <img src="../assets/img/pickup/innovation01.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-r">
                             <p class="num">POINT<br><span>01</span>
                             </p>
                             <div class="skew-box-w mb10">
-                                <h4 class="skew"><span>スマートロック技術で、</span></h4>
+                                <h4 class="skew"><span>スマートロック技術で、</span></h4><br>
                                 <h4 class="skew"><span>多面的な業務の効率化を</span></h4>
                             </div>
                             <p class="note mb20">with 株式会社ビットキー</p>
@@ -61,13 +61,13 @@ $pageInfo = array(
                     <div class="mediabox-2 mediabox-r">
                         <div class="mediabox-img cut-bg">
                             <div class="cut-bg-l"></div>
-                            <img src="/assets/img/pickup/innovation02.png" alt="">
+                            <img src="../assets/img/pickup/innovation02.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-l">
                             <p class="num">POINT<br><span>02</span>
                             </p>
                             <div class="skew-box-w mb10">
-                                <h4 class="skew"><span>香り×IoTで、</span></h4>
+                                <h4 class="skew"><span>香り×IoTで、</span></h4><br>
                                 <h4 class="skew"><span>空間の付加価値向上を</span></h4>
                             </div>
                             <p class="note mb20">with Scentee株式会社</p>
@@ -80,13 +80,13 @@ $pageInfo = array(
                     <div class="mediabox-2 mediabox-l">
                         <div class="mediabox-img cut-bg">
                             <div class="cut-bg-r"></div>
-                            <img src="/assets/img/pickup/innovation03.png" alt="">
+                            <img src="../assets/img/pickup/innovation03.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-r">
                             <p class="num">POINT<br><span>03</span>
                             </p>
                             <div class="skew-box-w mb10">
-                                <h4 class="skew"><span>ロボットを活用した配送集荷サービスで、</span></h4>
+                                <h4 class="skew"><span>ロボットを活用した配送集荷サービスで、</span></h4><br>
                                 <h4 class="skew"><span>様々な社会課題の解決を</span></h4>
                             </div>
                             <p class="note mb20">with 株式会社QBIT Robotics</p>
@@ -114,8 +114,8 @@ $pageInfo = array(
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/uniq.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/uniq.js"></script>
 
 </body>
 

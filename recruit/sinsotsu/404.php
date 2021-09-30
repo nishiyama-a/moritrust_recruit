@@ -22,7 +22,7 @@ $pageInfo = array(
                     <p class="head-txt mb30">お探しのページは一時的にアクセスができない状況にあるか、<br class="disp-pc">移動もしくは削除された可能性があります。</p>
                 </div>
                 <div class="btn-wrap clm-1">
-                    <a class="btn-style btn-1" href="/">
+                    <a class="btn-style btn-1" href="/recruit/sinsotsu/">
                         <span>採用TOPへ</span>
                     </a>
                 </div>

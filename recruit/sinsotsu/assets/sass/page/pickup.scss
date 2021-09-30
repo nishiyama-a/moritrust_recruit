@@ -25,6 +25,9 @@
     padding-top: 0;
     .sc-box:not(:first-child){
     padding-bottom: 140px;
+    @include breakpoint(small){
+        padding-bottom: 0;
+    }
     }
 
 }

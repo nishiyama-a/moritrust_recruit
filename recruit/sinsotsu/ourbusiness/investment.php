@@ -17,8 +17,8 @@ $pageInfo = array(
         <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
         <div class="sc-kv -page2">
             <picture class="kv-img">
-                <source media="(max-width:767px)" srcset="/assets/img/ourbusiness/kv_investment.png">
-                <img src="/assets/img/ourbusiness/kv_investment.png">
+                <source media="(max-width:767px)" srcset="../assets/img/ourbusiness/kv_investment.png">
+                <img src="../assets/img/ourbusiness/kv_investment.png">
             </picture>
             <div class="kv-ttl">
                 <div class="kv-box skew-box">
@@ -41,7 +41,7 @@ $pageInfo = array(
                 <div class="sc-box">
                     <div class="mediabox mediabox-l">
                         <div class="mediabox-img">
-                            <img src="/assets/img/ourbusiness/investment01.png" alt="">
+                            <img src="../assets/img/ourbusiness/investment01.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-r cut-bg">
                             <div class="cut-bg-l"></div>
@@ -56,7 +56,7 @@ $pageInfo = array(
                     </div>
                     <div class="mediabox mediabox-r">
                         <div class="mediabox-img">
-                            <img src="/assets/img/ourbusiness/investment02.png" alt="">
+                            <img src="../assets/img/ourbusiness/investment02.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-l cut-bg">
                             <div class="cut-bg-r"></div>
@@ -117,13 +117,13 @@ $pageInfo = array(
                                         <h4 class="skew">イノベーション事業</h4>
                                     </div>
                                     <div class="default-img h-img">
-                                        <img src="/assets/img/ourbusiness/link3-1.png" alt="">
+                                        <img src="../assets/img/ourbusiness/link3-1.png" alt="">
                                     </div>
                                     <div class="clm-copy">
                                         <p>森トラストのイノベーション事業について知りたい</p>
                                         <p class="btn-style arr-next">view more</p>
                                     </div>
-                                    <a class="clm-alink" href="/pickup/innovation.php"></a>
+                                    <a class="clm-alink" href="../pickup/innovation.php"></a>
                                 </div>
                             </li>
                             <li>
@@ -132,13 +132,13 @@ $pageInfo = array(
                                         <h4 class="skew">ウェルネス事業</h4>
                                     </div>
                                     <div class="default-img h-img">
-                                        <img src="/assets/img/ourbusiness/link3-2.png" alt="">
+                                        <img src="../assets/img/ourbusiness/link3-2.png" alt="">
                                     </div>
                                     <div class="clm-copy">
                                         <p>森トラストのウェルネス事業について知りたい</p>
                                         <p class="btn-style arr-next">view more</p>
                                     </div>
-                                    <a class="clm-alink" href="/pickup/wellness.php"></a>
+                                    <a class="clm-alink" href="../pickup/wellness.php"></a>
                                 </div>
                             </li>
                             <li>
@@ -147,13 +147,13 @@ $pageInfo = array(
                                         <h4 class="skew">カフェ・レストラン事業</h4>
                                     </div>
                                     <div class="default-img h-img">
-                                        <img src="/assets/img/ourbusiness/link3-3.png" alt="">
+                                        <img src="../assets/img/ourbusiness/link3-3.png" alt="">
                                     </div>
                                     <div class="clm-copy">
                                         <p>森トラストのカフェ・レストラン事業について知りたい</p>
                                         <p class="btn-style arr-next">view more</p>
                                     </div>
-                                    <a class="clm-alink" href="/pickup/restaurant.php"></a>
+                                    <a class="clm-alink" href="../pickup/restaurant.php"></a>
                                 </div>
                             </li>
                             <li>
@@ -162,13 +162,13 @@ $pageInfo = array(
                                         <h4 class="skew">ワーケーション事業</h4>
                                     </div>
                                     <div class="default-img h-img">
-                                        <img src="/assets/img/ourbusiness/link3-4.png" alt="">
+                                        <img src="../assets/img/ourbusiness/link3-4.png" alt="">
                                     </div>
                                     <div class="clm-copy">
                                         <p>森トラストのワーケーション事業について知りたい</p>
                                         <p class="btn-style arr-next">view more</p>
                                     </div>
-                                    <a class="clm-alink" href="/pickup/worcation.php"></a>
+                                    <a class="clm-alink" href="../pickup/worcation.php"></a>
                                 </div>
                             </li>
                         </ul>
@@ -176,7 +176,7 @@ $pageInfo = array(
                 </div>
                 <div class="sc-box">
                     <div class="btn-wrap clm-1">
-                        <a class="btn-style btn-2" href="/ourbusiness/">
+                        <a class="btn-style btn-2" href="./">
                             <span>一覧に戻る</span>
                         </a>
                     </div>
@@ -188,8 +188,8 @@ $pageInfo = array(
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/uniq.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/uniq.js"></script>
 
 </body>
 

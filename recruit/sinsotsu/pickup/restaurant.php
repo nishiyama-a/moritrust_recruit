@@ -17,8 +17,8 @@ $pageInfo = array(
         <?php include(dirname(__FILE__). '/../assets/inc/header.php'); ?>
         <div class="sc-kv -page2">
             <picture class="kv-img">
-                <source media="(max-width:767px)" srcset="/assets/img/pickup/kv_restaurant.png">
-                <img src="/assets/img/pickup/kv_restaurant.png">
+                <source media="(max-width:767px)" srcset="../assets/img/pickup/kv_restaurant.png">
+                <img src="../assets/img/pickup/kv_restaurant.png">
             </picture>
             <div class="kv-ttl">
                 <div class="kv-box skew-box">
@@ -42,14 +42,14 @@ $pageInfo = array(
                     <div class="mediabox-2 mediabox-l">
                         <div class="mediabox-img  cut-bg">
                             <div class="cut-bg-r"></div>
-                            <img src="/assets/img/pickup/restaurant01.png" alt="">
+                            <img src="../assets/img/pickup/restaurant01.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-r">
                             <p class="num">POINT<br><span>01</span>
                             </p>
                             <div class="skew-box-w">
-                                <h4 class="skew"><span>「世界と日本が出会う街」にふさわしい</span></h4>
-                                <h4 class="skew"><span>クリエイティビティを刺激する</span></h4>
+                                <h4 class="skew"><span>「世界と日本が出会う街」にふさわしい</span></h4><br>
+                                <h4 class="skew"><span>クリエイティビティを刺激する</span></h4><br>
                                 <h4 class="skew"><span>日本初上陸のレストラン「Scarpetta」</span></h4>
                             </div>
                             <p>新時代にイノベーションをもたらす国際ビジネス拠点として誕生した「東京ワールドゲート」内に、日本初上陸となるニューヨーク発の人気モダンイタリアンレストラン「Scarpetta（スカルペッタ）」を誘致しました。ニューヨークと東京で連携をとりながら、料理界のアカデミー賞とも称されるジェームズ・ビアード賞にノミネートされるなど世界で注目を集めつづける名店での美食体験を、東京でもお届けしていきます。最もこだわったのは、東京にいながらニューヨークの「Scarpetta」で食事しているような雰囲気とお料理を味わっていただけるようにしたこと。世界を魅了する素材を活かしたオーセンティックなイタリアンをベースに、東京ならではのオリジナルメニューの開発も行っていきます。
@@ -61,13 +61,13 @@ $pageInfo = array(
                     <div class="mediabox-2 mediabox-r">
                         <div class="mediabox-img cut-bg">
                             <div class="cut-bg-l"></div>
-                            <img src="/assets/img/pickup/restaurant02.png" alt="">
+                            <img src="../assets/img/pickup/restaurant02.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-l">
                             <p class="num">POINT<br><span>02</span>
                             </p>
                             <div class="skew-box-w">
-                                <h4 class="skew"><span>スピード感のある商品開発で</span></h4>
+                                <h4 class="skew"><span>スピード感のある商品開発で</span></h4><br>
                                 <h4 class="skew"><span>街とともにブランドを育てる「GGCo.」</span></h4>
                             </div>
                             <p>日常の何気ないシーンのそばに、ホテルライクの上質なコーヒーとパン。思わず引き寄せられる出来たての香り、広がる笑顔。そんな心躍るポジティブなひとときを、たくさんの方に過ごしていただきたいという想いから、「GGCo.（ジージーコ―）」ブランドを展開しています。店舗ごとにCafe＆Deli、Pastry
@@ -80,14 +80,14 @@ $pageInfo = array(
                     <div class="mediabox-2 mediabox-l">
                         <div class="mediabox-img  cut-bg">
                             <div class="cut-bg-r"></div>
-                            <img src="/assets/img/pickup/restaurant03.png" alt="">
+                            <img src="../assets/img/pickup/restaurant03.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-r">
                             <p class="num">POINT<br><span>03</span>
                             </p>
                             <div class="skew-box-w">
-                                <h4 class="skew"><span>溶岩石グリルから広がる美味しさを</span></h4>
-                                <h4 class="skew"><span>追求する「LAVAROCK」</span></h4>
+                                <h4 class="skew"><span>溶岩石グリルから広がる美味しさを</span></h4><br>
+                                <h4 class="skew"><span>追求する「LAVAROCK」</span></h4><br>
                                 <h4 class="skew"><span>ニューノーマルへの新たな取り組みも</span></h4>
                             </div>
                             <p>溶岩石でじっくり焼き上げるグリル料理が自慢の「LAVAROCK（ラヴァロック）」では、時間帯ごとに異なる楽しみ方ができるメニュー展開、ソムリエ厳選のワインやカクテル、お料理とのペアリングが楽しいクラフトビール、ゆったり寛げる心地よい空間づくりなど、ホテルレストランでのノウハウを活かしながらカジュアルに美味しいひとときを楽しんでいただけるような工夫をたくさん取り入れています。2021年には仙台にピッツェリアスタイルの姉妹店をオープン。ニューノーマルへの対応として、メニューブックを廃止しオーダーはすべてＱＲコードで行う方式を導入するなど、森トラストグループ初の試みにも積極的に取り組んでいます。
@@ -113,8 +113,8 @@ $pageInfo = array(
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/uniq.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/uniq.js"></script>
 
 </body>
 
