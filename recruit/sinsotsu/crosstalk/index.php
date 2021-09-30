@@ -23,7 +23,7 @@ $pageInfo = array(
             <div class="kv-ttl">
                 <p class="kv-head-en">CROSS TALK</p>
                 <div class="kv-box skew-box">
-                    <h1 class="kv-head skew">仕事と人</h1>
+                    <h1 class="kv-head skew">社員が語る森トラスト</h1>
                 </div>
             </div>
         </div>
