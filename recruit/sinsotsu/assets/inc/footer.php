@@ -4,11 +4,11 @@
             <div class="f_logo"><img src="/recruit/sinsotsu/assets/img/cmn/logo.svg" alt="森トラスト"></div>
             <ul class="f_contents">
                 <li class="contents_item">
-                    <p class="soon-f">ENTRY <br class="disp-sp"><span class="note">coming soon</span></p>
+                    <p class="soon-f">ENTRY <span class="note">coming soon</span></p>
                     <!-- <a href="https://www.yahoo.co.jp/">ENTRY</a> -->
                 </li>
                 <li class="contents_item">
-                    <p class="soon-f">MY PAGE <br class="disp-sp"><span class="note">coming soon</span></p>
+                    <p class="soon-f">MY PAGE <span class="note">coming soon</span></p>
                     <!-- <a href="https://www.yahoo.co.jp/">MY PAGE</a> -->
                 </li>
                 <li class="contents_item"><a href="https://www.mori-trust.co.jp/inquiry.html">CONTACT</a></li>

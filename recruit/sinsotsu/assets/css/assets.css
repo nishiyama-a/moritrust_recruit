@@ -1179,7 +1179,7 @@ img {
   }
 }
 .footer .f_wrap .f_box:first-child {
-  width: 16%;
+  width: 18%;
   margin-right: 3%;
   min-width: 120px;
 }
@@ -1207,10 +1207,17 @@ img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 .footer .f_contents .contents_item {
   margin-bottom: 15px;
+}
+@media (max-width: 767px) {
+  .footer .f_contents .contents_item {
+    width: 50%;
+  }
 }
 .footer .f_box._links {
   display: -webkit-box;
@@ -1219,13 +1226,20 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media (max-width: 767px) {
+  .footer .f_box._links {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
 .footer .f_link {
-  margin: 0 1.5%;
+  margin: 0 1%;
 }
 @media (max-width: 767px) {
   .footer .f_link {
-    width: 45%;
-    margin: 0 auto;
+    width: 48%;
+    margin: 0;
   }
 }
 .footer .f_link .aline {
@@ -2615,7 +2629,7 @@ body {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-image: url(/assets/img/freshman/ttl_r.svg);
+  background-image: url(../img/freshman/ttl_r.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -3332,6 +3346,12 @@ p.point-txt::before {
 .mediabox .mediabox-copy .cut-bg {
   position: absolute;
   width: 50%;
+}
+@media (max-width: 767px) {
+  .mediabox .mediabox-copy .cut-bg-l::after, .mediabox .mediabox-copy .cut-bg-r::after {
+    -webkit-transform: skew(0);
+            transform: skew(0);
+  }
 }
 .mediabox .mediabox-copy p {
   z-index: 3;
@@ -4627,7 +4647,7 @@ section.pickup .project_item:hover .txtarea .skew-box::before, section.pickup .p
 }
 @media (max-width: 767px) {
   section.pickup .project_item:hover .txtarea .skew-box, section.pickup .project_item.open-first .txtarea .skew-box {
-    margin-bottom: 15px;
+    margin-bottom: 0;
   }
 }
 section.pickup .project_item:hover .txtarea .skew-box .skew, section.pickup .project_item.open-first .txtarea .skew-box .skew {
@@ -5047,7 +5067,7 @@ section.cross_talk .talk_box .talk_item:hover .talk_img img {
   section.cross_talk .talk_box .talk_item {
     position: relative;
     background-color: #e1e3e8;
-    width: 95%;
+    width: calc(100% - 20px);
     margin: 80px auto 30px 0;
   }
   section.cross_talk .talk_box .talk_item::before {
@@ -5056,7 +5076,7 @@ section.cross_talk .talk_box .talk_item:hover .talk_img img {
     right: 0px;
     top: 0px;
     border: none;
-    border-right: solid 70px #fff;
+    border-right: solid 50px #fff;
     border-top: solid 310px transparent;
   }
 }
@@ -5102,7 +5122,7 @@ section.cross_talk .talk_box .talk_item .arr-next {
   section.cross_talk .talk_box .talk_item .arr-next {
     top: 25px;
     text-align: right;
-    right: -20px;
+    right: -30px;
   }
 }
 section.cross_talk a:hover .skew-box::before {
@@ -5572,6 +5592,8 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    top: -15px;
+    position: relative;
   }
   .ourbusiness .link .clm-copy .arr-next {
     text-align: right;
@@ -5993,6 +6015,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 .interview .answer-wrap.box-r .answer-img {
   right: inherit;
   left: 0;
+  text-align: right;
 }
 @media (max-width: 1000px) {
   .interview .answer-wrap.box-r .answer-img {
@@ -6394,6 +6417,18 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
     margin-top: 20px;
   }
 }
+#training .schedule .training-item .training-img img {
+  margin-right: 30px;
+}
+@media (max-width: 767px) {
+  #training .schedule .training-item .training-img img {
+    margin-right: 10px;
+    width: calc(50% - 5px);
+  }
+}
+#training .schedule .training-item .training-img img:last-child {
+  margin-right: 0;
+}
 #training .schedule .training-item .training-img.pic-3 {
   width: auto;
 }
@@ -6409,18 +6444,6 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   #training .schedule .training-item .training-img.pic-3 img:last-child {
     margin-top: 10px;
   }
-}
-#training .schedule .training-item .training-img img {
-  margin-right: 30px;
-}
-@media (max-width: 767px) {
-  #training .schedule .training-item .training-img img {
-    margin-right: 10px;
-    width: calc(50% - 5px);
-  }
-}
-#training .schedule .training-item .training-img img:last-child {
-  margin-right: 0;
 }
 #training .schedule .training-item.flex-box {
   display: -webkit-box;
@@ -6442,14 +6465,31 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   top: inherit;
   bottom: -95px;
 }
+@media (max-width: 767px) {
+  #freshman .kv-ttl {
+    position: relative;
+    bottom: inherit;
+    top: -20px;
+  }
+}
 #freshman .kv-ttl .note {
   position: absolute;
   top: 63px;
   right: calc(15px + 3%);
 }
+@media (max-width: 767px) {
+  #freshman .kv-ttl .note {
+    right: 20px;
+  }
+}
 #freshman #freshman-top {
   position: relative;
   padding-top: 130px;
+}
+@media (max-width: 767px) {
+  #freshman #freshman-top {
+    padding-top: 0;
+  }
 }
 #freshman #freshman-top .bg-logo {
   position: absolute;
@@ -6579,11 +6619,6 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 #freshman .freshman-q {
   margin: 0 auto;
 }
-@media (max-width: 767px) {
-  #freshman .freshman-q {
-    max-width: 290px;
-  }
-}
 #freshman .freshman-q li {
   padding-bottom: 40px;
   position: relative;
@@ -6652,6 +6687,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   #freshman .question .plus {
     width: 20px;
     height: 20px;
+    bottom: -20px;
   }
 }
 #freshman .question .plus::before, #freshman .question .plus::after {
@@ -7193,6 +7229,9 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+.closstalk .sc-box.reverse .talk-img {
+  text-align: right;
 }
 .closstalk .sc-box.reverse .txt-box.first {
   left: 7%;

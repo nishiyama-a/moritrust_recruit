@@ -77,7 +77,7 @@
                     <div class="hum_link">
                         <h4 class="hum_ttl">FRESHMAN</h4>
                         <ul class="hum_links">
-                            <li class="link"><a href="/recruit/sinsotsu/freshman/">2021年入社<br>新入社員アンケート</a></li>
+                            <li class="link"><a href="/recruit/sinsotsu/freshman/">2021年入社<br class="disp-pc">新入社員アンケート</a></li>
                         </ul>
                     </div>
                     <div class="hum_link">
@@ -97,7 +97,7 @@
                     <div class="hum_link">
                         <h4 class="hum_ttl">RECRUIT</h4>
                         <ul class="hum_links">
-                            <li class="link"><a href="/recruit/sinsotsu/recruit/message.php">採用担当から<br class="disp-sp">メッセージ</a></li>
+                            <li class="link"><a href="/recruit/sinsotsu/recruit/message.php">採用担当からメッセージ</a></li>
                             <li class="link"><a href="/recruit/sinsotsu/recruit/requirement.php">募集要項</a></li>
                             <li class="link"><a href="/recruit/sinsotsu/recruit/steps.php">選考ステップ</a></li>
                         </ul>

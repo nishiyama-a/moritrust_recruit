@@ -83,6 +83,13 @@
         position: absolute;
         width: 50%;
       }
+      .cut-bg-l,.cut-bg-r{
+        @include breakpoint(small){
+        &::after{
+            transform: skew(0);
+        }
+      }
+    }
       p{
         z-index: 3;
         position: relative;

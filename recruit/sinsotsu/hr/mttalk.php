@@ -28,7 +28,7 @@ $pageInfo = array(
             </div>
         </div>
 
-        <main class="l-contents" role="main" id="mt-talk">
+        <main class="l-contents hr" role="main" id="mt-talk">
             <section class="l-section">
                 <div class="sc-box">
                     <div class="sc-inr">

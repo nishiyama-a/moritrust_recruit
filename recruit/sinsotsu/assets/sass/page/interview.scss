@@ -337,6 +337,7 @@
             .answer-img{
                 right: inherit;
                 left: 0;
+                text-align: right;
                 @include breakpoint(medium){
                     left: 40px;
                 }

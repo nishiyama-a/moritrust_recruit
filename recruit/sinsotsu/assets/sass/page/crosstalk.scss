@@ -243,6 +243,9 @@
               .talk-area{
                   flex-direction: row-reverse;
               }
+              .talk-img{
+                  text-align: right;
+              }
               .txt-box{
                   &.first{
                       left: 7%;

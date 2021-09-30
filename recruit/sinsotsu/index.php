@@ -38,17 +38,7 @@ $pageInfo = array(
                         <img src="assets/img/top/copy_sp.svg" alt="創るのは、街だけじゃない。">
                     </div>
                     <p id="kv_copy">
-                        <span>森トラストは、不動産の会社というイメージがあるかもしれません。</span>
-                        <span>約<span class="combine">70</span>年にわたり、都心の大型複合開発や</span>
-                        <span>リゾート地におけるホテル開発事業を手掛けてきました。</span>
-                        <span>そこで働く人、訪れる人、その街の人にとって、</span>
-                        <span>「より豊かなライフスタイル」を提案したい。</span>
-                        <span>そのための「新しい価値」を提供することで、</span>
-                        <span>地域や社会に貢献したい。</span><br class="disp-sp"><br class="disp-sp">
-                        <span class="br2">創業以来ずっと、この想いを軸に事業を展開してきました。</span>
-                        <span>世界が大きく変わりつづける中で、私たちにできることは何だろう。</span>
-                        <span>多様化する一人ひとりと、未来を見つめて、</span>
-                        <span>森トラストの挑戦は広がりつづけています。</span>
+                        <span>森トラストは、不動産の会社というイメージがあるかもしれません。</span><span>約<span class="combine">70</span>年にわたり、都心の大型複合開発や</span><span>リゾート地におけるホテル開発事業を手掛けてきました。</span><span>そこで働く人、訪れる人、その街の人にとって、</span><span>「より豊かなライフスタイル」を提案したい。</span><span>そのための「新しい価値」を提供することで、</span><span>地域や社会に貢献したい。</span><br class="disp-sp"><br class="disp-sp"><span class="br2">創業以来ずっと、この想いを軸に事業を展開してきました。</span><span>世界が大きく変わりつづける中で、私たちにできることは何だろう。</span><span>多様化する一人ひとりと、未来を見つめて、</span><span>森トラストの挑戦は広がりつづけています。</span>
                     </p>
                 </div>
             </div>

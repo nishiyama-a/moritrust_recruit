@@ -7,15 +7,26 @@
         position:absolute;
         top: inherit;
         bottom: -95px;
+        @include breakpoint(small){
+            position: relative;
+            bottom: inherit;
+            top: -20px;
+        }
         .note{
             position: absolute;
             top: 63px;
             right: calc(15px + 3%);
+            @include breakpoint(small){
+                right: 20px;
+            }
         }
     }
     #freshman-top{
         position: relative;
         padding-top: 130px;
+        @include breakpoint(small){
+            padding-top: 0;
+        }
         .bg-logo{
             position: absolute;
             right: -3%;
@@ -125,9 +136,6 @@
     //アコーディオン
 .freshman-q{
     margin:0 auto;
-    @include breakpoint(small){
-        max-width: 290px;
-    }
     li{
         padding-bottom: 40px;
         position: relative;
@@ -182,6 +190,7 @@
         @include breakpoint(small){
             width: 20px;
             height: 20px;
+            bottom: -20px;
         }
         &::before,&::after{
             content: "";

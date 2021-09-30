@@ -15,7 +15,7 @@
 	  }
 	  .f_box{
 		&:first-child{
-		  width: 16%;
+		  width: 18%;
 		  margin-right: 3%;
 		  min-width: 120px;
 		  @include breakpoint(small){
@@ -37,20 +37,27 @@
 	  @include breakpoint(small){
 		display: flex;
 		justify-content: space-between;
+		flex-wrap: wrap;
 	  }
 	  .contents_item{
-		margin-bottom: 15px;
+		  margin-bottom: 15px;
+		  @include breakpoint(small){
+			width: 50%;
+		}
 	  } 
 	}
 	.f_box._links{
 	  display: flex;
 	  flex-wrap: wrap;
+	  @include breakpoint(small){
+		  justify-content: space-between;
+	  }
 	}
 	.f_link{
-	  margin: 0 1.5%;
+	  margin: 0 1%;
 	  @include breakpoint(small){
-		width: 45%;
-		margin: 0 auto;
+		width: 48%;
+		margin: 0;
 	  }
 	  .aline{
 		border-bottom: 1px solid $clr-text;
