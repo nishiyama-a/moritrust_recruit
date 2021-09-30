@@ -1524,6 +1524,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
@@ -1558,9 +1561,6 @@ body {
   background-color: #FFF;
   padding: 10px 0.2em;
   margin-left: 20px;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
 }
 @media (max-width: 767px) {
   .sc-kv #kv-img #kv_copy span {
