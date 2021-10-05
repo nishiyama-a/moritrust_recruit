@@ -1410,11 +1410,6 @@ body {
           align-items: flex-end;
   margin-top: -70px;
 }
-@media (max-width: 767px) {
-  .sc-kv .first_kv {
-    margin-top: -50px;
-  }
-}
 .sc-kv .first_kv .kv_top {
   z-index: 15;
 }
@@ -5629,6 +5624,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 @media (max-width: 767px) {
   .kv-interview .kv-img {
     width: 100%;
+    max-width: 100%;
   }
   .kv-interview .kv-img img {
     width: 100%;
@@ -6473,6 +6469,9 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 #freshman .sc-inr, #freshman .sc-inr-s, #freshman .sc-inr-w {
   max-width: 1160px;
+}
+#freshman .sc-inr.f_wrap, #freshman .f_wrap.sc-inr-s, #freshman .f_wrap.sc-inr-w {
+  max-width: 1290px;
 }
 #freshman .kv-ttl {
   position: absolute;

@@ -91,7 +91,7 @@
                 <ul class="f_links">
                     <li class="link"><a href="/recruit/sinsotsu/recruit/message.php">採用担当から<br class="disp-sp">メッセージ</a></li>
                     <li class="link"><a href="/recruit/sinsotsu/recruit/requirement.php">募集要項</a></li>
-                    <li class="link"><a href="/recruit/sinsotsu/recruit/sinsotsu/recruit/steps.php">選考ステップ</a></li>
+                    <li class="link"><a href="/recruit/sinsotsu/recruit/steps.php">選考ステップ</a></li>
                 </ul>
             </div>
             <div class="f_link">
