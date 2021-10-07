@@ -1,0 +1,238 @@
+.ourbusiness{
+    .skew{
+        padding: 0;
+    }
+    .list-ttl{
+        margin-bottom: 30px;
+        @include breakpoint(small){
+         margin-bottom: 20px;   
+        }
+    }
+ .list-ind{
+     & > li{
+         margin-bottom: 20px;
+         padding-left: 1em;
+         &:first-child{
+             &::before{
+                 content: "①";
+             }
+         }
+         &:nth-child(2){
+            &::before{
+                content: "②";
+            }
+        }
+         &:nth-child(3){
+            &::before{
+                content: "③";
+            }
+        }
+        &:nth-child(4){
+            &::before{
+                content: "④";
+            }
+        }
+        &:nth-child(5){
+            &::before{
+                content: "⑤";
+            }
+        }
+     }
+ 
+    }
+ .portforio{
+     .clm-3{
+         li{
+                .default-img{
+                 margin-bottom: 25px;
+             }
+         }
+     }
+ }
+ .link{
+     .skew-box{
+         margin: 0 auto;
+         padding: 5px 15px;
+         position: relative;
+         left: -10px;
+         z-index: 5;
+         .skew{
+             font-size: 18px;
+             letter-spacing: 0.2em;
+         }
+     }
+     .default-img{
+         position: relative;
+         top: -25px;
+     }
+ }
+}
+
+#realestate{
+    padding-top: 0;
+    @include breakpoint(small){
+        padding-top: 35px;
+    }
+    .portforio{
+        .clm-3{
+            li{
+                &:first-child{
+                    .ratio-1by1{
+                        background-image: url(../img/ourbusiness/portforio1-1.png);
+                        background-size: cover;
+                       }
+                   }
+                &:nth-child(2){
+                    .ratio-1by1{
+                        background-image: url(../img/ourbusiness/portforio1-2.png);
+                        background-size: cover;
+                       }
+                   }
+                &:nth-child(3){
+                    .ratio-1by1{
+                        background-image: url(../img/ourbusiness/portforio1-3.png);
+                        background-size: cover;
+                       }
+                   }
+                &:nth-child(4){
+                    .ratio-1by1{
+                        background-image: url(../img/ourbusiness/portforio1-4.png);
+                        background-size: cover;
+                       }
+                   }
+                &:nth-child(5){
+                    .ratio-1by1{
+                        background-image: url(../img/ourbusiness/portforio1-5.png);
+                        background-size: cover;
+                       }
+                   }
+                &:nth-child(6){
+                    .ratio-1by1{
+                        background-image: url(../img/ourbusiness/portforio1-6.png);
+                        background-size: cover;
+                       }
+                   }
+                   .default-img{
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+}
+
+#hotel{
+    padding-top: 0;
+    @include breakpoint(small){
+        padding-top: 35px;
+    }
+    .portforio{
+        .clm-3{
+            li{
+                &:first-child{
+                    .ratio-1by1{
+                        background-image: url(../img/ourbusiness/portforio2-1.png);
+                        background-size: cover;
+                       }
+                   }
+                &:nth-child(2){
+                    .ratio-1by1{
+                        background-image: url(../img/ourbusiness/portforio2-2.png);
+                        background-size: cover;
+                       }
+                   }
+                &:nth-child(3){
+                    .ratio-1by1{
+                        background-image: url(../img/ourbusiness/portforio2-3.png);
+                        background-size: cover;
+                       }
+                   }
+                &:nth-child(4){
+                    .ratio-1by1{
+                        background-image: url(../img/ourbusiness/portforio2-4.png);
+                        background-size: cover;
+                       }
+                   }
+                &:nth-child(5){
+                    .ratio-1by1{
+                        background-image: url(../img/ourbusiness/portforio2-5.png);
+                        background-size: cover;
+                       }
+                   }
+                &:nth-child(6){
+                    .ratio-1by1{
+                        background-image: url(../img/ourbusiness/portforio2-6.png);
+                        background-size: cover;
+                       }
+                   }
+            }
+        }
+    }
+    .cut-bg-back{
+        width: 60%;
+    }
+}
+
+#investment{
+    padding-top: 0;
+    @include breakpoint(small){
+        padding-top: 35px;
+    }
+    .portforio{
+        .clm-3{
+            li{
+                &:first-child{
+                    .ratio-1by1{
+                        background-image: url(../img/ourbusiness/portforio3-1.png);
+                        background-size: cover;
+                       }
+                   }
+                &:nth-child(2){
+                    .ratio-1by1{
+                        background-image: url(../img/ourbusiness/portforio3-2.png);
+                        background-size: cover;
+                       }
+                   }
+                &:nth-child(3){
+                    .ratio-1by1{
+                        background-image: url(../img/ourbusiness/portforio3-3.png);
+                        background-size: cover;
+                       }
+                   }
+            }
+        }
+    }
+}
+
+@include breakpoint(small){
+    .ourbusiness{
+        .portforio{
+            .clm-3{
+                li{
+                    width: 50%;
+                    margin-bottom: 0;
+                    .default-img{
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+        .link{
+            .cut-bg-back{
+                display: none;
+            }
+            .default-img{
+                margin-bottom: 10px;
+                height: 160px;
+            }
+            .clm-copy{
+                flex-direction: column;
+                top: -15px;
+position: relative;
+                .arr-next{
+                    text-align: right;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}

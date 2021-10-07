@@ -1,0 +1,223 @@
+%list-cmn {
+  margin-bottom: 20px;
+  >li{
+    padding-left: 15px;
+    position: relative;
+    margin-bottom: 5px;
+    &:last-of-type{
+      margin-bottom: 0;
+    }
+  }
+}
+.list{
+  &-ind{
+    @extend %list-cmn;
+    >li{
+      &:before{
+        width: 15px;
+        content: '・';
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+    &-s{
+      @extend .list-ind;
+      >li{
+        font-size: rem(11);
+        line-height: lh(11);
+      }
+    }
+  }
+  &-num{
+    @extend %list-cmn;
+    list-style-type: decimal;
+    margin-left: 1em;
+		>li{
+      padding-left: 0;
+		}
+  }
+  &-num-2{
+    @extend %list-cmn;
+    margin-left: -13px;
+    counter-reset:number;
+    >li{
+      margin-bottom: 5px;
+      position: relative;
+      padding-left: 30px;
+      &:before{
+        width: 30px;
+        counter-increment: number;
+        content: '('counter(number)')';
+        text-align: right;
+        position: absolute;
+        left: -4px;
+        top: 0;
+      }
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+
+//interview
+.interview-list{
+  .clm-box{
+    padding: 0 10%;
+    position: relative;
+    &::after{
+      position: absolute;
+      top: 8%;
+      left: 10%;
+      font-family: $font-dec;
+      font-size: 50px;
+      font-weight: bold;
+      z-index: 3;
+      @include breakpoint(small){
+        font-size: 40px;
+      }
+    }
+    &.box-01{
+      &::after{
+        content: "01";
+      }
+    }
+    &.box-02{
+      &::after{
+        content: "02";
+      }
+    }
+    &.box-03{
+      &::after{
+        content: "03";
+      }
+    }
+    &.box-04{
+      &::after{
+        content: "04";
+      }
+    }
+    &.box-05{
+      &::after{
+        content: "05";
+      }
+    }
+    &.box-06{
+      &::after{
+        content: "06";
+      }
+    }
+    &.box-07{
+      &::after{
+        content: "07";
+      }
+    }
+    &.box-08{
+      &::after{
+        content: "08";
+      }
+    }
+    &.box-09{
+      &::after{
+        content: "09";
+      }
+    }
+  }
+  li,.swiper-slide{
+    &:nth-child(even){
+      .interview-pic{
+        &::before{
+          background-color: $clr-gray;
+          border: 2px solid $clr-gray;
+        }
+      }
+    }
+    &:nth-child(odd){
+      .interview-pic{
+        &::before{
+          background-color: $clr-main;
+          border: 1px solid $clr-main;
+        }
+      }
+    }
+    .h-link{
+      &:hover{
+        .interview-pic{
+          img{
+            @include transition;
+            transform: scale(1.03);
+            transform-origin: bottom center;
+          }
+          &::before{
+            @include transition;
+            background-color: #fff;
+          }
+        }
+      }
+    }
+  }
+    .interview-pic{
+      position: relative;
+      margin: 0 auto;
+      z-index: 3;
+      &::before{
+        content: "";
+        position:absolute;
+        left: 50%;
+        bottom: 0;
+        width: 84%;
+        height: 78%;
+        transform: skew(-7deg) translateX(-50%);
+        z-index: -1;
+      }
+      img{
+        width: 100%;
+        z-index: 3;
+      }
+      .name-en{
+        position: absolute;
+        right: 0;
+        bottom: -45px;
+        writing-mode: vertical-rl;
+        font-size: 16px;
+        font-family: $font-eng;
+        @include breakpoint(small){
+          font-size: 14px;
+        }
+      }
+    }
+    .name-box{
+      .name{
+        font-size: 24px;
+        margin: 15px auto 40px;
+        letter-spacing: 0.2em;
+        @include breakpoint(small){
+          font-size: 18px;
+          margin: 15px auto 20px;
+        }
+      }
+      .job{
+        font-size: 26px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        border-bottom: 1px solid $clr-text;
+        display: inline-block;
+        margin-bottom: 30px;
+        letter-spacing: 0.2em;
+        @include breakpoint(small){
+          font-size: 20px;
+          margin-bottom: 15px;
+        }
+      }
+      .job-info{
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        font-size: 14px;
+      }
+    }
+}

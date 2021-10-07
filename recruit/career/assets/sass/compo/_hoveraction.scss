@@ -1,0 +1,25 @@
+// 画像hover
+.img-h{
+  @include transition;
+  &:hover{
+    opacity: 0.7;
+  }
+}
+
+
+
+//skew hover
+.h-link{
+  &:hover{
+    .skew-box{
+      &::before{
+        background-color: #FFF;
+        @include transition;
+      }
+      .skew{
+        color: $clr-main;
+        @include transition;
+      }
+    }
+  }
+}

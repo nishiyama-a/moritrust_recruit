@@ -1,0 +1,76 @@
+$arr-width: 2px;
+
+%icon-cmn {
+  position: relative;
+  font-family: $font-eng;
+  font-weight: normal;
+  @include breakpoint(small){
+    font-size: 12px;
+  }
+}
+%icon-arr {
+   &::after{
+      content: "";
+      display: inline-block;
+      background-image: url(../img/cmn/arr_next.svg);
+      background-repeat: no-repeat;
+      background-size: contain; 
+      width: 30px;
+      height: 10px;
+      vertical-align: middle;
+      margin-left: 20px;
+      margin-top: 5px;
+      @include breakpoint(small){
+        margin-left: 10px;
+      }
+    }
+}
+
+.arr{
+  &-prev{
+    @extend %icon-cmn;
+    @extend %icon-arr;
+    &:before{
+      border-bottom: $arr-width solid #FFF;
+      border-left: $arr-width solid #FFF;
+      left: 10px;
+    }
+  }
+  &-next{
+    @extend %icon-cmn;
+    @extend %icon-arr;
+  }
+  &-top{
+    @extend %icon-cmn;
+    @extend %icon-arr;
+    &:after{
+      margin: 0;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%) rotate(-90deg);
+      background-image: url(../img/cmn/arr_next_w.svg);
+    }
+  }
+  &-btm{
+    @extend %icon-cmn;
+    @extend %icon-arr;
+    &:before{
+      border-bottom: $arr-width solid #FFF;
+      border-right: $arr-width solid #FFF;
+    }
+  }
+  // color
+  &-main{
+    &:before{
+      border-color: $clr-main;
+    }
+  }
+  &-sub{
+    &:before{
+      border-color: $clr-sub;
+    }
+  }
+
+}
+

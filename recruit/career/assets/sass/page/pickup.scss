@@ -1,0 +1,54 @@
+#twg{
+    .interview-video{
+        .skew-box{
+            padding: 10px 15px;
+            top: -10px;
+            left: -15px;
+            @include breakpoint(small){
+                left: 10px;
+                top: -22px;
+                margin-bottom: 0;
+            }
+            .skew{
+                padding: 0;
+                font-size: 18px;
+                letter-spacing: 0.2em;
+                @include breakpoint(small){
+                    font-size: 14px;
+                }
+            }
+        }
+    }    
+}
+
+.pickup{
+    padding-top: 0;
+    .sc-box:not(:first-child){
+    padding-bottom: 140px;
+    @include breakpoint(small){
+        padding-bottom: 0;
+    }
+    }
+
+}
+
+
+@include breakpoint(small){
+    .pickup{
+        .sc-box.mbsp{
+            margin-bottom: 20px;
+        }
+        .side-num{
+            text-align: right;
+        }
+        .interview-video{
+            li{
+                margin-bottom: 0;
+                margin-top: -22px;
+                &:first-child{
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}

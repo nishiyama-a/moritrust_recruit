@@ -1,0 +1,13 @@
+
+.corporate{
+    .tbl-1{
+        margin-bottom: 100px;
+        @include breakpoint(small){
+            margin-bottom: 50px;
+        }
+        .slogan{
+            width: 50%;
+            padding: 10px 0 15px;
+        }
+    }
+}

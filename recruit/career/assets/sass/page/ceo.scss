@@ -1,0 +1,79 @@
+#ceo{
+    
+    .between-box{
+        @include breakpoint(small){
+            padding-bottom: 0;
+        }
+    }
+    .read-area{
+        padding-bottom: 110px;
+        @include breakpoint(small){
+           padding-bottom: 140px;
+        }
+        picture{
+            padding: 0 3%;
+            @include breakpoint(small){
+                padding: 0;
+            }
+        }
+        .txtbox{
+            bottom: -110px;
+            @include breakpoint(medium){
+                bottom: -140px;
+                flex-direction: column;
+            }
+            .skew-box{
+                margin-left: 0;
+                padding: 20px 3%;
+                @include breakpoint(medium){
+                    margin: 0 auto 20px;
+                    padding: 10px 15px;
+                }
+                .skew{
+                    font-size: 1.8vw;
+                    text-align: left;
+                    @include breakpoint(medium){
+                        font-size: 14px;
+                        padding: 0;
+                    }
+                    @media (min-width: 1350px){
+                        font-size: 24px;
+                    }
+                }
+            }
+            .rb-txt{
+                font-size: 14px;
+                letter-spacing: 0.2em;
+                margin-right: 3%;
+                @include breakpoint(small){
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content:space-between;
+                    width: 100%;
+                }
+                .name{
+                    font-size: 30px;
+                    letter-spacing: 0.2em;
+                    @include breakpoint(small){
+                        font-size: 16px;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+
+    .interview-video{
+        .clm-copy{
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+        .clm-img{
+            margin-bottom: 30px;
+            @include breakpoint(small){
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

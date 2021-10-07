@@ -1,0 +1,267 @@
+// anc
+.anchr{
+  margin: 0;
+  padding: 0;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  visibility: hidden !important;
+  margin-top: -100px;
+  padding-top: 100px;
+}
+
+// pagetop
+#pagetop-btn{
+  width: 60px;
+  height: 60px;
+  display: block;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 100;
+  a{
+    width: 100%;
+    height: 100%;
+    background: $clr-main;
+    display: block;
+    transform: translate(0,100px);
+    @include transition;
+    &:before{
+      border-color: #FFF;
+      right: 0;
+    }
+    &:hover{
+      background: $clr-sub;
+    }
+  }
+  &.active{
+    a{
+      transform: translate(0,0);
+    }
+  }
+}
+
+
+.skew-box{
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto 40px;
+  padding: 20px 3%;
+  @include breakpoint(small){
+    padding: 15px;
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: $clr-main;
+    border: 1px solid $clr-main;
+    transform: skew(-7deg);
+  }
+  .skew,.skew-w{
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    white-space: nowrap;
+    @include breakpoint(small){
+      font-size: 14px;
+    }
+    &.en{
+      font-family: $font-dec;
+    }
+  }
+  .skew{
+    padding: 10px 0px;
+    @include breakpoint(small){
+      padding: 0;
+    }
+  }
+  .skew_w{
+    padding: 40px 0px;
+  }
+  &.bl{
+    padding: 20px 1em;
+    margin: 0;
+    @include breakpoint(small){
+      padding: 15px;
+    }
+    &::before{
+      background-color: $clr-text;
+      border: 1px solid $clr-text;
+    }
+    .skew{
+      font-size: 16px;
+      padding: 0;
+    }
+  }
+
+  &-w{
+    margin-bottom: 20px;
+    .skew{
+      position: relative;
+      display: inline-block;
+      margin-bottom: 10px;
+      &::before {
+        content: '';/*ボックス作成*/
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: #fff;
+        transform: skew(-7deg);
+      }
+      span{
+        padding:10px 15px;
+        color: #000;
+        font-size: 20px;
+        letter-spacing: 0.1em;
+        position: relative;
+      }
+    }
+  }
+}
+
+
+
+//画像＋ボックス下
+.between-box{
+  @include breakpoint(small){
+    padding-bottom: 20px;
+  }
+  picture{
+    img{
+      @include breakpoint(small){
+        height: 150px;
+        overflow: hidden;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    }
+  }
+  .txtbox{
+    position: absolute;
+    bottom: -50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    @include breakpoint(small){
+      flex-direction: row;
+      justify-content: center;
+      bottom: 0;
+    }
+    .skew-box{
+      padding: 27px 3%;
+      margin-left: 3%;
+      margin-bottom: 0;
+      @include breakpoint(small){
+        padding: 15px;
+        margin-left: 0;
+        left: -8px;
+      } 
+      .skew{
+        font-size: 26px;
+        font-weight: bold;
+        @include breakpoint(small){
+          font-size: 14px;
+          padding: 0;
+        }
+      }
+    }
+    .rb-txt{
+      font-family: $font-dec;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 0.05em;
+      @include breakpoint(small){
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+
+.side-num{
+  font-family: $font-eng;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  @include breakpoint(small){
+      font-size: 12px;
+  }
+  span{
+      font-size: 30px;
+      font-family: $font-dec;
+      @include breakpoint(small){
+          font-size: 20px;
+      }
+  }
+}
+
+.note{
+  font-size: 12px;
+}
+
+
+//slick
+.sliderArea {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+.sliderArea.w300 {
+  max-width: 300px;
+}
+.slick-slide {
+  margin: 0 5px;
+}
+.slick-slide img {
+  width: 100%;
+  height: auto;
+}
+.slick-prev, .slick-next {
+  z-index: 1;
+}
+.slick-prev:before, .slick-next:before {
+  color: #000;
+}
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+.slick-active {
+  opacity: 1;
+}
+.slick-current {
+  opacity: 1;
+}
+.thumb {
+  margin: 20px 0 0;
+}
+.thumb .slick-slide {
+  cursor: pointer;
+}
+.thumb .slick-slide:hover {
+  opacity: .7;
+}
+
+
+@include breakpoint(small){
+
+  .anchr{
+    margin-top: -80px;
+    padding-top: 80px;
+  }
+  #pagetop-btn{
+    width: 40px;
+    height: 40px;
+    right: 10px;
+  }
+
+}

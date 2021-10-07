@@ -1,0 +1,238 @@
+%head-cmn {
+  margin-bottom: 50px;
+  font-weight: bold;
+  position: relative;
+  @include breakpoint(small){
+    margin-bottom: 25px
+  }
+}
+.head{
+  &-1{
+    @extend %head-cmn;
+    font-size: rem(30);
+    line-height: 1.75;
+    text-align: center;
+    letter-spacing: 0.2em;
+    @include breakpoint(small){
+      font-size: 18px;
+      margin-bottom: 35px;
+    }
+  }
+  &-2{
+    @extend %head-cmn;
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    font-family: $font-dec;
+    padding-bottom: 40px;
+    @include breakpoint(small){
+      padding-bottom: 20px;
+      font-size: 20px;
+    }
+    &::after{
+      content: "";
+      width: 70px;
+      height: 1px;
+      background-color: #000;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  &-3{
+    @extend %head-cmn;
+    padding:10px 0 10px 15px;
+    font-size: rem(20);
+    font-weight: 800;
+    margin-bottom: 20px;
+    background-color: $clr-main;
+    color: #fff;
+    letter-spacing: 0.2em;
+    @include breakpoint(small){
+      font-size: 14px;
+    }
+  }
+  &-4{
+    @extend %head-cmn;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    color: $clr-text;
+    font-size: rem(20);
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    border-bottom: 1px solid $clr-gray;
+    @include breakpoint(small){
+      font-size: 14px;
+      margin-bottom: 10px!important;
+      padding-bottom: 10px;
+    }
+  }
+  &-5{
+    @extend %head-cmn;
+    color: $clr-text;
+    font-size: rem(20);
+    letter-spacing: 0.2em;
+    text-align: center;
+    position: relative;
+    padding: 0 3em;
+    display: inline-block;
+    margin: 0 auto 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    @include breakpoint(small){
+      font-size: 18px;
+      margin-bottom: 35px;
+      padding: 0 1em;
+      width: 100%;
+    }
+    &::before{
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 2px;
+      background-color: #000;
+      top: 0;
+      left: 0;
+      transform: skew(-7deg);
+    }
+    &::after{
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 2px;
+      background-color: #000;
+      top: 0;
+      right: 0;
+      transform: skew(-7deg);
+    }
+  }
+  &-6{
+    @extend %head-cmn;
+    color: $clr-text;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    position: relative;
+    padding: 0 2.5em;
+    margin-bottom: 40px;
+    @include breakpoint(small){
+      font-size: 14px;
+      text-align: justify;
+      text-justify: inter-ideograph;
+      margin-bottom: 25px;
+    }
+    &::before{
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      background-image: url(../img/freshman/ttl_l.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 24px;
+      height: 105px;
+      @include breakpoint(small){
+        width: 18px;
+        height: 82px;
+      }
+    }
+    &::after{
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      background-image: url(../img/freshman/ttl_r.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 24px;
+      height: 105px;
+      @include breakpoint(small){
+        width: 18px;
+        height: 82px;
+      }
+    }
+  }
+  &-7{
+    @extend %head-cmn;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding: 1em 40px;
+    margin: 0 auto 55px;
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    @include breakpoint(small){
+      font-size: 14px;
+      padding: 10px;
+      margin-bottom: 30px;
+    }
+    &::before{
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: #fff;
+      border-left: 18px solid $clr-main;
+      border-right: 18px solid $clr-main;
+      top: 0;
+      left: 50%;
+      transform: skew(-7deg) translateX(-50%);
+      @include breakpoint(small){
+        border-left: 7px solid $clr-main;
+        border-right: 7px solid $clr-main;
+      }
+    }
+    span{
+      position: relative;
+      z-index: 1;
+    }
+  }
+}
+
+//左赤ライン
+p.point-txt{
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  padding-left: 15px;
+  position: relative;
+  margin-bottom: 25px;
+  @include breakpoint(small){
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  &::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    background-color: $clr-main;
+  }
+}
+
+//見出し下テキスト
+.box-txt{
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: justify;
+}
+.head-txt{
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 0.2em;
+  @include breakpoint(small){
+    text-align: left;
+  }
+}

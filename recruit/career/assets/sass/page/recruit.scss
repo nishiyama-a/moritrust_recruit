@@ -1,0 +1,78 @@
+.recruit{
+    .btn-3{
+        height: 150px;
+    }
+}
+
+#message{
+    .between-box{
+        margin-bottom: 100px;
+        @include breakpoint(small){
+            padding-bottom: 30px;
+            margin-bottom: 0;
+        }
+    }
+    .message-copy{
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    .message{
+        font-size: 18px;
+        letter-spacing: 0.2em;
+        line-height: lh(36);
+        text-align: center;
+        @include breakpoint(small){
+            font-size: 14px;
+            line-height: lh(25);
+        }
+    }
+}
+
+#requirement{
+    .list-ind{
+        margin-bottom: 0;
+    }
+    .clm-box{
+        p > span{
+            width: 5em;
+            display: inline-block;
+        }
+    }
+    .first{
+        margin-bottom: 40px;
+        @include breakpoint(small){
+            margin-bottom: 20px;
+        }
+    }
+}
+
+#steps{
+    .box-1{
+        position: relative;
+        padding-bottom: 65px;
+        margin-bottom: 35px;
+        @include breakpoint(small){
+            padding-bottom: 40px;
+            margin-bottom: 25px;
+        }
+        &::before{
+            content: "\e900";
+            position: absolute;
+            font-family: 'icomoon' !important;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%) rotate(90deg);
+            font-size: 30px;
+            @include breakpoint(small){
+                font-size: 20px;
+            }
+        }
+        &:last-child{
+            padding-bottom: 0;
+            margin-bottom: 0;
+            &::before{
+                display: none;
+            }
+        }
+    }
+}

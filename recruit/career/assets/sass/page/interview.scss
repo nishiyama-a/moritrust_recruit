@@ -1,0 +1,588 @@
+#interview-top{
+    .interview-list{
+        @include breakpoint(small){
+            li{
+            width: 95%;
+            margin: 0 auto;
+            }
+        }
+    }
+}
+
+.kv-interview{
+    display: flex;
+    flex-wrap: wrap;
+    @include breakpoint(small){
+       margin-bottom: 30px;
+    }
+    .kv-img{
+        max-width: 75%;
+        margin-right: 5%;
+        position: relative;
+        z-index: 3;
+        padding-bottom: 50px;
+        @include breakpoint(small){
+            width: 100%;
+        max-width: 100%;
+
+            img{
+                width: 100%;
+            }
+        }
+        .job-info{
+            position: absolute;
+            left: 7%;
+            bottom: 0;
+            display: flex;
+            align-items: flex-end;
+            width: 100%;
+            @include breakpoint(small){
+                flex-direction: column;
+                left: 20px;
+                align-items: flex-start;
+                margin-bottom: 30px;
+            }
+            .skew-box{
+                margin: 0 20px 0 0;
+                .skew{
+                    font-size: 26px;
+                    font-weight: 800;
+                    @include breakpoint(medium){
+                        font-size: 18px;
+                    }
+                    @include breakpoint(small){
+                        font-size: 14px;
+                    }
+                }
+            }
+            //interview 6
+            &.bt20{
+                @include breakpoint(small){
+                   margin-bottom: 10px;
+                }
+            }
+        }
+        .note{
+            @include breakpoint(small){
+                font-size: 11px;
+                font-weight: 400;
+                color: #666;
+              }
+        }
+    }
+    .kv-ttl{
+        // width: 12%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        @include breakpoint(small){
+            width: 35%;
+            order: 4;
+            align-items: flex-end;
+            padding-right: 20px;
+            margin-bottom: 30px;
+        }
+        .job{
+        font-size: 1.5vw;
+        font-weight: bold;
+        padding-bottom: 10px;
+        border-bottom: 1px solid $clr-text;
+        display: inline-block;
+        margin-bottom: 55px;
+        letter-spacing: 0.1em;
+        @include breakpoint(medium){
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        @include breakpoint(small){
+          font-size: 20px;
+          margin-bottom: 15px;
+        }
+        }
+        .num{
+            font-family: $font-eng;
+            letter-spacing: 0.05em;
+            text-align: left;
+            line-height: 1.4;
+            span{
+                font-size: 5.8vw;
+                letter-spacing: 0.05em;
+                font-family: $font-dec;
+                @include breakpoint(small){
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+    .person{
+        padding: 85px 13%;
+        width: 50%;
+        @include breakpoint(medium){
+            padding: 85px 3% 85px 7%;
+        }
+        @include breakpoint(medium){
+            width: 40%;
+        }
+        @include breakpoint(small){
+            width: 65%;
+            padding: 0;
+            padding-left: 20px;
+            order: 3;
+        }
+        .name-en{
+            font-family: $font-eng;
+            letter-spacing: 0.05em;
+            margin-bottom: 25px;
+            @include breakpoint(small){
+                margin-bottom: 15px;
+            }
+        }
+        .name{
+            font-size: 50px;
+            letter-spacing: 0.2em;
+            margin-bottom: 40px;
+            line-height: 1;
+            @include breakpoint(medium){
+                font-size: 30px;
+            }
+            @include breakpoint(small){
+                font-size: 22px;
+                margin-bottom: 20px;
+            }
+        }
+        .history{
+            position: relative;
+            padding-left: 25px;
+            &::before{
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 1px;
+                background-color: $clr-main;
+                transform: skew(-7deg);
+            }
+        }
+    }
+    .important{
+        position: relative;
+        width: 50%;
+        top: -120px;
+        padding: 140px 2% 50px 7%;
+        @include breakpoint(medium){
+            width: 60%;
+        }
+        @include breakpoint(small){
+            width: 100%;
+            padding: 20px;
+            top: 0;
+            order: 5;
+        }
+        .skew-box{
+            padding: 15px;
+            @include breakpoint(small){
+                margin-bottom: 20px;
+            }
+            .skew{
+                padding: 0;
+                @include breakpoint(medium){
+                    font-size: 16px;
+                }
+                @include breakpoint(small){
+                    font-size: 14px;
+                }
+            }
+        }
+        &-list{
+            @include breakpoint(small){
+                margin-left: 10%;
+            }
+            .important-item{
+                margin-bottom: 10px;
+                font-weight: 800;
+                font-size: 18px;
+                letter-spacing: 0.2em;
+                @include breakpoint(small){
+                    font-size: 14px;
+                }
+                span{
+                    font-family: $font-dec;
+                    font-size: 20px;
+                    letter-spacing: 0.05em;
+                    margin-right: 10px;
+                    position: relative;
+                    display: inline-block;
+                    width: 3.6em;
+                    @include breakpoint(small){
+                        margin-right: 10px;
+                        width: 2.6em;
+                    }
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        height: 1px;
+                        width: 30px;
+                        right: 0;
+                        top: 50%;
+                        background-color: $clr-main;
+                        @include breakpoint(small){
+                            width: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.interview{
+    padding-top: 0;
+    margin-top: -20px;
+    @include breakpoint(medium){
+        margin-top: 0;
+        .cut-bg-r,.cut-bg-l{
+            &::after{
+                transform: skew(0);
+            }
+        }
+    }
+    @include breakpoint(medium){
+
+        .box-l{
+            .answer{
+                padding-right: 20px;
+                
+            }
+        }
+        .box-r{
+            .answer{
+                padding-left: 20px;
+                
+            }
+        }
+    }
+    .answer-wrap{
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        @include breakpoint(medium){
+            padding-top: 160px;
+        }
+        @include breakpoint(medium){
+
+            .box-l{
+                .answer{
+                    padding-right: 20px;
+                    
+                }
+            }
+            .box-r{
+                .answer{
+                    padding-left: 20px;
+                    
+                }
+            }
+        }
+        .answer-box{
+            padding: 90px 7%;
+            @include breakpoint(medium){
+                padding: 40px 20px 20px;
+            }
+            .answer{
+                margin-bottom: 50px;
+                width: 45%;
+                display: block!important;
+                @include breakpoint(medium){
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                .txt{
+                    text-align: justify;
+                }
+            }
+            .skew-box{
+                padding: 15px;
+                @include breakpoint(medium){
+                    margin-bottom: 20px;
+                }
+                .skew{
+                    padding: 0;
+                }
+            }
+        }
+        .answer-img{
+            position: absolute;
+            width: 50%;
+            right: 0;
+            bottom: 90px;
+            @include breakpoint(medium){
+                bottom: inherit;
+                top: 0;
+                right: 20px;
+                width: 280px;
+            }
+        }
+        &.box-r{
+            justify-content: flex-end;
+            .answer{
+                margin: 0 0 50px auto;
+                &:last-child{
+                    margin: 0 0 0 auto;
+                }
+            }
+            .answer-img{
+                right: inherit;
+                left: 0;
+                text-align: right;
+                @include breakpoint(medium){
+                    left: 40px;
+                }
+            }
+        }
+    }
+    .cut-bg-r{
+        width: 70%;
+        @include breakpoint(medium){
+            width: calc(100% - 20px);
+        }
+        &::before{
+            border-right: solid 155px #fff;
+            border-top: solid 920px transparent;
+            @include breakpoint(medium){
+                display: none;
+            }
+        }
+    }
+    .cut-bg-l{
+        width: 70%;
+        @include breakpoint(medium){
+            width: calc(100% - 20px);
+        }
+        &::before{
+            border-left: solid 155px #fff;
+            border-bottom: solid 920px transparent;
+            @include breakpoint(medium){
+                display: none;
+            }
+        }
+    }
+}
+.schedule{
+    &-img{
+        width: 40%;
+        margin: 0 5% 0 auto;
+        position: relative;
+        z-index: 3;
+        @include breakpoint(medium){
+            width: 280px;
+        }
+    }
+    .flow{
+        width: 86%;
+        padding: 80px 5%;
+        margin-top: -140px;
+        @include breakpoint(medium){
+            width: 100%;
+            margin-top: -25px;
+            padding: 40px 20px 35px;
+        }
+        .skew-box{
+            padding: 15px;
+            margin-bottom: 30px;
+            .skew{
+                padding: 0;
+            }
+        }
+        &-list{
+            @include breakpoint(medium){
+                padding-right: 20px;
+            }
+            li{
+                display: flex;
+                align-items: center;
+                .time-box{
+                    position: relative;
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        height: 35px;
+                        width: 1px;
+                        background-color: $clr-text;
+                        left: 60px;
+                        @include breakpoint(medium){
+                            left: 50px;
+                        }
+                    }
+                    .time{
+                        position: relative;
+                        padding-left: 25px;
+                        width: 5em;
+                        margin-right: 2em;
+                        text-align: right;
+                        &::before{
+                            content: "";
+                            position: absolute;
+                            left: 0;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            width: 17px;
+                            height: 17px;
+                        }
+                        &.time0800{
+                            &::before{
+                                background-image: url(../img/interview/0800.svg);
+                            }
+                        } 
+                        &.time0830{
+                            &::before{
+                                background-image: url(../img/interview/0830.svg);
+                            }
+                        } 
+                        &.time0845{
+                            &::before{
+                                background-image: url(../img/interview/0845.svg);
+                            }
+                        } 
+                        &.time0900{
+                            &::before{
+                                background-image: url(../img/interview/0900.svg);
+                            }
+                        }
+                        &.time0930{
+                            &::before{
+                                background-image: url(../img/interview/0930.svg);
+                            }
+                        }
+                        &.time1000{
+                            &::before{
+                                background-image: url(../img/interview/1000.svg);
+                            }
+                        }
+                        &.time1030{
+                            &::before{
+                                background-image: url(../img/interview/1030.svg);
+                            }
+                        }
+                        &.time1100{
+                            &::before{
+                                background-image: url(../img/interview/1100.svg);
+                            }
+                        }
+                        &.time1200{
+                            &::before{
+                                background-image: url(../img/interview/1200.svg);
+                            }
+                        }
+                        &.time1300{
+                            &::before{
+                                background-image: url(../img/interview/1300.svg);
+                            }
+                        }
+                        &.time1330{
+                            &::before{
+                                background-image: url(../img/interview/1330.svg);
+                            }
+                        }
+                        &.time1400{
+                            &::before{
+                                background-image: url(../img/interview/1400.svg);
+                            }
+                        }
+                        &.time1430{
+                            &::before{
+                                background-image: url(../img/interview/1430.svg);
+                            }
+                        }
+                        &.time1500{
+                            &::before{
+                                background-image: url(../img/interview/1500.svg);
+                            }
+                        }
+                        &.time1530{
+                            &::before{
+                                background-image: url(../img/interview/1530.svg);
+                            }
+                        }
+                        &.time1600{
+                            &::before{
+                                background-image: url(../img/interview/1600.svg);
+                            }
+                        }
+                        &.time1630{
+                            &::before{
+                                background-image: url(../img/interview/1630.svg);
+                            }
+                        }
+                        &.time1700{
+                            &::before{
+                                background-image: url(../img/interview/1700.svg);
+                            }
+                        }
+                        &.time1730{
+                            &::before{
+                                background-image: url(../img/interview/1730.svg);
+                            }
+                        }
+                        &.time1800{
+                            &::before{
+                                background-image: url(../img/interview/1800.svg);
+                            }
+                        }
+                        &.time1830{
+                            &::before{
+                                background-image: url(../img/interview/1830.svg);
+                            }
+                        }
+                        &.time1900{
+                            &::before{
+                                background-image: url(../img/interview/1900.svg);
+                            }
+                        }
+                        &.time1930{
+                            &::before{
+                                background-image: url(../img/interview/1930.svg);
+                            }
+                        }
+                    }
+                }
+                &:last-child{
+                    .time-box{
+                        &::after{
+                            display: none;
+                        }
+                    }
+                }
+                .border-box{
+                    border-top: 1px solid #fff;
+                    padding: 20px 0;
+                    display: flex;
+                    width: 85%;
+                    align-items: center;
+                    @include breakpoint(medium){
+                        flex-direction: column;
+                        padding: 15px 0 ;
+                        align-items: flex-start;
+                    }
+                    .flow-ttl{
+                        color: $clr-main;
+                        margin-right: 1em;
+                        width: 10em;
+                    }
+                }
+            }
+        }
+        .cut-bg-r{
+            &::after{
+                @include breakpoint(medium){
+                    transform: skew(0);
+                }
+            }
+        }
+    }
+}

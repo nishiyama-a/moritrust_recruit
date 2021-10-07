@@ -1,0 +1,280 @@
+  .hamb-btn{
+    width: $header-h;
+    height: $header-h;
+    background: $clr-text;
+    cursor: pointer;
+    display: block;
+    z-index: 310;
+    .btn-inr{
+      height: 100%;
+      padding: 20px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .btn-bar{
+      width: 100%;
+      height: 1px;
+      margin: auto;
+      background: #fff;
+      border-radius: 5px;
+      display: block;
+      position: relative;
+      @include transition;
+      &:before,
+      &:after{
+        @extend .btn-bar;
+        content: '';
+        background: #fff!important;
+        position: absolute;
+      }
+      &:before{
+        bottom: 10px;
+        @include animation(menu-bar-1 .75s forwards);
+      }
+      &:after{
+        top: 10px;
+        @include animation(menu-bar-2 .75s forwards);
+      }
+    }
+  }
+
+  .hamb-menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 305;
+    overflow: hidden;
+    background-color: $clr-text;
+    color: #fff;
+    @include transition;
+    transform: translate(0,-100%);
+	a{
+		&:hover{
+			color: darken($clr-main, 10%)!important;
+		}
+	}
+    .hum_wrap{
+      width: 100%;
+      height: 100vh;
+      margin: 0 auto;
+      padding: 15vh 0 10vh;
+      display: flex;
+      max-width: 1150px;
+      @include breakpoint(small){
+        padding: 50px 20px 40px;
+        flex-direction: column;
+        overflow: scroll;
+      }
+      .hum_logo{
+        width: 135px;
+        margin-bottom: 55px;
+        @include breakpoint(small){
+          margin-bottom: 0;
+          width: 30%;
+          img{
+            max-width: 135px;
+          }
+        }
+      }
+      .hum_contents{
+        font-family: $font-eng;
+        font-size: 24px;
+        color: $clr-text;
+        letter-spacing: 0.05em;
+        @include breakpoint(small){
+          display: flex;
+          width: 50%;
+          justify-content: space-between;
+        }
+        .contents_item{
+          margin-bottom: 15px;
+          font-weight: normal;
+          @include breakpoint(small){
+            font-size: 16px;
+            margin-bottom: 10px;
+            line-height: 1;
+            &:last-child{
+              margin-bottom: 0;
+            }
+          }
+        } 
+      }
+      .hum_box{
+        width: 28%;
+        @include breakpoint(small){
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        a{
+          color: #fff;;
+          font-weight: 400;
+        }
+        &._links{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          width: 72%;
+          @include breakpoint(small){
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 20px;
+          }
+          .hum_link{
+            margin-bottom: 40px;
+            @include breakpoint(small){
+              width: 100%;
+              margin-bottom: 0;
+            }
+          }
+          .hum_ttl{
+            font-size: 24px;
+            font-family: $font-eng;
+            letter-spacing: 0.05em;
+            margin-bottom: 20px;
+            font-weight: normal;
+            line-height: 1.1;
+            padding-left: 35px;
+            @include breakpoint(small){
+              padding: .5em 0;
+              font-size: 16px;
+              margin-bottom: 10px;
+              border-bottom: 1px solid $clr-gray;
+              position: relative;
+            &:after{
+                content: "";
+                position: absolute;
+                right: 25px;
+                top: 38%;
+                transition: all 0.2s ease-in-out;
+                display: block;
+                width: 8px;
+                height: 8px;
+                border-top: solid 1px #fff;
+                border-right: solid 1px #fff;
+                
+                -webkit-transform: rotate(135deg);
+                transform: rotate(135deg);
+                }
+                  &.open{
+                    &::after{
+                      -webkit-transform: rotate(-45deg);
+                  transform: rotate(-45deg);
+                  top: 45%;
+                    }
+                  }
+                }
+          }
+          .hum_links{
+            @include breakpoint(small){
+              margin-bottom: 20px;
+            }
+            .link{
+              font-size: 14px;
+              letter-spacing: 0.05em;
+              margin-bottom: 10px;
+              position: relative;
+              padding-left: 35px;
+              @include breakpoint(small){
+                padding-left: 1em;
+                font-size: 12px;
+              }
+              &:last-child{
+                margin-bottom: 0;
+              }
+              &.current{
+                &::before{
+                  content: "";
+                  position: absolute;
+                  display: block;
+                  width: 20px;
+                  height: 1px;
+                  left: 0;
+                  top: 50%;
+                  background-color: #fff;
+                  @include breakpoint(small){
+                    display: none;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .hum_f_box{
+      @include breakpoint(small){
+        display: flex;
+        p{
+          font-size: 18px;
+          font-family: $font-eng;
+          letter-spacing: 0.05em;
+          margin-right: 20px;
+          a{
+            color: #fff;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+
+  .g-active{
+    .hamb-menu{
+      pointer-events: all;
+      transform: translate(0,0);
+    }
+    .hamb-btn{
+      .btn-bar{
+        background: transparent;
+        &:before{
+          bottom: 11px;
+          @include animation(active-menu-bar-1 .75s forwards);
+        }
+        &:after{
+          @include animation(active-menu-bar-2 .75s forwards);
+        }
+      }
+    }
+  }
+
+  
+  
+
+  @include breakpoint(small){
+    .header{
+      .header-main{
+        .entry{
+          height: $hambmenu-h;
+          width: auto;
+          padding: 0 2em;
+          font-weight: normal;
+        }
+      }
+    }
+    .hamb-btn{
+      height: $hambmenu-h;
+      width: $hambmenu-h;
+      .btn-inr{
+        padding: 10px;
+      }
+      .btn-bar{
+        &:before{
+          bottom: 8px;
+        }
+        &:after{
+          top: 8px;
+        }
+      }
+    }
+
+  }

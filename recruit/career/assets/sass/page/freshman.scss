@@ -1,0 +1,374 @@
+#freshman{
+    background-color: $clr-gray;
+    .sc-inr{
+        max-width: 1160px;
+        &.f_wrap{
+            max-width: 1290px;
+        }
+    }
+    .kv-ttl{
+        position:absolute;
+        top: inherit;
+        bottom: -95px;
+        @include breakpoint(small){
+            position: relative;
+            bottom: inherit;
+            top: -20px;
+        }
+        .note{
+            position: absolute;
+            top: 63px;
+            right: calc(15px + 3%);
+            @include breakpoint(small){
+                right: 20px;
+            }
+        }
+    }
+    #freshman-top{
+        position: relative;
+        padding-top: 130px;
+        @include breakpoint(small){
+            padding-top: 0;
+        }
+        .bg-logo{
+            position: absolute;
+            right: -3%;
+            top: -35px;
+            width: 30%;
+            z-index: -1;
+        }
+    }
+    .ico-box{
+        display: flex;
+        margin: 0 auto 80px;
+        flex-wrap: wrap;
+        justify-content: center;
+        @include breakpoint(small){
+            margin-bottom: 40px;
+        }
+        .ico{
+            width: 55px;
+            height: 55px;
+            margin: 0 5px;
+            @include breakpoint(small){
+                width: 35px;
+                height: 35px;
+                margin: 0 2.5px;
+            }
+        }
+    }
+    .txt-q{
+        text-align: center;
+        @include breakpoint(small){
+            position: relative;
+            margin-bottom: 20px;
+            &::before, &::after{
+                content: "";
+                position: absolute;
+                display: block;
+                background-image: url(../img/freshman/dec_sp.svg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center center;
+                width: 95px;
+                height: 100%;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            &::before{
+                left: 0;
+            }
+            &::after{
+                right: 0;
+            }
+        }
+        p{
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 30px;
+        position: relative;
+        padding: 0 20px;
+        display: inline-block;
+        @include breakpoint(small){
+            font-size: 30px;
+            padding: 0 15px;
+            margin-bottom: 0;
+        }
+        &::before{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background-image: url(../img/freshman/q_l.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 20px;
+            width: 13px;
+            display: inline-block;
+            @include breakpoint(small){
+                width: 6px;
+                height: 10px;
+            }
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background-image: url(../img/freshman/q_r.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 20px;
+            width: 13px;
+            display: inline-block;
+            @include breakpoint(small){
+                width: 6px;
+                height: 10px;
+            }
+        }
+    }
+    &.aldisp{
+        display: block!important;
+    }
+    &.disp{
+        display: block;
+    }
+    }
+    //アコーディオン
+.freshman-q{
+    margin:0 auto;
+    li{
+        padding-bottom: 40px;
+        position: relative;
+        @include breakpoint(small){
+            padding-bottom: 5px;
+        }
+    }
+  }
+  
+  
+.question{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-direction: column;
+    text-align: center;
+    @include breakpoint(small){
+        margin-bottom: 30px;
+    }
+    &::before, &::after{
+        content: "";
+        position: absolute;
+        display: block;
+        background-image: url(../img/freshman/dec.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 18%;
+        height: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        @include breakpoint(small){
+            display: none;
+        }
+    }
+    &::before{
+        left: 0;
+    }
+    &::after{
+        right: 0;
+    }
+    .plus{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #fff;
+        @include breakpoint(small){
+            width: 20px;
+            height: 20px;
+            bottom: -20px;
+        }
+        &::before,&::after{
+            content: "";
+            position: absolute;
+            display: block;
+            height: 1px;
+            width: 20px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: $clr-text;
+            @include breakpoint(small){
+                width: 10px;
+            }
+        }
+        &::before{
+           transform: translate(-50%,-50%) rotate(-90deg);
+        }
+    }
+    &.open{
+        .plus{
+            &::before{
+                transform: rotate(45deg);
+                width: 12px;
+                left: inherit;
+                right: 10px;
+                top: 45%;
+                @include transition;
+                @include breakpoint(small){
+                    width: 6px;
+                    right: 5px;
+                }
+            }
+            &::after{
+                transform: rotate(-45deg);
+                left: 10px;
+                width: 12px;
+                top: 45%;
+                @include transition;
+                @include breakpoint(small){
+                    width: 6px;
+                    left: 5px;
+                }
+            }
+        }
+    }
+    .q-txt {
+        border: none;
+        color: #333;
+        font-size: 30px;
+        left: 0;
+        position: relative;
+        right: 0;
+        width: 60%;
+        margin: 0 auto;
+        padding: 45px 10px;
+        background-image: url(../img/freshman/q_bg_w.svg);
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-align: center;
+        line-height: 1;
+        @include transition;
+        @include breakpoint(small){
+            width: 100%;
+            font-size: 14px;
+            padding: 25px 1em;
+        background-image: url(../img/freshman/q_bg_w_sp.svg);
+        height: 105px;
+        }
+        span{
+            font-size: 18px;
+            letter-spacing: 0.2em;
+            text-align: center;
+            color: #fff;
+            position: relative;
+            z-index: 5;
+            @include breakpoint(small){
+                line-height: lh(20);
+                font-size: 14px;
+                @include obj-center;
+            }
+        }
+        &::before{
+            background-image: url(../img/freshman/q_bg.svg);
+            background-size: contain;
+            background-position: center center;
+            background-repeat: no-repeat;
+            content: "";
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            @include transition;
+            @include breakpoint(small){
+            background-image: url(../img/freshman/q_bg_sp.svg);
+            }
+        }
+        &:hover{
+            span{
+                color: $clr-text;
+            }
+            &::before{
+                opacity: 0;
+            }
+        }
+      }
+}
+  .answer{
+      &-list{
+          padding-top: 35px;
+          li{
+              display: flex;
+              flex-direction: column;
+              max-width: calc(290px + 3%);
+          margin: 0 auto;
+          @include breakpoint(small){
+              margin-bottom: 35px;
+              &:last-child{
+                  margin-bottom: 20px;
+              }
+          }
+          }
+      }
+      &-txt{
+          padding-bottom: 25px;
+          margin-bottom: 10px;
+          position: relative;
+          height: 100%;
+          text-align: justify;
+          &::after{
+              content: "";
+              position: absolute;
+              display: block;
+              border-left: solid 12px #fff;
+              border-bottom: solid 25px transparent;
+              left: 50%;
+              bottom: 0;
+            }
+            p{
+              border-radius: 20px;
+              background-color: #fff;
+              padding: 30px;
+              font-size: 14px;
+              letter-spacing: 0.09em;
+              height: 100%;
+              @include breakpoint(small){
+                  padding: 25px;
+              }
+              span{
+                  color: $clr-main;
+              }
+          }
+      }
+      .hash-box{
+          display: flex;
+          justify-content: center;
+          margin-top: auto;
+          .icon{
+              width: 26%;
+              max-width: 77px;
+              margin-right: 25px;
+              @include breakpoint(small){
+                  margin-right: 20px;
+              }
+          }
+          .hash{
+              font-size: 15px;
+              letter-spacing: 0.09em;
+          }
+      }
+  }
+}
+
+  
+  
+  

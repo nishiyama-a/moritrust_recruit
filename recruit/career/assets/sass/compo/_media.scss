@@ -1,0 +1,348 @@
+%mediabox-cmn {
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  @include breakpoint(small){
+    margin-bottom: 50px;
+  }
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+
+//画像　+ テキスト
+.mediabox{
+  @extend %mediabox-cmn;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  &-r{
+    flex-direction: row-reverse;
+  }
+  &-img{
+    width: 55%;
+    line-height: 0;
+    position: relative;
+    z-index: 3;
+    img{
+      width: 100%;
+      height: 550px;
+      object-fit: cover;
+    }
+    span{
+      margin-top: 10px;
+      display: block;
+      font-size: rem(14);
+      line-height: lh(14);
+      text-align: center;
+    }
+  }
+  &-l{
+    .cut-bg{
+      padding: 65px 5% 50px 10%;
+
+    }
+  }
+  &-r{
+    .cut-bg{
+      padding: 65px 10% 50px 5%;
+
+    }
+  }
+  .cut-bg{
+    width: 50%;
+  }
+  .mediabox-copy{
+    position: absolute;
+    bottom: -50px;
+    @include breakpoint(small){
+      position: relative;
+      bottom: inherit;
+      padding: 20px;
+    }
+    &.copy-l{
+      left: 0;
+      @include breakpoint(small){
+        padding: 20px;
+        &::before{
+          display: none;
+        }
+      }
+    }
+    &.copy-r{
+      right: 0;
+      @include breakpoint(small){
+        padding: 20px;
+        &::before{
+          display: none;
+        }
+      }
+      }
+      .cut-bg{
+        position: absolute;
+        width: 50%;
+      }
+      .cut-bg-l,.cut-bg-r{
+        @include breakpoint(small){
+        &::after{
+            transform: skew(0);
+        }
+      }
+    }
+      p{
+        z-index: 3;
+        position: relative;
+        text-align: justify;
+      }
+      .skew-box{
+        margin-bottom: 20px;
+      }
+  }
+
+  &-2{
+    @extend %mediabox-cmn;
+    align-items: flex-end;
+    padding-bottom: 140px;
+    @include breakpoint(small){
+        padding-bottom: 0;
+    }
+    .mediabox-img{
+      position: absolute;
+      width: vw(1000);
+      top: 0;
+      @include breakpoint(small){
+        position: relative;
+      }
+      img{
+        position: relative;
+        z-index: 2;
+        height: auto;
+        max-height: 550px;
+      }
+      .cut-bg-r,.cut-bg-l{
+        bottom: -60px;
+      }
+    }
+    .mediabox-copy{
+      width: vw(560);
+      background-color: $clr-main;
+      color: #fff;
+      padding: 60px 4%;
+      position: relative;
+      z-index: 5;
+      text-align: justify;
+      top: 140px;
+      .num{
+        font-size: 14px;
+        font-family: $font-eng;
+        position: absolute;
+        top: -45px;
+        color: #000;
+        line-height: 1.17;
+        letter-spacing: 0.05em;
+        padding-left: 15px;
+        span{
+          font-family: $font-dec;
+        font-size: 50px;
+        }
+        &::before{
+          content: "";
+          position: absolute;
+          background-color: #000;
+          height: 60px;
+          width: 2px;
+          transform: skew(-7deg);
+          left: 0;
+          top: 0;
+        }
+      }
+    }
+    &.mediabox-l{
+      .cut-bg{
+        padding: 0 10% 0 0;
+        .cut-bg-r{
+          left: 0;
+        }
+      }
+      .copy-r{
+        margin: 0 7% 0 auto;
+        @include breakpoint(small){
+          margin: 40px 20px 0 auto;
+        }
+        .num{
+          right: 30px;
+        }
+      }
+    }
+    &.mediabox-r{
+      .cut-bg{
+        padding: 0 0 0 10%;
+        .cut-bg-l{
+          right: 0;
+        }
+      }
+      .copy-l{
+        margin: 0 auto 0 7%;
+        @include breakpoint(small){
+          margin: 40px auto 0 20px;
+        }
+        .num{
+          left: 30px;
+        }
+      }
+    }
+  }
+}
+
+//台形
+%cut-bg {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.cut-bg{
+  @extend %cut-bg;
+  padding: 50px 5%;
+  &-l,&-r{
+    position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  &::after{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0%;
+    transform: skew(-7deg);
+    background: $clr-gray;
+    left: 0;
+    z-index: -1;
+  }
+}
+&-l{
+  right: 0;
+  &::after{
+    transform-origin: 100% 100%;
+  }
+}
+&-r{
+  left: 0;
+  &::after{
+    transform-origin: 100% 0;
+  }
+}
+
+//背景
+&-back-wrap{
+  @extend %cut-bg;
+  padding: 0;
+}
+  &-back{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    &::after{
+      transform-origin: 100% 0;
+      position: absolute;
+      display: block;
+      width: 76%;
+      height: 88%;
+      content: '';
+      bottom: 0%;
+      transform: skew(-7deg);
+      background: $clr-gray;
+      left: 0;
+      z-index: -1;
+    }
+  }
+}
+
+
+.youtube{
+  .default-img{
+    position: relative;
+    width: 100%;
+    padding-top: (9/16)*100%;
+  }
+  iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+
+// SP
+@include breakpoint(small){
+  .mediabox{
+    flex-direction: column;
+    &-img{
+      width: 100%;
+      max-width: 100%;
+      img{
+        height: auto;
+      }
+    }
+    .mediabox-copy{
+      width: 100%;
+    }
+    &-2{
+      flex-direction: column;
+      padding-bottom: 40px;
+      .mediabox-img{
+        width: 100%;
+        .cut-bg-r,.cut-bg-l{
+          height: calc(100% + 250px);
+          width: 270px;
+          bottom: inherit;
+          top: 0;
+        }
+      }
+      .mediabox-copy{
+        width: calc(100% - 20px);
+        right: 0;
+        padding: 30px 20px;
+        position: relative;
+        &.copy-r{
+          left: inherit;
+          top: 0;
+        }
+        &.copy-l{
+          right: inherit;
+          top: 0;
+        }
+        .num{
+          font-size: 12px;
+          top: -30px;
+          &::before{
+            height: 43px;
+          }
+          span{
+            font-size: 30px;
+          }
+        }
+        .skew{
+          span{
+            font-size: 14px;
+          }
+          margin-bottom: 5px;
+        }
+        .skew-box-w{
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+
+}
+

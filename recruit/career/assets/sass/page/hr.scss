@@ -1,0 +1,172 @@
+#hr-top{
+    .head-txt{
+        margin-bottom: 100px;
+        @include breakpoint(small){
+            margin-bottom: 40px;
+        }
+    }
+    .sc-inr{
+        padding-bottom: 50px;
+        @include breakpoint(small){
+            padding-bottom: 0;
+        }
+    }  
+}
+
+#mt-talk{
+    padding-top: 0;
+    @include breakpoint(small){
+        padding-top: 35px;
+    }
+}
+
+#academy{
+    padding-top: 0;
+    @include breakpoint(small){
+        padding-top: 35px;
+    }
+    .mediabox{
+        padding-top: 90px;
+        @include breakpoint(small){
+            padding-top: 0;
+        }
+    }
+   .mediabox-copy{
+       padding-top: 100px;
+       overflow: inherit;
+       @include breakpoint(small){
+           padding-top: 20px;
+       }
+       .txt-t-img{
+           position: absolute;
+           top: -250px;
+           @include breakpoint(medium){
+               display: none;
+           }
+       }
+   }
+}
+
+
+#training{
+    padding-top: 0;
+    @include breakpoint(medium){
+        padding-top: 35px;
+    }
+    .schedule{
+        .month{
+            font-size: 40px;
+            font-family: $font-dec;
+            letter-spacing: 0.05em;
+            font-size: 30px;
+            span{
+                font-size: 14px;
+                margin-left: 1.5em;
+                @include breakpoint(medium){
+                    font-size: 12px;
+                }
+            }
+        }
+        .training-ttl{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 50px;
+            @include breakpoint(medium){
+                flex-direction: column;
+            }
+            .skew-box{
+                margin: 0 50px 0 0;
+                @include breakpoint(medium){
+                    margin: 0 auto 20px 0;
+                }
+                .skew{
+                    font-weight: 800;
+                    @include breakpoint(medium){
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+        .cut-bg-l{
+            width: 85%;
+            left: inherit;
+            right: 0;
+            @include breakpoint(medium){
+                width: 100%;
+                &::after{
+                    transform: skew(0);
+                }
+            }
+        }
+        .training-item{
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
+            margin-bottom: 50px;
+            @include breakpoint(medium){
+                flex-direction: column;
+                margin-bottom: 20px;
+            }
+            &:last-child{
+                margin-bottom: 0;
+            }
+            .skew-wrap{
+                width: 18%;
+            }
+            .skew-box{
+                @include breakpoint(medium){
+                   margin: 0 auto 20px 0;
+                }
+            }
+            .txt-box{
+                width: vw(500);
+                padding: 0 3%;
+                @include breakpoint(medium){
+                    width: 100%;
+                    margin: 0 auto;
+                }
+            }
+            .training-img{
+                display: flex;
+                width: 37%;
+                @include breakpoint(medium){
+                    justify-content: space-between;
+                    width: 100%;
+                    margin-top: 20px;
+                }
+                img{
+                    margin-right: 30px;
+                    @include breakpoint(medium){
+                        margin-right: 10px;
+                        width: calc(50% - 5px);
+                    }
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+                &.pic-3{
+                    width: auto;
+                    @include breakpoint(medium){
+                        flex-wrap: wrap;
+                        margin-top: 0;
+                        img{
+                            &:nth-child(2){
+                                margin-right: 0;
+                            }
+                            &:last-child{
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            &.flex-box{
+                display: flex;
+                .txt-box{
+                    width: auto;
+                }
+            }
+        }
+    }
+}
