@@ -30,9 +30,6 @@ $pageInfo = array(
                     <div class="overlay"></div>
                 </div>
                 <div id="kv-img">
-                    <div class="copy_sp disp-sp">
-                        <img src="assets/img/top/copy_sp.svg" alt="創るのは、街だけじゃない。">
-                    </div>
                     <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
                     <p id="kv_copy">
                         森トラストは、創業以来、先進技術やシステムを採用した大型複合開発をはじめ、業界に先駆けた高級外資系ホテルの誘致、日本初の法人会員制リゾートの創業、リート市場創設の提唱など、常に未来の社会を見据え、新たな商品・価値・ビジネスモデルを創造してきました。<br>
@@ -70,8 +67,8 @@ $pageInfo = array(
                         </div>
                         <div class="swiper-slide">
                             <picture class="kv-back">
-                                <source media="(max-width:767px)" srcset="assets/img/top/kv_slide03_sp.jpg">
-                                <img src="assets/img/top/kv_slide03.jpg" alt="">
+                                <source media="(max-width:767px)" srcset="assets/img/top/kv_slide04_sp.jpg">
+                                <img src="assets/img/top/kv_slide04.jpg" alt="">
                             </picture>
                         </div>
                     </div>
@@ -296,13 +293,13 @@ $pageInfo = array(
                             <div class="clm-box h-link box-04">
                                 <div class="default-img interview-item">
                                     <figure class="interview-pic"><img src="assets/img/interview/people04.png">
-                                        <p class="name-en">HIROKI ISHIDA</p>
+                                        <p class="name-en">KENICHI WATANABE</p>
                                     </figure>
                                 </div>
                                 <div class="name-box">
-                                    <p class="name">-石田 洋輝</p>
-                                    <p class="job">設計・施工監理</p>
-                                    <p class="job-info">不動産開発本部コンストラクション<br>マネジメント部建築第２グループ</p>
+                                    <p class="name">渡邊 健一</p>
+                                    <p class="job">設計部門</p>
+                                    <p class="job-info">不動産開発本部<br>コンストラクションマネジメント部</p>
                                 </div>
                                 <a class="clm-alink" href="./interview/4.php"></a>
                             </div>
@@ -311,13 +308,13 @@ $pageInfo = array(
                             <div class="clm-box h-link box-05">
                                 <div class="default-img interview-item">
                                     <figure class="interview-pic"><img src="assets/img/interview/people05.png">
-                                        <p class="name-en">YU TAKAGI</p>
+                                        <p class="name-en">YURIKA NAGAYAMA</p>
                                     </figure>
                                 </div>
                                 <div class="name-box">
-                                    <p class="name">-髙木 優</p>
-                                    <p class="job">営業</p>
-                                    <p class="job-info">営業本部営業第２グループ</p>
+                                    <p class="name">永山 由里香</p>
+                                    <p class="job">内装工事部門</p>
+                                    <p class="job-info">森トラスト・ビルマネジメント(株)<br>ファシリティマネジメント部（出向）</p>
                                 </div>
                                 <a class="clm-alink" href="./interview/5.php"></a>
                             </div>
@@ -326,60 +323,15 @@ $pageInfo = array(
                             <div class="clm-box h-link box-06">
                                 <div class="default-img interview-item">
                                     <figure class="interview-pic"><img src="assets/img/interview/people06.png">
-                                        <p class="name-en">MOE MATSUDA</p>
+                                        <p class="name-en">TOMOYUKI TADA</p>
                                     </figure>
                                 </div>
                                 <div class="name-box">
-                                    <p class="name">-松田 萌</p>
-                                    <p class="job">管理</p>
-                                    <p class="job-info">ビル・リゾートマネジメント部<br>企画開発課業務グループ</p>
+                                    <p class="name">夛田 智幸</p>
+                                    <p class="job">開発部門</p>
+                                    <p class="job-info">不動産開発本部<br>アセットマネジメント部</p>
                                 </div>
                                 <a class="clm-alink" href="./interview/6.php"></a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="clm-box h-link box-07">
-                                <div class="default-img interview-item">
-                                    <figure class="interview-pic"><img src="assets/img/interview/people07.png">
-                                        <p class="name-en">TAKUYA KUDO</p>
-                                    </figure>
-                                </div>
-                                <div class="name-box">
-                                    <p class="name">-工藤 卓也</p>
-                                    <p class="job">イノベーション投資</p>
-                                    <p class="job-info">投資事業部</p>
-                                </div>
-                                <a class="clm-alink" href="./interview/7.php"></a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="clm-box h-link box-08">
-                                <div class="default-img interview-item">
-                                    <figure class="interview-pic"><img src="assets/img/interview/people08.png">
-                                        <p class="name-en">WATARU OHASHI</p>
-                                    </figure>
-                                </div>
-                                <div class="name-box">
-                                    <p class="name">-大橋 航</p>
-                                    <p class="job">海外投資</p>
-                                    <p class="job-info">投資事業部</p>
-                                </div>
-                                <a class="clm-alink" href="./interview/8.php"></a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="clm-box h-link box-09">
-                                <div class="default-img interview-item">
-                                    <figure class="interview-pic"><img src="assets/img/interview/people09.png">
-                                        <p class="name-en">REINA SATO</p>
-                                    </figure>
-                                </div>
-                                <div class="name-box">
-                                    <p class="name">-佐藤 怜奈</p>
-                                    <p class="job">広報</p>
-                                    <p class="job-info">広報部</p>
-                                </div>
-                                <a class="clm-alink" href="./interview/9.php"></a>
                             </div>
                         </div>
                     </div>
@@ -421,13 +373,11 @@ $pageInfo = array(
                                 <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
                             </div>
                         </li>
-                        <li class="talk_item txt">
+                        <li class="talk_item">
                             <div class="box_cnt clm-box h-link">
                                 <p class="ttl_ja">新卒採用サイト社員紹介</p>
-                                <div class="talk_txt">
-                                    <p class="en">FRESHMAN<br><span>INTERVIEW</span></p>
-                                    <p class="ja">新卒採用サイト社員紹介はこちら</p>
-                                </div>
+                                <div class="talk_img default-img h-img shadow"><img src="assets/img/top/freshman.svg"
+                                        alt="新卒採用サイト社員紹介はこちら"></div>
                                 <p class="arr-next">view more</p>
                                 <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
                             </div>
@@ -436,13 +386,15 @@ $pageInfo = array(
                 </div>
             </section>
             <section class="hr">
-            <div class="ttl_area">
+                <div class="ttl_area">
                     <h2 class="ttl_en"><span class="stroke">HUMAN RESOURCES</span>HUMAN RESOURCES<span
-                            class="stroke">HUMAN RESOURCES</span>HUMAN RESOURCES<span class="stroke">HUMAN RESOURCES</span>HUMAN RESOURCES<span
-                            class="stroke">HUMAN RESOURCES</span>HUMAN RESOURCES</h2>
+                            class="stroke">HUMAN RESOURCES</span>HUMAN RESOURCES<span class="stroke">HUMAN
+                            RESOURCES</span>HUMAN RESOURCES<span class="stroke">HUMAN RESOURCES</span>HUMAN RESOURCES
+                    </h2>
                 </div>
                 <div class="cut-bg talk-box-wrap">
-                    <div class="cut-bg-l-row"></div>
+                    <div class="cut-bg-l-row disp-pc"></div>
+                    <div class="cut-bg-r disp-sp"></div>
                     <ul class="talk_box clm-2">
                         <li class="talk_item">
                             <div class="box_cnt clm-box h-link">
@@ -477,8 +429,8 @@ $pageInfo = array(
                             class="stroke">FIGURES</span>FIGURES</h2>
                 </div>
                 <div class="skew-box skew-ttl">
-                        <h4 class="skew">数字で見る森トラスト</h4>
-                    </div>
+                    <h4 class="skew">数字で見る森トラスト</h4>
+                </div>
                 <a href="./figures/">
                     <div class="num_cnt">
                         <img src="assets/img/top/figures.svg" class="is-pc"

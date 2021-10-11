@@ -24,11 +24,17 @@
       width: 100%;
       letter-spacing: 0.05em;
       line-height: 1.5;
+      @include breakpoint(small){
+        font-size: 22px;
+      }
       span{
         font-size: 20px;
         letter-spacing: 0.2em;
         font-family: $font-default;
         color: $clr-text;
+        @include breakpoint(small){
+          font-size: 14px;
+        }
       }
     }
     .side{
@@ -132,10 +138,10 @@ transform: rotate(90deg);
       z-index: 100;
       @include breakpoint(small){
         flex-direction: column;
-        top: 40vh;
         right: inherit;
-        width: 100%;
-        padding: 0 5%;
+        width: 80%;
+        max-height: 500px;
+        padding: 30px 5%;
         display: block;
       }
     }

@@ -40,6 +40,9 @@
 
 section.pickup{
   padding-bottom: 50px;
+  @include breakpoint(small){
+    padding-bottom: 0;
+  }
   .cut-bg-r{
     @include breakpoint(small){
       display: none;
@@ -59,6 +62,9 @@ section.pickup{
       width: vw(715);
       bottom: 0;
       height: 80%;
+      @include breakpoint(small){
+        display: none;
+      }
     }
     .skew-ttl{
       margin-bottom: 0;
@@ -67,11 +73,22 @@ section.pickup{
     .business-list{
       max-width: vw(1060);
       margin: -25px auto 0;
+      @include breakpoint(small){
+        margin: 10px auto 0;
+        max-width: 100%;
+      }
       li{
         height: 280px;
+        @include breakpoint(small){
+          height: 145px;
+          margin-bottom: 5px;
+        }
         a{
           display: flex;
           position: relative;
+          @include breakpoint(small){
+            flex-direction: row-reverse;
+          }
           &:hover{
             .business-pic{
               overflow: hidden;
@@ -96,6 +113,10 @@ section.pickup{
             width: vw(750);
             height: 280px;
             object-fit: cover;
+            @include breakpoint(small){
+              height: 145px;
+              width: vwSp(240);
+            }
           }
         }
         .txtarea{
@@ -106,6 +127,11 @@ section.pickup{
           right: 0;
           top: 50%;
           transform: translateY(-50%);
+          @include breakpoint(small){
+            right: inherit;
+            left: 20px;
+            align-items: flex-start;
+          }
           .dec{
             text-align: right;
           }
@@ -113,6 +139,9 @@ section.pickup{
             margin-right: 40px;
             .skew{
               padding: 40px 0;
+              @include breakpoint(small){
+                padding: 10px 0;
+              }
             }
           }
           .arr-next{
@@ -131,6 +160,9 @@ section.pickup{
     }
     .cut-bg{
       padding: 0 0 100px;
+      @include breakpoint(small){
+        padding-bottom: 0;
+      }
       
       .cut-bg-r{
         width: vw(860);
@@ -160,7 +192,7 @@ section.pickup{
         margin-bottom: 0;
         @include breakpoint(small){
           margin-left: 0;
-          width: 100%;
+          width: 175px;
         }
         .skew{
           @include breakpoint(small){
@@ -175,6 +207,9 @@ section.pickup{
         margin-left: 80px;
         opacity: 0;
         transition: 0.3s;
+        @include breakpoint(small){
+          margin-left: 0;
+        }
       }
     }
     .project_bg{
@@ -185,7 +220,6 @@ section.pickup{
       text-align: right;
       transition: 0.3s;
       @include breakpoint(small){
-        height: 145px;
         margin-bottom: 5px;
       }
       .project_pic{
@@ -199,9 +233,10 @@ section.pickup{
       @include breakpoint(small){
         width: 65%;
         margin: 0 auto 0 0;
+        height: 145px;
         img{
           width: 100%;
-        height: 240px;
+        height: 145px;
         object-fit: cover;
         }
       }
@@ -459,11 +494,10 @@ section.pickup{
         justify-content: center;
         padding: 0 0 50px;
         @include breakpoint(small){
-          background-color: $clr-gray;
           margin-bottom: 55px;
           display: flex;
           flex-direction: column;
-          top: 0;
+          padding-bottom: 20px;
         }
         .cut-bg-l{
           width: vw(1270);
@@ -476,7 +510,6 @@ section.pickup{
           display: flex;
           @include breakpoint(small){
             width: 90%;
-            margin: -35px auto -15px;
           }
           .talk_pic{
             margin-left: -25px;
@@ -504,8 +537,8 @@ section.pickup{
           @include breakpoint(small){
             width: 175px;
             margin-left: 10%;
-            margin-bottom: 20px;
             z-index: 5;
+            padding: 15px 0;
           }
           .skew_w{
             @include breakpoint(small){
@@ -536,6 +569,9 @@ section.pickup{
       height: 75%;
       bottom: 0;
       padding: 0;
+      @include breakpoint(small){
+        display: none;
+      }
     }
   }
   .talk_box{
@@ -552,7 +588,7 @@ section.pickup{
         position: relative;
         background-color: $clr-gray;
         width: calc(100% - 20px);
-        margin: 80px auto 30px 0;
+        margin: 80px auto 60px 0;
         &::before {
           position: absolute;
           content: '';
@@ -572,6 +608,7 @@ flex-direction: column;
         @include breakpoint(small){
           position: relative;
           width: calc(100% - 40px);
+          max-width: 100%;
           margin: -80px auto 0;
         }
       }
@@ -599,8 +636,15 @@ flex-direction: column;
         margin: 0 0 20px 10px;
         width: calc(100% - 10px);
         overflow: hidden;
+        box-shadow: 0 0px 10px rgba(0,0,0,0.2);
         @include breakpoint(small){
           z-index: 3;
+          text-align: center;
+          width: vwSp(300);
+          margin: 0 auto;
+        }
+        img{
+          width: 100%;
         }
       }
       .arr-next{
@@ -609,42 +653,12 @@ flex-direction: column;
         @include breakpoint(small){
           top: 25px;
           text-align: right;
-          right: -30px;
-        }
-      }
-      &.txt{
-        .talk_txt{
-          background-color: #fff;
-          box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
-          height: 100%;
-          text-align: center;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-direction: column;
-          margin: 0 0 20px 10px;
-width: calc(100% - 10px);
-          .en{
-            font-family: $font-dec;
-            color: $clr-red;
-            font-size: 43px;
-            text-align: center;
-            letter-spacing: 0.05em;
-            line-height: 1.1;
-            margin-bottom: 35px;
-            span{
-              color: $clr-text;
-            }
-          }
-          .ja{
-            font-size: 14px;
-            letter-spacing: 0.2em;
-          }
+          right: 20px;
         }
       }
       .h-link{
         &:hover{
-          .talk_txt{
+          .shadow{
             box-shadow: 0 0px 10px rgba(0,0,0,0.5);
             @include transition;
           }
@@ -676,6 +690,16 @@ width: calc(100% - 10px);
   section.hr{
     .talk-box-wrap{
       padding-top: 20px;
+      .cut-bg-r{
+        @include breakpoint(small){
+          display: block;
+        }
+      }
+      .talk_item{
+        @include breakpoint(small){
+          background-color: inherit;
+        }
+      }
     }
     .cut-bg-l-row{
       width: vw(995);
