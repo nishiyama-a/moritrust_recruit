@@ -223,10 +223,35 @@
     z-index: -1;
   }
 }
+&-l-row,&-r-row{
+  position: absolute;
+bottom: 0;
+overflow: hidden;
+width: 100%;
+height: 100%;
+&::after{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: '';
+  top: 0%;
+  transform: skew(7deg);
+  background: $clr-gray;
+  left: 0;
+  z-index: -1;
+}
+}
 &-l{
   right: 0;
   &::after{
     transform-origin: 100% 100%;
+  }
+}
+&-l-row{
+  right: 0;
+  &::after{
+    transform-origin: 100% 0;
   }
 }
 &-r{

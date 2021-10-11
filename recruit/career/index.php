@@ -18,16 +18,12 @@ $pageInfo = array(
         <div class="sc-kv">
             <div class="first_kv">
                 <div class="kv_top">
-                    <p class="side">MORI TRUST<span class="red">GRADUATE RECRUITMENT</span></p>
                     <p class="scroll arr-next">SCROLL</p>
-                    <picture class="copy">
-                        <source media="(max-width:767px)" srcset="assets/img/top/copy_sp.svg">
-                        <img src="assets/img/top/copy.svg" alt="創るのは、街だけじゃない。">
-                    </picture>
+                    <h2 class="copy">MORI TRUST<br>CAREER RECRUITMENT<br><span>森トラスト キャリア採用</span></h2>
                 </div>
                 <div class="kv-scroll">
                     <!-- <img src="assets/img/top/kv_logo.svg" alt="" id="scroll_logo"> -->
-                     <picture id="scroll_logo">
+                    <picture id="scroll_logo">
                         <source media="(max-width:767px)" srcset="assets/img/top/kv_logo_sp.svg">
                         <img src="assets/img/top/kv_logo.svg">
                     </picture>
@@ -37,8 +33,17 @@ $pageInfo = array(
                     <div class="copy_sp disp-sp">
                         <img src="assets/img/top/copy_sp.svg" alt="創るのは、街だけじゃない。">
                     </div>
+                    <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
                     <p id="kv_copy">
-                        <span>森トラストは、不動産の会社というイメージがあるかもしれません。</span><span>約<span class="combine">70</span>年にわたり、都心の大型複合開発や</span><span>リゾート地におけるホテル開発事業を手掛けてきました。</span><span>そこで働く人、訪れる人、その街の人にとって、</span><span>「より豊かなライフスタイル」を提案したい。</span><span>そのための「新しい価値」を提供することで、</span><span>地域や社会に貢献したい。</span><br class="disp-sp"><br class="disp-sp"><span class="br2">創業以来ずっと、この想いを軸に事業を展開してきました。</span><span>世界が大きく変わりつづける中で、私たちにできることは何だろう。</span><span>多様化する一人ひとりと、未来を見つめて、</span><span>森トラストの挑戦は広がりつづけています。</span>
+                        森トラストは、創業以来、先進技術やシステムを採用した大型複合開発をはじめ、業界に先駆けた高級外資系ホテルの誘致、日本初の法人会員制リゾートの創業、リート市場創設の提唱など、常に未来の社会を見据え、新たな商品・価値・ビジネスモデルを創造してきました。<br>
+                         <br>
+                        これからの時代は、これまで以上に社会情勢が激しく変化し将来予測が困難となります。不透明性・不確実性の高い今後の世の中において、今までに無い新しい価値の創造を実現していく為には、各人が「見えないものを見ようとする」マインドを持つことが何よりも重要だと考えます。見えないものを見るために、皆で議論し、解を模索し、挑戦し続けていくことが、これからの未来を切り開く鍵となるはずです。<br>
+                         <br>
+                        その上で、組織に必要とされるのは、高度な専門性を持った様々な分野のプロフェッショナルや、異なるバックグラウンドや価値観を持った多様な人財であり、そういった方々のコラボレーションによるシナジーを生み出すことが、新たな価値創造には不可欠だと考えます。<br>
+                         <br>
+                        森トラストでは、年齢、所属、肩書に関係なく、誰もが平等に発言・チャレンジできる風土が根付いており、社員同士のコミュニケーションが非常に活発に行われています。だからこそ新たなアイデアやビジネスの種を生むことができる組織であると自負しています。どんなに能力が高くても、大きな仕事を成し遂げるには一人の力では限界があります。チームワークを大切にしつつ、変化を楽しみ挑戦できる、そんな人財を求めています。<br>
+                         <br>
+                        我々とともに、わくわくするような未来を創っていきませんか。<br>
                     </p>
                 </div>
             </div>
@@ -46,21 +51,24 @@ $pageInfo = array(
                 <div class="swiper-container" id="slider-2">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
                             <picture class="kv-back">
                                 <source media="(max-width:767px)" srcset="assets/img/top/kv_slide01_sp.jpg">
                                 <img src="assets/img/top/kv_slide01.jpg" alt="">
                             </picture>
                         </div>
                         <div class="swiper-slide">
-                            <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
                             <picture class="kv-back">
                                 <source media="(max-width:767px)" srcset="assets/img/top/kv_slide02_sp.jpg">
                                 <img src="assets/img/top/kv_slide02.jpg" alt="">
                             </picture>
                         </div>
                         <div class="swiper-slide">
-                            <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
+                            <picture class="kv-back">
+                                <source media="(max-width:767px)" srcset="assets/img/top/kv_slide03_sp.jpg">
+                                <img src="assets/img/top/kv_slide03.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
                             <picture class="kv-back">
                                 <source media="(max-width:767px)" srcset="assets/img/top/kv_slide03_sp.jpg">
                                 <img src="assets/img/top/kv_slide03.jpg" alt="">
@@ -74,129 +82,182 @@ $pageInfo = array(
         <main class="l-contents" role="main">
             <section class="pickup">
                 <div class="ttl_area">
-                    <h3 class="ttl_ja">ピックアッププロジェクト</h3>
-                    <h2 class="ttl_en"><span class="stroke">PICK UP PROJECT</span>PICK UP PROJECT<span
-                            class="stroke">PICK UP PROJECT</span>PICK UP PROJECT<span class="stroke">PICK UP
-                            PROJECT</span>PICK UP PROJECT<span class="stroke">PICK UP PROJECT</span>PICK UP PROJECT</h2>
+                    <h2 class="ttl_en"><span class="stroke">BUSINESS</span>BUSINESS<span
+                            class="stroke">BUSINESS</span>BUSINESS<span class="stroke">BUSINESS</span>BUSINESS<span
+                            class="stroke">BUSINESS</span>BUSINESS</h2>
                 </div>
-                <div class="cut-bg">
-                    <div class="cut-bg-r"></div>
-                    <ul class="project_wrap">
-                        <li class="project_item open-first">
+                <div class="cut-bg business-wrap">
+                    <div class="cut-bg-l-row"></div>
+                    <div class="skew-box skew-ttl">
+                        <h4 class="skew">事業案内</h4>
+                    </div>
+                    <ul class="business-list">
+                        <li>
                             <a href="./pickup/tokyoworldgate.php">
-                                <div class="project_bg">
-                                    <div class="project_pic"><img src="assets/img/top/index_twg.png" alt="東京ワールドゲート"></div>
-                                    <div class="txtarea">
-                                        <p class="dec">PICK UP <br class="is-sp">PROJECT 01</p>
-                                        <div class="skew-box">
-                                            <h4 class="skew">東京ワールドゲート</h4>
-                                        </div>
-                                        <p class="btn-style arr-next">view more</p>
+                                <div class="business-pic"><img src="./assets/img/top/business01.jpg" alt=""></div>
+                                <div class="txtarea">
+                                    <p class="dec">BUSINESS 01</p>
+                                    <div class="skew-box">
+                                        <h4 class="skew">不動産事業</h4>
                                     </div>
+                                    <p class="btn-style arr-next">view more</p>
                                 </div>
                             </a>
                         </li>
-                        <li class="project_item">
-                            <a href="./pickup/hotel.php">
-                                <div class="project_bg">
-                                    <div class="project_pic"><img src="assets/img/top/index_hotel.png" alt="東京ワールドゲート">
+                        <li>
+                            <a href="./pickup/tokyoworldgate.php">
+                                <div class="business-pic"><img src="./assets/img/top/business02.jpg" alt=""></div>
+                                <div class="txtarea">
+                                    <p class="dec">BUSINESS 02</p>
+                                    <div class="skew-box">
+                                        <h4 class="skew">ホテル＆リゾート事業</h4>
                                     </div>
-                                    <div class="txtarea">
-                                        <p class="dec">PICK UP <br class="is-sp">PROJECT 02</p>
-                                        <div class="skew-box">
-                                            <h4 class="skew">3つのホテル</h4>
-                                        </div>
-                                        <p class="btn-style arr-next">view more</p>
-                                    </div>
+                                    <p class="btn-style arr-next">view more</p>
                                 </div>
                             </a>
                         </li>
-                        <li class="project_item">
-                            <a href="./pickup/innovation.php">
-                                <div class="project_bg">
-                                    <div class="project_pic"><img src="assets/img/top/index_innovation.png"
-                                            alt="東京ワールドゲート"></div>
-                                    <div class="txtarea">
-                                        <p class="dec">PICK UP <br class="is-sp">PROJECT 03</p>
-                                        <div class="skew-box">
-                                            <h4 class="skew">イノベーション事業</h4>
-                                        </div>
-                                        <p class="btn-style arr-next">view more</p>
+                        <li>
+                            <a href="./pickup/tokyoworldgate.php">
+                                <div class="business-pic"><img src="./assets/img/top/business03.jpg" alt=""></div>
+                                <div class="txtarea">
+                                    <p class="dec">BUSINESS 03</p>
+                                    <div class="skew-box">
+                                        <h4 class="skew">投資事業</h4>
                                     </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="project_item">
-                            <a href="./pickup/wellness.php">
-                                <div class="project_bg">
-                                    <div class="project_pic"><img src="assets/img/top/index_wellness.png" alt="東京ワールドゲート">
-                                    </div>
-                                    <div class="txtarea">
-                                        <p class="dec">PICK UP <br class="is-sp">PROJECT 04</p>
-                                        <div class="skew-box">
-                                            <h4 class="skew">ウェルネス事業</h4>
-                                        </div>
-                                        <p class="btn-style arr-next">view more</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="project_item">
-                            <a href="./pickup/restaurant.php">
-                                <div class="project_bg">
-                                    <div class="project_pic"><img src="assets/img/top/index_restaurant.png"
-                                            alt="東京ワールドゲート"></div>
-                                    <div class="txtarea">
-                                        <p class="dec">PICK UP <br class="is-sp">PROJECT 05</p>
-                                        <div class="skew-box">
-                                            <h4 class="skew">レストラン事業</h4>
-                                        </div>
-                                        <p class="btn-style arr-next">view more</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="project_item">
-                            <a href="./pickup/worcation.php">
-                                <div class="project_bg">
-                                    <div class="project_pic"><img src="assets/img/top/index_workation.png"
-                                            alt="ワーケーション事業"></div>
-                                    <div class="txtarea">
-                                        <p class="dec">PICK UP <br class="is-sp">PROJECT 06</p>
-                                        <div class="skew-box">
-                                            <h4 class="skew">ワーケーション事業</h4>
-                                        </div>
-                                        <p class="btn-style arr-next">view more</p>
-                                    </div>
+                                    <p class="btn-style arr-next">view more</p>
                                 </div>
                             </a>
                         </li>
                     </ul>
                 </div>
+                <div class="pickup-wrap">
+                    <div class="skew-box skew-ttl">
+                        <h4 class="skew">プロジェクト紹介</h4>
+                    </div>
+                    <div class="cut-bg">
+                        <div class="cut-bg-r"></div>
+                        <ul class="project-list">
+                            <li class="project_item">
+                                <a href="./pickup/tokyoworldgate.php">
+                                    <div class="project_bg">
+                                        <div class="project_pic"><img src="assets/img/top/index_twg.png"
+                                                alt="東京ワールドゲート">
+                                        </div>
+                                        <div class="txtarea">
+                                            <p class="dec">PICK UP <br class="is-sp">PROJECT 01</p>
+                                            <div class="skew-box">
+                                                <h4 class="skew">東京ワールドゲート</h4>
+                                            </div>
+                                            <p class="btn-style arr-next">view more</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="project_item">
+                                <a href="./pickup/hotel.php">
+                                    <div class="project_bg">
+                                        <div class="project_pic"><img src="assets/img/top/index_hotel.png"
+                                                alt="東京ワールドゲート">
+                                        </div>
+                                        <div class="txtarea">
+                                            <p class="dec">PICK UP <br class="is-sp">PROJECT 02</p>
+                                            <div class="skew-box">
+                                                <h4 class="skew">3つのホテル</h4>
+                                            </div>
+                                            <p class="btn-style arr-next">view more</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="project_item">
+                                <a href="./pickup/innovation.php">
+                                    <div class="project_bg">
+                                        <div class="project_pic"><img src="assets/img/top/index_innovation.png"
+                                                alt="東京ワールドゲート"></div>
+                                        <div class="txtarea">
+                                            <p class="dec">PICK UP <br class="is-sp">PROJECT 03</p>
+                                            <div class="skew-box">
+                                                <h4 class="skew">イノベーション事業</h4>
+                                            </div>
+                                            <p class="btn-style arr-next">view more</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="project_item">
+                                <a href="./pickup/wellness.php">
+                                    <div class="project_bg">
+                                        <div class="project_pic"><img src="assets/img/top/index_wellness.png"
+                                                alt="東京ワールドゲート">
+                                        </div>
+                                        <div class="txtarea">
+                                            <p class="dec">PICK UP <br class="is-sp">PROJECT 04</p>
+                                            <div class="skew-box">
+                                                <h4 class="skew">ウェルネス事業</h4>
+                                            </div>
+                                            <p class="btn-style arr-next">view more</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="project_item">
+                                <a href="./pickup/restaurant.php">
+                                    <div class="project_bg">
+                                        <div class="project_pic"><img src="assets/img/top/index_restaurant.png"
+                                                alt="東京ワールドゲート"></div>
+                                        <div class="txtarea">
+                                            <p class="dec">PICK UP <br class="is-sp">PROJECT 05</p>
+                                            <div class="skew-box">
+                                                <h4 class="skew">レストラン事業</h4>
+                                            </div>
+                                            <p class="btn-style arr-next">view more</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="project_item">
+                                <a href="./pickup/worcation.php">
+                                    <div class="project_bg">
+                                        <div class="project_pic"><img src="assets/img/top/index_workation.png"
+                                                alt="ワーケーション事業"></div>
+                                        <div class="txtarea">
+                                            <p class="dec">PICK UP <br class="is-sp">PROJECT 06</p>
+                                            <div class="skew-box">
+                                                <h4 class="skew">ワーケーション事業</h4>
+                                            </div>
+                                            <p class="btn-style arr-next">view more</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </section>
 
 
-            <section class="interview">
+            <section class="person">
                 <div class="ttl_area">
-                    <h3 class="ttl_ja">仕事と人</h3>
-                    <h2 class="ttl_en"><span class="stroke">INTERVIEW</span>INTERVIEW<span
-                            class="stroke">INTERVIEW</span>INTERVIEW<span class="stroke">INTERVIEW</span>INTERVIEW<span
-                            class="stroke">INTERVIEW</span>INTERVIEW</h2>
+                    <h2 class="ttl_en"><span class="stroke">PERSON</span>PERSON<span
+                            class="stroke">PERSON</span>PERSON<span class="stroke">PERSON</span>PERSON<span
+                            class="stroke">PERSON</span>PERSON</h2>
                 </div>
-
+                <div class="skew-box skew-ttl">
+                    <h4 class="skew">転職者の声</h4>
+                </div>
                 <div class="swiper-container" id="slider-1">
                     <div class="swiper-wrapper interview-list">
                         <div class="swiper-slide">
                             <div class="clm-box h-link box-01">
                                 <div class="default-img interview-item">
                                     <figure class="interview-pic"><img src="assets/img/interview/people01.png">
-                                        <p class="name-en">TAKAHIRO SEKI</p>
+                                        <p class="name-en">YUSUKE IWAMA</p>
                                     </figure>
                                 </div>
                                 <div class="name-box">
-                                    <p class="name">関 隆宏</p>
-                                    <p class="job">用地取得</p>
-                                    <p class="job-info">投資事業部</p>
+                                    <p class="name">岩間 優介<span>MANAGER</span></p>
+                                    <p class="job">経理部門</p>
+                                    <p class="job-info">ビル事業管理部 兼<br>(株)森トラスト・ホールディングス<br>経営管理部会計グループ</p>
                                 </div>
                                 <a class="clm-alink" href="./interview/1.php"></a>
                             </div>
@@ -205,13 +266,13 @@ $pageInfo = array(
                             <div class="clm-box h-link box-02">
                                 <div class="default-img interview-item">
                                     <figure class="interview-pic"><img src="assets/img/interview/people02.png">
-                                        <p class="name-en">YOSHIYUKI KUDO</p>
+                                        <p class="name-en">KEIKO OKANO</p>
                                     </figure>
                                 </div>
                                 <div class="name-box">
-                                    <p class="name">工藤 慶行</p>
-                                    <p class="job">不動産開発</p>
-                                    <p class="job-info">不動産開発本部アセットマネジメント部</p>
+                                    <p class="name">岡野 桂子<span>MANAGER</span></p>
+                                    <p class="job">新規事業&ホテル部門</p>
+                                    <p class="job-info">社長室戦略本部事業推進室 兼<br>森トラスト・ホテルズ&リゾーツ(株)<br>運営本部事業推進室</p>
                                 </div>
                                 <a class="clm-alink" href="./interview/2.php"></a>
                             </div>
@@ -220,13 +281,13 @@ $pageInfo = array(
                             <div class="clm-box h-link box-03">
                                 <div class="default-img interview-item">
                                     <figure class="interview-pic"><img src="assets/img/interview/people03.png">
-                                        <p class="name-en">HANA KADOWAKI</p>
+                                        <p class="name-en">KOUSUKE MATSUDA</p>
                                     </figure>
                                 </div>
                                 <div class="name-box">
-                                    <p class="name">門脇 花奈</p>
-                                    <p class="job">ホテル企画開発</p>
-                                    <p class="job-info">不動産開発本部アセットマネジメント部</p>
+                                    <p class="name">松田 航介</p>
+                                    <p class="job">DX部門</p>
+                                    <p class="job-info">社長室戦略本部<br>デジタルデザイン室</p>
                                 </div>
                                 <a class="clm-alink" href="./interview/3.php"></a>
                             </div>
@@ -239,7 +300,7 @@ $pageInfo = array(
                                     </figure>
                                 </div>
                                 <div class="name-box">
-                                    <p class="name">石田 洋輝</p>
+                                    <p class="name">-石田 洋輝</p>
                                     <p class="job">設計・施工監理</p>
                                     <p class="job-info">不動産開発本部コンストラクション<br>マネジメント部建築第２グループ</p>
                                 </div>
@@ -254,7 +315,7 @@ $pageInfo = array(
                                     </figure>
                                 </div>
                                 <div class="name-box">
-                                    <p class="name">髙木 優</p>
+                                    <p class="name">-髙木 優</p>
                                     <p class="job">営業</p>
                                     <p class="job-info">営業本部営業第２グループ</p>
                                 </div>
@@ -269,7 +330,7 @@ $pageInfo = array(
                                     </figure>
                                 </div>
                                 <div class="name-box">
-                                    <p class="name">松田 萌</p>
+                                    <p class="name">-松田 萌</p>
                                     <p class="job">管理</p>
                                     <p class="job-info">ビル・リゾートマネジメント部<br>企画開発課業務グループ</p>
                                 </div>
@@ -284,7 +345,7 @@ $pageInfo = array(
                                     </figure>
                                 </div>
                                 <div class="name-box">
-                                    <p class="name">工藤 卓也</p>
+                                    <p class="name">-工藤 卓也</p>
                                     <p class="job">イノベーション投資</p>
                                     <p class="job-info">投資事業部</p>
                                 </div>
@@ -299,7 +360,7 @@ $pageInfo = array(
                                     </figure>
                                 </div>
                                 <div class="name-box">
-                                    <p class="name">大橋 航</p>
+                                    <p class="name">-大橋 航</p>
                                     <p class="job">海外投資</p>
                                     <p class="job-info">投資事業部</p>
                                 </div>
@@ -314,7 +375,7 @@ $pageInfo = array(
                                     </figure>
                                 </div>
                                 <div class="name-box">
-                                    <p class="name">佐藤 怜奈</p>
+                                    <p class="name">-佐藤 怜奈</p>
                                     <p class="job">広報</p>
                                     <p class="job-info">広報部</p>
                                 </div>
@@ -327,96 +388,97 @@ $pageInfo = array(
                 </div>
             </section>
 
-
             <section class="cross_talk">
-                <div class="ttl_area">
-                    <h3 class="ttl_ja">社員が語る森トラスト</h3>
-                    <h2 class="ttl_en"><span class="stroke">CROSS TALK</span>CROSS TALK<span class="stroke">CROSS
-                            TALK</span>CROSS TALK<span class="stroke">CROSS TALK</span>CROSS TALK<span
-                            class="stroke">CROSS TALK</span>CROSS TALK</h2>
-                </div>
-                <div class="talk_group_bg">
-                    <a href="./crosstalk/1.php" class="pic_wrap">
-                        <div class="talk_group _01">
-                            <div class="talk_pic_box">
-                                <div class="talk_pic"><img src="assets/img/top/talk_women01.png" alt="女性社員座談会"></div>
-                                <div class="talk_pic"><img src="assets/img/top/talk_women02.png" alt="女性社員座談会"></div>
-                                <div class="talk_pic"><img src="assets/img/top/talk_women03.png" alt="女性社員座談会"></div>
-                            </div>
-                            <div class="btn_area">
-                                <div class="skew-box">
-                                    <h4 class="skew-w">女性社員座談会</h4>
-                                </div>
-                                <p class="arr-next">view more</p>
-                            </div>
+                <a href="./crosstalk/2.php">
+                    <div class="talk-group cut-bg">
+                        <div class="cut-bg-l"></div>
+                        <div class="talk_pic_box">
+                            <div class="talk_pic"><img src="assets/img/top/talk01.png" alt="転職者座談会"></div>
+                            <div class="talk_pic"><img src="assets/img/top/talk02.png" alt="転職者座談会"></div>
+                            <div class="talk_pic"><img src="assets/img/top/talk03.png" alt="転職者座談会"></div>
+                            <div class="talk_pic"><img src="assets/img/top/talk04.png" alt="転職者座談会"></div>
                         </div>
-                    </a>
-                    <a href="./crosstalk/2.php">
-                        <div class="talk_group _02">
-                            <div class="talk_pic_box">
-                                <div class="talk_pic"><img src="assets/img/top/talk_ojt01.png" alt="OJT×新入社員対談"></div>
-                                <div class="talk_pic"><img src="assets/img/top/talk_ojt02.png" alt="OJT×新入社員対談"></div>
-                                <div class="talk_pic"><img src="assets/img/top/talk_ojt03.png" alt="OJT×新入社員対談"></div>
-                                <div class="talk_pic"><img src="assets/img/top/talk_ojt04.png" alt="OJT×新入社員対談"></div>
+                        <div class=btn_area>
+                            <div class="skew-box">
+                                <h4 class="skew-w">転職者座談会</h4>
                             </div>
-                            <div class=btn_area>
-                                <div class="skew-box">
-                                    <h4 class="skew-w">OJT×新入社員対談</h4>
-                                </div>
-                                <p class="arr-next">view more</p>
-                            </div>
+                            <p class="arr-next">view more</p>
                         </div>
-                    </a>
-                </div>
-                <div class="talk_box_bg"></div>
-                <div class="talk_box">
-                    <div class="talk_item">
-                        <a href="./ceo/">
-                            <div class="box_cnt">
+                    </div>
+                </a>
+                <div class="cut-bg talk-box-wrap">
+                    <div class="cut-bg-r"></div>
+                    <ul class="talk_box clm-2">
+                        <li class="talk_item">
+                            <div class="box_cnt clm-box h-link">
                                 <p class="ttl_ja">社長が語る森トラスト</p>
                                 <div class="skew-box">
                                     <h4 class="skew en"><span>CEO TALK</span></h4>
                                 </div>
-                                <div class="talk_img"><img src="assets/img/top/talk_ceo.png" alt="社長が語る森トラスト"></div>
+                                <div class="talk_img default-img h-img"><img src="assets/img/top/talk_ceo.png"
+                                        alt="社長が語る森トラスト"></div>
                                 <p class="arr-next">view more</p>
+                                <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
                             </div>
-                        </a>
-                    </div>
-                    <div class="talk_item">
-                        <a href="./hr/">
-                            <div class="box_cnt">
-                                <p class="ttl_ja">人財育成</p>
-                                <div class="skew-box">
-                                    <h4 class="skew en">HUMAN RESOURCES</h4>
+                        </li>
+                        <li class="talk_item txt">
+                            <div class="box_cnt clm-box h-link">
+                                <p class="ttl_ja">新卒採用サイト社員紹介</p>
+                                <div class="talk_txt">
+                                    <p class="en">FRESHMAN<br><span>INTERVIEW</span></p>
+                                    <p class="ja">新卒採用サイト社員紹介はこちら</p>
                                 </div>
-                                <div class="talk_img"><img src="assets/img/top/talk_learn.png" alt="社長が語る森トラスト"></div>
                                 <p class="arr-next">view more</p>
+                                <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
                             </div>
-                        </a>
-                    </div>
-                    <div class="talk_item">
-                        <a href="./freshman/">
-                            <div class="box_cnt">
-                                <p class="ttl_ja">2021年入社 新入社員アンケート</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="hr">
+            <div class="ttl_area">
+                    <h2 class="ttl_en"><span class="stroke">HUMAN RESOURCES</span>HUMAN RESOURCES<span
+                            class="stroke">HUMAN RESOURCES</span>HUMAN RESOURCES<span class="stroke">HUMAN RESOURCES</span>HUMAN RESOURCES<span
+                            class="stroke">HUMAN RESOURCES</span>HUMAN RESOURCES</h2>
+                </div>
+                <div class="cut-bg talk-box-wrap">
+                    <div class="cut-bg-l-row"></div>
+                    <ul class="talk_box clm-2">
+                        <li class="talk_item">
+                            <div class="box_cnt clm-box h-link">
                                 <div class="skew-box">
-                                    <h4 class="skew en">FRESHMAN</h4>
+                                    <h4 class="skew en"><span>MT TALK</span></h4>
                                 </div>
-                                <div class="talk_img"><img src="assets/img/top/talk_new.png" alt="社長が語る森トラスト"></div>
+                                <div class="talk_img default-img h-img"><img src="assets/img/top/hr01.png"
+                                        alt="社長が語る森トラスト"></div>
                                 <p class="arr-next">view more</p>
+                                <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
                             </div>
-                        </a>
-                    </div>
+                        </li>
+                        <li class="talk_item">
+                            <div class="box_cnt clm-box h-link">
+                                <div class="skew-box">
+                                    <h4 class="skew en"><span>MT ACADEMY</span></h4>
+                                </div>
+                                <div class="talk_img default-img h-img"><img src="assets/img/top/hr02.png"
+                                        alt="社長が語る森トラスト"></div>
+                                <p class="arr-next">view more</p>
+                                <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </section>
 
-
             <section class="numbers">
                 <div class="ttl_area">
-                    <h3 class="ttl_ja">数字で見る森トラスト</h3>
                     <h2 class="ttl_en"><span class="stroke">FIGURES</span>FIGURES<span
                             class="stroke">FIGURES</span>FIGURES<span class="stroke">FIGURES</span>FIGURES<span
                             class="stroke">FIGURES</span>FIGURES</h2>
                 </div>
+                <div class="skew-box skew-ttl">
+                        <h4 class="skew">数字で見る森トラスト</h4>
+                    </div>
                 <a href="./figures/">
                     <div class="num_cnt">
                         <img src="assets/img/top/figures.svg" class="is-pc"
@@ -433,17 +495,7 @@ $pageInfo = array(
 
 
             <section class="link_area">
-                <ul class="clm-3 sc-inr">
-                    <li>
-                        <div class="clm-box h-link btn-3">
-                            <div class="skew-box">
-                                <h4 class="skew en">OUR BUSINESS</h4>
-                            </div>
-                            <h3 class="btn-txt">事業紹介</h3>
-                            <p class="btn-style arr-next">view more</p>
-                            <a class="clm-alink" href="./ourbusiness/"></a>
-                        </div>
-                    </li>
+                <ul class="clm-2 sc-inr">
                     <li>
                         <div class="clm-box h-link  btn-3">
                             <div class="skew-box">

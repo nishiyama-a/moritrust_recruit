@@ -253,7 +253,7 @@
   @include breakpoint(small){
     .header{
       .header-main{
-        .entry{
+        .entry,.mypage{
           height: $hambmenu-h;
           width: auto;
           padding: 0 2em;

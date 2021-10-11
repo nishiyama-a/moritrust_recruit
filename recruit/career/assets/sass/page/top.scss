@@ -37,12 +37,9 @@
   }
 }
 
+
 section.pickup{
   padding-bottom: 50px;
-  .cut-bg{
-    padding: 0 0 50px;
-    bottom: -50px;
-  }
   .cut-bg-r{
     @include breakpoint(small){
       display: none;
@@ -54,9 +51,96 @@ section.pickup{
       padding-top: 50px;
     }
   }
-  .project_wrap{
+  .business-wrap{
+    padding: 0 10% 80px;
+    margin-bottom: 10px;
+    padding: 0 0 50px;
+    .cut-bg-l-row{
+      width: vw(715);
+      bottom: 0;
+      height: 80%;
+    }
+    .skew-ttl{
+      margin-bottom: 0;
+      z-index: 5;
+    }
+    .business-list{
+      max-width: vw(1060);
+      margin: -25px auto 0;
+      li{
+        height: 280px;
+        a{
+          display: flex;
+          position: relative;
+          &:hover{
+            .business-pic{
+              overflow: hidden;
+              img{
+                transform: scale(1.1);
+                @include transition;
+              }
+            }
+            .skew-box{
+              &::before{
+                background-color: #fff;
+              }
+              .skew{
+                color: $clr-main;
+                @include transition;
+              }
+            }
+          }
+        }
+        .business-pic{
+          img{
+            width: vw(750);
+            height: 280px;
+            object-fit: cover;
+          }
+        }
+        .txtarea{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          .dec{
+            text-align: right;
+          }
+          .skew-box{
+            margin-right: 40px;
+            .skew{
+              padding: 40px 0;
+            }
+          }
+          .arr-next{
+            opacity: 1;
+            text-align: right;
+            margin-right: 40px;
+          }
+        }
+      }
+    }
+  }
+
+  .pickup-wrap{
+    .skew-ttl{
+      margin: 0 auto 70px 10%;
+    }
+    .cut-bg{
+      padding: 0 0 100px;
+      
+      .cut-bg-r{
+        width: vw(860);
+      height: 90%;
+      bottom: 0;
+      }
+    }
+  }
+  .project-list{
     position: relative;
-    top: -50px;
   }
     .txtarea{
       .dec{
@@ -170,7 +254,7 @@ section.pickup{
         }
       }
     }
-    .project_item:hover,.project_item.open-first{
+    .project_item:hover{
       .txtarea{
         .skew-box{
           margin-bottom: 20px;
@@ -219,8 +303,12 @@ section.pickup{
   }
   }
   
-  section.interview{
+  section.person{
     position: relative;
+    margin-bottom: 100px;
+    .ttl_area{
+      padding-bottom: 70px;
+    }
     .swiper-container{
       max-width: 1320px;
       overflow: hidden;
@@ -362,81 +450,32 @@ section.pickup{
         padding: 50px 0 20px;
       }
     }
-    .talk_group_bg{
-      background-color: $clr-gray;
-      position: relative;
-      margin: 0 0 130px auto;
-    width: 90%;
-    @include breakpoint(small){
-      width: calc(100% - 20px);
-      background-color: inherit;
-      margin-top: 35px;
-      margin-bottom: 0;
-    }
-      &::before {
-        position: absolute;
-        content: '';
-        left: 0px;
-        top: 0px;
-        border: none;
-        border-left: solid 70px #fff;
-        border-bottom: solid 650px transparent;
-        /*@include breakpoint(small){
-          display: none;
-        }*/
-      }
-    }
     a{
-      .talk_group{
+      .talk-group{
         position: relative;
-        top: -30px;
         display: flex;
         align-items: center;
-        margin-bottom: 30px;
+        margin-bottom: 100px;
         justify-content: center;
-        &:last-child{
-          left: -3%;
-          @include breakpoint(small){
-            left: 0;
-          }
-        }
+        padding: 0 0 50px;
         @include breakpoint(small){
           background-color: $clr-gray;
           margin-bottom: 55px;
           display: flex;
           flex-direction: column;
           top: 0;
-          &::before {
-            position: absolute;
-            content: '';
-            left: 0px;
-            top: 0px;
-            border: none;
-            border-left: solid 15px #fff;
-            border-bottom: solid 150px transparent;
-          }
         }
-        &._01{
-          &:first-child{
-            margin-left: 10%;
-            @include breakpoint(small){
-              margin-left: 0;
-            }
-          }
-        }
-        &._02{
-          .talk_pic_box{
-            margin-left: 0;
-            z-index: 3;
-            @include breakpoint(small){
-              width: 90%;
-            }
-          }
+        .cut-bg-l{
+          width: vw(1270);
+          bottom: 0;
+          height: 85%;
         }
         .talk_pic_box{
+          margin-left: 0;
+          z-index: 3;
           display: flex;
           @include breakpoint(small){
-            width: 70%;
+            width: 90%;
             margin: -35px auto -15px;
           }
           .talk_pic{
@@ -453,10 +492,15 @@ section.pickup{
             width: 100%;
             align-items: flex-end;
           }
+          .arr-next{
+            text-align: right;
+          }
         }
         .skew-box{
           margin-left: 15px;
           margin-bottom: 15px;
+          width: 300px;
+          padding: 40px 0;
           @include breakpoint(small){
             width: 175px;
             margin-left: 10%;
@@ -482,135 +526,167 @@ section.pickup{
     }
     
   
-    //下段
-    .talk_box_bg{
-      background-color: $clr-gray;
-      position: absolute;
-      height: 310px;
-    width: 90%;
-    margin-top: 100px;
+  }
+
+  // 2clm
+  .talk-box-wrap{
+    padding: 0;
+    .cut-bg-r{
+      width: vw(995);
+      height: 75%;
+      bottom: 0;
+      padding: 0;
+    }
+  }
+  .talk_box{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    max-width: 960px;
+    margin: auto;
     @include breakpoint(small){
-      height: inherit;
-      background-color: inherit;
-      display: none;
+      flex-direction: column;
     }
-      &::before {
-        position: absolute;
-        content: '';
-        right: 0px;
-        top: 0px;
-        border: none;
-        border-right: solid 70px#fff;
-        border-top: solid 310px transparent;
-        @include breakpoint(small){
-          display: none;
-        }
-      }
-    }
-    .talk_box{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      position: relative;
-      max-width: 1250px;
-      margin: auto;
+    .talk_item{
       @include breakpoint(small){
-        flex-direction: column;
-      }
-      .talk_item{
-        &:hover{
-          .skew-box{
-            z-index: 5;
-          }
-          .skew{
-            color: $clr-main;
-            @include transition;
-          }
-          .talk_img{
-            img{
-            @include transition;
-            transform: scale(1.03);
-            }
-          }
+        position: relative;
+        background-color: $clr-gray;
+        width: calc(100% - 20px);
+        margin: 80px auto 30px 0;
+        &::before {
+          position: absolute;
+          content: '';
+          right: 0px;
+          top: 0px;
+          border: none;
+          border-right: solid 50px#fff;
+          border-top: solid 310px transparent;
         }
+      }
+      .box_cnt{
+        max-width: vw(430);
+        margin: 0 auto;
+        height: 100%;
+display: flex;
+flex-direction: column;
         @include breakpoint(small){
           position: relative;
-          background-color: $clr-gray;
-          width: calc(100% - 20px);
-          margin: 80px auto 30px 0;
-          &::before {
-            position: absolute;
-            content: '';
-            right: 0px;
-            top: 0px;
-            border: none;
-            border-right: solid 50px#fff;
-            border-top: solid 310px transparent;
-          }
+          width: calc(100% - 40px);
+          margin: -80px auto 0;
         }
-        .box_cnt{
-          @include breakpoint(small){
-            position: relative;
-            width: calc(100% - 40px);
-            margin: -80px auto 0;
-          }
-        }
-        .ttl_ja{
-          font-size: 14px;
-          margin-bottom: 20px;
-          letter-spacing: 0.2em;
-        }
-        .skew-box{
+      }
+      .ttl_ja{
+        font-size: 14px;
+        margin-bottom: 35px;
+        letter-spacing: 0.2em;
+      }
+      .skew-box{
+        width: auto;
+        display: inline-block;
+        padding: 0;
+        margin: 0 auto;
+        position: absolute;
+        top: 35px;
+        z-index: 5;
+        .skew{
+          font-size: 16px;
           width: auto;
-          display: inline-block;
-          padding: 0;
-          margin: 0 auto;
-          .skew{
-            font-size: 16px;
-            width: auto;
-            white-space: nowrap;
-            padding: 0.5em 1em;
-          }
+          white-space: nowrap;
+          padding: 0.5em 1em;
         }
-        .talk_img{
-          margin: -15px 0 10px 15px;
-          overflow: hidden;
-          @include breakpoint(small){
-            z-index: 3;
-          }
+      }
+      .talk_img{
+        margin: 0 0 20px 10px;
+        width: calc(100% - 10px);
+        overflow: hidden;
+        @include breakpoint(small){
+          z-index: 3;
         }
-        .arr-next{
-          justify-content: flex-end;
-          @include breakpoint(small){
-            top: 25px;
-            text-align: right;
-            right: -30px;
+      }
+      .arr-next{
+        justify-content: flex-end;
+        text-align: right;
+        @include breakpoint(small){
+          top: 25px;
+          text-align: right;
+          right: -30px;
+        }
+      }
+      &.txt{
+        .talk_txt{
+          background-color: #fff;
+          box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
+          height: 100%;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          margin: 0 0 20px 10px;
+width: calc(100% - 10px);
+          .en{
+            font-family: $font-dec;
+            color: $clr-red;
+            font-size: 43px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            line-height: 1.1;
+            margin-bottom: 35px;
+            span{
+              color: $clr-text;
+            }
+          }
+          .ja{
+            font-size: 14px;
+            letter-spacing: 0.2em;
           }
         }
       }
-    } 
-    a{
-      &:hover{
-        .skew-box{
-          &::before{
-            background-color: #fff;
-            @include transition;
-          }
-          .skew-w{
-            color: $clr-main;
+      .h-link{
+        &:hover{
+          .talk_txt{
+            box-shadow: 0 0px 10px rgba(0,0,0,0.5);
             @include transition;
           }
         }
-        .talk_pic{
-          img{
-            @include transition;
-            transform: scale(1.03);
-          }
+      }
+    }
+  } 
+  a{
+    &:hover{
+      .skew-box{
+        &::before{
+          background-color: #fff;
+          @include transition;
+        }
+        .skew-w{
+          color: $clr-main;
+          @include transition;
+        }
+      }
+      .talk_pic{
+        img{
+          @include transition;
+          transform: scale(1.03);
         }
       }
     }
   }
   
+  section.hr{
+    .talk-box-wrap{
+      padding-top: 20px;
+    }
+    .cut-bg-l-row{
+      width: vw(995);
+  height: 75%;
+  bottom: 0;
+  padding: 0;
+    }
+    .skew-box{
+      top: -20px!important;
+    }
+  }
   
   section.numbers{
     @include breakpoint(small){
@@ -694,7 +770,8 @@ section.pickup{
     margin-bottom: 110px;
     padding: 58px 0;
   }
-  .clm-3{
+  .clm-2{
+    max-width: 840px;
     position: absolute;
     bottom: -110px;
     left: 50%;

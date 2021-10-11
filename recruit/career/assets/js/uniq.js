@@ -40,10 +40,6 @@ $(function () {
     //$(this).children('.txt-q').slideToggle();
   });
 
-  //top pickup TWG
-$('.open-first').mouseout(function(e) {
-  $(this).removeClass('open-first');
-});
 
   //top mv
   //ロゴが拡大する
