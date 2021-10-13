@@ -139,7 +139,7 @@ $pageInfo = array(
                                             <div class="icon"><img src="../assets/img/freshman/basketball.svg" alt="">
                                             </div>
                                             <div class="hash">
-                                                <p>#男性<br>#文系<br>#バスケ</p>
+                                                <p>#男性<br>#理系<br>#バスケ</p>
                                             </div>
                                         </div>
                                     </li>
