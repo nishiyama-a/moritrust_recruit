@@ -1397,6 +1397,12 @@ body {
 .sc-kv {
   width: 100%;
   position: relative;
+  margin-top: -70px;
+}
+@media (max-width: 767px) {
+  .sc-kv {
+    margin-top: -50px;
+  }
 }
 .sc-kv .first_kv {
   height: 100vh;
@@ -1409,15 +1415,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  margin-top: -70px;
-}
-@media (max-width: 767px) {
-  .sc-kv .first_kv {
-    margin-top: -50px;
-  }
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 .sc-kv .first_kv .kv_top {
   z-index: 15;
@@ -1512,19 +1512,7 @@ body {
      object-fit: cover;
 }
 .sc-kv #copy-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  position: relative;
-  margin-top: -70px;
 }
 @media (max-width: 767px) {
   .sc-kv #copy-box .copy_sp {
@@ -1545,28 +1533,20 @@ body {
   line-height: 1.8;
   opacity: 0;
   width: 100%;
-  height: 100vh;
-  padding: 130px 15%;
+  padding: 300px 15% 0;
   margin: 0 auto;
   font-size: 18px;
   color: #fff;
   z-index: 100;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 @media (max-width: 767px) {
   .sc-kv #copy-box #kv_copy {
-    padding: 70px 20px 20px 15%;
-    font-size: 12px;
-    overflow-y: scroll;
+    padding: 200px 20px 100px 30px;
+    font-size: 14px;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
   }
 }
 .sc-kv #copy-box .kv_en {
@@ -1593,6 +1573,28 @@ body {
   -webkit-text-stroke: 1px #fff;
 }
 
+#kv-slide {
+  position: relative;
+  top: 0 !important;
+  left: 0;
+  width: 100%;
+  height: 100vh !important;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+#slider-2 {
+  height: 100vh;
+}
+
 #slider-2 .swiper-slide {
   background-position: center center;
   background-size: cover;
@@ -1601,12 +1603,7 @@ body {
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  margin-top: -70px;
-}
-@media (max-width: 767px) {
-  #slider-2 .swiper-slide {
-    margin-top: -50px;
-  }
+  top: 0;
 }
 #slider-2 .swiper-slide img {
   height: 100%;

@@ -21,7 +21,7 @@ $pageInfo = array(
                     <p class="scroll arr-next">SCROLL</p>
                     <h2 class="copy">MORI TRUST<br>CAREER RECRUITMENT<br><span>森トラスト キャリア採用</span></h2>
                 </div>
-                <div class="kv-scroll">
+                <div class="kv-scroll kv-fix">
                     <!-- <img src="assets/img/top/kv_logo.svg" alt="" id="scroll_logo"> -->
                     <picture id="scroll_logo">
                         <source media="(max-width:767px)" srcset="assets/img/top/kv_logo_sp.svg">
@@ -43,7 +43,8 @@ $pageInfo = array(
                     </p>
                 </div>
             </div>
-            <div class="swiper-main sp-wfull view-up">
+            <div class="swiper-main sp-wfull view-up kv-fix" id="kv-slide">
+                <div class="overlay"></div>
                 <div class="swiper-container" id="slider-2">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
