@@ -42,18 +42,44 @@ $(function () {
 
 
   //top mv
-  //ロゴが拡大する
-  gsap.to("#scroll_logo", {
-    scrollTrigger: {
-      trigger: ".sc-kv",
-      start: "-70 top",
-      end: '+=1000', //アニメーション開始位置から1500px固定する
-      scrub: true, // スクロールに合わせて動く
-      pin: true, //トリガー要素を固定する
-      //markers: true,
-    },
-    scale: 60,
+  ScrollTrigger.matchMedia({
+    //ロゴが拡大する
+	    // mobile
+    "(max-width: 765px)": function() {
+      gsap.fromTo('#scroll_logo', {
+        scale: 2,
+      },
+        {
+          scale: 60,
+          autoAlpha: 0,
+          scrollTrigger: {
+            trigger: ".sc-kv",
+            start: "-50 top",
+            end: '+=700', //アニメーション開始位置から固定する
+            scrub: true, // スクロールに合わせて動く
+            pin: true, //トリガー要素を固定する
+            //markers: true,
+          }
+        });
+    }, 
+  //pc
+    "(min-width: 766px)": function() {
+      gsap.to("#scroll_logo", {
+        scrollTrigger: {
+          trigger: ".sc-kv",
+          start: "-70 top",
+          end: '+=500', //アニメーション開始位置から固定する
+          scrub: true, // スクロールに合わせて動く
+          pin: true, //トリガー要素を固定する
+          //markers: true,
+        },
+        scale: 60,
+      });
+    }, 
+
   });
+  
+  
 
   //コピー等が消える
   gsap.fromTo('.kv_top', {
@@ -70,8 +96,9 @@ $(function () {
       }
     });
 
-  //画像を暗く
-  gsap.fromTo('.overlay', {
+
+  //ボディーコピーを表示・画面を暗く
+  gsap.fromTo('#kv_copy,#copy-box', {
     autoAlpha: 0, //初期状態
   },
     {
@@ -79,24 +106,9 @@ $(function () {
       scrollTrigger: {
         trigger: '.first_kv',
         start: "200 top",
-        end: '+=100', //アニメーション開始位置から100pxの位置で終わる
+        end: '+=50', //アニメーション開始位置から300pxの位置で終わる
         scrub: true, // スクロールに合わせて動く
         //markers: true,
-      }
-    });
-
-  //ボディーコピーを表示
-  gsap.fromTo('#kv_copy , .copy_sp', {
-    autoAlpha: 0, //初期状態
-  },
-    {
-      autoAlpha: 1,
-      scrollTrigger: {
-        trigger: '.first_kv',
-        start: "200 top",
-        end: '+=300', //アニメーション開始位置から300pxの位置で終わる
-        scrub: true, // スクロールに合わせて動く
-        // markers: true,
       }
     });
 
