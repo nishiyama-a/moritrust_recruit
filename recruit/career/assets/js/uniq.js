@@ -5,7 +5,7 @@ $(function () {
 
   //ハンバーガーメニュー
   if (window.matchMedia('(max-width: 768px)').matches) {
-    $(".hum_links").css("display", "none");
+    $(".acd_box").css("display", "none");
     $(".hum_ttl").click(function () {
       $(".hum_ttl").not(this).removeClass("open");
       $(".hum_ttl").not(this).next().slideUp(300);
