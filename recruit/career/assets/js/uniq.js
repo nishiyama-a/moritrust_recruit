@@ -43,27 +43,10 @@ $(function () {
 
   //top mv
   ScrollTrigger.matchMedia({
-    //ロゴが拡大する
-	    // mobile
+
+    // SP
     "(max-width: 765px)": function() {
-      gsap.fromTo('#scroll_logo', {
-        scale: 1,
-      },
-        {
-          scale: 60,
-          autoAlpha: 0,
-          scrollTrigger: {
-            trigger: ".first_kv",
-            start: "top top",
-            end: '+=250', //アニメーション開始位置から固定する
-            scrub: true, // スクロールに合わせて動く
-            pin: true, //トリガー要素を固定する
-            //markers: true,
-          }
-        });
-    }, 
-  //pc
-    "(min-width: 766px)": function() {
+      //ロゴが拡大する
       gsap.fromTo('#scroll_logo', {
         scale: 1,
       },
@@ -80,27 +63,62 @@ $(function () {
           }
         });
 
+          //コピー等が消える
+  gsap.fromTo('.kv_top,.first-bg', {
+    autoAlpha: 1, //fromToで初期状態を設定
+  },
+    {
+      autoAlpha: 0,
+      scrollTrigger: {
+        trigger: '.first_kv',
+        start: "-1 top",
+        end: '+=30', //アニメーション開始位置から100pxの位置で終わる
+        scrub: true, // スクロールに合わせて動く
+        //markers: true,
+      }
+    });
 
-      // gsap.to("#scroll_logo", {
-      //   scrollTrigger: {
-      //     trigger: "#kv-slide",
-      //     start: "-70 top",
-      //     end: '+=250', //アニメーション開始位置から固定する
-      //     scrub: true, // スクロールに合わせて動く
-      //     pin: true, //トリガー要素を固定する
-      //     markers: true,
-      //   },
-      //   scale: 60,
-      // autoAlpha: 0,
-      // });
+//背景変わる
+$(function(){
+  $(".one").each(function(i, elem){
+    var one = $(elem).offset().top;
+    $(window).on("load scroll resize", function(){
+      var two = $(window).height();
+      var three = $(window).scrollTop();
+      var showClass = "show";
+      var timing = 500; // 50px, add to css
+      if (three >= one - two + timing){
+        $(elem).addClass(showClass);
+      } else {
+        $(elem).removeClass(showClass);
+      }
+    });
+  });
+});
     }, 
 
-  });
-  
-  
 
-  //コピー等が消える
-  gsap.fromTo('.kv_top', {
+  //pc
+    "(min-width: 766px)": function() {
+      //ロゴが拡大する
+      gsap.fromTo('#scroll_logo', {
+        scale: 1,
+      },
+        {
+          scale: 60,
+          autoAlpha: 0,
+          scrollTrigger: {
+            trigger: "#scroll_logo",
+            start: "top top",
+            end: '+=250', //アニメーション開始位置から固定する
+            scrub: true, // スクロールに合わせて動く
+            pin: true, //トリガー要素を固定する
+            //markers: true,
+          }
+        });
+
+          //コピー等が消える
+  gsap.fromTo('.kv_top,.first-bg', {
     autoAlpha: 1, //fromToで初期状態を設定
   },
     {
@@ -113,6 +131,26 @@ $(function () {
         //markers: true,
       }
     });
+
+    $(".one").each(function(i, elem){
+      var one = $(elem).offset().top;
+      $(window).on("load scroll resize", function(){
+        var two = $(window).height();
+        var three = $(window).scrollTop();
+        var showClass = "show";
+        var timing = 400; // 50px, add to css
+        if (three >= one - two + timing){
+          $(elem).addClass(showClass);
+        } else {
+          $(elem).removeClass(showClass);
+        }
+      });
+    });
+    }, 
+
+  });
+  
+  
     
 //  //画像を暗く
 //  gsap.fromTo('.overlay', {
@@ -141,7 +179,7 @@ $(function () {
         start: "top top",
         end: '+=50', //アニメーション開始位置から300pxの位置で終わる
         scrub: true, // スクロールに合わせて動く
-        markers: true,
+        //markers: true,
       }
     });
     
@@ -160,20 +198,20 @@ $(function () {
 
 });
 
-
-$(function(){
-  $(".one").each(function(i, elem){
-    var one = $(elem).offset().top;
-    $(window).on("load scroll resize", function(){
-      var two = $(window).height();
-      var three = $(window).scrollTop();
-      var showClass = "show";
-      var timing = 400; // 50px, add to css
-      if (three >= one - two + timing){
-        $(elem).addClass(showClass);
-      } else {
-        $(elem).removeClass(showClass);
-      }
-    });
-  });
-});
+//背景変わる
+// $(function(){
+//   $(".one").each(function(i, elem){
+//     var one = $(elem).offset().top;
+//     $(window).on("load scroll resize", function(){
+//       var two = $(window).height();
+//       var three = $(window).scrollTop();
+//       var showClass = "show";
+//       var timing = 400; // 50px, add to css
+//       if (three >= one - two + timing){
+//         $(elem).addClass(showClass);
+//       } else {
+//         $(elem).removeClass(showClass);
+//       }
+//     });
+//   });
+// });

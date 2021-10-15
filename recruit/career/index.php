@@ -15,7 +15,7 @@ $pageInfo = array(
     <?php include(dirname(__FILE__) . '/assets/inc/bodyInr.php'); ?>
     <div class="l-wrap">
         <?php include(dirname(__FILE__). '/assets/inc/header.php'); ?>
-        <div class="sc-kv kv2">
+        <div class="sc-kv">
             <div class="first_kv">
                 <div class="first-bg"></div>
                 <div class="kv_top">
@@ -32,6 +32,7 @@ $pageInfo = array(
             </div>
             <div class="scroll-copy">
                 <div class="overlay"></div>
+                <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
                 <section>
                     <div class="one">
                         <div class="bg _01"></div>
