@@ -1419,15 +1419,21 @@ body {
       -ms-flex-align: start;
           align-items: flex-start;
 }
+.sc-kv .first_kv .first-bg {
+  background-image: url("../img/top/kv_slide01.jpg");
+}
 .sc-kv .first_kv .kv_top {
   z-index: 15;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 .sc-kv .first_kv .copy {
   font-size: 40px;
   font-family: "Cinzel", "Lato", serif;
   color: #4aa064;
   text-align: center;
-  bottom: 15vh;
+  bottom: 10vh;
   position: absolute;
   width: 100%;
   letter-spacing: 0.05em;
@@ -1507,7 +1513,7 @@ body {
 }
 .sc-kv .kv-scroll #scroll_logo img {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -1573,17 +1579,9 @@ body {
   -webkit-text-stroke: 1px #fff;
 }
 
-#kv-slide {
-  position: relative;
-  top: 0 !important;
-  left: 0;
-  width: 100%;
-  height: 100vh !important;
-}
-
 .overlay {
   width: 100%;
-  height: 100%;
+  height: calc(100% + 30px);
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
@@ -1591,11 +1589,20 @@ body {
   z-index: 5;
 }
 
-#slider-2 {
-  height: 100vh;
+.kv-slide {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #slider-2 .swiper-slide {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: relative;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1632,6 +1639,120 @@ body {
     padding: 25px 20px;
   }
 }
+.scroll-copy {
+  padding-top: 40vh;
+  position: relative;
+  top: 70px;
+  /*==================
+  base
+  ==================*/
+}
+.scroll-copy section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.scroll-copy .one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 50px 0;
+}
+.scroll-copy .bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  z-index: -1;
+}
+.scroll-copy .show .bg {
+  opacity: 1;
+}
+.scroll-copy .bg._01 {
+  background-image: url("../img/top/kv_slide01.jpg");
+}
+.scroll-copy .bg._02 {
+  background-image: url("../img/top/kv_slide02.jpg");
+}
+.scroll-copy .bg._03 {
+  background-image: url("../img/top/kv_slide03.jpg");
+}
+.scroll-copy .bg._04 {
+  background-image: url("../img/top/kv_slide04.jpg");
+}
+.scroll-copy .onebox {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.scroll-copy .onebox img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+  margin-bottom: 15px;
+}
+.scroll-copy .onebox p {
+  letter-spacing: 0.1em;
+  line-height: 1.8;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+.scroll-copy html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+}
+.scroll-copy *, .scroll-copy *:before, .scroll-copy *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+.scroll-copy body {
+  font-family: YuGothic, "游ゴシック体", "Yu Gothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0;
+  word-break: break-word;
+}
+.scroll-copy p._a {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 30px 0 0;
+}
+.scroll-copy p._a .link {
+  display: inline-block;
+  color: #607D8B;
+  padding-left: 1.3em;
+  text-indent: -1.3em;
+}
+.scroll-copy p._a .link:before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-top: 2px solid #607D8B;
+  border-right: 2px solid #607D8B;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin-right: 10px;
+}
+
 .sc-kv.-page .kv-img img {
   width: 100%;
   height: 200px;
@@ -4480,8 +4601,9 @@ p.point-txt::before {
   margin: 0 10px;
 }
 
-#toppage .l-contents {
+.bkwh {
   background-color: #fff;
+  margin-top: 100px;
 }
 
 section.pickup {

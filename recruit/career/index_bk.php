@@ -15,9 +15,8 @@ $pageInfo = array(
     <?php include(dirname(__FILE__) . '/assets/inc/bodyInr.php'); ?>
     <div class="l-wrap">
         <?php include(dirname(__FILE__). '/assets/inc/header.php'); ?>
-        <div class="sc-kv kv2">
+        <div class="sc-kv">
             <div class="first_kv">
-                <div class="first-bg"></div>
                 <div class="kv_top">
                     <p class="scroll arr-next">SCROLL</p>
                     <h2 class="copy">MORI TRUST<br>CAREER RECRUITMENT<br><span>森トラスト キャリア採用</span></h2>
@@ -29,43 +28,53 @@ $pageInfo = array(
                         <img src="assets/img/top/kv_logo.svg">
                     </picture>
                 </div>
-            </div>
-            <div class="scroll-copy">
-                <div class="overlay"></div>
-                <section>
-                    <div class="one">
-                        <div class="bg _01"></div>
-                        <div class="onebox">
-                            <p>森トラストは、創業以来、先進技術やシステムを採用した大型複合開発をはじめ、<br class="disp-pc">業界に先駆けた高級外資系ホテルの誘致、日本初の法人会員制リゾートの創業、リート市場創設の提唱など、<br  class="disp-pc">常に未来の社会を見据え、新たな商品・価値・ビジネスモデルを創造してきました。</p>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <div class="one">
-                        <div class="bg _02"></div>
-                        <div class="onebox">
-                            <p>これからの時代は、これまで以上に社会情勢が激しく変化し将来予測が困難となります。<br class="disp-pc">不透明性・不確実性の高い今後の世の中において、<br class="disp-pc">今までに無い新しい価値の創造を実現していく為には、<br class="disp-pc">各人が「見えないものを見ようとする」マインドを持つことが何よりも重要だと考えます。<br class="disp-pc">見えないものを見るために、皆で議論し、解を模索し、<br class="disp-pc">挑戦し続けていくことが、これからの未来を切り開く鍵となるはずです。</p>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <div class="one">
-                        <div class="bg _03"></div>
-                        <div class="onebox">
-                            <p>その上で、組織に必要とされるのは、<br class="disp-pc">高度な専門性を持った様々な分野のプロフェッショナルや、<br class="disp-pc">異なるバックグラウンドや価値観を持った多様な人財であり、<br class="disp-pc">そういった方々のコラボレーションによるシナジーを生み出すことが、<br class="disp-pc">新たな価値創造には不可欠だと考えます。</p>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <div class="one">
-                        <div class="bg _04"></div>
-                        <div class="onebox">
-                            <p>森トラストでは、年齢、所属、肩書に関係なく、<br class="disp-pc">誰もが平等に発言・チャレンジできる風土が根付いており、<br class="disp-pc">社員同士のコミュニケーションが非常に活発に行われています。<br class="disp-pc">だからこそ新たなアイデアやビジネスの種を生むことができる組織であると自負しています。<br class="disp-pc">どんなに能力が高くても、大きな仕事を成し遂げるには一人の力では限界があります。<br class="disp-pc">チームワークを大切にしつつ、変化を楽しみ挑戦できる、そんな人財を求めています。<br>
+                <div id="copy-box">
+                    <p class="kv_en"><span class="stroke">MESSAGE</span>MESSAGE</p>
+                    <p id="kv_copy">
+                        森トラストは、創業以来、先進技術やシステムを採用した大型複合開発をはじめ、<br class="disp-pc">業界に先駆けた高級外資系ホテルの誘致、日本初の法人会員制リゾートの創業、リート市場創設の提唱など、<br class="disp-pc">常に未来の社会を見据え、新たな商品・価値・ビジネスモデルを創造してきました。<br>
                          <br>
-                        我々とともに、わくわくするような未来を創っていきませんか。</p>
+                        これからの時代は、これまで以上に社会情勢が激しく変化し将来予測が困難となります。<br class="disp-pc">不透明性・不確実性の高い今後の世の中において、<br class="disp-pc">今までに無い新しい価値の創造を実現していく為には、<br class="disp-pc">各人が「見えないものを見ようとする」マインドを持つことが何よりも重要だと考えます。<br class="disp-pc">見えないものを見るために、皆で議論し、解を模索し、<br class="disp-pc">挑戦し続けていくことが、これからの未来を切り開く鍵となるはずです。<br>
+                         <br>
+                        その上で、組織に必要とされるのは、<br class="disp-pc">高度な専門性を持った様々な分野のプロフェッショナルや、<br class="disp-pc">異なるバックグラウンドや価値観を持った多様な人財であり、<br class="disp-pc">そういった方々のコラボレーションによるシナジーを生み出すことが、<br class="disp-pc">新たな価値創造には不可欠だと考えます。<br>
+                         <br>
+                        森トラストでは、年齢、所属、肩書に関係なく、<br class="disp-pc">誰もが平等に発言・チャレンジできる風土が根付いており、<br class="disp-pc">社員同士のコミュニケーションが非常に活発に行われています。<br class="disp-pc">だからこそ新たなアイデアやビジネスの種を生むことができる組織であると自負しています。<br class="disp-pc">どんなに能力が高くても、大きな仕事を成し遂げるには一人の力では限界があります。<br class="disp-pc">チームワークを大切にしつつ、変化を楽しみ挑戦できる、そんな人財を求めています。<br>
+                         <br>
+                        我々とともに、わくわくするような未来を創っていきませんか。<br>
+                    </p>
+                </div>
+            </div>
+            <div class="kv-slide">
+                <div class="swiper-main sp-wfull view-up kv-fix">
+                    <div class="overlay"></div>
+                    <div class="swiper-container" id="slider-2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <picture class="kv-back">
+                                    <source media="(max-width:767px)" srcset="assets/img/top/kv_slide01_sp.jpg">
+                                    <img src="assets/img/top/kv_slide01.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture class="kv-back">
+                                    <source media="(max-width:767px)" srcset="assets/img/top/kv_slide02_sp.jpg">
+                                    <img src="assets/img/top/kv_slide02.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture class="kv-back">
+                                    <source media="(max-width:767px)" srcset="assets/img/top/kv_slide03_sp.jpg">
+                                    <img src="assets/img/top/kv_slide03.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture class="kv-back">
+                                    <source media="(max-width:767px)" srcset="assets/img/top/kv_slide04_sp.jpg">
+                                    <img src="assets/img/top/kv_slide04.jpg" alt="">
+                                </picture>
+                            </div>
                         </div>
                     </div>
-                </section>
+                </div>
             </div>
         </div>
 

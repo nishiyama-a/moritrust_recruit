@@ -53,7 +53,7 @@ $(function () {
           scale: 60,
           autoAlpha: 0,
           scrollTrigger: {
-            trigger: "#kv-slide ,#scroll_logo",
+            trigger: ".first_kv",
             start: "top top",
             end: '+=250', //アニメーション開始位置から固定する
             scrub: true, // スクロールに合わせて動く
@@ -71,7 +71,7 @@ $(function () {
           scale: 60,
           autoAlpha: 0,
           scrollTrigger: {
-            trigger: "#kv-slide ,#scroll_logo",
+            trigger: "#scroll_logo",
             start: "top top",
             end: '+=250', //アニメーション開始位置から固定する
             scrub: true, // スクロールに合わせて動く
@@ -107,8 +107,8 @@ $(function () {
       autoAlpha: 0,
       scrollTrigger: {
         trigger: '.first_kv',
-        start: "top top",
-        end: '+=100', //アニメーション開始位置から100pxの位置で終わる
+        start: "0 top",
+        end: '+=30', //アニメーション開始位置から100pxの位置で終わる
         scrub: true, // スクロールに合わせて動く
         //markers: true,
       }
@@ -130,31 +130,50 @@ $(function () {
 //   });
 
 
-  //ボディーコピーを表示・画面を暗く
-  gsap.fromTo('#kv_copy,.overlay', {
+  //画面を暗く
+  gsap.fromTo('.scroll-copy,.overlay', {
     autoAlpha: 0, //初期状態
   },
     {
       autoAlpha: 1,
       scrollTrigger: {
         trigger: '.first_kv',
-        start: "100 top",
+        start: "top top",
         end: '+=50', //アニメーション開始位置から300pxの位置で終わる
         scrub: true, // スクロールに合わせて動く
-        //markers: true,
+        markers: true,
       }
     });
+    
+    
+    // //ボディーコピーがスクロールする
+    // gsap.to("#kv_copy", {
+    //   scrollTrigger: {
+    //     trigger: "#kv-slide",
+    //     start: "-50 top",
+    //     end: '1000 center', //アニメーション開始位置から固定する
+    //     scrub: true, // スクロールに合わせて動く
+    //     pin: true, //トリガー要素を固定する
+    //     //markers: true,
+    //   },
+    // });
 
-    //ボディーコピーがスクロールする
-    gsap.to("#kv_copy", {
-      scrollTrigger: {
-        trigger: "#kv-slide",
-        start: "-50 top",
-        end: '1000 center', //アニメーション開始位置から固定する
-        scrub: true, // スクロールに合わせて動く
-        pin: true, //トリガー要素を固定する
-        //markers: true,
-      },
+});
+
+
+$(function(){
+  $(".one").each(function(i, elem){
+    var one = $(elem).offset().top;
+    $(window).on("load scroll resize", function(){
+      var two = $(window).height();
+      var three = $(window).scrollTop();
+      var showClass = "show";
+      var timing = 400; // 50px, add to css
+      if (three >= one - two + timing){
+        $(elem).addClass(showClass);
+      } else {
+        $(elem).removeClass(showClass);
+      }
     });
-
+  });
 });
