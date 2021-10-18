@@ -1,6 +1,6 @@
 <?php
 $pageInfo = array(
-  "pagetitle" => "404 error｜森トラスト新卒採用サイト",
+  "pagetitle" => "404 error｜森トラスト中途採用サイト",
 );
 ?>
 

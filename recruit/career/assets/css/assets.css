@@ -1179,6 +1179,8 @@ img {
   font-weight: normal;
   background: #e1e3e8;
   color: #333;
+  position: relative;
+  z-index: 5;
 }
 @media (max-width: 767px) {
   .footer {
@@ -1450,7 +1452,6 @@ body {
   height: 100vh;
   width: 100%;
   position: absolute;
-  z-index: 100;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1472,7 +1473,6 @@ body {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: -1;
 }
 .sc-kv .first_kv .kv_top {
   z-index: 15;
@@ -1572,20 +1572,6 @@ body {
 .sc-kv #copy-box {
   width: 100%;
 }
-@media (max-width: 767px) {
-  .sc-kv #copy-box .copy_sp {
-    position: absolute;
-    top: 20vh;
-    left: 10%;
-    z-index: 8;
-  }
-  .sc-kv #copy-box .copy_sp img {
-    width: 100%;
-  }
-}
-.sc-kv #copy-box .copy_sp.disp-sp {
-  left: 16%;
-}
 .sc-kv #copy-box #kv_copy {
   letter-spacing: 0.1em;
   line-height: 1.8;
@@ -1635,17 +1621,16 @@ body {
   }
 }
 .scroll-copy {
-  padding-top: 40vh;
+  padding: 40vh 0 90px;
   position: relative;
   top: 70px;
-  z-index: -1;
   /*==================
   base
   ==================*/
 }
 @media (max-width: 767px) {
   .scroll-copy {
-    padding-top: 20vh;
+    padding: 20vh 0 30px;
   }
 }
 .scroll-copy section {
@@ -1661,7 +1646,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  padding: 50px 0;
+  padding: 10px 0;
 }
 @media (max-width: 767px) {
   .scroll-copy .one {
@@ -1698,9 +1683,14 @@ body {
   background-image: url("../img/top/kv_slide04.jpg");
 }
 .scroll-copy .onebox {
-  margin: 0 auto;
+  margin: 0 20%;
   padding: 20px;
-  text-align: center;
+  text-align: left;
+}
+@media (max-width: 767px) {
+  .scroll-copy .onebox {
+    margin: 0;
+  }
 }
 .scroll-copy .onebox img {
   width: 100%;
@@ -1710,11 +1700,10 @@ body {
 }
 .scroll-copy .onebox p {
   letter-spacing: 0.1em;
-  line-height: 1.8;
+  line-height: 2.5;
   margin: 0 auto;
   font-size: 18px;
   color: #fff;
-  text-align: center;
   position: relative;
   z-index: 10;
 }
@@ -1722,8 +1711,7 @@ body {
   .scroll-copy .onebox p {
     font-size: 14px;
     text-align: left;
-    width: 80%;
-    margin: 0 auto;
+    margin: 0 20px 0 50px;
   }
 }
 .scroll-copy html {
@@ -1772,7 +1760,7 @@ body {
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
   position: fixed;
-  z-index: 8;
+  z-index: 5;
   top: -150px;
   left: 5%;
   color: #fff;
@@ -4640,6 +4628,8 @@ p.point-txt::before {
 .bkwh {
   background-color: #fff;
   margin-top: 100px;
+  position: relative;
+  z-index: 5;
 }
 
 section.pickup {

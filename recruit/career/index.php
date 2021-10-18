@@ -364,7 +364,7 @@ $pageInfo = array(
                                 <div class="talk_img default-img h-img"><img src="assets/img/top/talk_ceo.png"
                                         alt="社長が語る森トラスト"></div>
                                 <p class="arr-next">view more</p>
-                                <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                                <a class="clm-alink" href="./ceo/"></a>
                             </div>
                         </li>
                         <li class="talk_item">
@@ -373,7 +373,7 @@ $pageInfo = array(
                                 <div class="talk_img default-img h-img shadow"><img src="assets/img/top/freshman.svg"
                                         alt="新卒採用サイト社員紹介はこちら"></div>
                                 <p class="arr-next">view more</p>
-                                <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                                <a class="clm-alink" href="../sinsotsu/freshman/"></a>
                             </div>
                         </li>
                     </ul>
@@ -398,7 +398,7 @@ $pageInfo = array(
                                 <div class="talk_img default-img h-img"><img src="assets/img/top/hr01.png"
                                         alt="社長が語る森トラスト"></div>
                                 <p class="arr-next">view more</p>
-                                <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                                <a class="clm-alink" href="./hr/mttalk.php"></a>
                             </div>
                         </li>
                         <li class="talk_item">
@@ -409,7 +409,7 @@ $pageInfo = array(
                                 <div class="talk_img default-img h-img"><img src="assets/img/top/hr02.png"
                                         alt="社長が語る森トラスト"></div>
                                 <p class="arr-next">view more</p>
-                                <a class="clm-alink" href="https://www.yahoo.co.jp/"></a>
+                                <a class="clm-alink" href="./hr/academy.php"></a>
                             </div>
                         </li>
                     </ul>

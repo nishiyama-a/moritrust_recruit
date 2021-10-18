@@ -3,6 +3,8 @@
 	font-weight: normal;
 	background: $clr-gray;
 	color: $clr-text;
+	position: relative;
+	z-index: 5;
 	@include breakpoint(small){
 		padding-top: 40px;
 	}
