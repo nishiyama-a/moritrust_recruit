@@ -33,7 +33,7 @@ $pageInfo = array(
                 <div class="sc-inr-s">
                     <div class="box-1">
                         <h3 class="box-head">エントリー受付</h3>
-                        <p>採用HPに記載の方法にてエントリーしてください。</p>
+                        <p>採用HPのエントリーボタンから応募してください。</p>
                     </div>
                     <div class="box-1">
                         <h3 class="box-head">書類選考</h3>
