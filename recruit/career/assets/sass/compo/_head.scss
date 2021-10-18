@@ -43,15 +43,29 @@
   }
   &-3{
     @extend %head-cmn;
-    padding:10px 0 10px 15px;
+    padding:10px 15px;
     font-size: rem(20);
     font-weight: 800;
     margin-bottom: 20px;
     background-color: $clr-main;
     color: #fff;
     letter-spacing: 0.2em;
+    position: relative;
     @include breakpoint(small){
       font-size: 14px;
+    }
+    span{
+      font-weight:  normal;
+      font-size: 16px;
+      text-align: right;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      letter-spacing: 0.1em;
+      @include breakpoint(small){
+        font-size: 12px;
+      }
     }
   }
   &-4{

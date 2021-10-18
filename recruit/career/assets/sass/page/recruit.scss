@@ -1,7 +1,17 @@
 .recruit{
     .btn-3{
         height: 150px;
+        max-width: 350px;
+        margin: 0 auto;
     }
+        .row{
+            width: 97%;
+            margin: 0 auto 20px;
+            max-width: 97%;
+            display: flex;
+flex-direction: column;
+        }
+
 }
 
 #message{

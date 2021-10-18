@@ -30,16 +30,9 @@ $pageInfo = array(
 
         <main class="l-contents" role="main">
             <section class="l-section corporate-top">
-                <div class="sc-inr">
+                <div class="sc-inr-s">
 
-                    <ul class="clm-3">
-                        <li>
-                            <div class="clm-box h-link btn-3">
-                                <h3 class="btn-txt">採用担当からの<br>メッセージ</h3>
-                                <p class="btn-style arr-next">view more</p>
-                                <a class="clm-alink" href="message.php"></a>
-                            </div>
-                        </li>
+                    <ul class="clm-2">
                         <li>
                             <div class="clm-box h-link  btn-3">
                                 <h3 class="btn-txt">募集事項</h3>

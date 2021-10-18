@@ -2615,17 +2615,34 @@ body {
           transform: translateX(-50%);
 }
 .head-3 {
-  padding: 10px 0 10px 15px;
+  padding: 10px 15px;
   font-size: 1.25rem;
   font-weight: 800;
   margin-bottom: 20px;
   background-color: #4aa064;
   color: #fff;
   letter-spacing: 0.2em;
+  position: relative;
 }
 @media (max-width: 767px) {
   .head-3 {
     font-size: 14px;
+  }
+}
+.head-3 span {
+  font-weight: normal;
+  font-size: 16px;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  letter-spacing: 0.1em;
+}
+@media (max-width: 767px) {
+  .head-3 span {
+    font-size: 12px;
   }
 }
 .head-4 {
@@ -5592,6 +5609,20 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 
 .recruit .btn-3 {
   height: 150px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+.recruit .row {
+  width: 97%;
+  margin: 0 auto 20px;
+  max-width: 97%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #message .between-box {

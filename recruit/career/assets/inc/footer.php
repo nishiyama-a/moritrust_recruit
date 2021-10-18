@@ -67,7 +67,7 @@
                     <div class="f_link_box">
                         <p class="link_ttl">FRESHMAN INTERVIEW</p>
                         <ul class="f_links">
-                            <li class="link"><a href="/recruit/career/freshman/">新卒インタビュー</a></li>
+                            <li class="link"><a href="/recruit/sinsotsu/freshman/">新卒インタビュー</a></li>
                         </ul>
                     </div>
                 </div>

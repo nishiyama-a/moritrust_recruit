@@ -33,26 +33,31 @@ $pageInfo = array(
                 <div class="sc-inr-s">
                     <div class="box-1">
                         <h3 class="box-head">エントリー受付</h3>
-                        <p>採用HPのエントリーボタンからエントリーしてください。<br>
-                            説明会等の開催についてはマイページにてご案内致します。</p>
-                    </div>
-                    <div class="box-1">
-                        <h3 class="box-head">会社説明会</h3>
-                        <p>選考上、会社説明会への参加は必須ではありません。</p>
-                    </div>
-                    <div class="box-1">
-                        <h3 class="box-head">エントリーシート提出</h3>
+                        <p>採用HPに記載の方法にてエントリーしてください。</p>
                     </div>
                     <div class="box-1">
                         <h3 class="box-head">書類選考</h3>
-                        <p>提出いただいたエントリーシートをもとに書類選考を行います。</p>
+                        <p>履歴書および職務経歴書をもとに書類選考を行います。</p>
                     </div>
                     <div class="box-1">
-                        <h3 class="box-head">Web試験・面接（複数回）</h3>
-                        <p>Web試験では適性検査、能力検査を実施致します。</p>
+                        <h3 class="box-head">人事面談</h3>
+                        <p>人事部の採用担当にて面談を行います。</p>
                     </div>
                     <div class="box-1">
-                        <h3 class="box-head">内々定</h3>
+                        <h3 class="box-head">1次面接</h3>
+                        <p>配属想定部門のマネージャーにて1次面接を行います。</p>
+                    </div>
+                    <div class="box-1">
+                        <h3 class="box-head">適性検査</h3>
+                        <p>WEB上で適正検査を受験頂きます。</p>
+                    </div>
+                    <div class="box-1">
+                        <h3 class="box-head">最終面接</h3>
+                        <p>配属想定部門の管掌役員にて最終面接を行います。</p>
+                    </div>
+                    <div class="box-1">
+                        <h3 class="box-head">内定</h3>
+                        <p>内定後に入社条件を提示させて頂きます。</p>
                     </div>
                 </div>
             </section>
@@ -60,22 +65,11 @@ $pageInfo = array(
 
             <section class="l-section">
                 <div class="sc-inr-s">
-                    <ul class="clm-2">
-                        <li>
-                            <div class="clm-box h-link btn-3">
-                                <h3 class="btn-txt">採用担当からの<br>メッセージ</h3>
-                                <p class="btn-style arr-next">view more</p>
-                                <a class="clm-alink" href="message.php"></a>
-                            </div>
-                        </li>
-                        <li>
                             <div class="clm-box h-link btn-3">
                                 <h3 class="btn-txt">募集要項</h3>
                                 <p class="btn-style arr-next">view more</p>
                                 <a class="clm-alink" href="requirement.php"></a>
                             </div>
-                        </li>
-                    </ul>
                 </div>
             </section>
 

@@ -84,7 +84,7 @@
                             <div class="hum_link">
                                 <p class="aline">FRESHMAN INTERVIEW</p>
                                 <ul class="hum_links">
-                                    <li class="link"><a href="/recruit/career/freshman/">新卒インタビュー</a></li>
+                                    <li class="link"><a href="/recruit/sinsotsu/freshman/">新卒インタビュー</a></li>
                                 </ul>
                             </div>
                         </div>
