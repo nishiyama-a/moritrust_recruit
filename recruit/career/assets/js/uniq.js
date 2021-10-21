@@ -50,10 +50,10 @@ $(function () {
     "(max-width: 765px)": function() {
       //ロゴが拡大する
       gsap.fromTo('#scroll_logo', {
-        scale: 2,
+        scale: 1,
       },
         {
-          scale: 60,
+          scale: 30,
           autoAlpha: 0,
           scrollTrigger: {
             trigger: "#scroll_logo",
