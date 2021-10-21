@@ -91,14 +91,14 @@
         @include breakpoint(small){
           display: flex;
           width: 50%;
-          justify-content: space-between;
+          justify-content: flex-end;
         }
         .contents_item{
           margin-bottom: 15px;
           font-weight: normal;
           @include breakpoint(small){
             font-size: 16px;
-            margin-bottom: 10px;
+            margin:0 10px 10px;
             line-height: 1;
             &:last-child{
               margin-bottom: 0;

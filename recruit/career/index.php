@@ -84,7 +84,7 @@ $pageInfo = array(
                     </div>
                     <ul class="business-list">
                         <li>
-                            <a href="./pickup/tokyoworldgate.php">
+                            <a href="./ourbusiness/realestate.php">
                                 <div class="business-pic"><img src="./assets/img/top/business01.jpg" alt=""></div>
                                 <div class="txtarea">
                                     <p class="dec">BUSINESS 01</p>
@@ -96,7 +96,7 @@ $pageInfo = array(
                             </a>
                         </li>
                         <li>
-                            <a href="./pickup/tokyoworldgate.php">
+                            <a href="./ourbusiness/hotel.php">
                                 <div class="business-pic"><img src="./assets/img/top/business02.jpg" alt=""></div>
                                 <div class="txtarea">
                                     <p class="dec">BUSINESS 02</p>
@@ -108,7 +108,7 @@ $pageInfo = array(
                             </a>
                         </li>
                         <li>
-                            <a href="./pickup/tokyoworldgate.php">
+                            <a href="./ourbusiness/investment.php">
                                 <div class="business-pic"><img src="./assets/img/top/business03.jpg" alt=""></div>
                                 <div class="txtarea">
                                     <p class="dec">BUSINESS 03</p>
@@ -373,7 +373,7 @@ $pageInfo = array(
                                 <div class="talk_img default-img h-img shadow"><img src="assets/img/top/freshman.svg"
                                         alt="新卒採用サイト社員紹介はこちら"></div>
                                 <p class="arr-next">view more</p>
-                                <a class="clm-alink" href="../sinsotsu/freshman/"></a>
+                                <a class="clm-alink" href="../sinsotsu/interview/"></a>
                             </div>
                         </li>
                     </ul>

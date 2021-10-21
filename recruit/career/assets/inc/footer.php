@@ -4,10 +4,12 @@
             <div class="f_logo"><img src="/recruit/career/assets/img/cmn/logo.svg" alt="森トラスト"></div>
             <ul class="f_contents">
                 <li class="contents_item">
-                    <a href="https://job.axol.jp/pm/s/mori-trust_23/entry/agreement">ENTRY</a>
+                <p class="soon-f">ENTRY <span class="note">coming soon</span></p>
+                    <!-- <a href="https://job.axol.jp/pm/s/mori-trust_23/entry/agreement">ENTRY</a> -->
                 </li>
                 <li class="contents_item">
-                    <a href="https://job.axol.jp/pm/s/mori-trust_23/mypage/login">MY PAGE</a>
+                <p class="soon-f">MY PAGE <span class="note">coming soon</span></p>
+                    <!-- <a href="https://job.axol.jp/pm/s/mori-trust_23/mypage/login">MY PAGE</a> -->
                 </li>
                 <li class="contents_item"><a href="https://www.mori-trust.co.jp/inquiry.html">CONTACT</a></li>
                 <li class="contents_item"><a href="https://www.mori-trust.co.jp/privacy/">PRIVACY POLICY</a></li>
@@ -55,7 +57,7 @@
                     <div class="f_link_box">
                         <p class="link_ttl">CROSS TALK</p>
                         <ul class="f_links">
-                            <li class="link"><a href="/recruit/career/crosstalk/1.php">女性社員座談会</a></li>
+                            <li class="link"><a href="/recruit/career/crosstalk/1.php">転職者座談会</a></li>
                         </ul>
                     </div>
                     <div class="f_link_box">

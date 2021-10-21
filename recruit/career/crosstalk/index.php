@@ -41,26 +41,11 @@ $pageInfo = array(
                             </picture>
                             <div class="txtbox">
                                 <div class="skew-box">
-                                    <h4 class="skew">女性社員座談会</h4>
+                                    <h4 class="skew">転職者座談会</h4>
                                 </div>
                                 <p class="rb-txt">CROSS TALK 01</p>
                             </div>
                             <a class="clm-alink" href="1.php"></a>
-                        </div>
-                    </div>
-                    <div class="sc-box">
-                        <div class="between-box clm-box h-link">
-                            <picture class="mt20 h-img">
-                                <source media="(max-width:767px)" srcset="../assets/img/crosstalk/crosstalk02.png">
-                                <img src="../assets/img/crosstalk/crosstalk02.png" alt="OJT×新入社員対談">
-                            </picture>
-                            <div class="txtbox">
-                                <div class="skew-box">
-                                    <h4 class="skew">OJT×新入社員対談</h4>
-                                </div>
-                                <p class="rb-txt">CROSS TALK 02</p>
-                            </div>
-                            <a class="clm-alink" href="2.php"></a>
                         </div>
                     </div>
                 </div>

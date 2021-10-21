@@ -67,21 +67,6 @@ $pageInfo = array(
                             <a class="clm-alink" href="academy.php"></a>
                         </div>
                     </div>
-                    <div class="sc-box">
-                        <div class="between-box clm-box h-link">
-                            <picture class="mt20 h-img">
-                                <source media="(max-width:767px)" srcset="../assets/img/hr/hr03.png">
-                                <img src="../assets/img/hr/hr03.png" alt="">
-                            </picture>
-                            <div class="txtbox">
-                                <div class="skew-box">
-                                    <h4 class="skew">新人研修制度</h4>
-                                </div>
-                                <p class="rb-txt">HUMAN RESOURCES 03</p>
-                            </div>
-                            <a class="clm-alink" href="training.php"></a>
-                        </div>
-                    </div>
                 </div>
             </section>
         </main>

@@ -18,207 +18,91 @@ $pageInfo = array(
         <div class="sc-kv kv-interview">
             <div class="kv-img">
                 <img src="../assets/img/interview/kv_06.png" alt="">
-                <div class="job-info  bt20">
+                <div class="job-info">
                     <div class="skew-box">
-                        <h1 class="kv-head skew">森トラスト・ビルマネジメント株式会社<br>ビル・リゾートマネジメント部<br class="disp-sp">企画開発課業務グループ（出向）</h1>
+                        <h1 class="kv-head skew">不動産開発本部アセットマネジメント部</h1>
                     </div>
+                    <p class="note">※インタビュー当時の所属部署になります。</p>
                 </div>
             </div>
             <div class="kv-ttl">
-                <p class="job">管理</p>
+                <p class="job">開発部門</p>
                 <p class="num">PERSON<br><span>06</span></p>
             </div>
             <div class="person">
-                <p class="name-en">MOE MATSUDA</p>
-                <p class="name">松田 萌</p>
-                <p class="history">2017年入社<br>創造理工学研究科 卒業</p>
-            </div>
-            <div class="important cut-bg">
-            <div class="cut-bg-l"></div>
-                <div class="skew-box">
-                    <h4 class="skew">仕事をしている上で、大切にしていること</h4>
-                </div>
-                <ul class="important-list">
-                    <li>
-                        <p class="important-item"><span>01</span>まず手を動かしてみる</p>
-                    </li>
-                    <li>
-                        <p class="important-item"><span>02</span>相手の立場になって考える</p>
-                    </li>
-                    <li>
-                        <p class="important-item"><span>03</span>自分の行動に責任、自信を持つ</p>
-                    </li>
-                </ul>
+                <p class="name-en">TOMOYUKI TADA</p>
+                <p class="name">夛田 智幸</p>
+                <p class="history">2020年入社<br>前職 ： 鉄道会社<p>
             </div>
         </div>
 
-        <main class="l-contents interview" role="main" id="interview-06">
+        <main class="l-contents interview" role="main" id="interview-01">
             <section class="l-section">
                 <div class="sc-box">
                     <div class="answer-wrap box-l">
                         <div class="answer-box cut-bg">
-                        <div class="cut-bg-r"></div>
+                            <div class="cut-bg-r"></div>
                             <div class="answer">
                                 <div class="skew-box">
-                                    <h4 class="skew">現在の部署での業務内容</h4>
+                                    <h4 class="skew">前職での仕事、転職経緯</h4>
                                 </div>
                                 <p class="txt">
-                                    私が所属しているビル・リゾートマネジメント部企画開発課は、オフィスビル、ホテル等の管理・運営に関する企画業務を担っています。管理・運営業務は、大規模な修繕工事から日常清掃の仕様決定、新技術のテスト運用、テナント要望への対応等様々な業務が含まれており、日々発生するこれらの業務を解決すると共に、横断的に考えて他の既存物件や新築プロジェクトへ展開していくことが必要となります。特にこの1年ほどは新築ビルの東京ワールドゲートに携わることが多く、新しい管理手法・メニューを構築し貴重なノウハウとして蓄積することで、既存ビルでの効率化、そして次の新規プロジェクトへと繋げていきます。
+                                前職では、分譲マンション開発、郊外での街づくり、空き家対策事業の立ち上げ等の住宅関連事業に加え、外資系ホテルの誘致・開発等の仕事に従事してきました。鉄道会社における不動産開発の根底にあるビジョンは、鉄道沿線に密着し沿線価値の向上を図ることにあり、日々そこに大きな使命感・やりがいを感じながら仕事に向き合ってきました。その一方で、コロナ禍も１つのきっかけとなり、社会が目を見張る速さで変化していくことに対して「自身ももっとアップデートし続けなければ」という危機感と、「新しい環境、新しい視点で、もっと新しいことにチャレンジがしていきたい！」という思いが月日を追うごとに強くなっていき、この度の転職を決断するに至りました。その目線で転職活動を進める中で、縁あって森トラストに入社することになりました。
                                 </p>
                             </div>
                             <div class="answer">
                                 <div class="skew-box">
-                                    <h4 class="skew">やりがいを感じた経験談</h4>
+                                    <h4 class="skew">現在の担当業務、やりがい</h4>
                                 </div>
                                 <p class="txt">
-                                    新築プロジェクトの立上げ業務に携わったことで、オーナー側の視点と管理を受託する側の視点を合わせて考える場面が非常に多くありました。その中で自分で企画、提案した内容が、実際に日々の管理の中に反映されて、それに対してお客様が反応してくれているのをみるとやりがいを感じます。また、管理・運営と一言で言っても業務は多岐に渡ります。様々な視点に立って設計段階から管理・運営のフェーズまで業務を行えることで自分の知識、ノウハウに繋がっているというところにもやりがいを感じています。社風的に、新たに自分の実現したいことを企画・立案すれば、実現しやすい環境であることも魅力に感じています。
+                                所属する不動産開発本部アセットマネジメント部において、再開発からホテル開発・住宅事業等、多様な用途における事業のファシリテート業務を担当しています。社内メンバー、協力会社の力も借りながら、事業が前に進むようプロジェクトマネジメントすることが自身の業務の骨子となりますが、各プロジェクトの将来像を見据え、バックキャスティングしながら「今何をすべきか」「どうすればより良い事業になるか」を考える過程そのものが、大きなやりがいであると考えます。また、１つの業務・事業を担当すれば良いということはなく、常に複数の事業を任せてもらえる環境であり、責任は大きいですが、日々成長を実感できるところもやりがいの1つだと思います。
                                 </p>
                             </div>
                         </div>
                         <div class="answer-img"><img src="../assets/img/interview/interview_6-1.png" alt=""></div>
                     </div>
                 </div>
-                <div class="answer-wrap box-r">
-                    <div class="answer-box cut-bg">
-                    <div class="cut-bg-l"></div>
-                        <div class="answer">
-                            <div class="skew-box">
-                                <h4 class="skew">好きな森トラストの物件</h4>
+                <div class="sc-box">
+                    <div class="answer-wrap box-r">
+                        <div class="answer-box cut-bg">
+                            <div class="cut-bg-l"></div>
+                            <div class="answer">
+                                <div class="skew-box">
+                                    <h4 class="skew">入社してわかった会社の魅力</h4>
+                                </div>
+                                <p class="txt">
+                                「やり方は決まっていない」というところだと思います。これだけを聞くと整備がなされていないと誤解されるかもしれませんが、当然、手続きや役割等の基本的にな事柄はきちんと制度化・ルール化されています。ここで言う「やり方は決まっていない」というのは、事業を進める上での業務アプローチにおいては、自ら考えて動くことが求められるということです。上司からも「君はどう思う？」「これまではどう進めてきたの？」と聞いてもらえることが多く、言わば、他社で培ってきた経験を受け入れてくれる土壌が整った環境なのだと思います。これは、他社で多様な経験を積んできた方にとっては魅力の１つになると思います。
+                                </p>
                             </div>
-                            <p class="txt">
-                                東京ワールドゲートです。もちろん森トラストの旗艦ビルであるということもありますが、私が初めて担当を持ったビル、というのも理由の一つです。入社当時はまだ地下の工事をしていたのに、気づけば今の姿に。私の社会人生活は、ワールドゲートと共にあったと言っても過言ではないかもしれません。導入されている設備や管理手法一つとっても、森トラストとして新しい試みを詰め込んだビルとなっています。周辺ビルと合わせてエリアマネジメントにも力を入れているので、東京ワールドゲートを中心に、神谷町がもっと魅力的な街になることを願っています。
-                            </p>
                         </div>
-                        <div class="answer">
+                        <div class="answer-img"><img src="../assets/img/interview/interview_6-2.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="sc-box">
+                    <div class="schedule">
+                        <div class="schedule-img"><img src="../assets/img/interview/interview_6-3.png" alt=""></div>
+                        <div class="flow cut-bg">
+                            <div class="cut-bg-r"></div>
                             <div class="skew-box">
-                                <h4 class="skew">就活生にひとことメッセージ</h4>
+                                <h4 class="skew">今後のキャリア・目標について</h4>
                             </div>
                             <p class="txt">
-                                為せば成る、為さねば成らぬ何事も。自分に自信をもって、まずは一歩踏み出してみてください！
+                            不動産開発はある程度の時間経過が伴うものでありますので、まずは自身が担当させてもらっている各プロジェクトの成功に向けて、日々着実に邁進していきたいと思っています。また、不動産開発はその大小に関わらず、チーム・組織で進めていく性格を有しているため、質の高い開発を継続的に実施するためには、「組織・チーム作り」というのも非常に重要なファクターになると考えています。この先は、目の前のプロジェクトの成功だけではなく、将来に向けた摘播という視座に立ち、自身の森トラストでの経験、そしてこれまでの職歴の中で得た経験も十分に活かしながら、後生の育成やマネジメントにも挑戦していきたいと思っています。
                             </p>
                         </div>
                     </div>
-                    <div class="answer-img"><img src="../assets/img/interview/interview_6-2.png" alt=""></div>
+                </div> 
+                <div class="sc-inr">
+                    <div class="btn-wrap clm-1">
+                        <a class="btn-style btn-2" href="./">
+                            <span>一覧に戻る</span>
+                        </a>
+                    </div>
                 </div>
-    </div>
-    <div class="sc-box">
-        <div class="schedule">
-            <div class="schedule-img"><img src="../assets/img/interview/interview_6-3.png" alt=""></div>
-            <div class="flow cut-bg">
-            <div class="cut-bg-r"></div>
-                <div class="skew-box">
-                    <h4 class="skew">1日の流れ</h4>
-                </div>
-                <ul class="flow-list">
-                    <li>
-                        <div class="time-box">
-                            <p class="time time0830">8:30</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">出社</p>
-                            <p>メール確認、担当ビルの日報確認</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="time-box">
-                            <p class="time time0900">9:00</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">始業</p>
-                            <p>打合せに向けて資料の作成、上司へ内容の最終確認</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="time-box">
-                            <p class="time time1000">10:00</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">社内打合せ</p>
-                            <p>新築ビル設計に関する打合せ（管理側のノウハウを設計担当部署にフィードバック）</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="time-box">
-                            <p class="time time1100">11:00</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">資料作成</p>
-                            <p>既存物件保守契約の仕様作成、見積依頼</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="time-box">
-                            <p class="time time1200">12:00</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">ランチ</p>
-                            <p>部署の先輩方とランチに外出</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="time-box">
-                            <p class="time time1300">13:00</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">社外打合せ（web）</p>
-                            <p>入居テナント様との定例会。<br>お客様からの要望を確認し、森トラスト・ビルマネジメントとしてどのような提案ができるか検討</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="time-box">
-                            <p class="time time1430">14:30</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">現地確認</p>
-                            <p>新築ビルにて現場担当者、協力業者を含めて管理体制の打合せと現地確認</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="time-box">
-                            <p class="time time1600">16:00</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">社外打合せ</p>
-                            <p>ロボットを得意とする会社と一緒に、現場で動かしながら効率的な管理手法について打合せ</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="time-box">
-                            <p class="time time1700">17:00</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">資料作成</p>
-                            <p>お客様の要望と技術をどう組み合わせるか考え、新たな管理メニューの企画作成</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="time-box">
-                            <p class="time time1900">19:00</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">退社</p>
-                            <p>大学の友人と、情報交換のために飲み会へ（現在はweb上）</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    </section>
-    <section class="l-contents">
-        <div class="sc-inr">
-            <div class="btn-wrap clm-1">
-                <a class="btn-style btn-2" href="./">
-                    <span>一覧に戻る</span>
-                </a>
-            </div>
-        </div>
-    </section>
+            </section>
+        </main>
 
-
-    </main>
-
-    <?php include(dirname(__FILE__) . '/../assets/inc/footer.php'); ?>
+        <?php include(dirname(__FILE__) . '/../assets/inc/footer.php'); ?>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -226,6 +110,5 @@ $pageInfo = array(
     <script src="../assets/js/uniq.js"></script>
 
 </body>
-
 
 </html>

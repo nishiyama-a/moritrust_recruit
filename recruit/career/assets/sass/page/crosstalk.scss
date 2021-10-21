@@ -237,6 +237,20 @@
               bottom: 345px;
           }
         }
+        &.q1{
+            .last-img{
+                left: 4%;
+                bottom: -30px;
+                @include breakpoint(small){
+                    position: relative;
+                    top: -26px;
+                    margin: 0 30px 0 auto;
+                    max-width: 260px;
+                    left: 0;
+                    bottom: inherit;
+                }
+            }
+        }
       }
       .sc-box{
           &.reverse{
@@ -259,6 +273,18 @@
                           left: 0;
                       }
                   }
+                  @media (min-width: 1370px){
+                      &.q2{
+                          max-height: 430px;
+                          top: 150px;
+                      }
+                  }
+                  @media (min-width: 1730px){
+                    &.q2{
+                        max-height: 377px;
+                        top: 170px;
+                    }
+                }
               }
               .last-img{
                   right: inherit;
@@ -281,7 +307,7 @@
               flex-direction: column;
           }
           .img-box{
-              width: 48%;
+              width: 65%;
               position: relative;
               overflow: hidden;
               @include breakpoint(small){
@@ -299,9 +325,15 @@
               }
           }
           .txt-box{
-              width: 52%;
+              width: 35%;
               @include breakpoint(small){
                   width: 100%;
+              }
+              p{
+                  font-size: 20px;
+                  @include breakpoint(small){
+                      font-size: 14px;
+                  }
               }
           }
       }

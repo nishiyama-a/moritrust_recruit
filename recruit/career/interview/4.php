@@ -20,196 +20,89 @@ $pageInfo = array(
                 <img src="../assets/img/interview/kv_04.png" alt="">
                 <div class="job-info">
                     <div class="skew-box">
-                        <h1 class="kv-head skew">不動産開発本部コンストラクションマネジメント部建築第２グループ</h1>
+                        <h1 class="kv-head skew">不動産開発本部コンストラクションマネジメント部</h1>
                     </div>
+                    <p class="note">※インタビュー当時の所属部署になります。</p>
                 </div>
             </div>
             <div class="kv-ttl">
-                <p class="job">設計・施工監理</p>
+                <p class="job">設計部門</p>
                 <p class="num">PERSON<br><span>04</span></p>
             </div>
             <div class="person">
-                <p class="name-en">HIROKI ISHIDA</p>
-                <p class="name">石田 洋輝</p>
-                <p class="history">2013年入社<br>工学研究科建築学専攻 卒業</p>
-            </div>
-            <div class="important cut-bg">
-            <div class="cut-bg-l"></div>
-                <div class="skew-box">
-                    <h4 class="skew">仕事をしている上で、大切にしていること</h4>
-                </div>
-                <ul class="important-list">
-                    <li>
-                        <p class="important-item"><span>01</span>社内外を通じた人とのコミュニケーション</p>
-                    </li>
-                    <li>
-                        <p class="important-item"><span>02</span>本当にいいものは何かを考えて実行に移していく推進力</p>
-                    </li>
-                    <li>
-                        <p class="important-item"><span>03</span>プロジェクト全体を俯瞰して判断する判断力</p>
-                    </li>
-                </ul>
+                <p class="name-en">KENICHI WATANABE</p>
+                <p class="name">渡邊 健一</p>
+                <p class="history">2019年入社<br>前職 ： 設計事務所<p>
             </div>
         </div>
 
-        <main class="l-contents interview" role="main" id="interview-04">
+        <main class="l-contents interview" role="main" id="interview-01">
             <section class="l-section">
                 <div class="sc-box">
                     <div class="answer-wrap box-l">
                         <div class="answer-box cut-bg">
-                        <div class="cut-bg-r"></div>
+                            <div class="cut-bg-r"></div>
                             <div class="answer">
                                 <div class="skew-box">
-                                    <h4 class="skew">現在の部署での業務内容</h4>
+                                    <h4 class="skew">前職での仕事、転職経緯</h4>
                                 </div>
                                 <p class="txt">
-                                    私の所属する不動産開発本部コンストラクションマネジメント部は、不動産事業における新築・改修、投資事業に関連するデューデリジェンス、企画設計など建物に関する様々な業務を行っています。特に進行中のプロジェクトでは各関係者からの情報を集め、意見を調整する一方で、商品性や安全性・コストなどに対する高い意識を持って常に主体的な立場で建物の計画に関わっていきます。扱う建物の用途はオフィス・ホテル・住宅・商業施設と多岐にわたり、必要とされる知識は年々広くなっていく中で、森トラストの長年にわたる開発や運営から蓄積されたノウハウ、外部から得た情報等を新たな開発に実践していくことがこの部署の大切な役割です。
+                                前職では設計事務所で電気設備の設計をしていました。建物の用途はオフィス、ホテル、工場や病院など様々な建物の設計に携わっていました。設計業務では、発注者の考えはもちろん、使用者、管理者の声を聞きながら、より良い建物を作るという気持ちで業務を行っていました。その後、より良い建物を作るためには、設計業務だけでなく、建築・不動産に対してより幅広い知識、経験をつけることも必要であると思い、転職を決意しました。そういった中でご縁があり、森トラストに入社することとなりました。
                                 </p>
                             </div>
                             <div class="answer">
                                 <div class="skew-box">
-                                    <h4 class="skew">やりがいを感じた経験談</h4>
+                                    <h4 class="skew">現在の担当業務、やりがい</h4>
                                 </div>
                                 <p class="txt">
-                                    現在の部署で約7年間、規模は大小様々ですが多くのプロジェクトを担当してきました。どのプロジェクトにおいても、社内の関係部署や設計事務所、ゼネコン、官庁等、あらゆる関係者との調整が必要となり、それを担うのが我々の役割です。プロジェクトを進捗していく中でたくさんの関係者とやり取りを行い関係性を築いてきましたが、そういった人とのつながりがとても重要な仕事だと感じる中で、どの物件においても建物が完成したときは、関係者みんなの思いが一つの形になったと感じる瞬間であり、やりがいを感じる瞬間でもあります。
+                                現在は不動産開発本部コンストラクションマネジメント部で主に新築物件を担当しています。部署では、設計・工事の期間に、設計者・施工者と調整を行うだけではなく、計画段階での検討や建物竣工後の対応も業務として実施しています。また社内各部署の意見や思いを確認し、それを資産としてどういった形で実現するか、どういった運用をしていくかまでを検討します。もちろん部内または部署間で意見が食い違うこともありますが、そういった中で会社として最適解を見つけ出し、より良い建物を作ることで社会に貢献することができます。様々な関係部署と調整しながら進めていくところも非常にやりがいを感じます。
                                 </p>
                             </div>
                         </div>
                         <div class="answer-img"><img src="../assets/img/interview/interview_4-1.png" alt=""></div>
                     </div>
                 </div>
-                <div class="answer-wrap box-r">
-                    <div class="answer-box cut-bg">
-                    <div class="cut-bg-l"></div>
-                        <div class="answer">
-                            <div class="skew-box">
-                                <h4 class="skew">好きな森トラストの物件</h4>
+                <div class="sc-box">
+                    <div class="answer-wrap box-r">
+                        <div class="answer-box cut-bg">
+                            <div class="cut-bg-l"></div>
+                            <div class="answer">
+                                <div class="skew-box">
+                                    <h4 class="skew">入社してわかった会社の魅力</h4>
+                                </div>
+                                <p class="txt">
+                                何よりも森トラストには素敵な人が多いところです。所属部署は部長含めメンバー皆仲が良く、親切で仕事もしやすい環境です。また他部署の方々も中途社員でも分け隔てなく接して頂いており、非常に仕事のしやすい環境です。コロナ禍での就労制度も柔軟でテレワーク、出社勤務、現場対応など状況に合わせた働き方ができています。また個人の状況に合わせて細やかに相談に乗ってもらえる会社だと思っています。仕事内容はもちろんですが、人や制度の面でも働きやすい環境なのが森トラストの魅力だと思います。
+                                </p>
                             </div>
-                            <p class="txt">
-                                JWマリオット・ホテル奈良<br>私がプロジェクトマネージャーとして担当したラグジュアリーホテルです。特に気に入っているところはロビーとレストランで、ホテルゲストを迎え入れるロビー空間は、フォーマル過ぎず奈良の伝統建築からインスピレーションを受けた木材の温かみを感じることができるグランドレジデンスのような雰囲気が演出されています。また、レストランはシルクロードの終着点とされる奈良を表現しており、ディテールや装飾品など各所にそのエレメントが散りばめられています。基本設計からホテル開業まで約3年半にわたって関わった思い入れのある物件です。
-                            </p>
                         </div>
-                        <div class="answer">
+                        <div class="answer-img"><img src="../assets/img/interview/interview_4-2.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="sc-box">
+                    <div class="schedule">
+                        <div class="schedule-img"><img src="../assets/img/interview/interview_4-3.png" alt=""></div>
+                        <div class="flow cut-bg">
+                            <div class="cut-bg-r"></div>
                             <div class="skew-box">
-                                <h4 class="skew">就活生にひとことメッセージ</h4>
+                                <h4 class="skew">今後のキャリア・目標について</h4>
                             </div>
                             <p class="txt">
-                                どんな自分になりたいか。将来の生活を想像しながら会社選びを積極的に楽しんでほしいと思います。仕事に生きるも、遊びに生きるも自分のライフスタイルが確立できている人がとても輝いて見えます。
+                            現在の業務を着実に実施しつつ、計画の収益性や建物管理に関して学び、さらに幅広い不動産知識を付けていき、不動産価値の高い建物に携われるようになりたいと考えています。そのために現状の業務だけを考えるのではなく、幅広い視点で計画を考えるように心がけています。また、前職での知識や経験を使い、設計時の検討事項や現場対応のマニュアル作成など業務効率の向上を目指し、会社にも貢献できるようになっていきたいと考えています。
                             </p>
                         </div>
                     </div>
-                    <div class="answer-img"><img src="../assets/img/interview/interview_4-2.png" alt=""></div>
+                </div> 
+                <div class="sc-inr">
+                    <div class="btn-wrap clm-1">
+                        <a class="btn-style btn-2" href="./">
+                            <span>一覧に戻る</span>
+                        </a>
+                    </div>
                 </div>
-    </div>
-    <div class="sc-box">
-        <div class="schedule">
-            <div class="schedule-img"><img src="../assets/img/interview/interview_4-3.png" alt=""></div>
-            <div class="flow cut-bg">
-            <div class="cut-bg-r"></div>
-                <div class="skew-box">
-                    <h4 class="skew">1日の流れ</h4>
-                </div>
-                <ul class="flow-list">
-                    <li>
-                        <div class="time-box">
-                            <p class="time time0845">8:45</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">出社</p>
-                            <p>メールチェック、当日のスケジュール確認</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="time-box">
-                            <p class="time time0900">9:00</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">始業</p>
-                            <p>社内打ち合わせ資料の作成、設計定例資料を確認し検討事項を整理</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="time-box">
-                            <p class="time time1030">10:30</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">部内担当者打合せ</p>
-                            <p>設計検討課題を担当者間で共有し議論を行う</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="time-box">
-                            <p class="time time1200">12:00</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">ランチ</p>
-                            <p>会社周辺のレストランで同僚とランチ</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="time-box">
-                            <p class="time time1300">13:00</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">設計定例</p>
-                            <p>各種申請・施工スケジュールの確認、図面についての検討状況の報告を受け、<br>建物の安全性やコスト合理化に向けた打ち合わせ等を実施</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="time-box">
-                            <p class="time time1500">15:00</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">現場確認</p>
-                            <p>施工図通りに現場が施工されているのか、図面との照合、<br>安全に施工が実施されているかなど現場の巡回を実施</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="time-box">
-                            <p class="time time1630">16:30</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">社内検討会</p>
-                            <p>社内他部署との打ち合わせを実施<br>営業・ビル管理等の他部署の意見を受け取り、計画への反映を目的として会議を行う</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="time-box">
-                            <p class="time time1800">18:00</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">資図面確認</p>
-                            <p>施工計画や図面のチェックを行い、社内意見を取りまとめ関係者への連絡を行う</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="time-box">
-                            <p class="time time1930">19:30</p>
-                        </div>
-                        <div class="border-box">
-                            <p class="flow-ttl">退社</p>
-                            <p>帰宅、趣味のゴルフ練習</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    </section>
-    <section class="l-contents">
-        <div class="sc-inr">
-            <div class="btn-wrap clm-1">
-                <a class="btn-style btn-2" href="./">
-                    <span>一覧に戻る</span>
-                </a>
-            </div>
-        </div>
-    </section>
+            </section>
+        </main>
 
-
-    </main>
-
-    <?php include(dirname(__FILE__) . '/../assets/inc/footer.php'); ?>
+        <?php include(dirname(__FILE__) . '/../assets/inc/footer.php'); ?>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
