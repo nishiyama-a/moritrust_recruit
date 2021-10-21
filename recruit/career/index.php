@@ -272,7 +272,7 @@ $pageInfo = array(
                             <div class="clm-box h-link box-03">
                                 <div class="default-img interview-item">
                                     <figure class="interview-pic"><img src="assets/img/interview/people03.png">
-                                        <p class="name-en">KOUSUKE MATSUDA</p>
+                                        <p class="name-en">KOSUKE MATSUDA</p>
                                     </figure>
                                 </div>
                                 <div class="name-box">
@@ -335,7 +335,7 @@ $pageInfo = array(
             </section>
 
             <section class="cross_talk">
-                <a href="./crosstalk/2.php">
+                <a href="./crosstalk/1.php">
                     <div class="talk-group cut-bg">
                         <div class="cut-bg-l"></div>
                         <div class="talk_pic_box">

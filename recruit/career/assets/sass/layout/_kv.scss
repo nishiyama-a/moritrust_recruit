@@ -3,7 +3,7 @@
   position: relative;
   margin-top: -$header-h;
   @include breakpoint(small){
-  margin-top: -$hambmenu-h;
+  margin-top: 0px;
   }
   .first_kv{
         // overflow: hidden; 

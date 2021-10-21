@@ -20,7 +20,7 @@ $pageInfo = array(
                 <img src="../assets/img/interview/kv_02.png" alt="">
                 <div class="job-info">
                     <div class="skew-box">
-                        <h1 class="kv-head skew">社長室戦略本部事業推進室 兼 <br>森トラスト・ホテルズ&リゾーツ(株) 運営本部事業推進室</h1>
+                        <h1 class="kv-head skew">社長室戦略本部事業推進室 兼 <br>森トラスト・ホテルズ&リゾーツ(株) <br class="disp-sp">運営本部事業推進室</h1>
                     </div>
                     <p class="note">※インタビュー当時の所属部署になります。</p>
                 </div>

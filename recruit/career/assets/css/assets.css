@@ -1445,7 +1445,7 @@ body {
 }
 @media (max-width: 767px) {
   .sc-kv {
-    margin-top: -50px;
+    margin-top: 0px;
   }
 }
 .sc-kv .first_kv {
@@ -7563,7 +7563,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   display: -ms-flexbox;
   display: flex;
   max-width: 1200px;
-  padding: 0 20px;
+  padding: 10px 20px 0;
   margin: 0 auto;
   background-color: #fff;
 }
@@ -7583,7 +7583,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 @media (max-width: 767px) {
   .closstalk .message-box .img-box {
     width: 100%;
-    padding-top: 25px;
+    padding-top: 15px;
   }
 }
 .closstalk .message-box .img-box img {
@@ -7607,7 +7607,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   }
 }
 .closstalk .message-box .txt-box p {
-  font-size: 20px;
+  font-size: 16px;
 }
 @media (max-width: 767px) {
   .closstalk .message-box .txt-box p {

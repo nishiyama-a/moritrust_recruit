@@ -50,7 +50,7 @@ $(function () {
     "(max-width: 765px)": function() {
       //ロゴが拡大する
       gsap.fromTo('#scroll_logo', {
-        scale: 1,
+        scale: 2,
       },
         {
           scale: 60,
