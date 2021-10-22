@@ -11,7 +11,7 @@ $pageInfo = array(
     <?php include(dirname(__FILE__) . '/assets/inc/head.php'); ?>
 </head>
 
-<body id="pagetop toppage" class="fixed">
+<body id="pagetop" class="fixed front-page">
     <?php include(dirname(__FILE__) . '/assets/inc/bodyInr.php'); ?>
     <div class="l-wrap">
         <?php include(dirname(__FILE__). '/assets/inc/header.php'); ?>

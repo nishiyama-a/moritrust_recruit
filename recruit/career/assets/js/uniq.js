@@ -40,10 +40,10 @@ $(function () {
     //$(this).children('.txt-q').slideToggle();
   });
 
-
   //top mv
   ScrollTrigger.matchMedia({
 
+    
     //-------------
     // SP
     //-------------
@@ -53,12 +53,12 @@ $(function () {
         scale: 1,
       },
         {
-          scale: 30,
+          scale: 60,
           autoAlpha: 0,
           scrollTrigger: {
             trigger: "#scroll_logo",
             start: "top top",
-            end: '+=250', //アニメーション開始位置から固定する
+            end: '+=1000', //アニメーション開始位置から固定する
             scrub: true, // スクロールに合わせて動く
             pin: true, //トリガー要素を固定する
             //markers: true,
@@ -73,7 +73,7 @@ $(function () {
       autoAlpha: 0,
       scrollTrigger: {
         trigger: '.first_kv',
-        start: "-1 top",
+        start: "-50 top",
         end: '+=30', //アニメーション開始位置から100pxの位置で終わる
         scrub: true, // スクロールに合わせて動く
         //markers: true,
