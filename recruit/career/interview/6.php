@@ -1,6 +1,6 @@
 <?php
 $pageInfo = array(
-  "pagetitle" => "06 開発部門｜森トラスト中途採用サイト",
+  "pagetitle" => "06 開発部門｜森トラストキャリア採用サイト",
 );
 ?>
 

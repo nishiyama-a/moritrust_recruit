@@ -7188,7 +7188,7 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 .figures-cnt .figures-imgbox {
   text-align: center;
-  border: 8.8px solid #4aa064;
+  border: 9px solid #4aa064;
   border-top: none;
 }
 .figures-cnt .figures-imgbox .fugures-ttl {
