@@ -237,15 +237,3 @@ swiper();
       $(this).parent().removeClass('current');
     }
   });
-
-    //------
-  //リロード
-//------
-$(document).ready(function () {
-  if (window.performance.navigation.type == 2) {
-    setTimeout(function(){
-      console.log('back');
-      $(window).scrollTop(0);
-    },80);
-  }
-});
