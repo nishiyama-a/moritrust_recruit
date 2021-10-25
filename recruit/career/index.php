@@ -37,7 +37,9 @@ $pageInfo = array(
                     <div class="one">
                         <div class="bg _01"></div>
                         <div class="onebox">
-                            <p>森トラストは、創業以来、先進技術やシステムを採用した大型複合開発をはじめ、<br class="disp-pc">業界に先駆けた高級外資系ホテルの誘致、日本初の法人会員制リゾートの創業、<br>リート市場創設の提唱など、<br  class="disp-pc">常に未来の社会を見据え、新たな商品・価値・ビジネスモデルを創造してきました。</p>
+                            <p>森トラストは、創業以来、先進技術やシステムを採用した大型複合開発をはじめ、<br
+                                    class="disp-pc">業界に先駆けた高級外資系ホテルの誘致、日本初の法人会員制リゾートの創業、<br>リート市場創設の提唱など、<br
+                                    class="disp-pc">常に未来の社会を見据え、新たな商品・価値・ビジネスモデルを創造してきました。</p>
                         </div>
                     </div>
                 </section>
@@ -45,7 +47,11 @@ $pageInfo = array(
                     <div class="one">
                         <div class="bg _02"></div>
                         <div class="onebox">
-                            <p>これからの時代は、これまで以上に社会情勢が激しく変化し将来予測が困難となります。<br class="disp-pc">不透明性・不確実性の高い今後の世の中において、<br class="disp-pc">今までに無い新しい価値の創造を実現していく為には、<br class="disp-pc">各人が「見えないものを見ようとする」マインドを持つことが何よりも重要だと考えます。<br class="disp-pc">見えないものを見るために、皆で議論し、解を模索し、<br class="disp-pc">挑戦し続けていくことが、これからの未来を切り開く鍵となるはずです。</p>
+                            <p>これからの時代は、これまで以上に社会情勢が激しく変化し将来予測が困難となります。<br class="disp-pc">不透明性・不確実性の高い今後の世の中において、<br
+                                    class="disp-pc">今までに無い新しい価値の創造を実現していく為には、<br
+                                    class="disp-pc">各人が「見えないものを見ようとする」マインドを持つことが何よりも重要だと考えます。<br
+                                    class="disp-pc">見えないものを見るために、皆で議論し、解を模索し、<br
+                                    class="disp-pc">挑戦し続けていくことが、これからの未来を切り開く鍵となるはずです。</p>
                         </div>
                     </div>
                 </section>
@@ -53,7 +59,10 @@ $pageInfo = array(
                     <div class="one">
                         <div class="bg _03"></div>
                         <div class="onebox">
-                            <p>その上で、組織に必要とされるのは、<br class="disp-pc">高度な専門性を持った様々な分野のプロフェッショナルや、<br class="disp-pc">異なるバックグラウンドや価値観を持った多様な人財であり、<br class="disp-pc">そういった方々のコラボレーションによるシナジーを生み出すことが、<br class="disp-pc">新たな価値創造には不可欠だと考えます。</p>
+                            <p>その上で、組織に必要とされるのは、<br class="disp-pc">高度な専門性を持った様々な分野のプロフェッショナルや、<br
+                                    class="disp-pc">異なるバックグラウンドや価値観を持った多様な人財であり、<br
+                                    class="disp-pc">そういった方々のコラボレーションによるシナジーを生み出すことが、<br
+                                    class="disp-pc">新たな価値創造には不可欠だと考えます。</p>
                         </div>
                     </div>
                 </section>
@@ -61,9 +70,13 @@ $pageInfo = array(
                     <div class="one">
                         <div class="bg _04"></div>
                         <div class="onebox">
-                            <p>森トラストでは、年齢、所属、肩書に関係なく、<br class="disp-pc">誰もが平等に発言・チャレンジできる風土が根付いており、<br class="disp-pc">社員同士のコミュニケーションが非常に活発に行われています。<br class="disp-pc">だからこそ新たなアイデアやビジネスの種を生むことができる組織であると自負しています。<br class="disp-pc">どんなに能力が高くても、大きな仕事を成し遂げるには一人の力では限界があります。<br class="disp-pc">チームワークを大切にしつつ、変化を楽しみ挑戦できる、そんな人財を求めています。<br>
-                         <br>
-                        我々とともに、わくわくするような未来を創っていきませんか。</p>
+                            <p>森トラストでは、年齢、所属、肩書に関係なく、<br class="disp-pc">誰もが平等に発言・チャレンジできる風土が根付いており、<br
+                                    class="disp-pc">社員同士のコミュニケーションが非常に活発に行われています。<br
+                                    class="disp-pc">だからこそ新たなアイデアやビジネスの種を生むことができる組織であると自負しています。<br
+                                    class="disp-pc">どんなに能力が高くても、大きな仕事を成し遂げるには一人の力では限界があります。<br
+                                    class="disp-pc">チームワークを大切にしつつ、変化を楽しみ挑戦できる、そんな人財を求めています。<br>
+                                 <br>
+                                我々とともに、わくわくするような未来を創っていきませんか。</p>
                         </div>
                     </div>
                 </section>
@@ -470,14 +483,14 @@ $pageInfo = array(
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <!-- kv -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
         <!-- スライダー -->
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <!-- uniq -->
-        <script src="assets/js/script.min.js"></script>
+        <!-- kv -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
+    <!-- uniq -->
+    <script src="assets/js/script.min.js"></script>
     <script src="assets/js/uniq.min.js"></script>
 </body>
 
