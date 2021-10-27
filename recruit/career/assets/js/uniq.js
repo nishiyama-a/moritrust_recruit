@@ -7,15 +7,14 @@ $(function () {
     "(min-width: 766px)": function () {
       //ロゴが拡大する
       gsap.fromTo('#scroll_logo', {
-        scale: 1,
+        autoAlpha: 1,
       },
         {
-          scale: 60,
           autoAlpha: 0,
           scrollTrigger: {
             trigger: ".first-kv",
             start: "top top",
-            end: '+=250',
+            end: '+=70',
             scrub: true,
             //markers: true,
           }
@@ -30,7 +29,7 @@ $(function () {
           scrollTrigger: {
             trigger: '.first-kv',
             start: "0 top",
-            end: '+=30',
+            end: '+=70',
             scrub: true,
             //markers: true,
           }
@@ -57,15 +56,14 @@ $(function () {
     "(max-width: 765px)": function () {
       //ロゴ拡大
       gsap.fromTo('#scroll_logo', {
-        scale: 1,
+        autoAlpha: 1,
       },
         {
-          scale: 60,
           autoAlpha: 0,
           scrollTrigger: {
             trigger: ".first-kv",
             start: "-50 top",
-            end: '+=1000',
+            end: '+=30',
             scrub: true,
             //markers: true,
           }
