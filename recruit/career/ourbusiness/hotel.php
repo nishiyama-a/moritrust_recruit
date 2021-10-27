@@ -62,7 +62,7 @@ $pageInfo = array(
                             <img src="../assets/img/ourbusiness/hotel02.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-l cut-bg">
-                        <div class="cut-bg-r"></div>
+                            <div class="cut-bg-r"></div>
                             <div class="skew-box">
                                 <h4 class="skew">「ラグジュアリー・ディスティネーション・<br>ネットワーク」構想</h4>
                             </div>
@@ -158,14 +158,14 @@ $pageInfo = array(
                             </li>
                         </ul>
                     </div>
+                </div>
+                <div class="sc-box">
+                    <div class="btn-wrap clm-1">
+                        <a class="btn-style btn-2" href="./">
+                            <span>一覧に戻る</span>
+                        </a>
                     </div>
-                    <div class="sc-box">
-                        <div class="btn-wrap clm-1">
-                            <a class="btn-style btn-2" href="./">
-                                <span>一覧に戻る</span>
-                            </a>
-                        </div>
-                    </div>
+                </div>
             </section>
         </main>
 
@@ -174,8 +174,6 @@ $pageInfo = array(
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="../assets/js/script.min.js"></script>
-    <script src="../assets/js/uniq.min.js"></script>
-
 </body>
 
 </html>

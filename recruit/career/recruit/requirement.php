@@ -44,7 +44,7 @@ $pageInfo = array(
                                 <p>東京、大阪、仙台</p>
                             </div>
                         </li>
-                    <h2 class="head-3 row first">職務内容<span>配属部門は選考を通じて決定させて頂きます。</span></h2>
+                        <h2 class="head-3 row first">職務内容<span>配属部門は選考を通じて決定させて頂きます。</span></h2>
                         <li>
                             <div class="clm-box h-link">
                                 <h2 class="head-4 first">1.不動産事業</h2>
@@ -87,8 +87,9 @@ $pageInfo = array(
                                 </ul>
                             </div>
                         </li>
-                    <h2 class="head-3 row">応募資格</h2>
-                    <p class="clm-1 row">大学卒業後または大学院修了後の就業経験満3年以上の方。<br><span class="note">※目安であり、絶対条件ではありません</span></p>
+                        <h2 class="head-3 row">応募資格</h2>
+                        <p class="clm-1 row">大学卒業後または大学院修了後の就業経験満3年以上の方。<br><span class="note">※目安であり、絶対条件ではありません</span>
+                        </p>
                         <li>
                             <div class="clm-box h-link">
                                 <h2 class="head-3">勤務時間</h2>
@@ -128,7 +129,8 @@ $pageInfo = array(
                         <li>
                             <div class="clm-box h-link">
                                 <h2 class="head-3">福利厚生</h2>
-                                <p>各種社保完備（東京不動産業健康保険組合加入）、企業年金制度、財形貯蓄、保養所（修善寺、琵琶湖、強羅、伊東、那須、蔵王、山中湖、白馬八方、中軽井沢、南紀白浜）、親睦会、育児介護の為の休業、休暇、短時間勤務制度、スライド勤務制度</p>
+                                <p>各種社保完備（東京不動産業健康保険組合加入）、企業年金制度、財形貯蓄、保養所（修善寺、琵琶湖、強羅、伊東、那須、蔵王、山中湖、白馬八方、中軽井沢、南紀白浜）、親睦会、育児介護の為の休業、休暇、短時間勤務制度、スライド勤務制度
+                                </p>
                             </div>
                         </li>
                         <li>
@@ -143,11 +145,11 @@ $pageInfo = array(
 
             <section class="l-section">
                 <div class="sc-inr-s">
-                            <div class="clm-box h-link btn-3">
-                                <h3 class="btn-txt">選考ステップ</h3>
-                                <p class="btn-style arr-next">view more</p>
-                                <a class="clm-alink" href="steps.php"></a>
-                            </div>
+                    <div class="clm-box h-link btn-3">
+                        <h3 class="btn-txt">選考ステップ</h3>
+                        <p class="btn-style arr-next">view more</p>
+                        <a class="clm-alink" href="steps.php"></a>
+                    </div>
                 </div>
             </section>
 
@@ -159,8 +161,6 @@ $pageInfo = array(
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="../assets/js/script.min.js"></script>
-    <script src="../assets/js/uniq.min.js"></script>
-
 </body>
 
 </html>

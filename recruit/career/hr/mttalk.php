@@ -44,7 +44,7 @@ $pageInfo = array(
                             <img src="../assets/img/hr/mttalk01.png" alt="">
                         </div>
                         <div class="mediabox-copy copy-r cut-bg">
-                        <div class="cut-bg-l"></div>
+                            <div class="cut-bg-l"></div>
                             <p class="mb20">全社プレゼンテーション大会『MT
                                 TALK』は、2017年から毎年1回開催しており、2019年5月に第3回目を迎え、取り組みが対外的にも評価されて日本最大のHR※1ネットワークである「日本の人事部」が主催する「HR
                                 アワード 2019」※2で、約300件のエントリーの中から、企業人事部門に入賞しました。</p>
@@ -83,8 +83,6 @@ $pageInfo = array(
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="../assets/js/script.min.js"></script>
-    <script src="../assets/js/uniq.min.js"></script>
-
 </body>
 
 </html>

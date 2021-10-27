@@ -65,11 +65,11 @@ $pageInfo = array(
 
             <section class="l-section">
                 <div class="sc-inr-s">
-                            <div class="clm-box h-link btn-3">
-                                <h3 class="btn-txt">募集要項</h3>
-                                <p class="btn-style arr-next">view more</p>
-                                <a class="clm-alink" href="requirement.php"></a>
-                            </div>
+                    <div class="clm-box h-link btn-3">
+                        <h3 class="btn-txt">募集要項</h3>
+                        <p class="btn-style arr-next">view more</p>
+                        <a class="clm-alink" href="requirement.php"></a>
+                    </div>
                 </div>
             </section>
 
@@ -80,8 +80,6 @@ $pageInfo = array(
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="../assets/js/script.min.js"></script>
-    <script src="../assets/js/uniq.min.js"></script>
-
 </body>
 
 </html>

@@ -67,7 +67,9 @@ $pageInfo = array(
                             </tr>
                             <tr>
                                 <th>コーポレート<br class="disp-pc">スローガン</th>
-                                <td><div class="slogan"><img src="../assets/img/corporate/slogan.png" alt="Create the Future"></div>
+                                <td>
+                                    <div class="slogan"><img src="../assets/img/corporate/slogan.png"
+                                            alt="Create the Future"></div>
                                     森トラストグループは、創業以来、先進技術やシステムを採用した<br class="disp-pc">
                                     大型複合開発をはじめ、日本初の法人会員制リゾートの創業、<br class="disp-pc">
                                     業界に先駆けた高級外資系ホテルの誘致、リート市場創設の提唱など、<br class="disp-pc">
@@ -75,7 +77,8 @@ $pageInfo = array(
                                     2030年より先の社会—。<br class="disp-pc">
                                     新しいテクノロジー、新しい形のコミュニティ、そしてそこから生まれる<br class="disp-pc">
                                     様々なシナジーをリアルとサイバーの両方で享受できる、わくわくするような未来の創造を、<br class="disp-pc">
-                                    森トラストグループは目指してまいります。</td>
+                                    森トラストグループは目指してまいります。
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -95,7 +98,6 @@ $pageInfo = array(
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="../assets/js/script.min.js"></script>
-    <script src="../assets/js/uniq.min.js"></script>
 </body>
 
 </html>

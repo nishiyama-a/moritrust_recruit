@@ -32,7 +32,7 @@ $pageInfo = array(
             <section class="l-section read-area">
                 <div class="sc-inr">
                     <div class="between-box clm-box">
-            <div class="ratio-ceo"></div>
+                        <div class="ratio-ceo"></div>
 
                         <!-- <picture>
                             <source media="(max-width:767px)" srcset="../assets/img/ceo/president.png">
@@ -70,9 +70,12 @@ $pageInfo = array(
                                     <p class="point-txt">ディベロッパーの魅力は？<br>森トラストの企業ビジョンは？</p>
                                     <p class="side-num">VOL.<span>01</span></p>
                                 </div>
-                                    <div class="default-img clm-img">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bQn4OVv0Hwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
+                                <div class="default-img clm-img">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bQn4OVv0Hwk"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
                                 <p>森トラスト社長が考えるディベロッパーの魅力や日本の未来像、森トラストの企業ビジョンについて語ります。</p>
                             </div>
                         </li>
@@ -82,9 +85,12 @@ $pageInfo = array(
                                     <p class="point-txt">東京ワールドゲートに対する<br>社長の想いは？</p>
                                     <p class="side-num">VOL.<span>02</span></p>
                                 </div>
-                                    <div class="default-img clm-img">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Idg8jSWhFrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
+                                <div class="default-img clm-img">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Idg8jSWhFrY"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
                                 <p>約12年にわたるプロジェクトの中で、どのようなエピソードがあったのか、そして竣工したときの想いについて語ります。</p>
                             </div>
                         </li>
@@ -94,9 +100,12 @@ $pageInfo = array(
                                     <p class="point-txt">今後のホテルやオフィスはどうなる？</p>
                                     <p class="side-num">VOL.<span>03</span></p>
                                 </div>
-                                    <div class="default-img clm-img">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1LVMD6lHEuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
+                                <div class="default-img clm-img">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1LVMD6lHEuU"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
                                 <p>新型コロナウイルスによる観光業への影響、テレワークの浸透によるオフィス賃貸市場への影響、さらには近年新たに認知されつつあるワーケーションについてなど、世間的にも関心の高まっている話題に対する考えを語ります。
                                 </p>
                             </div>
@@ -107,9 +116,12 @@ $pageInfo = array(
                                     <p class="point-txt">森トラストの人財育成制度は？</p>
                                     <p class="side-num">VOL.<span>04</span></p>
                                 </div>
-                                    <div class="default-img clm-img">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DokMQMa2oNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
+                                <div class="default-img clm-img">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DokMQMa2oNw"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
                                 <p>森トラストの特徴的な人財育成制度について、またその制度に込める想いを語ります。</p>
                             </div>
                         </li>
@@ -123,7 +135,6 @@ $pageInfo = array(
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="../assets/js/script.min.js"></script>
-    <script src="../assets/js/uniq.min.js"></script>
 </body>
 
 </html>

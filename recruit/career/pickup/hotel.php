@@ -62,7 +62,7 @@ $pageInfo = array(
                 <div class="sc-box">
                     <div class="mediabox-2 mediabox-r">
                         <div class="mediabox-img">
-                        <div class="imgbox cut-bg">
+                            <div class="imgbox cut-bg">
                                 <div class="cut-bg-l"></div>
                                 <img src="../assets/img/pickup/hotel02.png" alt="">
                             </div>
@@ -83,7 +83,7 @@ $pageInfo = array(
                 <div class="sc-box">
                     <div class="mediabox-2 mediabox-l">
                         <div class="mediabox-img">
-                        <div class="imgbox cut-bg">
+                            <div class="imgbox cut-bg">
                                 <div class="cut-bg-r"></div>
                                 <img src="../assets/img/pickup/hotel03.png" alt="">
                             </div>
@@ -124,8 +124,6 @@ $pageInfo = array(
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="../assets/js/script.min.js"></script>
-    <script src="../assets/js/uniq.min.js"></script>
-
 </body>
 
 </html>
