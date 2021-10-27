@@ -19,90 +19,32 @@ document.addEventListener("DOMContentLoaded", () => {
         behavior: 'instant'
       });
     }
-  },false);
+  }, false);
 }, false);
 
+//hambmenu-height設定
+$('.hum_wrap').css('height', $(window).height());
 
-// modal
-var $body = document.querySelector('body');
-var $modalBtn = document.getElementsByClassName('modal-open');
-for (var i = 0; i < $modalBtn.length; i++) {
-  $modalBtn[i].addEventListener('click', e => {
-    var thisBtn = $modalBtn[i];
-    var scrollPosition =
-    document.documentElement.scrollTop || document.body.scrollTop;
-    $body.style.top = '-' + scrollPosition + 'px';
-    $body.classList.add('body-fixed');
-    var $isClose = document.getElementsByClassName('is-close');
-    //overlay show
-    $body.insertAdjacentHTML(
-      'beforeend',
-      '<div id="modal-overlay" class="is-close"></div>'
-    );
-    var $overlay = document.getElementById('modal-overlay');
-    var begin = new Date() - 0;
-    var myTime = 300;
-    var id = setInterval(function() {
-      var current = new Date() - begin;
-      if (current > myTime){
-        clearInterval(id);
-        current = myTime;
-      }
-      $overlay.style.opacity = current / myTime;
-    }, 10);
-    //modal show
-    var $modal = document.getElementById('modal-wrap');
-    var $modalContens = $modal.querySelector('.modal-contents');
-    setTimeout(function() {
-      centerModal();
-    }, 5);
-    $modal.style.display = 'block';
-    $modalContens.style.opacity = 1;
-    $modal.insertAdjacentHTML(
-      'beforeend',
-      '<div id="modal-close" class="modal-close is-close"></div>'
-    );
-    var $closeBtn = $modal.querySelector('#modal-close');
-
-    //close
-    for (var i = 0; i < $isClose.length; i++) {
-      $isClose[i].addEventListener('click', () => {
-        $body.classList.remove('body-fixed');
-        $body.style.top = '0';
-        window.scrollTo(0, scrollPosition);
-        $modalContens.style.opacity = '';
-        $modal.classList.remove('active');
-        $modal.style.display = '';
-        $closeBtn.parentNode.removeChild($closeBtn);
-        var begin = new Date() - 0;
-        var myTime = 300;
-        var id = setInterval(function() {
-          var current = new Date() - begin;
-            if (current > myTime) {
-              clearInterval(id);
-              current = myTime;
-              $overlay.style.display = "none";
-            }
-            $overlay.style.opacity = 1 - (current / myTime) ;
-        }, 10);
-        setTimeout(function () {
-          $overlay.parentNode.removeChild($overlay);
-        }, 300);
-      },false);
-    }
-    window.addEventListener('resize', centerModal);
-    // modal center
-    function centerModal() {
-      var w = window.innerWidth;
-      var h = window.innerHeight;
-      var x = (w - $modal.offsetWidth) / 2;
-      var y = (h - $modal.offsetHeight) / 2;
-      $modal.style.left = x + 'px';
-      $modal.style.top = y + 'px';
-    }
-  },false);
+//hambmenu-アコーディオン
+if (window.matchMedia('(max-width: 768px)').matches) {
+  $(".acd_box").css("display", "none");
+  $(".hum_ttl").click(function () {
+    $(".hum_ttl").not(this).removeClass("open");
+    $(".hum_ttl").not(this).next().slideUp(300);
+    $(this).toggleClass("open");
+    $(this).next().slideToggle(300);
+  });
 }
 
+//カレント
+$('.hum_links .link a').each(function () {
+  var target = $(this).attr('href');
+  if (location.href.match(target)) {
+    $(this).parent().addClass('current');
+  } else {
+    $(this).parent().removeClass('current');
+  }
+});
 
 // scrolltop
 var pagetop = document.getElementById('pagetop-btn');
@@ -114,9 +56,8 @@ if (pagetop) {
     } else {
       pagetop.classList.remove('active');
     }
-  },);
+  });
 }
-
 
 // smoothscroll
 var scrollElm = (() => {
@@ -128,7 +69,7 @@ var scrollElm = (() => {
     return document.documentElement;
   }
 })();
-(function() {
+(function () {
   var duration = 500;
   var ignore = '.noscroll';
   var easing = function (t, b, c, d) {
@@ -140,12 +81,12 @@ var scrollElm = (() => {
       e.preventDefault();
       var targetElm = document.querySelector(elm.getAttribute('href'));
       if (!targetElm) return;
-        var targetPos = targetElm.getBoundingClientRect().top;
-        var startTime = Date.now();
-        var scrollFrom = scrollElm.scrollTop;
+      var targetPos = targetElm.getBoundingClientRect().top;
+      var startTime = Date.now();
+      var scrollFrom = scrollElm.scrollTop;
       (function loop() {
         var currentTime = Date.now() - startTime;
-        if(currentTime < duration) {
+        if (currentTime < duration) {
           scrollTo(0, easing(currentTime, scrollFrom, targetPos, duration));
           window.requestAnimationFrame(loop);
         } else {

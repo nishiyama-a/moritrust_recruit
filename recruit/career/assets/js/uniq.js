@@ -17,7 +17,6 @@ $(function () {
             start: "top top",
             end: '+=250',
             scrub: true,
-            //pin: true,
             //markers: true,
           }
         });
@@ -36,21 +35,6 @@ $(function () {
             //markers: true,
           }
         });
-
-      // //初期背景
-      // gsap.fromTo('.first-bg', {
-      //   autoAlpha: 1,
-      // },
-      //   {
-      //     autoAlpha: 0,
-      //     scrollTrigger: {
-      //       trigger: '.first_kv',
-      //       start: "300 top",
-      //       end: '+=50',
-      //       scrub: true,
-      //       //markers: true,
-      //     }
-      //   });
 
       //背景変化
       $(".one").each(function (i, elem) {
@@ -81,9 +65,8 @@ $(function () {
           scrollTrigger: {
             trigger: ".first-kv",
             start: "top top",
-            end: '+=1000', //アニメーション開始位置から固定する
-            scrub: true, // スクロールに合わせて動く
-            //pin: true, //トリガー要素を固定する
+            end: '+=1000',
+            scrub: true,
             //markers: true,
           }
         });
@@ -102,21 +85,6 @@ $(function () {
             //markers: true,
           }
         });
-
-      // //初期背景
-      // gsap.fromTo('.first-bg', {
-      //   autoAlpha: 1,
-      // },
-      //   {
-      //     autoAlpha: 0,
-      //     scrollTrigger: {
-      //       trigger: '.first_kv',
-      //       start: "120 top",
-      //       end: '+=50',
-      //       scrub: true,
-      //       //markers: true,
-      //     }
-      //   });
 
       //背景変化
       $(function () {
@@ -206,43 +174,3 @@ var swiper = () => {
   new Swiper(slider2, options2);
 };
 swiper();
-
-
-//----------
-//menu
-//----------
-
-//ハンバーガーメニューのheight設定
-$('.hum_wrap').css('height', $(window).height());
-
-//ハンバーガーメニュー
-if (window.matchMedia('(max-width: 768px)').matches) {
-  $(".acd_box").css("display", "none");
-  $(".hum_ttl").click(function () {
-    $(".hum_ttl").not(this).removeClass("open");
-    $(".hum_ttl").not(this).next().slideUp(300);
-    $(this).toggleClass("open");
-    $(this).next().slideToggle(300);
-  });
-}
-
-
-//カレント表示
-$('.hum_links .link a').each(function () {
-  var target = $(this).attr('href');
-  if (location.href.match(target)) {
-    $(this).parent().addClass('current');
-  } else {
-    $(this).parent().removeClass('current');
-  }
-});
-
-// //リロード
-// $(document).ready(function () {
-//   if (window.performance.navigation.type == 2) {
-//     setTimeout(function () {
-//       console.log('back');
-//       $(window).scrollTop(0);
-//     }, 80);
-//   }
-// });
