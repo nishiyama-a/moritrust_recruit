@@ -1180,7 +1180,7 @@ img {
   background: #e1e3e8;
   color: #333;
   position: relative;
-  z-index: 5;
+  z-index: 50;
 }
 @media (max-width: 767px) {
   .footer {
@@ -1448,10 +1448,10 @@ body {
     margin-top: 0px;
   }
 }
-.sc-kv .first_kv {
+.sc-kv .first-kv {
   height: 100vh;
   width: 100%;
-  position: absolute;
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1462,30 +1462,18 @@ body {
       -ms-flex-align: start;
           align-items: flex-start;
 }
-.sc-kv .first_kv .first-bg {
-  background-image: url("../img/top/kv_slide01.jpg");
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.sc-kv .first_kv .kv_top {
-  z-index: 15;
+.sc-kv .first-kv .first-copy {
+  z-index: 20;
   position: absolute;
   width: 100%;
   height: 100%;
 }
 @media (max-width: 767px) {
-  .sc-kv .first_kv .kv_top {
+  .sc-kv .first-kv .first-copy {
     top: -50px;
   }
 }
-.sc-kv .first_kv .copy {
+.sc-kv .first-kv .first-copy .copy {
   font-size: 40px;
   font-family: "Cinzel", "Lato", serif;
   color: #4aa064;
@@ -1497,44 +1485,23 @@ body {
   line-height: 1.5;
 }
 @media (max-width: 767px) {
-  .sc-kv .first_kv .copy {
+  .sc-kv .first-kv .first-copy .copy {
     font-size: 22px;
     bottom: 20vh;
   }
 }
-.sc-kv .first_kv .copy span {
+.sc-kv .first-kv .first-copy .copy span {
   font-size: 20px;
   letter-spacing: 0.2em;
   font-family: "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ＭＳ Ｐ明朝", "MS PMincho", serif;
   color: #333;
 }
 @media (max-width: 767px) {
-  .sc-kv .first_kv .copy span {
+  .sc-kv .first-kv .first-copy .copy span {
     font-size: 14px;
   }
 }
-.sc-kv .first_kv .side {
-  font-size: 14px;
-  font-family: "Cinzel", "Lato", serif;
-  color: #000;
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  position: absolute;
-  right: 30px;
-  bottom: 30px;
-}
-@media (max-width: 767px) {
-  .sc-kv .first_kv .side {
-    right: 10px;
-    bottom: 10px;
-  }
-}
-.sc-kv .first_kv .side .red {
-  margin-top: 10px;
-  color: #4aa064;
-}
-.sc-kv .first_kv .scroll {
+.sc-kv .first-kv .first-copy .scroll {
   position: absolute;
   bottom: 30px;
   left: 30px;
@@ -1543,70 +1510,157 @@ body {
           writing-mode: vertical-rl;
 }
 @media (max-width: 767px) {
-  .sc-kv .first_kv .scroll {
+  .sc-kv .first-kv .first-copy .scroll {
     bottom: 120px;
     left: 10px;
   }
 }
-.sc-kv .first_kv .arr-next::after {
+.sc-kv .first-kv .first-copy .arr-next::after {
   margin-right: 5px;
   margin-top: 20px;
   margin-left: 0;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
-.sc-kv .kv-scroll {
+.sc-kv .first-kv .kv-logo {
   width: 100%;
   height: 100%;
   position: absolute;
+  z-index: 15;
 }
 @media (max-width: 767px) {
-  .sc-kv .kv-scroll {
+  .sc-kv .first-kv .kv-logo {
     height: calc(100vh + 50px);
     top: -50px;
   }
 }
-.sc-kv .kv-scroll #scroll_logo {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  position: absolute;
-  z-index: 10;
-  opacity: 1;
-}
-.sc-kv .kv-scroll #scroll_logo img {
+.sc-kv .first-kv .kv-logo #scroll_logo {
   width: 100%;
   height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.sc-kv #copy-box {
-  width: 100%;
+.sc-kv .scroll-copy {
+  position: relative;
+  top: 70px;
 }
-.sc-kv #copy-box #kv_copy {
-  letter-spacing: 0.1em;
-  line-height: 1.8;
-  opacity: 0;
+@media (max-width: 767px) {
+  .sc-kv .scroll-copy {
+    padding: 20vh 0 30px;
+  }
+}
+.sc-kv .scroll-copy .kv-en {
+  font-family: "Cinzel", "Lato", serif;
+  font-size: 50px;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  z-index: 10;
+  top: -150px;
+  left: 5%;
+  color: #fff;
+  position: fixed;
+}
+@media (max-width: 767px) {
+  .sc-kv .scroll-copy .kv-en {
+    font-size: 25px;
+    top: 0;
+    left: 20px;
+  }
+}
+.sc-kv .scroll-copy .kv-en .stroke {
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+.sc-kv .scroll-copy .body-copy {
+  position: relative;
+  z-index: 5;
+  padding: 40vh 0 90px;
+}
+.sc-kv .scroll-copy .body-copy .copy-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sc-kv .scroll-copy .body-copy .copy-box .one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
-  padding: 300px 15% 0;
+  padding: 10px 0;
+}
+@media (max-width: 767px) {
+  .sc-kv .scroll-copy .body-copy .copy-box .one {
+    padding: 10px 0;
+  }
+}
+.sc-kv .scroll-copy .body-copy .bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.sc-kv .scroll-copy .body-copy .bg._01 {
+  background-image: url("../img/top/kv_slide01.jpg");
+}
+.sc-kv .scroll-copy .body-copy .bg._02 {
+  background-image: url("../img/top/kv_slide02.jpg");
+}
+.sc-kv .scroll-copy .body-copy .bg._03 {
+  background-image: url("../img/top/kv_slide03.jpg");
+}
+.sc-kv .scroll-copy .body-copy .bg._04 {
+  background-image: url("../img/top/kv_slide04.jpg");
+}
+.sc-kv .scroll-copy .body-copy .show .bg {
+  opacity: 1;
+}
+.sc-kv .scroll-copy .body-copy .onebox {
+  margin: 0 20%;
+  padding: 20px;
+  text-align: left;
+  position: relative;
+  z-index: 10;
+}
+@media (max-width: 767px) {
+  .sc-kv .scroll-copy .body-copy .onebox {
+    margin: 0;
+  }
+}
+.sc-kv .scroll-copy .body-copy .onebox img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+  margin-bottom: 15px;
+}
+.sc-kv .scroll-copy .body-copy .onebox p {
+  letter-spacing: 0.1em;
+  line-height: 2.5;
   margin: 0 auto;
   font-size: 18px;
   color: #fff;
-  z-index: 100;
-  text-align: center;
+  position: relative;
+  z-index: 10;
 }
 @media (max-width: 767px) {
-  .sc-kv #copy-box #kv_copy {
-    padding: 200px 20px 100px 30px;
+  .sc-kv .scroll-copy .body-copy .onebox p {
     font-size: 14px;
     text-align: left;
-    width: 80%;
-    margin: 0 auto;
+    margin: 0 20px 0 50px;
   }
 }
-
-.overlay {
+.sc-kv .scroll-copy .overlay {
   width: 100%;
   height: calc(100% + 30px);
   background-color: rgba(0, 0, 0, 0.6);
@@ -1614,6 +1668,19 @@ body {
   top: 0;
   left: 0;
   z-index: 5;
+}
+.sc-kv .scroll-copy .first-bg {
+  background-image: url("../img/top/kv_slide01.jpg");
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
 }
 
 @media (max-width: 767px) {
@@ -1632,163 +1699,6 @@ body {
     padding: 25px 20px;
   }
 }
-.scroll-copy {
-  padding: 40vh 0 90px;
-  position: relative;
-  top: 70px;
-  /*==================
-  base
-  ==================*/
-}
-@media (max-width: 767px) {
-  .scroll-copy {
-    padding: 20vh 0 30px;
-  }
-}
-.scroll-copy section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.scroll-copy .one {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  padding: 10px 0;
-}
-@media (max-width: 767px) {
-  .scroll-copy .one {
-    padding: 10px 0;
-  }
-}
-.scroll-copy .bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0;
-  -webkit-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
-}
-.scroll-copy .show .bg {
-  opacity: 1;
-}
-.scroll-copy .bg._01 {
-  background-image: url("../img/top/kv_slide01.jpg");
-}
-.scroll-copy .bg._02 {
-  background-image: url("../img/top/kv_slide02.jpg");
-}
-.scroll-copy .bg._03 {
-  background-image: url("../img/top/kv_slide03.jpg");
-}
-.scroll-copy .bg._04 {
-  background-image: url("../img/top/kv_slide04.jpg");
-}
-.scroll-copy .onebox {
-  margin: 0 20%;
-  padding: 20px;
-  text-align: left;
-}
-@media (max-width: 767px) {
-  .scroll-copy .onebox {
-    margin: 0;
-  }
-}
-.scroll-copy .onebox img {
-  width: 100%;
-  height: auto;
-  vertical-align: top;
-  margin-bottom: 15px;
-}
-.scroll-copy .onebox p {
-  letter-spacing: 0.1em;
-  line-height: 2.5;
-  margin: 0 auto;
-  font-size: 18px;
-  color: #fff;
-  position: relative;
-  z-index: 10;
-}
-@media (max-width: 767px) {
-  .scroll-copy .onebox p {
-    font-size: 14px;
-    text-align: left;
-    margin: 0 20px 0 50px;
-  }
-}
-.scroll-copy html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  overflow-y: scroll;
-  -webkit-text-size-adjust: 100%;
-}
-.scroll-copy *, .scroll-copy *:before, .scroll-copy *:after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-}
-.scroll-copy body {
-  font-family: YuGothic, "游ゴシック体", "Yu Gothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-  font-size: 14px;
-  line-height: 1.8;
-  margin: 0;
-  word-break: break-word;
-}
-.scroll-copy p._a {
-  font-size: 12px;
-  font-weight: bold;
-  margin: 30px 0 0;
-}
-.scroll-copy p._a .link {
-  display: inline-block;
-  color: #607D8B;
-  padding-left: 1.3em;
-  text-indent: -1.3em;
-}
-.scroll-copy p._a .link:before {
-  content: "";
-  display: inline-block;
-  width: 5px;
-  height: 5px;
-  border-top: 2px solid #607D8B;
-  border-right: 2px solid #607D8B;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  margin-right: 10px;
-}
-.scroll-copy .kv_en {
-  font-family: "Cinzel", "Lato", serif;
-  font-size: 50px;
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  position: fixed;
-  z-index: 5;
-  top: -150px;
-  left: 5%;
-  color: #fff;
-}
-@media (max-width: 767px) {
-  .scroll-copy .kv_en {
-    font-size: 25px;
-    top: 0;
-    left: 20px;
-  }
-}
-.scroll-copy .kv_en .stroke {
-  color: transparent;
-  -webkit-text-stroke: 1px #fff;
-}
-
 .sc-kv.-page .kv-img img {
   width: 100%;
   height: 200px;
@@ -4658,7 +4568,7 @@ p.point-txt::before {
   background-color: #fff;
   margin-top: 100px;
   position: relative;
-  z-index: 5;
+  z-index: 50;
 }
 
 section.pickup {

@@ -5,177 +5,227 @@
   @include breakpoint(small){
   margin-top: 0px;
   }
-  .first_kv{
-        // overflow: hidden; 
+  .first-kv{
     height: 100vh;
     width: 100%;
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    .first-bg {
-      background-image: url("../img/top/kv_slide01.jpg");
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-      background-position: center center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      }
-    .kv_top{
-      z-index: 15;
+    // .first-bg {
+    //   background-image: url("../img/top/kv_slide01.jpg");
+    //   position: fixed;
+    //   top: 0;
+    //   left: 0;
+    //   right: 0;
+    //   width: 100%;
+    //   height: 100%;
+    //   background-position: center center;
+    //   background-size: cover;
+    //   background-repeat: no-repeat;
+    //   }
+    .first-copy{
+      z-index: 20;
       position: absolute;
       width: 100%;
       height: 100%;
       @include breakpoint(small){
         top: -50px;
       }
-    }
-    .copy{
-      font-size: 40px;
-      font-family: $font-dec;
-      color: $clr-main;
-      text-align: center;
-      bottom: 10vh;
-      position: absolute;
-      width: 100%;
-      letter-spacing: 0.05em;
-      line-height: 1.5;
-      @include breakpoint(small){
-        font-size: 22px;
-        bottom: 20vh;
-      }
-      span{
-        font-size: 20px;
-        letter-spacing: 0.2em;
-        font-family: $font-default;
-        color: $clr-text;
+      .copy{
+        font-size: 40px;
+        font-family: $font-dec;
+        color: $clr-main;
+        text-align: center;
+        bottom: 10vh;
+        position: absolute;
+        width: 100%;
+        letter-spacing: 0.05em;
+        line-height: 1.5;
         @include breakpoint(small){
-          font-size: 14px;
+          font-size: 22px;
+          bottom: 20vh;
+        }
+        span{
+          font-size: 20px;
+          letter-spacing: 0.2em;
+          font-family: $font-default;
+          color: $clr-text;
+          @include breakpoint(small){
+            font-size: 14px;
+          }
+        }
+      }
+      .scroll{
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        writing-mode: vertical-rl;
+        @include breakpoint(small){
+          bottom: 120px;
+          left: 10px;
+        }
+      }
+      .arr-next{
+        &::after{
+          margin-right: 5px;
+  margin-top: 20px;
+  margin-left: 0;
+  transform: rotate(90deg);
+  
         }
       }
     }
-    .side{
-      font-size: 14px;
-      font-family: $font-dec;
-      color: #000;
-      writing-mode: vertical-rl;
-      position: absolute;
-      right: 30px;
-      bottom: 30px;
-      @include breakpoint(small){
-        right: 10px;
-        bottom: 10px;
-      }
-      .red{
-        margin-top: 10px;
-        color: $clr-main;
-      }
-    }
-    .scroll{
-      position: absolute;
-      bottom: 30px;
-      left: 30px;
-      writing-mode: vertical-rl;
-      @include breakpoint(small){
-        bottom: 120px;
-        left: 10px;
-      }
-    }
-    .arr-next{
-      &::after{
-        margin-right: 5px;
-margin-top: 20px;
-margin-left: 0;
-transform: rotate(90deg);
-
-      }
-    }
-  }
-  .kv-scroll{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    // overflow: hidden;
-    @include breakpoint(small){
-      height: calc(100vh + 50px);
-      top: -50px;
-    }
-    #scroll_logo{
+    .kv-logo{
       width: 100%;
       height: 100%;
-      object-fit: cover;
       position: absolute;
-      z-index: 10;
-      opacity: 1;
-      img{
+      z-index: 15;
+      @include breakpoint(small){
+        height: calc(100vh + 50px);
+        top: -50px;
+      }
+      #scroll_logo{
         width: 100%;
         height: 100vh;
         object-fit: cover;
+        // opacity: 1;
+        // img{
+        //   width: 100%;
+        //   height: 100vh;
+        //   object-fit: cover;
+        // }
       }
     }
-  
   }
-  #copy-box{
-    width: 100%;
-    #kv_copy{
-      letter-spacing: 0.1em;
-      line-height: 1.8;
-      opacity: 0;
-      width: 100%;
-      padding: 300px 15% 0;
-      margin: 0 auto;
-      font-size: 18px;
-      color: #fff;
-      z-index: 100;
-      text-align: center;
-      @include breakpoint(small){
-      padding: 200px 20px 100px 30px;
-      font-size: 14px;
-      text-align: left;
-      width: 80%;
-      margin: 0 auto;
-      }
+
+ 
+.scroll-copy{
+  position: relative;
+  top: 70px;
+  @include breakpoint(small){
+      padding: 20vh 0 30px;
     }
-   
+.kv-en{
+  font-family: $font-dec;
+  font-size: 50px;
+  writing-mode: vertical-rl;
+  z-index: 10;
+  top: -150px;
+  left: 5%;
+  color: #fff;
+  position: fixed;
+  @include breakpoint(small){
+    font-size: 25px;
+    top: 0;
+    left: 20px;
+  }
+  .stroke{
+    color: transparent;
+  -webkit-text-stroke: 1px #fff;
   }
 }
-  .overlay{
+.body-copy{
+  position: relative;
+  z-index: 5;
+  padding: 40vh 0 90px;
+  .copy-box {
+    display: flex;
+    .one {
+      display: flex;
+      align-items: center;
       width: 100%;
-      height: calc(100% + 30px);
-      background-color: rgba(0,0,0,0.6);
-      position: absolute;
+      padding: 10px 0;
+      @include breakpoint(small){
+      padding: 10px 0;
+      }
+    }
+  }
+  .bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+    &._01{
+    background-image: url("../img/top/kv_slide01.jpg");
+    }
+    &._02{
+    background-image: url("../img/top/kv_slide02.jpg");
+    }
+    &._03{
+    background-image: url("../img/top/kv_slide03.jpg");
+    }
+    &._04{
+    background-image: url("../img/top/kv_slide04.jpg");
+    }
+  }
+  .show .bg {
+    opacity: 1;
+  }
+  .onebox {
+    margin: 0 20%;
+    padding: 20px;
+    text-align:left;
+    position: relative;
+    z-index: 10;
+    @include breakpoint(small){
+      margin: 0;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      vertical-align: top;
+      margin-bottom: 15px;
+    }
+    p {
+      letter-spacing: 0.1em;
+        line-height: 2.5;
+        margin: 0 auto;
+        font-size: 18px;
+        color: #fff;
+        position: relative;
+        z-index: 10;
+        @include breakpoint(small){
+          font-size: 14px;
+          text-align: left;
+                margin: 0 20px 0 50px;
+          }
+    }
+  }
+}//body-copy
+ 
+.overlay{
+  width: 100%;
+  height: calc(100% + 30px);
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+.first-bg{
+      background-image: url("../img/top/kv_slide01.jpg");
+      position: fixed;
       top: 0;
       left: 0;
-      z-index: 5;
-    }
-// #slider-2 .swiper-slide{
-//   top: 0;
-// left: 0;
-// width: 100%;
-// position: relative;
-//   background-position: center center;
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   height: 100vh;  //全画面表示
-//   overflow: hidden;
-//   -webkit-backface-visibility: hidden;
-//   backface-visibility: hidden;
-//   top: 0;
-//   img{
-//     height: 100%;
-//     width: 100%;
-//     object-fit: cover;
-//   }
-// }
-// .kv-back{
-//   height: 100vh;
-// }
+      right: 0;
+      width: 100%;
+      height: 100vh;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      z-index: -1;
+      }
 
-
+}
+}
 
 @include breakpoint(small){
   .sc-kv{
@@ -198,150 +248,6 @@ transform: rotate(90deg);
   }
 
 }
-
-.scroll-copy{
-  padding: 40vh 0 90px;
-  position: relative;
-top: 70px;
-@include breakpoint(small){
-  padding: 20vh 0 30px;
-
-}
-  section {
-    display: flex;
-  }
-  .one {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 10px 0;
-    @include breakpoint(small){
-    padding: 10px 0;
-    }
-  }
-  .bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0;
-    transition: all 0.5s ease 0s;
-  }
-  .show .bg {
-    opacity: 1;
-  }
-  .bg._01 {
-    background-image: url("../img/top/kv_slide01.jpg");
-  }
-  .bg._02 {
-    background-image: url("../img/top/kv_slide02.jpg");
-  }
-  .bg._03 {
-    background-image: url("../img/top/kv_slide03.jpg");
-  }
-  .bg._04 {
-    background-image: url("../img/top/kv_slide04.jpg");
-  }
-
-  .onebox {
-    margin: 0 20%;
-    padding: 20px;
-    text-align:left;
-    @include breakpoint(small){
-      margin: 0;
-    }
-  }
-  .onebox img {
-    width: 100%;
-    height: auto;
-    vertical-align: top;
-    margin-bottom: 15px;
-  }
-  .onebox p {
-    letter-spacing: 0.1em;
-      line-height: 2.5;
-      margin: 0 auto;
-      font-size: 18px;
-      color: #fff;
-      position: relative;
-      z-index: 10;
-      @include breakpoint(small){
-        font-size: 14px;
-        text-align: left;
-              margin: 0 20px 0 50px;
-
-        }
-      
-  }
-  
-  /*==================
-  base
-  ==================*/
-  
-  html {
-    box-sizing: border-box;
-    overflow-y: scroll;
-    -webkit-text-size-adjust: 100%;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  body {
-    font-family: YuGothic, "游ゴシック体", "Yu Gothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-    font-size: 14px;
-    line-height: 1.8;
-    margin: 0;
-    word-break: break-word;
-  }
-  p._a {
-    font-size: 12px;
-    font-weight: bold;
-    margin: 30px 0 0;
-  }
-  p._a .link {
-    display: inline-block;
-    color: #607D8B;
-    padding-left: 1.3em;
-    text-indent: -1.3em;
-  }
-  p._a .link:before {
-    content: '';
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    border-top: 2px solid #607D8B;
-    border-right: 2px solid #607D8B;
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    margin-right: 10px;
-  }
-  .kv_en{
-    font-family: $font-dec;
-    font-size: 50px;
-    writing-mode: vertical-rl;
-    position: fixed;
-    z-index: 5;
-    top: -150px;
-    left: 5%;
-    color: #fff;
-    @include breakpoint(small){
-      font-size: 25px;
-      top: 0;
-      left: 20px;
-    }
-    .stroke{
-      color: transparent;
-    -webkit-text-stroke: 1px #fff;
-    }
-  }
-}
-
-
 //中面
 .sc-kv{
   &.-page{
