@@ -1528,7 +1528,7 @@ body {
     top: -50px;
   }
 }
-.sc-kv .first-kv .kv-logo #scroll_logo {
+.sc-kv .first-kv .kv-logo img {
   width: 100%;
   height: 100vh;
   -o-object-fit: cover;
