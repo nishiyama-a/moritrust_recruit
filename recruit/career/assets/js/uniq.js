@@ -64,7 +64,7 @@ $(function () {
           autoAlpha: 0,
           scrollTrigger: {
             trigger: ".first-kv",
-            start: "top top",
+            start: "-50 top",
             end: '+=1000',
             scrub: true,
             //markers: true,
@@ -78,7 +78,7 @@ $(function () {
         {
           autoAlpha: 0,
           scrollTrigger: {
-            trigger: '.first_kv',
+            trigger: '.first-kv',
             start: "-50 top",
             end: '+=30',
             scrub: true,

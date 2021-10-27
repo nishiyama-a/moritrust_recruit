@@ -1468,11 +1468,6 @@ body {
   width: 100%;
   height: 100%;
 }
-@media (max-width: 767px) {
-  .sc-kv .first-kv .first-copy {
-    top: -50px;
-  }
-}
 .sc-kv .first-kv .first-copy .copy {
   font-size: 40px;
   font-family: "Cinzel", "Lato", serif;
@@ -1530,7 +1525,6 @@ body {
 }
 @media (max-width: 767px) {
   .sc-kv .first-kv .kv-logo {
-    height: calc(100vh + 50px);
     top: -50px;
   }
 }
@@ -1543,11 +1537,6 @@ body {
 .sc-kv .scroll-copy {
   position: relative;
   top: 70px;
-}
-@media (max-width: 767px) {
-  .sc-kv .scroll-copy {
-    padding: 20vh 0 30px;
-  }
 }
 .sc-kv .scroll-copy .kv-en {
   font-family: "Cinzel", "Lato", serif;
@@ -1577,6 +1566,11 @@ body {
   z-index: 5;
   padding: 40vh 0 90px;
 }
+@media (max-width: 767px) {
+  .sc-kv .scroll-copy .body-copy {
+    padding: 20vh 0 30px;
+  }
+}
 .sc-kv .scroll-copy .body-copy .copy-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1591,11 +1585,6 @@ body {
           align-items: center;
   width: 100%;
   padding: 10px 0;
-}
-@media (max-width: 767px) {
-  .sc-kv .scroll-copy .body-copy .copy-box .one {
-    padding: 10px 0;
-  }
 }
 .sc-kv .scroll-copy .body-copy .bg {
   position: fixed;

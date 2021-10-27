@@ -12,26 +12,11 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    // .first-bg {
-    //   background-image: url("../img/top/kv_slide01.jpg");
-    //   position: fixed;
-    //   top: 0;
-    //   left: 0;
-    //   right: 0;
-    //   width: 100%;
-    //   height: 100%;
-    //   background-position: center center;
-    //   background-size: cover;
-    //   background-repeat: no-repeat;
-    //   }
     .first-copy{
       z-index: 20;
       position: absolute;
       width: 100%;
       height: 100%;
-      @include breakpoint(small){
-        top: -50px;
-      }
       .copy{
         font-size: 40px;
         font-family: $font-dec;
@@ -82,19 +67,12 @@
       position: absolute;
       z-index: 15;
       @include breakpoint(small){
-        height: calc(100vh + 50px);
         top: -50px;
       }
       #scroll_logo{
         width: 100%;
         height: 100vh;
         object-fit: cover;
-        // opacity: 1;
-        // img{
-        //   width: 100%;
-        //   height: 100vh;
-        //   object-fit: cover;
-        // }
       }
     }
   }
@@ -103,9 +81,6 @@
 .scroll-copy{
   position: relative;
   top: 70px;
-  @include breakpoint(small){
-      padding: 20vh 0 30px;
-    }
 .kv-en{
   font-family: $font-dec;
   font-size: 50px;
@@ -129,6 +104,9 @@
   position: relative;
   z-index: 5;
   padding: 40vh 0 90px;
+    @include breakpoint(small){
+      padding: 20vh 0 30px;
+    }
   .copy-box {
     display: flex;
     .one {
@@ -136,9 +114,6 @@
       align-items: center;
       width: 100%;
       padding: 10px 0;
-      @include breakpoint(small){
-      padding: 10px 0;
-      }
     }
   }
   .bg {
