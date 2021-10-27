@@ -1,4 +1,28 @@
 'use strict';
+// hambmenu
+var $_body = document.querySelector("body");
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("hamb-btn").addEventListener("click", () => {
+    let scroll_position =
+      document.documentElement.scrollTop || document.body.scrollTop;
+    $_body.classList.toggle("g-active");
+    if ($_body.classList.contains("g-active")) {
+      $_body.style.top = "-" + scroll_position + "px";
+      $_body.classList.add("body-fixed");
+    } else {
+      var body_style_top = $_body.style.top;
+      var hamb_pos = body_style_top.replace(/[^0-9]/g, "");
+      $_body.style.top = '';
+      $_body.classList.remove("body-fixed");
+      window.scrollTo({
+        top: hamb_pos,
+        behavior: 'instant'
+      });
+    }
+  },false);
+}, false);
+
+
 // modal
 var $body = document.querySelector('body');
 var $modalBtn = document.getElementsByClassName('modal-open');
