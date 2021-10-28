@@ -90,6 +90,7 @@ $pageInfo = array(
                 <div class="ttl_area">
                     <h2 class="ttl_en"><span class="stroke">BUSINESS</span>BUSINESS<span
                             class="stroke">BUSINESS</span>BUSINESS<span class="stroke">BUSINESS</span>BUSINESS<span
+                            class="stroke">BUSINESS</span>BUSINESS<span class="stroke">BUSINESS</span>BUSINESS<span
                             class="stroke">BUSINESS</span>BUSINESS</h2>
                 </div>
                 <div class="cut-bg business-wrap">
@@ -246,7 +247,8 @@ $pageInfo = array(
                 <div class="ttl_area">
                     <h2 class="ttl_en"><span class="stroke">PERSON</span>PERSON<span
                             class="stroke">PERSON</span>PERSON<span class="stroke">PERSON</span>PERSON<span
-                            class="stroke">PERSON</span>PERSON</h2>
+                            class="stroke">PERSON</span>PERSON<span class="stroke">PERSON</span>PERSON<span
+                            class="stroke">PERSON</span>PERSON<span class="stroke">PERSON</span>PERSON</h2>
                 </div>
                 <div class="skew-box skew-ttl">
                     <h4 class="skew">転職者の声</h4>
@@ -434,6 +436,8 @@ $pageInfo = array(
             <section class="numbers">
                 <div class="ttl_area">
                     <h2 class="ttl_en"><span class="stroke">FIGURES</span>FIGURES<span
+                            class="stroke">FIGURES</span>FIGURES<span class="stroke">FIGURES</span>FIGURES<span
+                            class="stroke">FIGURES</span>FIGURES<span class="stroke">FIGURES</span>FIGURES<span
                             class="stroke">FIGURES</span>FIGURES<span class="stroke">FIGURES</span>FIGURES<span
                             class="stroke">FIGURES</span>FIGURES</h2>
                 </div>
