@@ -5088,6 +5088,15 @@ section.cross_talk .ttl_area {
     padding: 50px 0 20px;
   }
 }
+section.cross_talk .talk_box .talk_item::before {
+  position: absolute;
+  content: "";
+  right: 0px;
+  top: 0px;
+  border: none;
+  border-right: solid 30px #fff;
+  border-top: solid 230px transparent;
+}
 section.cross_talk a .talk-group {
   position: relative;
   display: -webkit-box;
@@ -5230,15 +5239,6 @@ section.cross_talk a .talk-group .arr-next {
     background-color: #e1e3e8;
     width: calc(100% - 20px);
     margin: 80px auto 60px 0;
-  }
-  .talk_box .talk_item::before {
-    position: absolute;
-    content: "";
-    right: 0px;
-    top: 0px;
-    border: none;
-    border-right: solid 50px #fff;
-    border-top: solid 310px transparent;
   }
 }
 .talk_box .talk_item .box_cnt {
@@ -7405,6 +7405,11 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
   position: absolute;
   bottom: 0;
   right: 4%;
+}
+@media (max-width: 767px) {
+  .closstalk .talk-area .last-img {
+    width: 100%;
+  }
 }
 .closstalk .talk-area .last-img.ojt {
   bottom: 345px;
