@@ -37,8 +37,21 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      @include breakpoint(small){
+        height: $hambmenu-h;
+        width: auto;
+        font-weight: normal;
+      }
       a{
         color: #fff;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include breakpoint(small){
+          padding: 0 2em;
+        }
       }
     }
   }
