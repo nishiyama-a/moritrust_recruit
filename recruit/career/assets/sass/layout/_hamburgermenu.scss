@@ -90,7 +90,7 @@
         letter-spacing: 0.05em;
         @include breakpoint(small){
           display: flex;
-          width: 50%;
+          width: 55%;
           justify-content: flex-end;
         }
         .contents_item{

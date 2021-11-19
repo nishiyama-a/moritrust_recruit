@@ -6,9 +6,9 @@
                 <li class="contents_item">
                     <a href="https://js01.jposting.net/mori-trust/u/job.phtml">ENTRY</a>
                 </li>
-                <!-- <li class="contents_item">
-                <p class="soon-f">MY PAGE <span class="note">coming soon</span></p>
-                </li> -->
+                <li class="contents_item">
+                <a href="https://js01.jposting.net/mori-trust/mypage/">MY PAGE</a>
+                </li>
                 <li class="contents_item"><a href="https://www.mori-trust.co.jp/inquiry.html">CONTACT</a></li>
                 <li class="contents_item"><a href="https://www.mori-trust.co.jp/privacy/">PRIVACY POLICY</a></li>
             </ul>

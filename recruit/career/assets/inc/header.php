@@ -2,9 +2,9 @@
     <p class="header-logo"><a href="/recruit/career/"><img class="img-h" src="/recruit/career/assets/img/cmn/logo.svg"
                 alt="森トラスト"></a></p>
     <div class="header-main">
-        <!-- <div class="mypage">
-            <p class="soon">MY PAGE<br><span class="note">coming soon</span></p>
-        </div> -->
+        <div class="mypage">
+        <a href="https://js01.jposting.net/mori-trust/mypage/">MY PAGE</a>
+        </div>
         <div class="entry">
             <a href="https://js01.jposting.net/mori-trust/u/job.phtml">ENTRY</a>
         </div>
@@ -20,9 +20,9 @@
                         <li class="contents_item">
                             <a href="https://js01.jposting.net/mori-trust/u/job.phtml">ENTRY</a>
                         </li>
-                        <!-- <li class="contents_item">
-                            <p class="soon">MY PAGE <br class="disp-sp"><span class="note">coming soon</span></p>
-                        </li> -->
+                        <li class="contents_item">
+        <a href="https://js01.jposting.net/mori-trust/mypage/">MY PAGE</a>
+                        </li>
                         <li class="contents_item disp-pc"><a
                                 href="https://www.mori-trust.co.jp/inquiry.html">CONTACT</a></li>
                         <li class="contents_item disp-pc"><a href="https://www.mori-trust.co.jp/privacy/">PRIVACY
