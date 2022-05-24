@@ -1,12 +1,14 @@
 <header class="header" role="banner">
-    <p class="header-logo"><a href="/recruit/career/"><img class="img-h" src="/recruit/career/assets/img/cmn/logo.svg"
-                alt="森トラスト"></a></p>
+    <p class="header-logo"><a href="/recruit/career/"><img class="img-h"
+                src="/recruit/career/assets/img/cmn/logo.svg" alt="森トラスト"></a></p>
     <div class="header-main">
-        <div class="mypage">
-        <a href="https://js01.jposting.net/mori-trust/mypage/">MY PAGE</a>
-        </div>
+    <div class="mypage">
+             <!-- <a href="https://www.yahoo.co.jp/">MY PAGE</a> -->
+            <p class="soon">MY PAGE<br><span class="note">coming soon</span></p>
+         </div>
         <div class="entry">
-            <a href="https://js01.jposting.net/mori-trust/u/job.phtml">ENTRY</a>
+            <!-- <a href="https://job.axol.jp/pm/s/mori-trust_23/entry/agreement">ENTRY</a> -->
+            <p class="soon">ENTRY<br><span class="note">coming soon</span></p>
         </div>
         <div class="hamb-btn" id="hamb-btn">
             <div class="btn-inr"><span class="btn-bar"></span></div>
@@ -18,10 +20,12 @@
                                 src="/recruit/career/assets/img/cmn/logo_w.svg" alt="森トラスト"></a></div>
                     <ul class="hum_contents">
                         <li class="contents_item">
-                            <a href="https://js01.jposting.net/mori-trust/u/job.phtml">ENTRY</a>
+                        <p class="soon">ENTRY <br class="disp-sp"><span class="note">coming soon</span></p>
+                            <!-- <a href="https://job.axol.jp/pm/s/mori-trust_23/entry/agreement">ENTRY</a> -->
                         </li>
                         <li class="contents_item">
-        <a href="https://js01.jposting.net/mori-trust/mypage/">MY PAGE</a>
+                        <p class="soon">MY PAGE <br class="disp-sp"><span class="note">coming soon</span></p>
+                            <!-- <a href="https://job.axol.jp/pm/s/mori-trust_23/mypage/login">MY PAGE</a> -->
                         </li>
                         <li class="contents_item disp-pc"><a
                                 href="https://www.mori-trust.co.jp/inquiry.html">CONTACT</a></li>
@@ -48,13 +52,11 @@
                             <div class="hum_link">
                                 <p class="aline">PICK UP PROJECT</p>
                                 <ul class="hum_links">
-                                    <li class="link"><a href="/recruit/career/pickup/tokyoworldgate.php">東京ワールドゲート</a>
-                                    </li>
+                                    <li class="link"><a href="/recruit/career/pickup/tokyoworldgate.php">東京ワールドゲート</a></li>
                                     <li class="link"><a href="/recruit/career/pickup/hotel.php">3つのホテル</a></li>
                                     <li class="link"><a href="/recruit/career/pickup/innovation.php">イノベーション事業</a></li>
                                     <li class="link"><a href="/recruit/career/pickup/wellness.php">ウェルネス事業</a></li>
-                                    <li class="link"><a href="/recruit/career/pickup/restaurant.php">カフェ・レストラン事業</a>
-                                    </li>
+                                    <li class="link"><a href="/recruit/career/pickup/restaurant.php">カフェ・レストラン事業</a></li>
                                     <li class="link"><a href="/recruit/career/pickup/worcation.php">ワーケーション事業</a></li>
                                 </ul>
                             </div>
