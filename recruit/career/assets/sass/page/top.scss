@@ -492,6 +492,19 @@ section.pickup{
         padding: 50px 0 20px;
       }
     }
+    .talk_box{
+      .talk_item{
+         &::before {
+          position: absolute;
+          content: '';
+          right: 0px;
+          top: 0px;
+          border: none;
+          border-right: solid 30px#fff;
+          border-top: solid 230px transparent;
+        }
+      }
+    }
     a{
       .talk-group{
         position: relative;
@@ -596,15 +609,6 @@ section.pickup{
         background-color: $clr-gray;
         width: calc(100% - 20px);
         margin: 80px auto 60px 0;
-        &::before {
-          position: absolute;
-          content: '';
-          right: 0px;
-          top: 0px;
-          border: none;
-          border-right: solid 50px#fff;
-          border-top: solid 310px transparent;
-        }
       }
       .box_cnt{
         max-width: vw(430);

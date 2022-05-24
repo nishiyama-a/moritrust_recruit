@@ -4,12 +4,10 @@
             <div class="f_logo"><img src="/recruit/career/assets/img/cmn/logo.svg" alt="森トラスト"></div>
             <ul class="f_contents">
                 <li class="contents_item">
-                <p class="soon-f">ENTRY <span class="note">coming soon</span></p>
-                    <!-- <a href="https://job.axol.jp/pm/s/mori-trust_23/entry/agreement">ENTRY</a> -->
+                    <a href="https://js01.jposting.net/mori-trust/u/job.phtml">ENTRY</a>
                 </li>
                 <li class="contents_item">
-                <p class="soon-f">MY PAGE <span class="note">coming soon</span></p>
-                    <!-- <a href="https://job.axol.jp/pm/s/mori-trust_23/mypage/login">MY PAGE</a> -->
+                <a href="https://js01.jposting.net/mori-trust/mypage/">MY PAGE</a>
                 </li>
                 <li class="contents_item"><a href="https://www.mori-trust.co.jp/inquiry.html">CONTACT</a></li>
                 <li class="contents_item"><a href="https://www.mori-trust.co.jp/privacy/">PRIVACY POLICY</a></li>

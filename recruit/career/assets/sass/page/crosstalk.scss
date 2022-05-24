@@ -233,6 +233,9 @@
           position: absolute;
           bottom: 0;
           right: 4%;
+          @include breakpoint(small){
+              width: 100%;
+          }
           &.ojt{
               bottom: 345px;
           }
