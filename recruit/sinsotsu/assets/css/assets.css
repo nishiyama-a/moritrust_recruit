@@ -795,31 +795,8 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media (max-width: 767px) {
-  .header .header-main .entry {
-    height: 50px;
-    width: auto;
-    font-weight: normal;
-  }
-}
 .header .header-main .entry a {
   color: #fff;
-  width: 100%;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-@media (max-width: 767px) {
-  .header .header-main .entry a {
-    padding: 0 2em;
-  }
 }
 
 .soon {
@@ -1154,6 +1131,13 @@ img {
 }
 
 @media (max-width: 767px) {
+  .header .header-main .entry {
+    height: 50px;
+    width: auto;
+    padding: 0 2em;
+    font-weight: normal;
+  }
+
   .hamb-btn {
     height: 50px;
     width: 50px;
@@ -1425,6 +1409,11 @@ body {
       -ms-flex-align: end;
           align-items: flex-end;
   margin-top: -70px;
+}
+@media (max-width: 767px) {
+  .sc-kv .first_kv {
+    margin-top: -50px;
+  }
 }
 .sc-kv .first_kv .kv_top {
   z-index: 15;
@@ -5640,7 +5629,6 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 @media (max-width: 767px) {
   .kv-interview .kv-img {
     width: 100%;
-    max-width: 100%;
   }
   .kv-interview .kv-img img {
     width: 100%;
@@ -6485,9 +6473,6 @@ section.numbers .num_cnt .bg_wrap .num_bg::before {
 }
 #freshman .sc-inr, #freshman .sc-inr-s, #freshman .sc-inr-w {
   max-width: 1160px;
-}
-#freshman .sc-inr.f_wrap, #freshman .f_wrap.sc-inr-s, #freshman .f_wrap.sc-inr-w {
-  max-width: 1290px;
 }
 #freshman .kv-ttl {
   position: absolute;

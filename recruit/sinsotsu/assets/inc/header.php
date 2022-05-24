@@ -2,7 +2,8 @@
     <p class="header-logo"><a href="/recruit/sinsotsu/"><img class="img-h" src="/recruit/sinsotsu/assets/img/cmn/logo.svg" alt="森トラスト"></a></p>
     <div class="header-main">
         <div class="entry">
-            <a href="https://job.axol.jp/pm/s/mori-trust_23/entry/agreement">ENTRY</a>
+            <p class="soon">ENTRY<br><span class="note">coming soon</span></p>
+            <!-- <a href="https://www.yahoo.co.jp/">ENTRY</a> -->
         </div>
         <div class="hamb-btn" id="hamb-btn">
             <div class="btn-inr"><span class="btn-bar"></span></div>
@@ -13,10 +14,12 @@
                     <div class="hum_logo"><a href="/recruit/sinsotsu/"><img src="/recruit/sinsotsu/assets/img/cmn/logo_w.svg" alt="森トラスト"></a></div>
                     <ul class="hum_contents">
                         <li class="contents_item">
-                            <a href="https://job.axol.jp/pm/s/mori-trust_23/entry/agreement">ENTRY</a>
+                            <p class="soon">ENTRY <br class="disp-sp"><span class="note">coming soon</span></p>
+                            <!-- <a href="https://www.yahoo.co.jp/">ENTRY</a> -->
                         </li>
                         <li class="contents_item">
-                            <a href="https://job.axol.jp/pm/s/mori-trust_23/mypage/login">MY PAGE</a>
+                            <p class="soon">MY PAGE <br class="disp-sp"><span class="note">coming soon</span></p>
+                            <!-- <a href="https://www.yahoo.co.jp/">MY PAGE</a> -->
                         </li>
                         <li class="contents_item disp-pc"><a
                                 href="https://www.mori-trust.co.jp/inquiry.html">CONTACT</a></li>

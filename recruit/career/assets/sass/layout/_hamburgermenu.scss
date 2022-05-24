@@ -90,7 +90,7 @@
         letter-spacing: 0.05em;
         @include breakpoint(small){
           display: flex;
-          width: 55%;
+          width: 50%;
           justify-content: flex-end;
         }
         .contents_item{
@@ -266,6 +266,16 @@
   
 
   @include breakpoint(small){
+    .header{
+      .header-main{
+        .entry,.mypage{
+          height: $hambmenu-h;
+          width: auto;
+          padding: 0 1em;
+          font-weight: normal;
+        }
+      }
+    }
     .hamb-btn{
       height: $hambmenu-h;
       width: $hambmenu-h;

@@ -251,6 +251,16 @@
   
 
   @include breakpoint(small){
+    .header{
+      .header-main{
+        .entry{
+          height: $hambmenu-h;
+          width: auto;
+          padding: 0 2em;
+          font-weight: normal;
+        }
+      }
+    }
     .hamb-btn{
       height: $hambmenu-h;
       width: $hambmenu-h;

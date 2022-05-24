@@ -110,7 +110,7 @@ $pageInfo = array(
                         </li>
                         <li>
                             <div class="clm-box h-link">
-                                <h2 class="head-3">昇給・賞与</h2>
+                                <h2 class="head-3">各種手当</h2>
                                 <p>超過勤務手当、深夜勤務手当、通勤費全額支給他</p>
                             </div>
                         </li>

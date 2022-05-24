@@ -36,21 +36,8 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      @include breakpoint(small){
-        height: $hambmenu-h;
-        width: auto;
-        font-weight: normal;
-      }
       a{
         color: #fff;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        @include breakpoint(small){
-          padding: 0 1em;
-        }
       }
     }
     .entry{
@@ -61,6 +48,7 @@
     }
   }
 }
+
 .soon{
   color: #fff!important;
   .note{

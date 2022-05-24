@@ -35,7 +35,7 @@ $pageInfo = array(
                 <div class="sc-inr">
                     <h2 class="head-6">2021年春、<br class="disp-pc">
                         森トラストに入社した新入社員の皆さんに、就職活動を振り返っていただきました。<br class="disp-pc">
-                        新入社員の皆さんにはそれぞれご自身の趣味や<br class="disp-pc">好きなことを表すアイコンを選んでいただいたので、<br class="disp-pc">
+                        新入社員の皆さんにはそれぞれご自身の趣味や好きなことを表すアイコンを選んでいただいたので、<br class="disp-pc">
                         どんな社員がいるんだろう？と想像しながら、ぜひ楽しんでご覧ください！</h2>
                     <div class="ico-box">
                         <div class="ico"><img src="../assets/img/freshman/croissant.svg" alt=""></div>
@@ -139,7 +139,7 @@ $pageInfo = array(
                                             <div class="icon"><img src="../assets/img/freshman/basketball.svg" alt="">
                                             </div>
                                             <div class="hash">
-                                                <p>#男性<br>#理系<br>#バスケ</p>
+                                                <p>#男性<br>#文系<br>#バスケ</p>
                                             </div>
                                         </div>
                                     </li>
