@@ -46,8 +46,9 @@
 
 .modal-area{
   width: 100%;
-  max-width: $sc-inr;
+  max-width: $sc-inr-s;
   padding: 0 40px;
+  margin: 0 auto;
   position: fixed;
   left: 0;
   top: 0;
@@ -61,6 +62,9 @@
   background: #FFF;
   opacity: 0;
   @include main-transition(1s);
+  .modal-box{
+    margin-bottom: 30px;
+  }
 }
 
 .modal{

@@ -63,7 +63,7 @@ $pageInfo = array(
                                 </picture>
                             </div>
                         </div>
-                        <p class="note">※2021年4月1日時点</p>
+                        <p class="note">※2022年4月1日時点</p>
                     </div>
                 </div>
             </section>

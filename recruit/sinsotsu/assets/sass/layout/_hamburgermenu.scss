@@ -114,7 +114,7 @@
           width: 100%;
           margin-bottom: 20px;
         }
-        a{
+        a,p{
           color: #fff;;
           font-weight: 400;
         }
@@ -253,10 +253,10 @@
   @include breakpoint(small){
     .header{
       .header-main{
-        .entry{
+        .entry ,.mypage{
           height: $hambmenu-h;
           width: auto;
-          padding: 0 2em;
+          padding: 0 1em;
           font-weight: normal;
         }
       }

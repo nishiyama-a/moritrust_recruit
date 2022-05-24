@@ -4,12 +4,10 @@
             <div class="f_logo"><img src="/recruit/career/assets/img/cmn/logo.svg" alt="森トラスト"></div>
             <ul class="f_contents">
                 <li class="contents_item">
-                <p class="soon-f">ENTRY <span class="note">coming soon</span></p>
-                    <!-- <a href="https://job.axol.jp/pm/s/mori-trust_23/entry/agreement">ENTRY</a> -->
+                    <a href="https://js01.jposting.net/mori-trust/u/job.phtml">ENTRY</a>
                 </li>
                 <li class="contents_item">
-                <p class="soon-f">MY PAGE <span class="note">coming soon</span></p>
-                    <!-- <a href="https://job.axol.jp/pm/s/mori-trust_23/mypage/login">MY PAGE</a> -->
+                    <a href="https://js01.jposting.net/mori-trust/mypage/">MY PAGE</a>
                 </li>
                 <li class="contents_item"><a href="https://www.mori-trust.co.jp/inquiry.html">CONTACT</a></li>
                 <li class="contents_item"><a href="https://www.mori-trust.co.jp/privacy/">PRIVACY POLICY</a></li>
@@ -23,7 +21,7 @@
                         <p class="link_ttl">BUSINESS</p>
                         <ul class="f_links">
                             <li class="link"><a href="/recruit/career/ourbusiness/realestate.php">不動産事業</a></li>
-                            <li class="link"><a href="/recruit/career/ourbusiness/hotel.php">ホテル&リゾート事業</a></li>
+                            <li class="link"><a href="/recruit/career/ourbusiness/hotel.php">ホテル&amp;リゾート事業</a></li>
                             <li class="link"><a href="/recruit/career/ourbusiness/investment.php">投資事業</a></li>
                         </ul>
                     </div>
@@ -47,7 +45,7 @@
                         <p class="link_ttl">INTERVIEW</p>
                         <ul class="f_links">
                             <li class="link"><a href="/recruit/career/interview/1.php">経理部門</a></li>
-                            <li class="link"><a href="/recruit/career/interview/2.php">新規事業&ホテル部門</a></li>
+                            <li class="link"><a href="/recruit/career/interview/2.php">新規事業&amp;ホテル部門</a></li>
                             <li class="link"><a href="/recruit/career/interview/3.php">DX部門</a></li>
                             <li class="link"><a href="/recruit/career/interview/4.php">設計部門</a></li>
                             <li class="link"><a href="/recruit/career/interview/5.php">内装工事部門</a></li>
@@ -104,6 +102,6 @@
             </div>
         </div>
     </div>
-    <div id="pagetop-btn"><a class="arr-top" href="#pagetop"></a></div>
-    <small class="copy">Copyright &copy; MORI TRUST CO., LTD. All Rights Reserved.</small>
+    <div id="pagetop-btn" class="active"><a class="arr-top" href="#pagetop"></a></div>
+    <small class="copy">Copyright © MORI TRUST CO., LTD. All Rights Reserved.</small>
 </footer>

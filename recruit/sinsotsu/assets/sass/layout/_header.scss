@@ -27,35 +27,41 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    .entry{
+    .entry ,.mypage{
       font-size: 14px;
       font-family: $font-eng;
       width: 130px;
       text-align: center;
-      background-color: $clr-main;
       height: $header-h;
       display: flex;
       align-items: center;
       justify-content: center;
-      a{
+      a ,p{
         color: #fff;
+      }
+    }
+    .entry{
+      background-color: $clr-main;
+    }
+    .mypage{
+      background-color: $clr-text;
+    }
+  }
+}
+
+.modal-area.head-modal{
+  max-width: 1000px;
+  margin: 0 auto;
+  .modal-box{
+    margin-bottom: 30px;
+    @include breakpoint(small){
+      .btn-style{
+        margin-bottom: 10px;
       }
     }
   }
 }
 
-.soon{
-  color: #fff!important;
-  .note{
-    font-size: 10px;
-  }
-}
-.soon-f{
-  color: #333!important;
-  .note{
-    font-size: 10px;
-  }
-}
 
 
 

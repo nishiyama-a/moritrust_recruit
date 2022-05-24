@@ -1,9 +1,12 @@
 <header class="header" role="banner">
-    <p class="header-logo"><a href="/recruit/sinsotsu/"><img class="img-h" src="/recruit/sinsotsu/assets/img/cmn/logo.svg" alt="森トラスト"></a></p>
+    <p class="header-logo"><a href="/recruit/sinsotsu/"><img class="img-h"
+                src="/recruit/sinsotsu/assets/img/cmn/logo.svg" alt="森トラスト"></a></p>
     <div class="header-main">
-        <div class="entry">
-            <p class="soon">ENTRY<br><span class="note">coming soon</span></p>
-            <!-- <a href="https://www.yahoo.co.jp/">ENTRY</a> -->
+        <div class="mypage modal-open">
+            <p>MY PAGE</p>
+        </div>
+        <div class="entry modal-open">
+            <p>ENTRY</p>
         </div>
         <div class="hamb-btn" id="hamb-btn">
             <div class="btn-inr"><span class="btn-bar"></span></div>
@@ -11,15 +14,14 @@
         <section class="hamb-menu">
             <div class="sc-inr hum_wrap">
                 <div class="hum_box">
-                    <div class="hum_logo"><a href="/recruit/sinsotsu/"><img src="/recruit/sinsotsu/assets/img/cmn/logo_w.svg" alt="森トラスト"></a></div>
+                    <div class="hum_logo"><a href="/recruit/sinsotsu/"><img
+                                src="/recruit/sinsotsu/assets/img/cmn/logo_w.svg" alt="森トラスト"></a></div>
                     <ul class="hum_contents">
-                        <li class="contents_item">
-                            <p class="soon">ENTRY <br class="disp-sp"><span class="note">coming soon</span></p>
-                            <!-- <a href="https://www.yahoo.co.jp/">ENTRY</a> -->
+                        <li class="contents_item modal-open">
+                            <p>ENTRY</p>
                         </li>
-                        <li class="contents_item">
-                            <p class="soon">MY PAGE <br class="disp-sp"><span class="note">coming soon</span></p>
-                            <!-- <a href="https://www.yahoo.co.jp/">MY PAGE</a> -->
+                        <li class="contents_item modal-open">
+                            <p>MY PAGE</p>
                         </li>
                         <li class="contents_item disp-pc"><a
                                 href="https://www.mori-trust.co.jp/inquiry.html">CONTACT</a></li>
@@ -77,7 +79,8 @@
                     <div class="hum_link">
                         <h4 class="hum_ttl">FRESHMAN</h4>
                         <ul class="hum_links">
-                            <li class="link"><a href="/recruit/sinsotsu/freshman/">2021年入社<br class="disp-pc">新入社員アンケート</a></li>
+                            <li class="link"><a href="/recruit/sinsotsu/freshman/">2021年入社<br
+                                        class="disp-pc">新入社員アンケート</a></li>
                         </ul>
                     </div>
                     <div class="hum_link">
@@ -119,3 +122,42 @@
         </section>
     </div>
 </header>
+
+<div class="modal-area head-modal" id="modal-wrap">
+    <div class="modal-contents">
+        <div class="modal-box">
+            <p class="point-txt">ENTRY</p>
+            <div class="btn-wrap clm-2">
+                <div class="clm-li">
+                    <a class="btn-style btn-2" href="https://job.axol.jp/pm/s/mori-trust_23/entry/agreement"
+                        target="_blank">
+                        <span>2023</span>
+                    </a>
+                </div>
+                <div class="clm-li">
+                    <a class="btn-style btn-2" href="https://job.axol.jp/jn/s/mori-trust_24/entry/agreement"
+                        target="_blank">
+                        <span>2024</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="modal-box">
+            <p class="point-txt">MY PAGE</p>
+            <div class="btn-wrap clm-2">
+                <div class="clm-li">
+                    <a class="btn-style btn-2" href="https://job.axol.jp/pm/s/mori-trust_23/mypage/login"
+                        target="_blank">
+                        <span>2023</span>
+                    </a>
+                </div>
+                <div class="clm-li">
+                    <a class="btn-style btn-2" href="https://job.axol.jp/jn/s/mori-trust_24/mypage/login"
+                        target="_blank">
+                        <span>2024</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

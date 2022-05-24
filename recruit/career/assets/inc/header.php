@@ -1,31 +1,27 @@
 <header class="header" role="banner">
-    <p class="header-logo"><a href="/recruit/career/"><img class="img-h"
-                src="/recruit/career/assets/img/cmn/logo.svg" alt="森トラスト"></a></p>
+    <p class="header-logo"><a href="/recruit/career/"><img class="img-h" src="/recruit/career/assets/img/cmn/logo.svg"
+                alt="森トラスト"></a></p>
     <div class="header-main">
-    <div class="mypage">
-             <!-- <a href="https://www.yahoo.co.jp/">MY PAGE</a> -->
-            <p class="soon">MY PAGE<br><span class="note">coming soon</span></p>
-         </div>
+        <div class="mypage">
+            <a href="https://js01.jposting.net/mori-trust/mypage/">MY PAGE</a>
+        </div>
         <div class="entry">
-            <!-- <a href="https://job.axol.jp/pm/s/mori-trust_23/entry/agreement">ENTRY</a> -->
-            <p class="soon">ENTRY<br><span class="note">coming soon</span></p>
+            <a href="https://js01.jposting.net/mori-trust/u/job.phtml">ENTRY</a>
         </div>
         <div class="hamb-btn" id="hamb-btn">
             <div class="btn-inr"><span class="btn-bar"></span></div>
         </div>
         <section class="hamb-menu">
-            <div class="sc-inr hum_wrap">
+            <div class="sc-inr hum_wrap" style="height: 890px;">
                 <div class="hum_box">
                     <div class="hum_logo"><a href="/recruit/career/"><img
                                 src="/recruit/career/assets/img/cmn/logo_w.svg" alt="森トラスト"></a></div>
                     <ul class="hum_contents">
                         <li class="contents_item">
-                        <p class="soon">ENTRY <br class="disp-sp"><span class="note">coming soon</span></p>
-                            <!-- <a href="https://job.axol.jp/pm/s/mori-trust_23/entry/agreement">ENTRY</a> -->
+                            <a href="https://js01.jposting.net/mori-trust/u/job.phtml">ENTRY</a>
                         </li>
                         <li class="contents_item">
-                        <p class="soon">MY PAGE <br class="disp-sp"><span class="note">coming soon</span></p>
-                            <!-- <a href="https://job.axol.jp/pm/s/mori-trust_23/mypage/login">MY PAGE</a> -->
+                            <a href="https://js01.jposting.net/mori-trust/mypage/">MY PAGE</a>
                         </li>
                         <li class="contents_item disp-pc"><a
                                 href="https://www.mori-trust.co.jp/inquiry.html">CONTACT</a></li>
@@ -45,18 +41,21 @@
                                 <p class="aline">BUSINESS</p>
                                 <ul class="hum_links">
                                     <li class="link"><a href="/recruit/career/ourbusiness/realestate.php">不動産事業</a></li>
-                                    <li class="link"><a href="/recruit/career/ourbusiness/hotel.php">ホテル&リゾート事業</a></li>
+                                    <li class="link"><a href="/recruit/career/ourbusiness/hotel.php">ホテル&amp;リゾート事業</a>
+                                    </li>
                                     <li class="link"><a href="/recruit/career/ourbusiness/investment.php">投資事業</a></li>
                                 </ul>
                             </div>
                             <div class="hum_link">
                                 <p class="aline">PICK UP PROJECT</p>
                                 <ul class="hum_links">
-                                    <li class="link"><a href="/recruit/career/pickup/tokyoworldgate.php">東京ワールドゲート</a></li>
+                                    <li class="link"><a href="/recruit/career/pickup/tokyoworldgate.php">東京ワールドゲート</a>
+                                    </li>
                                     <li class="link"><a href="/recruit/career/pickup/hotel.php">3つのホテル</a></li>
                                     <li class="link"><a href="/recruit/career/pickup/innovation.php">イノベーション事業</a></li>
                                     <li class="link"><a href="/recruit/career/pickup/wellness.php">ウェルネス事業</a></li>
-                                    <li class="link"><a href="/recruit/career/pickup/restaurant.php">カフェ・レストラン事業</a></li>
+                                    <li class="link"><a href="/recruit/career/pickup/restaurant.php">カフェ・レストラン事業</a>
+                                    </li>
                                     <li class="link"><a href="/recruit/career/pickup/worcation.php">ワーケーション事業</a></li>
                                 </ul>
                             </div>
@@ -69,7 +68,7 @@
                                 <p class="aline">INTERVIEW</p>
                                 <ul class="hum_links">
                                     <li class="link"><a href="/recruit/career/interview/1.php">経理部門</a></li>
-                                    <li class="link"><a href="/recruit/career/interview/2.php">新規事業&ホテル部門</a></li>
+                                    <li class="link"><a href="/recruit/career/interview/2.php">新規事業&amp;ホテル部門</a></li>
                                     <li class="link"><a href="/recruit/career/interview/3.php">DX部門</a></li>
                                     <li class="link"><a href="/recruit/career/interview/4.php">設計部門</a></li>
                                     <li class="link"><a href="/recruit/career/interview/5.php">内装工事部門</a></li>
